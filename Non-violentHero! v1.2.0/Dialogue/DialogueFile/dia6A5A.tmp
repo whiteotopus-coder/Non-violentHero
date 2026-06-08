@@ -1,0 +1,314 @@
+[gd_scene load_steps=38 format=3 uid="uid://bycth7e1gddcr"]
+
+[ext_resource type="Texture2D" uid="uid://b5ccansae0fpo" path="res://Images/Character/ShaoNi/ShaoNiDefault.png" id="1_lqe48"]
+[ext_resource type="Texture2D" uid="uid://cgdy6hehwegkj" path="res://Images/Character/ShaoNi/ShaoNiTaking.png" id="2_iblxf"]
+[ext_resource type="Script" path="res://Dialogue/Character/Character.gd" id="3_0f3r7"]
+[ext_resource type="Script" path="res://Dialogue/DialogueFile/DialogueText.gd" id="3_jf3of"]
+[ext_resource type="Texture2D" uid="uid://b7dgp1535av16" path="res://Images/UI/dialogue.png" id="3_oij0g"]
+[ext_resource type="Texture2D" uid="uid://cq4gy7d4o2n5b" path="res://Images/Character/Ayumi/Ayumi_default.png" id="4_dem1v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ap5n"]
+atlas = ExtResource("1_lqe48")
+region = Rect2(0, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwkik"]
+atlas = ExtResource("1_lqe48")
+region = Rect2(256, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2b0xn"]
+atlas = ExtResource("1_lqe48")
+region = Rect2(512, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gvmi5"]
+atlas = ExtResource("1_lqe48")
+region = Rect2(768, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_55fcx"]
+atlas = ExtResource("1_lqe48")
+region = Rect2(1024, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owr0d"]
+atlas = ExtResource("1_lqe48")
+region = Rect2(1280, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kpbvj"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(0, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xmiog"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(256, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xflnu"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(512, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24rc3"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(768, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4mjws"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(1024, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qy7nw"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(1280, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rh8tm"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(1536, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fokv3"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(1792, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fq52e"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(2048, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bksr"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(2304, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmpgd"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(2560, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mnl7t"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(2816, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jturw"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(3072, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dyfop"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(3328, 0, 256, 309)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hms5v"]
+atlas = ExtResource("2_iblxf")
+region = Rect2(3584, 0, 256, 309)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_302te"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ap5n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwkik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2b0xn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gvmi5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_55fcx")
+}, {
+"duration": 60.0,
+"texture": SubResource("AtlasTexture_owr0d")
+}],
+"loop": true,
+"name": &"ShaoNiDefault",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kpbvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xmiog")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xflnu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_24rc3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4mjws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qy7nw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rh8tm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fokv3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fq52e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bksr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmpgd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mnl7t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jturw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dyfop")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hms5v")
+}],
+"loop": false,
+"name": &"ShaoNiTalking",
+"speed": 9.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fvht"]
+atlas = ExtResource("4_dem1v")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25b53"]
+atlas = ExtResource("4_dem1v")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bfjqt"]
+atlas = ExtResource("4_dem1v")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kymiu"]
+atlas = ExtResource("4_dem1v")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n03ua"]
+atlas = ExtResource("4_dem1v")
+region = Rect2(1024, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8g5k2"]
+atlas = ExtResource("4_dem1v")
+region = Rect2(1280, 0, 256, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kxhwi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fvht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25b53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bfjqt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kymiu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n03ua")
+}, {
+"duration": 60.0,
+"texture": SubResource("AtlasTexture_8g5k2")
+}],
+"loop": true,
+"name": &"AyumiDefault",
+"speed": 9.0
+}]
+
+[sub_resource type="Theme" id="Theme_g8ao8"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_svwhr"]
+texture = ExtResource("3_oij0g")
+texture_margin_left = 22.0
+texture_margin_top = 22.0
+texture_margin_right = 22.0
+texture_margin_bottom = 22.0
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LeftCharacter" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(299, 283)
+scale = Vector2(2.2, 2.2)
+sprite_frames = SubResource("SpriteFrames_302te")
+animation = &"ShaoNiTalking"
+script = ExtResource("3_0f3r7")
+
+[node name="RightCharacter" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(827, 267)
+scale = Vector2(2.2, 2.2)
+sprite_frames = SubResource("SpriteFrames_kxhwi")
+animation = &"AyumiDefault"
+script = ExtResource("3_0f3r7")
+
+[node name="Options" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -465.0
+offset_top = -214.0
+offset_right = 480.0
+offset_bottom = 214.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_g8ao8")
+alignment = 1
+
+[node name="Button" type="Button" parent="Options"]
+visible = false
+layout_mode = 2
+
+[node name="DialogueText" type="Label" parent="."]
+texture_filter = 1
+layout_direction = 2
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -174.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.121569, 0.266667, 0.545098, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxTexture_svwhr")
+text = "Testing
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+script = ExtResource("3_jf3of")
+
+[node name="CharacterName" type="Label" parent="DialogueText"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -23.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="NextIndicator" type="TextureRect" parent="DialogueText"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -110.0
+offset_top = -99.0
+grow_horizontal = 0
+grow_vertical = 0
