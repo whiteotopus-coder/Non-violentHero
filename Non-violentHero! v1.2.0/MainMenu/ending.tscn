@@ -1,0 +1,1004 @@
+[gd_scene load_steps=15 format=3 uid="uid://r3qoekp25sbl"]
+
+[ext_resource type="Script" uid="uid://cyra5144vtfuf" path="res://MainMenu/ending.gd" id="1_740mm"]
+[ext_resource type="Texture2D" uid="uid://c1ks2u3mq3fqt" path="res://Images/menu_ui/background.png" id="2_pp8j7"]
+[ext_resource type="Theme" uid="uid://do37wgbm6s4bl" path="res://Others/saveload.tres" id="2_u2f58"]
+[ext_resource type="Texture2D" uid="uid://beh1a6i2h36er" path="res://Images/menu_ui/x.png" id="4_crr7w"]
+[ext_resource type="Texture2D" uid="uid://ca37cav58o6tk" path="res://Images/ending/ending1.png" id="4_xd2em"]
+[ext_resource type="Texture2D" uid="uid://qh6xmwcdk4qx" path="res://Images/ending/frame.png" id="5_b5m04"]
+[ext_resource type="Texture2D" uid="uid://degku54x0ujlb" path="res://Images/menu_ui/x_clicked.png" id="5_gnhpy"]
+[ext_resource type="Texture2D" uid="uid://brpdr5nnrmv0a" path="res://Images/menu_ui/x_hover.png" id="6_5bnsr"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8murf"]
+texture = ExtResource("2_pp8j7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qtbko"]
+
+[sub_resource type="Animation" id="Animation_h3cxb"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending1:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending1:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending2:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 168)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending2:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending3:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 336)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending3:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending5:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending5:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 680)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending4:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 504)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending4:scale")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending6:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 856)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending7:position")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1032)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending6:scale")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("LoadGame/ScrollContainer/GridContainer/Ending7:scale")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("LoadGame/ScrollContainer/GridContainer:columns")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("LoadGame/ScrollContainer:position")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(112, -16)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("LoadGame/ScrollContainer:modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("LoadGame/Back:modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("LoadGame:modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_ox3lq"]
+resource_name = "default"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LoadGame/ScrollContainer/GridContainer:columns")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("LoadGame/ScrollContainer:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.00798114, 0.158843, 0.238654),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -16), Vector2(132, -16), Vector2(112, -16)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("LoadGame/ScrollContainer:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.0106415, 0.244755),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("LoadGame/Back:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.0159623, 0.231453),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("LoadGame:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.00266038),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_b5m04"]
+resource_name = "quit"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LoadGame/ScrollContainer/GridContainer:columns")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("LoadGame/ScrollContainer:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.00986136, 0.105635, 0.255397),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(112, -16), Vector2(132, -16), Vector2(0, -16)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("LoadGame/ScrollContainer:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.021283, 0.260717),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("LoadGame/Back:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.0159623, 0.234113),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("LoadGame:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.204849, 0.585284),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4746i"]
+_data = {
+&"RESET": SubResource("Animation_h3cxb"),
+&"default": SubResource("Animation_ox3lq"),
+&"quit": SubResource("Animation_b5m04")
+}
+
+[node name="Ending" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_740mm")
+
+[node name="LoadGame" type="Panel" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_8murf")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="LoadGame"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 112.0
+offset_top = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_qtbko")
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+
+[node name="GridContainer" type="GridContainer" parent="LoadGame/ScrollContainer"]
+layout_mode = 2
+theme = ExtResource("2_u2f58")
+theme_override_constants/h_separation = 25
+theme_override_constants/v_separation = 20
+columns = 2
+
+[node name="Ending1" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+custom_minimum_size = Vector2(400, 330)
+layout_mode = 2
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath("../Ending2")
+focus_neighbor_bottom = NodePath("../Ending3")
+
+[node name="Ending1" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending1"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -392.0
+offset_top = -86.0
+offset_bottom = -6.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending1"]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending1"]
+layout_mode = 1
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending2" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+custom_minimum_size = Vector2(400, 200)
+layout_mode = 2
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+
+[node name="Ending2" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending2"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -401.0
+offset_top = -94.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending2"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 5
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending2"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending3" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending3" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending3"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -96.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending3"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending3"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending4" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+layout_mode = 2
+
+[node name="Ending4" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending4"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -393.0
+offset_top = -96.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending4"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending4"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending5" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending5" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending5"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -392.0
+offset_top = -98.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending5"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending5"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending6" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+layout_mode = 2
+
+[node name="Ending6" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending6"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -393.0
+offset_top = -98.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending6"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending6"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending7" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending7" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending7"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -100.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending7"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending7"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending8" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+
+[node name="Ending8" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending8"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -393.0
+offset_top = -100.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending8"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending8"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending9" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending9" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending9"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -102.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending9"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending9"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending10" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending10" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending10"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -102.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending10"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending10"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending11" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending11" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending11"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -102.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending11"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 26.0
+offset_right = 1005.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending11"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending12" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending12" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending12"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -102.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending12"]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 26.0
+offset_right = 1004.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending12"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Ending13" type="Button" parent="LoadGame/ScrollContainer/GridContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 310)
+layout_mode = 2
+
+[node name="Ending13" type="Label" parent="LoadGame/ScrollContainer/GridContainer/Ending13"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -102.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending13"]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 26.0
+offset_right = 1004.0
+offset_bottom = 573.0
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_xd2em")
+stretch_mode = 6
+
+[node name="frame" type="TextureRect" parent="LoadGame/ScrollContainer/GridContainer/Ending13"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 420.0
+offset_bottom = 256.0
+scale = Vector2(0.91, 0.91)
+texture = ExtResource("5_b5m04")
+
+[node name="Back" type="TextureButton" parent="LoadGame"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -179.0
+offset_top = 56.0
+offset_right = -147.0
+offset_bottom = 88.0
+grow_horizontal = 0
+scale = Vector2(2.5, 2.5)
+texture_normal = ExtResource("4_crr7w")
+texture_pressed = ExtResource("5_gnhpy")
+texture_hover = ExtResource("6_5bnsr")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_4746i")
+}
+autoplay = "default"
+
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending1" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending1" to="." method="_on_ending_1_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending1" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending1" to="." method="_on_ending_1_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending2" to="." method="_on_ending_2_focus_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending2" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending2" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending2" to="." method="_on_ending_2_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending3" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending3" to="." method="_on_ending_3_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending3" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending3" to="." method="_on_ending_3_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending4" to="." method="_on_ending_4_focus_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending4" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending4" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending4" to="." method="_on_ending_4_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending5" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending5" to="." method="_on_ending_5_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending5" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending5" to="." method="_on_ending_5_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending6" to="." method="_on_ending_6_focus_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending6" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending6" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending6" to="." method="_on_ending_6_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending7" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending7" to="." method="_on_ending_7_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending7" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending7" to="." method="_on_ending_7_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending8" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending8" to="." method="_on_ending_8_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending8" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending8" to="." method="_on_ending_8_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending9" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending9" to="." method="_on_ending_9_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending9" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending9" to="." method="_on_ending_9_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending10" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending10" to="." method="_on_ending_10_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending10" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending10" to="." method="_on_ending_10_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending11" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending11" to="." method="_on_ending_11_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending11" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending11" to="." method="_on_ending_11_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending12" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending12" to="." method="_on_ending_12_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending12" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending12" to="." method="_on_ending_12_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending12/Ending12" to="." method="_on_ending_12_focus_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending13" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending13" to="." method="_on_ending_13_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/ScrollContainer/GridContainer/Ending13" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/GridContainer/Ending13" to="." method="_on_ending_13_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/GridContainer/Ending13/Ending13" to="." method="_on_ending_12_focus_entered"]
+[connection signal="mouse_entered" from="LoadGame/Back" to="." method="_on_ending_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/Back" to="." method="_on_back_pressed"]

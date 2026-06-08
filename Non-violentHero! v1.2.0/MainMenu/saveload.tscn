@@ -1,0 +1,2666 @@
+[gd_scene load_steps=44 format=3 uid="uid://cqkrnn4qsie2k"]
+
+[ext_resource type="Script" uid="uid://bsvnxau3vrpgv" path="res://MainMenu/saveload.gd" id="1_62ysr"]
+[ext_resource type="Texture2D" uid="uid://c1ks2u3mq3fqt" path="res://Images/menu_ui/background.png" id="2_deik7"]
+[ext_resource type="Theme" uid="uid://do37wgbm6s4bl" path="res://Others/saveload.tres" id="2_tbqse"]
+[ext_resource type="FontFile" uid="uid://dhgbkltx2aivb" path="res://Dialogue/DialogueTextFile/fusion-pixel-12px-proportional-zh_hans.otf" id="4_bns2i"]
+[ext_resource type="Texture2D" uid="uid://bety0403qophk" path="res://Images/menu_ui/yes.png" id="4_deik7"]
+[ext_resource type="Texture2D" uid="uid://c36fpbftqrd71" path="res://Images/focus/focus_save_file.png" id="4_wi00m"]
+[ext_resource type="Texture2D" uid="uid://c8pmbiphvbonm" path="res://Images/menu_ui/delete.png" id="5_m10b4"]
+[ext_resource type="Texture2D" uid="uid://d3onadl5qn6g6" path="res://Images/menu_ui/delete_hover.png" id="6_uvedp"]
+[ext_resource type="Texture2D" uid="uid://dwjjq7l5lmvct" path="res://Images/menu_ui/delete_pressed.png" id="7_qy0fu"]
+[ext_resource type="Texture2D" uid="uid://beh1a6i2h36er" path="res://Images/menu_ui/x.png" id="8_k5h53"]
+[ext_resource type="Texture2D" uid="uid://dr5o0qqr1m1st" path="res://Images/focus/delete_focus.png" id="8_ywc8k"]
+[ext_resource type="Texture2D" uid="uid://degku54x0ujlb" path="res://Images/menu_ui/x_clicked.png" id="9_wg0x8"]
+[ext_resource type="Texture2D" uid="uid://brpdr5nnrmv0a" path="res://Images/menu_ui/x_hover.png" id="10_em8gn"]
+[ext_resource type="Texture2D" uid="uid://bjwv5eltopj6d" path="res://Images/focus/x_focus.png" id="14_6lxrl"]
+[ext_resource type="Texture2D" uid="uid://1xo7w0bs60bd" path="res://Images/menu_ui/panel_brown.png" id="15_bdsle"]
+[ext_resource type="Texture2D" uid="uid://dn32v1gy0n7en" path="res://Images/menu_ui/yes red.png" id="16_6lxrl"]
+[ext_resource type="Texture2D" uid="uid://8k6g4mrmntwk" path="res://Images/menu_ui/yes_clicked.png" id="17_6lxrl"]
+[ext_resource type="Texture2D" uid="uid://b5x2tfy5y41ru" path="res://Images/menu_ui/yes_hover_red.png" id="18_lcngp"]
+[ext_resource type="Texture2D" uid="uid://brownrsfyes2w" path="res://Images/focus/yes_red_focus.png" id="19_lcngp"]
+[ext_resource type="PackedScene" uid="uid://7itksipp70c7" path="res://Others/save_function.tscn" id="20_ywc8k"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_86uw3"]
+texture = ExtResource("2_deik7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mrr3o"]
+texture = ExtResource("4_wi00m")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wi00m"]
+texture = ExtResource("4_wi00m")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eaemg"]
+texture = ExtResource("4_wi00m")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7qstj"]
+texture = ExtResource("4_wi00m")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l2mmm"]
+texture = ExtResource("4_wi00m")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6lxrl"]
+bg_color = Color(0, 0, 0, 0.580392)
+
+[sub_resource type="Animation" id="Animation_a5t16"]
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2/success:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3/success:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4/success:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5/success:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../../DeleteComfirmation:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../../DeleteComfirmation:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../../DeleteComfirmation/Background:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../../DeleteComfirmation/No:modulate")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../../DeleteComfirmation/Yes:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../../DeleteComfirmation/Label:modulate")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("../../DeleteComfirmation/Background:modulate")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath(".:pivot_offset")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(100, -50)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-200, 2120)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-400, 4240)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7:modulate")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6:modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8:position")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-800, 8480)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8:modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9:modulate")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10:modulate")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10:position")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-3200, 33920)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1600, 16960)]
+}
+
+[sub_resource type="Animation" id="Animation_v80vq"]
+resource_name = "default"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.173913), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0466507, 0.233333, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-100, 0), Vector2(20, 0), Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.0666667, 0.233333, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-100, 265), Vector2(20, 265), Vector2(0, 265)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.1, 0.266667, 0.366667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-100, 530), Vector2(20, 530), Vector2(0, 530)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.133333, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-100, 795), Vector2(20, 795), Vector2(0, 795)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.233333, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-100, 1060), Vector2(20, 1060), Vector2(0, 1060)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(-0.00933015, 0.0839713),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.45098), Color(1, 1, 1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0.0699761, 0.251914),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.384314), Color(1, 1, 1, 1)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3:modulate")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0.125957, 0.377871),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.392157), Color(1, 1, 1, 1)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0.139952, 0.471172),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.329412), Color(1, 1, 1, 1)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5:modulate")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0.166667, 0.433333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.294118), Color(1, 1, 1, 1)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("..:modulate")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0.00154987),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath(".:pivot_offset")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(100, -10), Vector2(100, -50), Vector2(100, -40)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0.233333, 0.433333, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-98, 1325), Vector2(20, 1325), Vector2(0, 1325)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0.266667, 0.466667, 0.566667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-98, 1590), Vector2(20, 1590), Vector2(0, 1590)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7:modulate")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0.233333, 0.466667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6:modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0.2, 0.433333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8:position")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0.3, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-98, 1846), Vector2(20, 1846), Vector2(0, 1846)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8:modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0.3, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9:modulate")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0.366667, 0.566667, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10:modulate")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10:position")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0.366667, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-98, 2376), Vector2(20, 2376), Vector2(0, 2376)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0.366667, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-98, 2111), Vector2(20, 2111), Vector2(0, 2111)]
+}
+
+[sub_resource type="Animation" id="Animation_6lxrl"]
+resource_name = "delete_comfirmation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../DeleteComfirmation:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../DeleteComfirmation:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0666667, 0.266667, 0.666667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../../DeleteComfirmation/Background:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.433333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -100), Vector2(0, 20), Vector2(0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../../DeleteComfirmation/Yes:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.233333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../../DeleteComfirmation/No:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.233333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../../DeleteComfirmation/Label:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.233333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../../DeleteComfirmation/Background:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.0333333, 0.233333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_j30y7"]
+resource_name = "quit"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.116029, 0.405861),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0559809, 0.177273, 0.366667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(20, 0), Vector2(-100, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.149282, 0.256579, 0.433333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 265), Vector2(20, 265), Vector2(-100, 265)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.30323, 0.410526, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 530), Vector2(20, 530), Vector2(-100, 530)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.366667, 0.433333, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 795), Vector2(20, 795), Vector2(-100, 795)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.4, 0.466667, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1060), Vector2(20, 1060), Vector2(-100, 1060)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.0839713, 0.433333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0.251914, 0.566667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3:modulate")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0.377871, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5:modulate")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0.433333, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("..:modulate")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0.433333, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath(".:pivot_offset")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0.0333333, 0.1, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(100, -40), Vector2(100, -50), Vector2(100, -10)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0.333333, 0.433333, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1325), Vector2(20, 1325), Vector2(-98, 1325)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0.333333, 0.433333, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1590), Vector2(20, 1590), Vector2(-98, 1590)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7:modulate")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0.333333, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6:modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8:position")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0.3, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1846), Vector2(20, 1846), Vector2(-98, 1846)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8:modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0.333333, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9:modulate")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0.333333, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10:modulate")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0.366667, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10:position")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0.366667, 0.433333, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 2376), Vector2(20, 2376), Vector2(-98, 2376)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0.333333, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 2111), Vector2(20, 2111), Vector2(-98, 2111)]
+}
+
+[sub_resource type="Animation" id="Animation_lcngp"]
+resource_name = "quit_delete_comfirmation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../DeleteComfirmation:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0333333, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../DeleteComfirmation:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.2, 0.466667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../../DeleteComfirmation/Background:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.566667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 20), Vector2(0, -100)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../../DeleteComfirmation/Label:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.0666667, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../../DeleteComfirmation/Yes:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.0666667, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../../DeleteComfirmation/No:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.0666667, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../../DeleteComfirmation/Background:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.233333, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_m10b4"]
+resource_name = "success1"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1/success:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1/success:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1/success:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.366667, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_eaemg"]
+resource_name = "success10"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot10/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_deik7"]
+resource_name = "success2"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.233333, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot2/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_qy0fu"]
+resource_name = "success3"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.233333, 0.433333, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot3/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_gtq0e"]
+resource_name = "success4"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.233333, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot4/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_uvedp"]
+resource_name = "success5"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot5/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_ywc8k"]
+resource_name = "success6"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot6/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_bns2i"]
+resource_name = "success7"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot7/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_wi00m"]
+resource_name = "success8"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot8/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="Animation" id="Animation_mrr3o"]
+resource_name = "success9"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9/success:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9/success:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.4, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../ScrollContainer/VBoxContainer/Control/Slot9/success:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(532, 73), Vector2(532, 23), Vector2(532, 33)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wblmo"]
+_data = {
+&"RESET": SubResource("Animation_a5t16"),
+&"default": SubResource("Animation_v80vq"),
+&"delete_comfirmation": SubResource("Animation_6lxrl"),
+&"quit": SubResource("Animation_j30y7"),
+&"quit_delete_comfirmation": SubResource("Animation_lcngp"),
+&"success1": SubResource("Animation_m10b4"),
+&"success10": SubResource("Animation_eaemg"),
+&"success2": SubResource("Animation_deik7"),
+&"success3": SubResource("Animation_qy0fu"),
+&"success4": SubResource("Animation_gtq0e"),
+&"success5": SubResource("Animation_uvedp"),
+&"success6": SubResource("Animation_ywc8k"),
+&"success7": SubResource("Animation_bns2i"),
+&"success8": SubResource("Animation_wi00m"),
+&"success9": SubResource("Animation_mrr3o")
+}
+
+[node name="Saveload" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_62ysr")
+
+[node name="LoadGame" type="Panel" parent="."]
+modulate = Color(0, 0, 0, 1)
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_86uw3")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="LoadGame"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 136.0
+offset_top = 250.0
+offset_bottom = 282.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="LoadGame/ScrollContainer"]
+texture_filter = 1
+layout_mode = 2
+theme = ExtResource("2_tbqse")
+theme_override_constants/separation = 55
+alignment = 1
+
+[node name="Control" type="Control" parent="LoadGame/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(1000, 2850)
+layout_mode = 2
+theme = ExtResource("2_tbqse")
+
+[node name="Slot0" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+custom_minimum_size = Vector2(640, 210)
+layout_mode = 0
+offset_top = -272.0
+offset_right = 650.0
+offset_bottom = -62.0
+size_flags_horizontal = 4
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../Slot1")
+theme_override_styles/focus = SubResource("StyleBoxTexture_mrr3o")
+
+[node name="Label" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot0"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 170.0
+offset_right = 648.0
+offset_bottom = 198.0
+text = "ooo"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot0"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot0"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot0"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 20.0
+offset_right = 327.0
+offset_bottom = 76.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot0"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 60.0
+offset_right = 327.0
+offset_bottom = 116.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot1" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(640, 210)
+layout_mode = 2
+offset_left = -100.0
+offset_right = 550.0
+offset_bottom = 210.0
+size_flags_horizontal = 4
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot0")
+focus_neighbor_right = NodePath("delete1")
+focus_neighbor_bottom = NodePath("../Slot2")
+theme_override_styles/focus = SubResource("StyleBoxTexture_mrr3o")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete1" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 549.0
+offset_top = 105.0
+offset_right = 624.0
+offset_bottom = 180.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot2")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 20.0
+offset_right = 327.0
+offset_bottom = 76.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 60.0
+offset_right = 327.0
+offset_bottom = 116.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot2" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(650, 210)
+layout_mode = 2
+offset_left = -100.0
+offset_top = 265.0
+offset_right = 550.0
+offset_bottom = 475.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot1")
+focus_neighbor_right = NodePath("delete2")
+focus_neighbor_bottom = NodePath("../Slot3")
+theme_override_styles/focus = SubResource("StyleBoxTexture_wi00m")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete2" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 549.0
+offset_top = 105.0
+offset_right = 624.0
+offset_bottom = 180.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../../Slot1")
+focus_neighbor_right = NodePath("..")
+focus_neighbor_bottom = NodePath("../../Slot3")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 20.0
+offset_right = 327.0
+offset_bottom = 76.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 60.0
+offset_right = 327.0
+offset_bottom = 116.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot3" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(650, 210)
+layout_mode = 2
+offset_left = -100.0
+offset_top = 530.0
+offset_right = 550.0
+offset_bottom = 740.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot2")
+focus_neighbor_right = NodePath("delete3")
+focus_neighbor_bottom = NodePath("../Slot4")
+theme_override_styles/focus = SubResource("StyleBoxTexture_eaemg")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -32.0
+offset_right = -10.0
+offset_bottom = 33.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete3" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 549.0
+offset_top = 105.0
+offset_right = 624.0
+offset_bottom = 180.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot2")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot4")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 20.0
+offset_right = 327.0
+offset_bottom = 76.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 60.0
+offset_right = 327.0
+offset_bottom = 116.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot4" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(650, 210)
+layout_mode = 2
+offset_left = -100.0
+offset_top = 795.0
+offset_right = 550.0
+offset_bottom = 1005.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot3")
+focus_neighbor_right = NodePath("delete4")
+focus_neighbor_bottom = NodePath("../Slot5")
+theme_override_styles/focus = SubResource("StyleBoxTexture_7qstj")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete4" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 549.0
+offset_top = 105.0
+offset_right = 624.0
+offset_bottom = 180.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot3")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot5")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 20.0
+offset_right = 112.0
+offset_bottom = 58.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 60.0
+offset_right = 327.0
+offset_bottom = 116.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot5" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 210)
+layout_mode = 2
+offset_left = -100.0
+offset_top = 1060.0
+offset_right = 550.0
+offset_bottom = 1270.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot4")
+focus_neighbor_right = NodePath("delete5")
+focus_neighbor_bottom = NodePath("../Slot6")
+theme_override_styles/focus = SubResource("StyleBoxTexture_l2mmm")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -32.0
+offset_right = -10.0
+offset_bottom = 33.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete5" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 552.0
+offset_top = 108.0
+offset_right = 627.0
+offset_bottom = 183.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot4")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot6")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 33.0
+offset_right = 112.0
+offset_bottom = 74.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 70.0
+offset_right = 327.0
+offset_bottom = 126.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot6" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+custom_minimum_size = Vector2(0, 210)
+layout_mode = 0
+offset_left = -200.0
+offset_top = 2120.0
+offset_right = 450.0
+offset_bottom = 2330.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot5")
+focus_neighbor_right = NodePath("delete6")
+focus_neighbor_bottom = NodePath("../Slot7")
+theme_override_styles/focus = SubResource("StyleBoxTexture_l2mmm")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "6"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete6" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 552.0
+offset_top = 108.0
+offset_right = 627.0
+offset_bottom = 183.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot5")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot7")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 33.0
+offset_right = 112.0
+offset_bottom = 74.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 70.0
+offset_right = 327.0
+offset_bottom = 126.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot7" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 210)
+layout_mode = 0
+offset_left = -400.0
+offset_top = 4240.0
+offset_right = 250.0
+offset_bottom = 4450.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot6")
+focus_neighbor_right = NodePath("delete7")
+focus_neighbor_bottom = NodePath("../Slot8")
+theme_override_styles/focus = SubResource("StyleBoxTexture_l2mmm")
+text = "
+"
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "7"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete7" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 552.0
+offset_top = 108.0
+offset_right = 627.0
+offset_bottom = 183.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot6")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot8")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 33.0
+offset_right = 112.0
+offset_bottom = 74.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 70.0
+offset_right = 327.0
+offset_bottom = 126.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot8" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 210)
+layout_mode = 0
+offset_left = -800.0
+offset_top = 8480.0
+offset_right = -150.0
+offset_bottom = 8690.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot7")
+focus_neighbor_right = NodePath("delete8")
+focus_neighbor_bottom = NodePath("../Slot9")
+theme_override_styles/focus = SubResource("StyleBoxTexture_l2mmm")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "8"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete8" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 552.0
+offset_top = 108.0
+offset_right = 627.0
+offset_bottom = 183.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot7")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot9")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 33.0
+offset_right = 112.0
+offset_bottom = 74.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 70.0
+offset_right = 327.0
+offset_bottom = 126.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot9" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 210)
+layout_mode = 0
+offset_left = -1600.0
+offset_top = 16960.0
+offset_right = -950.0
+offset_bottom = 17170.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot8")
+focus_neighbor_right = NodePath("delete9")
+focus_neighbor_bottom = NodePath("../Slot10")
+theme_override_styles/focus = SubResource("StyleBoxTexture_l2mmm")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "9"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete9" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 552.0
+offset_top = 108.0
+offset_right = 627.0
+offset_bottom = 183.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot8")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../Slot10")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 33.0
+offset_right = 112.0
+offset_bottom = 74.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 70.0
+offset_right = 327.0
+offset_bottom = 126.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot10" type="Button" parent="LoadGame/ScrollContainer/VBoxContainer/Control"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 210)
+layout_mode = 0
+offset_left = -3200.0
+offset_top = 33920.0
+offset_right = -2550.0
+offset_bottom = 34130.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Slot9")
+focus_neighbor_right = NodePath("delete10")
+focus_neighbor_bottom = NodePath(".")
+theme_override_styles/focus = SubResource("StyleBoxTexture_l2mmm")
+
+[node name="num" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 64.0
+offset_bottom = 73.0
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 50
+text = "10"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="success" type="TextureRect" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -118.0
+offset_top = -72.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_deik7")
+stretch_mode = 5
+
+[node name="delete10" type="TextureButton" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 552.0
+offset_top = 108.0
+offset_right = 627.0
+offset_bottom = 183.0
+focus_neighbor_left = NodePath("..")
+focus_neighbor_top = NodePath("../../Slot9")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+texture_normal = ExtResource("5_m10b4")
+texture_pressed = ExtResource("7_qy0fu")
+texture_hover = ExtResource("6_uvedp")
+texture_focused = ExtResource("8_ywc8k")
+stretch_mode = 6
+
+[node name="place" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 33.0
+offset_right = 112.0
+offset_bottom = 74.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="save_date" type="Label" parent="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.0
+offset_top = 70.0
+offset_right = 327.0
+offset_bottom = 126.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Back" type="TextureButton" parent="LoadGame"]
+modulate = Color(1, 1, 1, 0)
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 39.9999
+grow_horizontal = 0
+scale = Vector2(2.5, 2.5)
+pivot_offset = Vector2(100, -50)
+focus_neighbor_left = NodePath("../ScrollContainer/VBoxContainer/Control/Slot1")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+texture_normal = ExtResource("8_k5h53")
+texture_pressed = ExtResource("9_wg0x8")
+texture_hover = ExtResource("10_em8gn")
+
+[node name="DeleteComfirmation" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6lxrl")
+
+[node name="Background" type="TextureRect" parent="DeleteComfirmation"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("15_bdsle")
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="DeleteComfirmation"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -336.0
+offset_top = -52.0
+offset_right = 335.0
+offset_bottom = -21.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_bns2i")
+theme_override_font_sizes/font_size = 30
+text = "Are you sure you want to delete this save slot?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Yes" type="TextureButton" parent="DeleteComfirmation"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = 60.0
+offset_right = -96.0
+offset_bottom = 92.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.5, 2.5)
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath("../No")
+focus_neighbor_bottom = NodePath(".")
+texture_normal = ExtResource("16_6lxrl")
+texture_pressed = ExtResource("17_6lxrl")
+texture_hover = ExtResource("18_lcngp")
+texture_focused = ExtResource("19_lcngp")
+
+[node name="No" type="TextureButton" parent="DeleteComfirmation"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 56.0
+offset_top = 60.0
+offset_right = 88.0
+offset_bottom = 92.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.5, 2.5)
+focus_neighbor_left = NodePath("../Yes")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+texture_normal = ExtResource("8_k5h53")
+texture_pressed = ExtResource("9_wg0x8")
+texture_hover = ExtResource("10_em8gn")
+texture_focused = ExtResource("14_6lxrl")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../LoadGame/Back")
+libraries = {
+&"": SubResource("AnimationLibrary_wblmo")
+}
+
+[node name="save_function" parent="." instance=ExtResource("20_ywc8k")]
+
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot0" to="." method="_on_slot_0_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1" to="." method="_on_slot_1_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1" to="." method="_on_slot_1_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot1/delete1" to="." method="_on_delete_1_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2" to="." method="_on_slot_2_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2" to="." method="_on_slot_2_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot2/delete2" to="." method="_on_delete_2_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3" to="." method="_on_slot_3_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3" to="." method="_on_slot_3_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot3/delete3" to="." method="_on_delete_3_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4" to="." method="_on_slot_4_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4" to="." method="_on_slot_4_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot4/delete4" to="." method="_on_delete_4_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5" to="." method="_on_slot_5_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5" to="." method="_on_slot_5_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot5/delete5" to="." method="_on_delete_5_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6" to="." method="_on_slot_6_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6" to="." method="_on_slot_6_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot6/delete6" to="." method="_on_delete_6_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7" to="." method="_on_slot_7_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7" to="." method="_on_slot_7_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot7/delete7" to="." method="_on_delete_7_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8" to="." method="_on_slot_8_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8" to="." method="_on_slot_8_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot8/delete8" to="." method="_on_delete_8_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9" to="." method="_on_slot_9_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9" to="." method="_on_slot_9_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot9/delete9" to="." method="_on_delete_9_pressed"]
+[connection signal="focus_entered" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10" to="." method="_on_slot_10_focus_entered"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10" to="." method="_on_slot_10_pressed"]
+[connection signal="pressed" from="LoadGame/ScrollContainer/VBoxContainer/Control/Slot10/delete10" to="." method="_on_delete_10_pressed"]
+[connection signal="mouse_entered" from="LoadGame/Back" to="." method="_on_slot_1_mouse_entered"]
+[connection signal="pressed" from="LoadGame/Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="DeleteComfirmation/Yes" to="." method="_on_yes_pressed"]
+[connection signal="pressed" from="DeleteComfirmation/No" to="." method="_on_no_pressed"]

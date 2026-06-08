@@ -1,0 +1,506 @@
+[gd_scene load_steps=22 format=3 uid="uid://i432806i76jd"]
+
+[ext_resource type="Texture2D" uid="uid://457pnryglqml" path="res://Images/menu_ui/tutorial.png" id="1_cr8tc"]
+[ext_resource type="Script" uid="uid://eoopwwmvt8k8" path="res://MainMenu/tutorial.gd" id="1_tvfom"]
+[ext_resource type="Texture2D" uid="uid://co0pdmdh863rk" path="res://Images/menu_ui/tutorial2.png" id="3_63qay"]
+[ext_resource type="Texture2D" uid="uid://eskmym3jutfk" path="res://Images/menu_ui/tutorial3.png" id="4_dvb34"]
+[ext_resource type="Texture2D" uid="uid://dtmmceh047rwh" path="res://Images/menu_ui/left_button.png" id="4_ii0ub"]
+[ext_resource type="Texture2D" uid="uid://bbmm7mn88b03y" path="res://Images/menu_ui/left_clicked_button.png" id="5_y1dna"]
+[ext_resource type="Texture2D" uid="uid://c86yyafrvhk2u" path="res://Images/menu_ui/left_hover_button.png" id="6_omq2o"]
+[ext_resource type="Texture2D" uid="uid://cp5gwagh2wcyp" path="res://Images/focus/left_hover_button_focus.png" id="7_k7kq0"]
+[ext_resource type="Texture2D" uid="uid://br0bsl4my80ge" path="res://Images/menu_ui/right_button.png" id="7_vbd6a"]
+[ext_resource type="Texture2D" uid="uid://djsqelthf736h" path="res://Images/menu_ui/right_clicked_button.png" id="8_6xl6a"]
+[ext_resource type="Texture2D" uid="uid://6685tv1nbfkq" path="res://Images/menu_ui/right_hover_button.png" id="9_qj4sv"]
+[ext_resource type="Texture2D" uid="uid://bety0403qophk" path="res://Images/menu_ui/yes.png" id="10_nty74"]
+[ext_resource type="Texture2D" uid="uid://8k6g4mrmntwk" path="res://Images/menu_ui/yes_clicked.png" id="11_548bt"]
+[ext_resource type="Texture2D" uid="uid://c34juuei8m8em" path="res://Images/focus/right_hover_button_focus.png" id="11_dvb34"]
+[ext_resource type="Texture2D" uid="uid://bmmuxwvyquner" path="res://Images/menu_ui/yes_hover.png" id="12_iaq0v"]
+[ext_resource type="Texture2D" uid="uid://bfsejacyxt0w1" path="res://Images/focus/yes_focus.png" id="15_oxn5l"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dv02g"]
+bg_color = Color(0, 0, 0, 0.458824)
+
+[sub_resource type="Animation" id="Animation_sruy5"]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Panel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_lb1ta"]
+resource_name = "default"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.03, 0.22, 0.33),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 100), Vector2(0, -20), Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("..:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.05, 0.33),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../Panel:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2, 0.5, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_d1hqh"]
+resource_name = "quit"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667, 0.233333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -20), Vector2(0, 100)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("..:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.133333, 0.233333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../Panel:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.0333333, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kwigt"]
+_data = {
+&"RESET": SubResource("Animation_sruy5"),
+&"default": SubResource("Animation_lb1ta"),
+&"quit": SubResource("Animation_d1hqh")
+}
+
+[node name="Tutorial" type="Control"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 100.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tvfom")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dv02g")
+
+[node name="tutorial1" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_cr8tc")
+stretch_mode = 5
+
+[node name="text1" type="Label" parent="tutorial1"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -63.0
+offset_top = -81.0
+offset_right = 64.0
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 30
+text = " Press"
+
+[node name="text2" type="Label" parent="tutorial1"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 112.0
+offset_top = -85.0
+offset_right = 225.0
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 30
+text = "or"
+horizontal_alignment = 1
+
+[node name="text3" type="Label" parent="tutorial1"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.0
+offset_top = -20.0
+offset_right = 298.0
+offset_bottom = 112.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 30
+text = "to do interaction like start the chat and open the door"
+autowrap_mode = 3
+
+[node name="tutorial2" type="TextureRect" parent="."]
+visible = false
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_63qay")
+stretch_mode = 5
+
+[node name="text1" type="Label" parent="tutorial2"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -396.0
+offset_top = -61.0
+offset_right = -260.0
+offset_bottom = -6.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 30
+text = "Press"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="text2" type="Label" parent="tutorial2"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 125.0
+offset_top = -63.0
+offset_right = 298.0
+offset_bottom = 69.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 30
+text = "to move the character"
+autowrap_mode = 3
+
+[node name="text3" type="Label" parent="tutorial2"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -179.0
+offset_top = -69.0
+offset_right = -20.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 30
+text = "or"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="text4" type="Label" parent="tutorial2"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -372.0
+offset_top = 77.0
+offset_right = 16.0
+offset_bottom = 119.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 25
+text = "*Hold shift to run.*"
+
+[node name="tutorial3" type="TextureRect" parent="."]
+visible = false
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_dvb34")
+stretch_mode = 5
+
+[node name="text1" type="Label" parent="tutorial3"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -410.0
+offset_top = -80.0
+offset_right = -282.0
+offset_bottom = -7.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 25
+text = "Hold to run"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="text2" type="Label" parent="tutorial3"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 255.0
+offset_top = -99.0
+offset_right = 410.0
+offset_bottom = -26.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 25
+text = "open bag"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="text3" type="Label" parent="tutorial3"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 86.0
+offset_top = -54.0
+offset_right = 332.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 25
+text = "or"
+autowrap_mode = 3
+
+[node name="text4" type="Label" parent="tutorial3"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 113.0
+offset_top = 8.0
+offset_right = 290.0
+offset_bottom = 83.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 25
+text = "aa"
+autowrap_mode = 3
+
+[node name="text5" type="Label" parent="tutorial3"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 77.0
+offset_top = -103.0
+offset_right = 261.0
+offset_bottom = -62.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.203922, 0.0352941, 0.0901961, 1)
+theme_override_font_sizes/font_size = 25
+text = "aa"
+autowrap_mode = 3
+
+[node name="Left" type="TextureButton" parent="."]
+visible = false
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 37.0
+offset_right = 319.0
+offset_bottom = 77.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.2, 3.2)
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../menu_yes")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+texture_normal = ExtResource("4_ii0ub")
+texture_pressed = ExtResource("5_y1dna")
+texture_hover = ExtResource("6_omq2o")
+texture_focused = ExtResource("7_k7kq0")
+
+[node name="Right" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 37.0
+offset_right = 319.0
+offset_bottom = 77.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.2, 3.2)
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+texture_normal = ExtResource("7_vbd6a")
+texture_pressed = ExtResource("8_6xl6a")
+texture_hover = ExtResource("9_qj4sv")
+texture_focused = ExtResource("11_dvb34")
+
+[node name="menu_yes" type="TextureButton" parent="."]
+visible = false
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 289.0
+offset_top = -24.0
+offset_right = 321.0
+offset_bottom = 14.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.5, 2.5)
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../Left")
+texture_normal = ExtResource("10_nty74")
+texture_pressed = ExtResource("11_548bt")
+texture_hover = ExtResource("12_iaq0v")
+texture_focused = ExtResource("15_oxn5l")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../menu_yes")
+libraries = {
+&"": SubResource("AnimationLibrary_kwigt")
+}
+
+[connection signal="pressed" from="Left" to="." method="_on_left_pressed"]
+[connection signal="pressed" from="Right" to="." method="_on_right_pressed"]
+[connection signal="pressed" from="menu_yes" to="." method="_on_menu_yes_pressed"]
