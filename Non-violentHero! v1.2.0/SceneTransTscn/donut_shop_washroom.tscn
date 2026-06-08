@@ -1,0 +1,150 @@
+[gd_scene load_steps=14 format=4 uid="uid://b7e4djtqkt4sh"]
+
+[ext_resource type="Script" uid="uid://cr5t7dbvm8a4k" path="res://SceneTransTscn/donut_shop_washroom.gd" id="1_duov4"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="2_ygl0e"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="3_idhyn"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="5_bfv75"]
+[ext_resource type="Texture2D" uid="uid://b88nbt5rs3qy2" path="res://Images/UI/prompt.png" id="6_5ismw"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="7_6ar77"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="8_2118i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e8u4w"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cpl5p"]
+size = Vector2(20, 57)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w6hu0"]
+size = Vector2(17.25, 2.75)
+
+[sub_resource type="Animation" id="Animation_duov4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(427, 79)]
+}
+
+[sub_resource type="Animation" id="Animation_cpl5p"]
+resource_name = "mirror"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.31),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(427, 79), Vector2(427, 81)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ygl0e"]
+_data = {
+&"RESET": SubResource("Animation_duov4"),
+&"mirror": SubResource("Animation_cpl5p")
+}
+
+[node name="DonutShopWashroom" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_duov4")
+metadata/_edit_group_ = true
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1376.0
+offset_top = -1424.0
+offset_right = 2229.0
+offset_bottom = 1775.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_e8u4w")
+
+[node name="ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAHAAMABwAVAAEAAAAHAP//BwAVAAEAAAAHAAAABwAVAAEAAAAHAAEABwAVAAEAAAAIAP//BwAVAAEAAAAJAP//BwAVAAEAAAAHAAIABwAVAAEAAAAPAAMABwAbAAAAAAAPAAIABwAbAAAAAAAOAAIABwAbAAAAAAANAAIABwAbAAAAAAANAAMABwAbAAAAAAAOAAMABwAbAAAAAAAKAP//BwAVAAEAAAAPAP//BwAVAAEAAAAMAP//BwAVAAEAAAANAP//BwAVAAEAAAALAP//BwAVAAEAAAAOAP//BwAVAAEAAAANAAAABwAVAAEAAAAOAAAABwAVAAEAAAAPAAAABwAVAAEAAAAHAAYABwAVAAEAAAAHAAcABwAVAAEAAAAIAAYABwAVAAEAAAAIAAcABwAVAAEAAAAIAAgABwAVAAEAAAAJAAYABwAVAAEAAAAJAAcABwAVAAEAAAAJAAgABwAVAAEAAAANAAYABwAbAAEAAAANAAcABwAbAAEAAAAOAAYABwAbAAEAAAAOAAcABwAbAAEAAAAPAAYABwAbAAEAAAAPAAcABwAbAAEAAAANAAQABwAbAAAAAAANAAUABwAbAAEAAAAOAAUABwAbAAEAAAAOAAQABwAbAAAAAAAPAAQABwAbAAAAAAAPAAUABwAbAAEAAAAKAAYABwAVAAEAAAAKAAcABwAVAAEAAAALAAAABwAVAAEAAAAMAAAABwAVAAEAAAAMAAcABwAbAAEAAAAMAAYABwAbAAEAAAAMAAUABwAbAAEAAAAMAAQABwAbAAAAAAAMAAIABwAbAAAAAAAMAAMABwAbAAAAAAAHAAQABwAVAAEAAAAHAAUABwAVAAEAAAAKAAIABwAVAAEAAAAJAAEABwAVAAEAAAAJAAIABwAVAAEAAAAJAAMABwAVAAEAAAAJAAQABwAVAAEAAAAJAAUABwAVAAEAAAAKAAEABwAVAAEAAAAKAAMABwAVAAEAAAAKAAQABwAVAAEAAAAKAAUABwAVAAEAAAAIAAAABwAVAAEAAAAIAAEABwAVAAEAAAAIAAIABwAVAAEAAAAIAAMABwAVAAEAAAAIAAQABwAVAAEAAAAIAAUABwAVAAEAAAAJAAAABwAVAAEAAAAKAAAABwAVAAEAAAALAAMABwAcAAAAAAALAAQABwAcAAAAAAALAAUABwAVAAEAAAALAAIABwAcAAAAAAAHAPz/BwAWAAAAAAAHAP3/BwAWAAAAAAAHAP7/BwAWAAAAAAAIAPz/BwAWAAAAAAAIAP3/BwAWAAAAAAAIAP7/BwAWAAAAAAAJAPz/BwAWAAAAAAAJAP3/BwAWAAAAAAAJAP7/BwAWAAAAAAAKAPz/BwAWAAAAAAAKAP3/BwAWAAAAAAAKAP7/BwAWAAAAAAALAPz/BwAWAAAAAAALAP3/BwAWAAAAAAALAP7/BwAWAAAAAAAMAPz/BwAWAAAAAAAMAP3/BwAWAAAAAAAMAP7/BwAWAAAAAAANAPz/BwAWAAAAAAANAP3/BwAWAAAAAAANAP7/BwAWAAAAAAAOAPz/BwAWAAAAAAAOAP3/BwAWAAAAAAAOAP7/BwAWAAAAAAAPAPz/BwAWAAAAAAAPAP3/BwAWAAAAAAAPAP7/BwAWAAAAAAA=")
+tile_set = ExtResource("2_ygl0e")
+rendering_quadrant_size = 64
+
+[node name="ground2" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+tile_map_data = PackedByteArray("AAAKAAgADAAAAAEAADAKAP3/BwAHAAUAAAAJAP3/BwAHAAUAAAANAP3/BwAHAAUAAAAMAP3/BwAHAAUAAAAPAAcABwARAAYAAAA=")
+tile_set = ExtResource("2_ygl0e")
+
+[node name="deco" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+tile_map_data = PackedByteArray("AAAGAAgADAAAAAEAADAHAAgADAAAAAEAADAOAAQABwATAAUAAAAJAP7/BwATAAIAAAAKAP7/BwATAAIAAAALAP7/BwATAAIAAAAMAP7/BwATAAIAAAANAP7/BwATAAIAAAAOAP7/BwATAAIAAAAHAP7/BwAUAAIAABAIAP7/BwATAAIAAAAHAAQABwAMAAMAAAAHAAMABwALAAMAAAAHAAEABwAUAAAAAAAPAP7/BwAUAAIAAAALAAMAAAAIAAEAAAALAAIAAAAIAAEAAAAIAP3/BwAHAAUAAAANAAMABwAcAAEAAAANAAQABwASAAUAAAA=")
+tile_set = ExtResource("2_ygl0e")
+
+[node name="deco2" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+tile_map_data = PackedByteArray("AAAJAP3/BwAWAAMAAAAHAP3/BwAWAAMAABAIAP3/BwAWAAMAAAALAP7/BwAWAAEAAAAMAP7/BwAWAAIAAAANAP3/BwAXAAEAABAIAAMABwASAAQAAAAPAP//BwAPAAQAAAAIAAEABwAUAAAAAAAHAAAABwAUAAAAAAAIAAAABwAUAAAAAAAIAAUABwAAAAcAAAAOAP3/BwAHAAUAAAAQAAEAAAACAAIAAAALAAgAAAABAAIAAAA=")
+tile_set = ExtResource("2_ygl0e")
+
+[node name="frame" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAAMAAEADAAAAAMAAAANAAEADAAAAAMAAAAOAAEADAAAAAMAAAAPAAEADAAAAAMAAAAQAAEAAAAFAAcAAAAGAPv/AAADAAIAAAAGAPz/AAADAAEAAAAGAP3/AAADAAEAAAAGAP7/AAADAAEAAAAGAP//AAADAAEAAAAGAAAAAAADAAEAAAAGAAEAAAADAAEAAAAGAAIAAAADAAEAAAAGAAMAAAADAAEAAAAGAAQAAAADAAEAAAAGAAUAAAADAAEAAAAGAAYAAAADAAEAAAAGAAcAAAADAAEAAAAGAAgAAAABAAIAAAAHAPv/AAACAAEAAAAHAAgADAADAAAAAAAIAPv/AAACAAEAAAAJAPv/AAACAAEAAAAKAPv/AAACAAEAAAAKAAgADAACAAAAAAALAPv/AAACAAEAAAALAAEADAAAAAIAABALAAgAAAAAAAIAAAAMAPv/AAACAAEAAAAMAAgAAAAAAAEAAAANAPv/AAACAAEAAAANAAgAAAAAAAEAAAAOAPv/AAACAAEAAAAOAAgAAAAAAAEAAAAPAPv/AAACAAEAAAAPAAgAAAAAAAEAAAAQAPv/AAACAAIAAAAQAPz/AAABAAEAAAAQAP3/AAABAAEAAAAQAP7/AAABAAEAAAAQAP//AAABAAEAAAAQAAAAAAABAAEAAAAQAAIAAAABAAEAAAAQAAMAAAABAAEAAAAQAAQAAAABAAEAAAAQAAUAAAABAAEAAAAQAAYAAAABAAEAAAAQAAcAAAABAAEAAAAQAAgAAAAAAAIAAAALAAYADAABAAIAAAALAAcADAACAAIAAAA=")
+tile_set = ExtResource("2_ygl0e")
+
+[node name="shadow" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAAHAAgADAAAAAEAACAIAAgADAAAAAEAACAJAAgADAAAAAEAACAKAAgADAAAAAEAACAHAAkADAABAAMAAAAIAAkADAABAAMAAAAJAAkADAABAAMAAAAKAAkADAABAAMAAAALAAkADAABAAMAAAA=")
+tile_set = ExtResource("2_ygl0e")
+
+[node name="Player" parent="." instance=ExtResource("3_idhyn")]
+z_index = 1
+position = Vector2(287, 241)
+
+[node name="mirror" type="Area2D" parent="."]
+position = Vector2(417, 135)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mirror"]
+position = Vector2(15, 18.5)
+shape = SubResource("RectangleShape2D_cpl5p")
+
+[node name="SceneTrigger" parent="." instance=ExtResource("5_bfv75")]
+position = Vector2(332, 2323)
+connected_scene = "donut_shop"
+need_press = "no"
+
+[node name="Exit" type="CollisionShape2D" parent="SceneTrigger"]
+position = Vector2(-21.75, -1023.25)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_w6hu0")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+z_index = 3
+offset_left = 427.0
+offset_top = 79.0
+offset_right = 437.0
+offset_bottom = 89.0
+texture = ExtResource("6_5ismw")
+expand_mode = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_ygl0e")
+}
+
+[node name="Control" parent="." instance=ExtResource("8_2118i")]
+
+[node name="Dialogue" parent="." instance=ExtResource("7_6ar77")]
+position = Vector2(-589, -868)
+
+[connection signal="body_entered" from="mirror" to="." method="_on_mirror_body_entered"]
+[connection signal="body_exited" from="mirror" to="." method="_on_mirror_body_exited"]
+[connection signal="body_entered" from="SceneTrigger" to="." method="_on_scene_trigger_body_entered"]
+
+[editable path="Control"]
+[editable path="Control/CanvasLayer/Tutorial"]

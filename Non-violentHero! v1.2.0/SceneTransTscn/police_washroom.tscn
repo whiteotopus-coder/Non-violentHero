@@ -1,0 +1,143 @@
+[gd_scene load_steps=14 format=4 uid="uid://2w2ywuuhda7q"]
+
+[ext_resource type="Script" uid="uid://c2ewsp4fgqcn2" path="res://SceneTransTscn/police_washroom.gd" id="1_vueel"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="2_dm7dv"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="3_l1asm"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="4_ahtok"]
+[ext_resource type="Texture2D" uid="uid://b88nbt5rs3qy2" path="res://Images/UI/prompt.png" id="5_kmcl2"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="5_o7156"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="7_jrd8e"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y1s0v"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gnh4e"]
+size = Vector2(20, 57)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4itf8"]
+size = Vector2(30.75, 7.75)
+
+[sub_resource type="Animation" id="Animation_yfqkh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-23, -111)]
+}
+
+[sub_resource type="Animation" id="Animation_vueel"]
+resource_name = "mirror"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-23.5, -111), Vector2(-23.5, -110)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_yuvcv"]
+_data = {
+&"RESET": SubResource("Animation_yfqkh"),
+&"mirror": SubResource("Animation_vueel")
+}
+
+[node name="PoliceWashroom" type="Node2D"]
+y_sort_enabled = true
+texture_filter = 1
+script = ExtResource("1_vueel")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1847.0
+offset_top = -1459.0
+offset_right = 2386.0
+offset_bottom = 1994.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_y1s0v")
+
+[node name="ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD8//z/BwAbAAAAAAD8//3/BwAbAAAAAAD8//7/BwAbAAAAAAD8////BwAbAAEAAAD9////BwAbAAEAAAD+////BwAbAAEAAAD/////BwAbAAEAAAAAAP//BwAbAAEAAAD7//z/BwAbAAAAAAD7//3/BwAbAAAAAAD7//7/BwAbAAAAAAD7////BwAbAAEAAAD7/wAABwAbAAEAAAD8/wAABwAbAAEAAAD9/wAABwAbAAEAAAD+/wAABwAbAAEAAAD//wAABwAbAAEAAAAAAAAABwAbAAEAAAD9//7/BwAbAAAAAAD+//7/BwAbAAAAAAD9//z/BwAbAAAAAAD9//3/BwAbAAAAAAD///7/BwAbAAAAAAAAAPz/BwAbAAAAAAAAAP3/BwAbAAAAAAAAAP7/BwAbAAAAAAD///z/BwAbAAAAAAD///3/BwAbAAAAAAD+//z/BwAbAAAAAAD+//3/BwAbAAAAAAD9/wEABwAbAAEAAAD+/wEABwAbAAEAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="deco0" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAABAPv/DAAAAAEAAAD8/wEADAAAAAEAACD//wEADAAAAAEAACD8//7/BwARAAkAAAD9////BwARAAYAAAD///3/BwATAAoAAAD///7/BwASAAoAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="frame" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAD6//v/AAADAAIAAAD6//z/AAADAAEAAAD6//3/AAADAAEAAAD6//7/AAADAAEAAAD6////AAADAAEAAAD6/wAAAAADAAEAAAD6/wEAAAABAAIAAAD7//v/AAACAAEAAAD7/wEAAAAAAAEAAAD8//v/AAACAAEAAAD8/wEADAADAAAAAAD9//v/AAACAAEAAAD+//v/AAACAAEAAAD///v/AAACAAEAAAD//wEADAACAAAAAAAAAPv/AAACAAEAAAAAAAEAAAAAAAEAAAABAPv/AAACAAIAAAABAPz/AAABAAEAAAABAP3/AAABAAEAAAABAP7/AAABAAEAAAABAP//AAABAAEAAAABAAAAAAABAAEAAAABAAEAAAAAAAIAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="shadow" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAD8/wIADAABAAMAAAD9/wIADAABAAMAAAD+/wIADAABAAMAAAD//wIADAABAAMAAAAAAAIADAABAAMAAAD8/wEADAAAAAEAADD9/wEADAAAAAEAADD+/wEADAAAAAEAADD//wEADAAAAAEAADAAAAEADAAAAAEAADA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="Player" parent="." instance=ExtResource("3_l1asm")]
+z_index = 1
+position = Vector2(-62, 26)
+
+[node name="mirror" type="Area2D" parent="."]
+z_index = 1
+position = Vector2(-97, -73)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="mirror"]
+position = Vector2(78, 14)
+shape = SubResource("RectangleShape2D_gnh4e")
+
+[node name="SceneTrigger" parent="." instance=ExtResource("5_o7156")]
+z_index = 1
+position = Vector2(1513, -1084)
+connected_scene = "house_2"
+need_press = "no"
+
+[node name="Exit" type="CollisionShape2D" parent="SceneTrigger"]
+z_index = 2
+position = Vector2(-786.75, 574.25)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_4itf8")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+z_index = 3
+offset_left = -23.0
+offset_top = -111.0
+offset_right = -14.0
+offset_bottom = -102.0
+texture = ExtResource("5_kmcl2")
+expand_mode = 5
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_yuvcv")
+}
+
+[node name="Control" parent="." instance=ExtResource("4_ahtok")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Dialogue" parent="." instance=ExtResource("7_jrd8e")]
+position = Vector2(-56, -34)
+
+[connection signal="body_entered" from="mirror" to="." method="_on_mirror_body_entered"]
+[connection signal="body_exited" from="mirror" to="." method="_on_mirror_body_exited"]

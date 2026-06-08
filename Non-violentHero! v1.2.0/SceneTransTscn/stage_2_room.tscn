@@ -1,0 +1,164 @@
+[gd_scene load_steps=16 format=4 uid="uid://dvjte3y4wb8j2"]
+
+[ext_resource type="Script" uid="uid://cjrol1ts8bbds" path="res://SceneTransTscn/stage_2_room.gd" id="1_jhyft"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="2_dm7dv"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="3_4e2fn"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="3_l1asm"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="4_ahtok"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="5_o7156"]
+[ext_resource type="PackedScene" uid="uid://xchyo1bsbki3" path="res://Scene/Stage2/otaku.tscn" id="6_o2j51"]
+[ext_resource type="PackedScene" uid="uid://dqn7uh3amwhsy" path="res://Scene/Stage2/mummy.tscn" id="8_40prq"]
+[ext_resource type="Texture2D" uid="uid://crlfdgskh4ox2" path="res://Images/UI/chat-box.png" id="9_wjqk1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wjqk1"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4itf8"]
+size = Vector2(4, 12.25)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kb1sc"]
+radius = 22.5887
+
+[sub_resource type="Animation" id="Animation_vt1qy"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("chatbox:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(72, 463)]
+}
+
+[sub_resource type="Animation" id="Animation_tcmpj"]
+resource_name = "mummy_chatbox"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("chatbox:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.37),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(72, 463), Vector2(72, 467)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e1rcu"]
+_data = {
+&"RESET": SubResource("Animation_vt1qy"),
+&"mummy_chatbox": SubResource("Animation_tcmpj")
+}
+
+[node name="Stage2" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_jhyft")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -2398.0
+offset_top = -1551.0
+offset_right = 2391.0
+offset_bottom = 1956.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_wjqk1")
+
+[node name="ground" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD6////DgAGAAkAAAD6/wAADgAGAAkAAAD6/wEADgAGAAkAAAD7////DgAGAAkAAAD7/wAADgAGAAkAAAD7/wEADgAGAAkAAAD8////DgAGAAkAAAD8/wAADwACAAIAAAD8/wEADgAGAAkAAAD9////DgAGAAkAAAD9/wAADgAGAAkAAAD9/wEADgAGAAkAAAD+////DgAGAAkAAAD+/wAADgAGAAkAAAD+/wEADgAGAAkAAAD/////DgAGAAkAAAD//wAADwACAAIAAAD//wEADgAGAAkAAAAAAP//DgAGAAkAAAAAAAAADgAGAAkAAAAAAAEADgAGAAkAAAABAP//DgAHAAUAAAABAAAADgAGAAkAAAD6//v/DgAGAAgAAAD6//z/DgAGAAgAAAD6//3/DgAFAAgAAAD6//7/DgAGAAkAAAD7//v/DgAGAAgAAAD7//z/DgAGAAgAAAD7//3/DgAFAAgAAAD7//7/DgAGAAkAAAD8//v/DgAGAAgAAAD8//z/DgAGAAgAAAD8//3/DgAFAAgAAAD8//7/DgAGAAkAAAD9//v/DgAGAAgAAAD9//z/DgAGAAgAAAD9//3/DgAFAAgAAAD9//7/DgAGAAkAAAD+//v/DgAGAAgAAAD+//z/DgAGAAgAAAD+//3/DgAFAAgAAAD+//7/DwACAAIAAAD///v/DgAGAAgAAAD///z/DgAGAAgAAAD///3/DgAFAAgAAAD///7/DgAGAAkAAAAAAPv/DgAGAAgAAAAAAPz/DgAGAAgAAAAAAP3/DgAFAAgAAAAAAP7/DgAGAAkAAAABAP3/DgAJAAUAAAABAP7/DgAJAAUAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="deco0" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD6//z/DgAAAAgAAAD7//v/DgACAAAAAAD7//z/DgADAAUAAAD7//7/DgAAAAAAAAD8//z/DgAEAAMAAAD9//z/DgAFAAEAAAD9//3/DgAEAAIAAAD9////DwAIAAAAAAD+//v/DgACAAAAAAD+//z/DgAFAAEAAAD+//3/DgAEAAIAAAD+////DwAFAAAAAAD+/wAADwAEAAIAAAD///v/DgAAAAgAAAD///z/DwAJAAAAAAAAAPz/DwAJAAAAAAAAAP//DwAEAAEAAAABAP3/DgACAAEAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="deco1" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAAAAEADwACAAEAAAACAAEADAAAAAEAAEACAAIADAAAAAEAAFD6////DgAGAAUAAAD6/wEADwAAAAAAAAD8//3/DwABAAoAAAD8//7/DgAFAAUAAAD8////DwAEAAAAAAD8/wEADwACAAAAAAD9//v/DwAIAAIAAAD+//7/DwADAAAAAAD+/wEADwAAAAIAAAD///v/DwAAAAMAAAD///z/DwABAAMAAAD///3/DwACAAMAAAD///7/DwAFAAEAAAD//wAADwADAAAAAAD//wEADwAHAAIAAAAAAPv/DwAIAAEAAAAAAP3/DwAHAAAAAAACAPz/DAAAAAEAAEACAP3/DAAAAAEAAEACAP7/DAAAAAEAAEACAP//DAAAAAEAAEACAAAADAAAAAEAAEA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="frame" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAD5//r/AAADAAIAAAD5//v/AAADAAEAAAD5//z/AAADAAEAAAD5//3/AAADAAEAAAD5//7/AAADAAEAAAD5////AAADAAEAAAD5/wAAAAADAAEAAAD5/wEAAAADAAEAAAD5/wIAAAABAAIAAAD6//r/AAACAAEAAAD6/wIAAAAAAAEAAAD7//r/AAACAAEAAAD7/wIAAAAAAAEAAAD8//r/AAACAAEAAAD8/wIAAAAAAAEAAAD9//r/AAACAAEAAAD9/wIAAAAAAAEAAAD+//r/AAACAAEAAAD+/wIAAAAAAAEAAAD///r/AAACAAEAAAD//wIAAAAAAAEAAAAAAPr/AAACAAEAAAAAAAIAAAAAAAEAAAABAPr/AAACAAIAAAABAPv/AAABAAEAAAABAPz/DAABAAAAAAABAAEADAACAAAAAAABAAIAAAAAAAIAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="shadow" type="TileMapLayer" parent="."]
+z_index = 2
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD7/wAADwADAAIAAAD7/wEADwADAAIAAAD8/wAADwADAAIAAAD8/wEADwADAAIAAAD9/wAADwADAAIAAAD9/wEADwADAAIAAAD+/wAADwADAAIAAAD+/wEADwADAAIAAAD//wAADwADAAIAAAD//wEADwADAAIAAAAAAAAADwADAAIAAAAAAAEADwADAAIAAAABAAAADwADAAIAAAD6//v/DwADAAIAAAD6//z/DwADAAIAAAD6//3/DwADAAIAAAD6//7/DwADAAIAAAD6////DwADAAIAAAD6/wAADwADAAIAAAD6/wEADwADAAIAAAD7//v/DwADAAIAAAD7//z/DwADAAIAAAD7//3/DwADAAIAAAD7//7/DwADAAIAAAD7////DwADAAIAAAD8//v/DwADAAIAAAD8//z/DwADAAIAAAD8//3/DwADAAIAAAD8//7/DwADAAIAAAD8////DwADAAIAAAD9//v/DwADAAIAAAD9//z/DwADAAIAAAD9//3/DwADAAIAAAD9//7/DwADAAIAAAD9////DwADAAIAAAD+//v/DwADAAIAAAD+//z/DwADAAIAAAD+//3/DwADAAIAAAD+//7/DwADAAIAAAD+////DwADAAIAAAD///v/DwADAAIAAAD///z/DwADAAIAAAD///3/DwADAAIAAAD///7/DwADAAIAAAD/////DwADAAIAAAAAAPv/DwADAAIAAAAAAPz/DwADAAIAAAAAAP3/DwADAAIAAAAAAP7/DwADAAIAAAAAAP//DwADAAIAAAABAP3/DwADAAIAAAABAP7/DwADAAIAAAABAP//DwADAAIAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="doorShadow" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAABAPz/DAAAAAEAAFABAP3/DAAAAAEAAFABAP7/DAAAAAEAAFABAP//DAAAAAEAAFACAAAADAABAAMAAAACAAEADAABAAMAAAABAAAADAAAAAEAAFABAAEADAAAAAEAAFACAPz/DAABAAMAAAACAP3/DAABAAMAAAACAP7/DAABAAMAAAACAP//DAABAAMAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="Player" parent="." instance=ExtResource("3_l1asm")]
+z_index = 1
+position = Vector2(2, 10)
+
+[node name="SceneTrigger" parent="." instance=ExtResource("5_o7156")]
+z_index = 1
+position = Vector2(-594, -3359)
+connected_scene = "stage_2_corridor"
+need_press = "no"
+
+[node name="Exit" type="CollisionShape2D" parent="SceneTrigger"]
+position = Vector2(325.5, 1682.75)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_4itf8")
+
+[node name="otaku" parent="." instance=ExtResource("6_o2j51")]
+z_index = 1
+position = Vector2(-157, 20)
+
+[node name="AfterAttack" type="Marker2D" parent="."]
+position = Vector2(-82, 28)
+
+[node name="mummy" parent="." instance=ExtResource("8_40prq")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(1, 2)
+
+[node name="mom" type="Area2D" parent="."]
+z_index = 2
+position = Vector2(0, 1)
+scale = Vector2(2, 2)
+
+[node name="mom" type="CollisionShape2D" parent="mom"]
+shape = SubResource("CircleShape2D_kb1sc")
+
+[node name="chatbox" type="TextureRect" parent="."]
+visible = false
+z_index = 2
+texture_filter = 1
+offset_left = 72.0
+offset_top = 463.0
+offset_right = 121.0
+offset_bottom = 503.0
+texture = ExtResource("9_wjqk1")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_e1rcu")
+}
+
+[node name="Control" parent="." instance=ExtResource("4_ahtok")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Dialogue" parent="." instance=ExtResource("3_4e2fn")]
+
+[connection signal="body_entered" from="mom" to="." method="_on_mom_body_entered"]
+[connection signal="body_exited" from="mom" to="." method="_on_mom_body_exited"]

@@ -1,0 +1,112 @@
+[gd_scene load_steps=12 format=4 uid="uid://c2qvnoand64xn"]
+
+[ext_resource type="Script" uid="uid://ujrakjwabsl7" path="res://Scene/Castle/castle.gd" id="1_qxlex"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="2_7wqd6"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="3_mfeh3"]
+[ext_resource type="PackedScene" uid="uid://b24lao6jhdp41" path="res://Scene/Castle/king.tscn" id="4_tjo1e"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="5_mear0"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="7_u2f5b"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="9_4kv5b"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nrywm"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_12j8d"]
+radius = 52.0096
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oqqw8"]
+size = Vector2(78, 3.375)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iyjea"]
+size = Vector2(21.7306, 2.87188)
+
+[node name="castle" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_qxlex")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1351.0
+offset_top = -1353.0
+offset_right = 1551.0
+offset_bottom = 1433.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_nrywm")
+
+[node name="ground" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAADAAAAAAAAAAAAAAADAAEAAAAAAAAAAAADAAIAAAAAAAAAAAACAAIAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAEAAAAAAAAAAAACAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAEAAIAAAAAAAAAAAAFAAAAAAAAAAAAAAAFAAEAAAAAAAAAAAAFAAIAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAEAAAAAAAAAAAAGAAIAAAAAAAAAAAAHAAAAAAAAAAAAAAAHAAEAAAAAAAAAAAAHAAIAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAUAAAAAAAAAAAABAAMAAAAAAAAAAAABAAQAAAAAAAAAAAABAAUAAAAAAAAAAAACAAMAAAAAAAAAAAACAAQAAAAAAAAAAAACAAUAAAAAAAAAAAADAAMAAAAAAAAAAAADAAQAAAAAAAAAAAADAAUAAAAAAAAAAAAEAAMAAAAAAAAAAAAEAAQAAAAAAAAAAAAEAAUAAAAAAAAAAAAFAAMAAAAAAAAAAAAFAAQAAAAAAAAAAAAFAAUAAAAAAAAAAAAGAAMAAAAAAAAAAAAGAAQAAAAAAAAAAAAGAAUAAAAAAAAAAAAHAAMAAAAAAAAAAAAHAAQAAAAAAAAAAAAHAAUAAAAAAAAAAAAAAP//BwAEAAcAAAABAP//BwAEAAcAAAACAP//BwAEAAcAAAADAP//BwAEAAcAAAAEAP//BwAEAAcAAAAFAP//BwAEAAcAAAAGAP//BwAEAAcAAAAHAP//BwAEAAcAAAADAAYAAAAAAAAAAAAEAAYAAAAAAAAAAAAAAP3/BwAFAAcAAAABAP3/BwAFAAcAAAACAP3/BwAFAAcAAAADAP3/BwAFAAcAAAAEAP3/BwAFAAcAAAAGAP7/BwAFAAcAAAAHAP7/BwAFAAcAAAAHAP3/BwAFAAcAAAAGAP3/BwAFAAcAAAAFAP3/BwAFAAcAAAABAP7/BwAFAAcAAAADAP7/BwAFAAcAAAAEAP7/BwAFAAcAAAAAAP7/BwAFAAcAAAA=")
+tile_set = ExtResource("2_7wqd6")
+rendering_quadrant_size = 64
+
+[node name="Layer1" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAACAP7/BwAHAAUAAAAFAP7/BwAHAAUAAAA=")
+tile_set = ExtResource("2_7wqd6")
+
+[node name="frame" type="TileMapLayer" parent="."]
+z_index = 2
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAIAAAAAAABAAEAAAAIAAEAAAABAAEAAAAIAAIAAAABAAEAAAAIAAMAAAABAAEAAAAIAAQAAAABAAEAAAAIAAUAAAABAAEAAAAIAAYAAAAAAAIAAAD//wYAAAABAAIAAAD/////AAADAAEAAAD//wAAAAADAAEAAAD//wEAAAADAAEAAAD//wIAAAADAAEAAAD//wMAAAADAAEAAAD//wQAAAADAAEAAAD//wUAAAADAAEAAAAIAP//AAABAAEAAAAAAAYAAAAAAAEAAAABAAYAAAAAAAEAAAACAAYADAADAAAAAAAFAAYADAACAAAAAAAGAAYAAAAAAAEAAAAHAAYAAAAAAAEAAAD///7/AAADAAEAAAD///3/AAADAAEAAAAIAP7/AAABAAEAAAAIAP3/AAABAAEAAAAAAPz/AAACAAEAAAABAPz/AAACAAEAAAACAPz/AAACAAEAAAADAPz/AAACAAEAAAAEAPz/AAACAAEAAAAFAPz/AAACAAEAAAAGAPz/AAACAAEAAAAHAPz/AAACAAEAAAD///z/AAADAAIAAAAIAPz/AAACAAIAAAA=")
+tile_set = ExtResource("2_7wqd6")
+rendering_quadrant_size = 64
+
+[node name="shadow" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAACAAYADAAAAAEAACADAAYADAAAAAEAACAEAAYADAAAAAEAACAFAAYADAAAAAEAACAGAAYADAAAAAEAACACAAcADAABAAMAAAADAAcADAABAAMAAAAEAAcADAABAAMAAAAFAAcADAABAAMAAAAGAAcADAABAAMAAAA=")
+tile_set = ExtResource("2_7wqd6")
+
+[node name="Player" parent="." instance=ExtResource("3_mfeh3")]
+z_index = 1
+position = Vector2(129, 173)
+
+[node name="king" parent="." node_paths=PackedStringArray("endPoint") instance=ExtResource("4_tjo1e")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(130, -1)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="king"]
+position = Vector2(1, 175)
+scale = Vector2(0.5, 0.5)
+
+[node name="Dialogue" parent="." instance=ExtResource("5_mear0")]
+position = Vector2(-283, -37)
+
+[node name="Area2D" type="Area2D" parent="."]
+z_index = 1
+position = Vector2(133, -11)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-3, 2)
+shape = SubResource("CircleShape2D_12j8d")
+
+[node name="backpos" type="Marker2D" parent="."]
+position = Vector2(129, 173)
+
+[node name="b4chat" type="Area2D" parent="."]
+
+[node name="b4chat" type="CollisionShape2D" parent="b4chat"]
+position = Vector2(129, 201.688)
+shape = SubResource("RectangleShape2D_oqqw8")
+
+[node name="SceneTrigger" parent="." instance=ExtResource("7_u2f5b")]
+position = Vector2(-2137, -2187)
+connected_scene = "tilemap"
+need_press = "no"
+
+[node name="Exit" type="CollisionShape2D" parent="SceneTrigger"]
+position = Vector2(1131.75, 1202.25)
+scale = Vector2(1.7717, 2.61152)
+shape = SubResource("RectangleShape2D_iyjea")
+
+[node name="AfterAttack" type="Marker2D" parent="."]
+position = Vector2(129, 34)
+
+[node name="Control" parent="." instance=ExtResource("9_4kv5b")]
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_area_2d_area_exited"]
+[connection signal="body_entered" from="b4chat" to="." method="_on_b_4_chat_body_entered"]
+[connection signal="body_entered" from="SceneTrigger" to="." method="_on_scene_trigger_body_entered"]
+
+[editable path="Control"]
+[editable path="Control/CanvasLayer/Tutorial"]

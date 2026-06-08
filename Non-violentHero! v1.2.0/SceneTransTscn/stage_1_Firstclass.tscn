@@ -1,0 +1,394 @@
+[gd_scene load_steps=27 format=4 uid="uid://cd86fwes5nmyb"]
+
+[ext_resource type="Script" uid="uid://dkkcf7dr10xpa" path="res://SceneTransTscn/stage_1_Firstclass.gd" id="1_asmtu"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="2_5tvun"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="3_nr6xq"]
+[ext_resource type="PackedScene" uid="uid://cbsds1ntg8k5g" path="res://Scene/Stage1/kid_class.tscn" id="4_j33lh"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="5_ffuj5"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="6_o4kxb"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="7_ur1ni"]
+[ext_resource type="PackedScene" uid="uid://djfq3cqnpa4no" path="res://Scene/Stage1/Teacher.tscn" id="8_ck4ar"]
+[ext_resource type="Texture2D" uid="uid://b88nbt5rs3qy2" path="res://Images/UI/prompt.png" id="9_15gg7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q107u"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7gin7"]
+size = Vector2(64, 13)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1msh4"]
+size = Vector2(52, 37)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ideii"]
+size = Vector2(106, 6)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p83w5"]
+radius = 42.7551
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4whw6"]
+size = Vector2(13, 33)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bcpcu"]
+radius = 24.0208
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yn32f"]
+size = Vector2(57.5, 9.75)
+
+[sub_resource type="Animation" id="Animation_u4nmb"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(10000, -14)]
+}
+
+[sub_resource type="Animation" id="Animation_ksi3k"]
+resource_name = "play_chaira"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.32),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(43, 154), Vector2(43, 156)]
+}
+
+[sub_resource type="Animation" id="Animation_57nki"]
+resource_name = "play_chairb"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.32),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(43, 221), Vector2(43, 224)]
+}
+
+[sub_resource type="Animation" id="Animation_jn2wi"]
+resource_name = "play_chairc"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(107, 221), Vector2(107, 224)]
+}
+
+[sub_resource type="Animation" id="Animation_7mboa"]
+resource_name = "play_chaird"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.34),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(267, 221), Vector2(267, 223)]
+}
+
+[sub_resource type="Animation" id="Animation_5eakr"]
+resource_name = "play_stu_a"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(107, 154), Vector2(107, 156)]
+}
+
+[sub_resource type="Animation" id="Animation_euoi7"]
+resource_name = "play_stu_b"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(234, 154), Vector2(234, 156)]
+}
+
+[sub_resource type="Animation" id="Animation_1ts57"]
+resource_name = "play_tea"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(174, 16), Vector2(174, 18)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xm2lr"]
+_data = {
+&"RESET": SubResource("Animation_u4nmb"),
+&"play_chaira": SubResource("Animation_ksi3k"),
+&"play_chairb": SubResource("Animation_57nki"),
+&"play_chairc": SubResource("Animation_jn2wi"),
+&"play_chaird": SubResource("Animation_7mboa"),
+&"play_stu_a": SubResource("Animation_5eakr"),
+&"play_stu_b": SubResource("Animation_euoi7"),
+&"play_tea": SubResource("Animation_1ts57")
+}
+
+[node name="stage_1_Firstclass" type="Node2D"]
+y_sort_enabled = true
+texture_filter = 1
+script = ExtResource("1_asmtu")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1208.0
+offset_top = -1514.0
+offset_right = 1781.0
+offset_bottom = 1784.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_q107u")
+
+[node name="ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAABAAAADwALAAAAAAABAAEAAAAAAAAAAAACAAEAAAAAAAAAAAADAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAEAAMAAAAAAAAAAAAFAAMAAAAAAAAAAAAFAAQAAAAAAAAAAAAFAAUAAAAAAAAAAAAEAAUAAAAAAAAAAAADAAUAAAAAAAAAAAADAAQAAAAAAAAAAAACAAQAAAAAAAAAAAABAAQAAAAAAAAAAAABAAMAAAAAAAAAAAACAAIAAAAAAAAAAAADAAMAAAAAAAAAAAACAAUAAAAAAAAAAAACAAMAAAAAAAAAAAAEAAQAAAAAAAAAAAABAAIAAAAAAAAAAAABAAUAAAAAAAAAAAACAAAADwALAAAAAAADAAAADwALAAAAAAAEAAAADwALAAAAAAAFAAAADwALAAAAAAAFAAEAAAAAAAAAAAAFAAIAAAAAAAAAAAADAAEAAAAAAAAAAAAEAAEAAAAAAAAAAAABAAYAAAAAAAAAAAAEAAYAAAAAAAAAAAAFAAYAAAAAAAAAAAAGAAUAAAAAAAAAAAAGAAQAAAAAAAAAAAAGAAMAAAAAAAAAAAAGAAIAAAAAAAAAAAAGAAEAAAAAAAAAAAAGAAAADwALAAAAAAABAP//DwAMAAAAAAACAP//DwAMAAAAAAADAP//DwAMAAAAAAAEAP//DwAMAAAAAAAFAP//DwAMAAAAAAAGAP//DwAMAAAAAAAGAAYAAAAAAAAAAAACAAYAAAAAAAAAAAADAAYAAAAAAAAAAAABAP3/DwAMAAAAAAACAP3/DwAMAAAAAAADAP3/DwAMAAAAAAAEAP3/DwAMAAAAAAAFAP3/DwAMAAAAAAAFAP7/DwAMAAAAAAAEAP7/DwAMAAAAAAADAP7/DwAMAAAAAAACAP7/DwAMAAAAAAABAP7/DwAMAAAAAAAGAP7/DwAMAAAAAAAGAP3/DwAMAAAAAAAHAAEAAAAAAAAAAAAHAAAADwALAAAAAAAHAAIAAAAAAAAAAAAHAAMAAAAAAAAAAAAHAAQAAAAAAAAAAAAHAAUAAAAAAAAAAAAIAAAADwALAAAAAAAJAAQAAAAAAAAAAAAJAAUAAAAAAAAAAAAIAAUAAAAAAAAAAAAIAAQAAAAAAAAAAAAIAAMAAAAAAAAAAAAIAAIAAAAAAAAAAAAIAAEAAAAAAAAAAAAHAP//DwAMAAAAAAAIAP//DwAMAAAAAAAJAP//DwAMAAAAAAAHAP3/DwAMAAAAAAAIAP3/DwAMAAAAAAAHAP7/DwAMAAAAAAAIAP7/DwAMAAAAAAAJAP7/DwAMAAAAAAAJAP3/DwAMAAAAAAAHAAYAAAAAAAAAAAAIAAYAAAAAAAAAAAAJAAYAAAAAAAAAAAAJAAcAAAAAAAAAAAAIAAcAAAAAAAAAAAAHAAcAAAAAAAAAAAAGAAcAAAAAAAAAAAABAAcAAAAAAAAAAAACAAcAAAAAAAAAAAADAAcAAAAAAAAAAAAEAAcAAAAAAAAAAAAFAAcAAAAAAAAAAAAJAAAADwALAAAAAAAJAAEAAAAAAAAAAAAJAAIAAAAAAAAAAAAJAAMAAAAAAAAAAAABAAgAAAAAAAAAAAACAAgAAAAAAAAAAAADAAgAAAAAAAAAAAAEAAgAAAAAAAAAAAAFAAgAAAAAAAAAAAAGAAgAAAAAAAAAAAAHAAgAAAAAAAAAAAAIAAgAAAAAAAAAAAAKAAEAAAAAAAAAAAAKAAIAAAAAAAAAAAAKAAMAAAAAAAAAAAAKAAQAAAAAAAAAAAAKAAUAAAAAAAAAAAAKAAYAAAAAAAAAAAAKAAcAAAAAAAAAAAAKAAgAAAAAAAAAAAAJAAgAAAAAAAAAAAABAAkAAAAAAAAAAAACAAkAAAAAAAAAAAADAAkAAAAAAAAAAAAEAAkAAAAAAAAAAAAFAAkAAAAAAAAAAAAGAAkAAAAAAAAAAAAHAAkAAAAAAAAAAAAIAAkAAAAAAAAAAAAJAAkAAAAAAAAAAAAKAAkAAAAAAAAAAAAKAP3/DwAMAAAAAAAKAP7/DwAMAAAAAAAKAP//DwAMAAAAAAAKAAAADwALAAAAAAD///3/DwAMAAAAAAD///7/DwAMAAAAAAD/////DwAMAAAAAAD//wAADwALAAAAAAD//wEAAAAAAAAAAAD//wIAAAAAAAAAAAD//wMAAAAAAAAAAAD//wQAAAAAAAAAAAD//wUAAAAAAAAAAAD//wYAAAAAAAAAAAD//wcAAAAAAAAAAAD//wgAAAAAAAAAAAD//wkAAAAAAAAAAAD+////DwAMAAEAAAD+/wAADwAMAAEAAAD+/wEADwANAAAAAAD+/wIAAAAAAAAAAAD+/wMAAAAAAAAAAAD+/wQADAADAAAAAAAAAP3/DwAMAAAAAAAAAP7/DwAMAAAAAAAAAP//DwAMAAAAAAAAAAAADwALAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAkAAAAAAAAAAAD+//3/AAADAAEAAAD+//7/DAAAAAAAAAA=")
+tile_set = ExtResource("2_5tvun")
+
+[node name="layer2" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAIAP7/DwACAAUAAAADAP7/DwABAAUAAAAEAP7/DwABAAUAAAAFAP7/DwABAAUAAAAGAP7/DwABAAUAAAAHAP7/DwABAAUAAAADAP//DwABAAYAAAAEAP//DwABAAYAAAAFAP//DwABAAYAAAAGAP//DwABAAYAAAAHAP//DwABAAYAAAAIAP//DwACAAYAAAAJAP7/DwAAAAcAAAAKAP7/DwABAAcAAAAJAP//DwAAAAgAAAAKAP//DwABAAgAAAAAAAAABwAEAAAAAAD///7/DwAAAAcAAAD/////DwAAAAgAAAAAAP7/DwABAAcAAAAAAP//DwABAAgAAAABAP7/DwAAAAUAAAABAP//DwAAAAYAAAACAP7/DwABAAUAAAACAP//DwABAAYAAAD//wAABwAEAAAAAAD+/wUADAAAAAEAAGD+//7/DAAAAAEAAGA=")
+tile_set = ExtResource("2_5tvun")
+
+[node name="layer1" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAHAP//DwAAAAQAAAAGAP//DwAEAAYAAAADAP7/DwAFAAYAAAABAAcADwAGAAUAAAAGAAcADwAGAAUAAAABAAgADwAIAAUAAAADAAgADwAIAAUAAAAIAAcADwAGAAUAAAADAAcADwAGAAUAAAABAAUADwAGAAUAAAADAAUADwAGAAUAAAAGAAUADwAGAAUAAAAIAAUADwAGAAUAAAAIAAYADwAJAAcAAAAHAAAADwAJAAUAAAAHAAEADwAGAAUAAAAJAAAABwAEAAAAAAAKAAAABwAEAAAAAAADAAYADwAJAAcAAAAGAAgADwAJAAcAAAAGAAYADwAJAAcAAAABAAYADwAIAAUAAAAIAAgADwAJAAcAAAA=")
+tile_set = ExtResource("2_5tvun")
+
+[node name="deco1" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAFAAkAAAAHAAQAAAA=")
+tile_set = ExtResource("2_5tvun")
+
+[node name="frame" type="TileMapLayer" parent="."]
+z_index = 2
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAACAPz/AAACAAEAAAADAPz/AAACAAEAAAAEAPz/AAACAAEAAAAFAPz/AAACAAEAAAAGAPz/AAACAAEAAAAHAPz/AAACAAEAAAAIAPz/AAACAAEAAAAJAPz/AAACAAEAAAACAAoAAAAAAAEAAAADAAoAAAAAAAEAAAAEAAoAAAAAAAEAAAAFAAoAAAAAAAEAAAAGAAoAAAAAAAEAAAAHAAoAAAAAAAEAAAAIAAoAAAAAAAEAAAAJAAoAAAAAAAEAAAAKAAoAAAAAAAEAAAALAAkAAAABAAEAAAALAAgAAAABAAEAAAALAAcAAAABAAEAAAALAAYAAAABAAEAAAALAAUAAAABAAEAAAALAAQAAAABAAEAAAALAAMAAAABAAEAAAALAAIAAAABAAEAAAALAAEAAAABAAEAAAALAAAAAAABAAEAAAALAP//AAABAAEAAAALAP7/AAABAAEAAAALAP3/AAABAAEAAAAKAPz/AAACAAEAAAALAPz/AAACAAIAAAALAAoAAAAAAAIAAAD///z/AAACAAEAAAD//woAAAAAAAEAAAAAAPz/AAACAAEAAAAAAAoAAAAAAAEAAAD+//z/AAADAAIAAAD+//3/AAADAAEAAAD+/wUAAAADAAEAAAD+/wYAAAADAAEAAAD+/wcAAAADAAEAAAD+/wgAAAADAAEAAAD+/wkAAAADAAEAAAD+/woAAAABAAIAAAABAAoAAAAAAAEAAAABAPz/AAACAAEAAAD+//7/DAAAAAEAAGD+////DAAAAAEAAGD+/wAADAAAAAEAAGD+/wEADAAAAAEAAGD+/wIADAAAAAEAAGD+/wMADAAAAAEAAGD+/wQADAAAAAEAAGD8//7/AAAGAAYAAAD8////AAAGAAYAAAD8/wAAAAAGAAYAAAD8/wEAAAAGAAYAAAD8/wIAAAAGAAYAAAD8/wMAAAAGAAYAAAD8/wQAAAAGAAYAAAD9/wQAAAAGAAYAAAD9//7/AAAGAAYAAAA=")
+tile_set = ExtResource("2_5tvun")
+
+[node name="Player" parent="." instance=ExtResource("3_nr6xq")]
+z_index = 1
+position = Vector2(-4, 97)
+
+[node name="Teacher" parent="." instance=ExtResource("8_ck4ar")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(179, 54)
+
+[node name="KidA" parent="." instance=ExtResource("4_j33lh")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(112, 198)
+
+[node name="KidB" parent="." instance=ExtResource("4_j33lh")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(208, 262)
+
+[node name="KidC" parent="." instance=ExtResource("4_j33lh")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(272, 198)
+
+[node name="KidD" parent="." instance=ExtResource("4_j33lh")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(209, 198)
+
+[node name="Carrot" parent="." instance=ExtResource("4_j33lh")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(272, 262)
+
+[node name="StudentA_area" type="Area2D" parent="."]
+position = Vector2(405, 70)
+
+[node name="StudentA_area" type="CollisionShape2D" parent="StudentA_area"]
+position = Vector2(-293, 149.5)
+shape = SubResource("RectangleShape2D_7gin7")
+
+[node name="StudentC_area" type="Area2D" parent="."]
+position = Vector2(405, 70)
+
+[node name="StudentC_area" type="CollisionShape2D" parent="StudentC_area"]
+position = Vector2(-134, 211.5)
+shape = SubResource("RectangleShape2D_1msh4")
+
+[node name="StudentB_area" type="Area2D" parent="."]
+position = Vector2(652, 86)
+
+[node name="StudentB_area" type="CollisionShape2D" parent="StudentB_area"]
+position = Vector2(-410, 135)
+shape = SubResource("RectangleShape2D_ideii")
+
+[node name="Teacher_area" type="Area2D" parent="."]
+z_index = 1
+position = Vector2(180, 57)
+
+[node name="Teacher_area" type="CollisionShape2D" parent="Teacher_area"]
+shape = SubResource("CircleShape2D_p83w5")
+
+[node name="Area2D" type="Area2D" parent="."]
+z_index = 1
+position = Vector2(-67, -323)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(127, 264)
+polygon = PackedVector2Array(-37, -128, 16, -124, 6, 218, -181, 239, -180, 186, -40, 180)
+
+[node name="SceneTrigger" parent="." instance=ExtResource("7_ur1ni")]
+position = Vector2(-1086, -882)
+connected_scene = "stage_1"
+need_press = "no"
+
+[node name="stage_1" type="CollisionShape2D" parent="SceneTrigger"]
+z_index = 1
+position = Vector2(521, 483.5)
+shape = SubResource("RectangleShape2D_4whw6")
+
+[node name="AfterAttack" type="Marker2D" parent="."]
+position = Vector2(179, 94)
+
+[node name="TeacherBack" type="Marker2D" parent="."]
+position = Vector2(7, 92)
+
+[node name="A" type="Marker2D" parent="."]
+position = Vector2(48, 212)
+
+[node name="B" type="Marker2D" parent="."]
+position = Vector2(48, 276)
+
+[node name="C" type="Marker2D" parent="."]
+position = Vector2(112, 276)
+
+[node name="Aarea" type="Area2D" parent="."]
+position = Vector2(43, 183)
+
+[node name="Aarea" type="CollisionShape2D" parent="Aarea"]
+position = Vector2(-15, 15)
+shape = SubResource("CircleShape2D_bcpcu")
+
+[node name="Barea" type="Area2D" parent="."]
+position = Vector2(43, 274)
+
+[node name="Barea" type="CollisionShape2D" parent="Barea"]
+position = Vector2(-18, 4)
+shape = SubResource("CircleShape2D_bcpcu")
+
+[node name="Carea" type="Area2D" parent="."]
+position = Vector2(76, 274)
+
+[node name="Carea" type="CollisionShape2D" parent="Carea"]
+position = Vector2(49, 9)
+shape = SubResource("CircleShape2D_bcpcu")
+
+[node name="InFrontOfTableA" type="Area2D" parent="."]
+z_index = 2
+position = Vector2(-624, -501)
+
+[node name="InFrontOfTableA" type="CollisionShape2D" parent="InFrontOfTableA"]
+position = Vector2(736, 673.75)
+shape = SubResource("RectangleShape2D_yn32f")
+
+[node name="InFrontOfTableB" type="Area2D" parent="."]
+z_index = 2
+position = Vector2(-268, -190)
+
+[node name="InFrontOfTableB" type="CollisionShape2D" parent="InFrontOfTableB"]
+position = Vector2(507, 361.875)
+shape = SubResource("RectangleShape2D_yn32f")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+z_index = 3
+offset_left = 10000.0
+offset_top = -14.0
+offset_right = 10011.0
+offset_bottom = -4.0
+texture = ExtResource("9_15gg7")
+expand_mode = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="TextureRect"]
+root_node = NodePath("../..")
+libraries = {
+&"": SubResource("AnimationLibrary_xm2lr")
+}
+
+[node name="Control" parent="." instance=ExtResource("6_o4kxb")]
+offset_left = 103.0
+offset_top = 73.0
+offset_right = 103.0
+offset_bottom = 73.0
+
+[node name="Dialogue" parent="." instance=ExtResource("5_ffuj5")]
+position = Vector2(99, 79)
+
+[connection signal="body_entered" from="StudentA_area" to="." method="_on_student_a_area_body_entered"]
+[connection signal="body_exited" from="StudentA_area" to="." method="_on_student_a_area_body_exited"]
+[connection signal="body_entered" from="StudentC_area" to="." method="_on_student_c_area_body_entered"]
+[connection signal="body_exited" from="StudentC_area" to="." method="_on_student_c_area_body_exited"]
+[connection signal="body_entered" from="StudentB_area" to="." method="_on_student_b_area_body_entered"]
+[connection signal="body_exited" from="StudentB_area" to="." method="_on_student_b_area_body_exited"]
+[connection signal="body_entered" from="Teacher_area" to="." method="_on_teacher_area_body_entered"]
+[connection signal="body_exited" from="Teacher_area" to="." method="_on_teacher_area_body_exited"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Aarea" to="." method="_on_aarea_body_entered"]
+[connection signal="body_exited" from="Aarea" to="." method="_on_aarea_body_exited"]
+[connection signal="body_entered" from="Barea" to="." method="_on_barea_body_entered"]
+[connection signal="body_exited" from="Barea" to="." method="_on_barea_body_exited"]
+[connection signal="body_entered" from="Carea" to="." method="_on_carea_body_entered"]
+[connection signal="body_exited" from="Carea" to="." method="_on_carea_body_exited"]
+[connection signal="body_entered" from="InFrontOfTableA" to="." method="_on_in_front_of_table_a_body_entered"]
+[connection signal="body_exited" from="InFrontOfTableA" to="." method="_on_in_front_of_table_a_body_exited"]
+[connection signal="body_entered" from="InFrontOfTableB" to="." method="_on_in_front_of_table_b_body_entered"]
+[connection signal="body_exited" from="InFrontOfTableB" to="." method="_on_in_front_of_table_b_body_exited"]

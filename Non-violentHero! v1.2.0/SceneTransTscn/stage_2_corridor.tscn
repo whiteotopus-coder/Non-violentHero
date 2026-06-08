@@ -1,0 +1,103 @@
+[gd_scene load_steps=12 format=4 uid="uid://ua5dwu4mxad"]
+
+[ext_resource type="Script" uid="uid://cfyaebhfrctmf" path="res://SceneTransTscn/stage_2_corridor.gd" id="1_jp6u7"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="2_dm7dv"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="3_l1asm"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="4_ahtok"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="5_o7156"]
+[ext_resource type="PackedScene" uid="uid://dqn7uh3amwhsy" path="res://Scene/Stage2/mummy.tscn" id="6_tb63v"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="7_0noma"]
+[ext_resource type="Texture2D" uid="uid://c0k35elypf41w" path="res://Images/UI/door.png" id="8_prb32"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mg4op"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4itf8"]
+size = Vector2(7.75, 7.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mg4op"]
+size = Vector2(32, 58)
+
+[node name="Stage2" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_jp6u7")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1832.0
+offset_top = -1929.0
+offset_right = 2587.0
+offset_bottom = 2136.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_mg4op")
+
+[node name="ground" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAACAAAADgAGAAgAAAACAAEADgAGAAgAAAACAAIADgAFAAgAAAACAAMADgAGAAkAAAABAAMADgAFAAcAAAABAAEADgAGAAcAAAABAAIADgAGAAcAAAADAAIADgAFAAgAAAADAAEADgAGAAgAAAADAAAADgAGAAgAAAADAAMADgAGAAkAAAAEAAAADgAGAAgAAAAEAAIADgAFAAgAAAAEAAMADgAGAAkAAAAFAAAADgAGAAgAAAAFAAEADgAGAAgAAAAFAAIADgAFAAgAAAAFAAMADgAGAAkAAAAGAAAADgAGAAgAAAAGAAEADgAGAAgAAAAGAAIADgAFAAgAAAAGAAMADgAGAAkAAAABAAQADgAGAAkAAAACAAQADgAGAAkAAAACAAUADgAGAAkAAAACAAYADgAGAAkAAAADAAQADgAGAAkAAAADAAUADgAGAAkAAAADAAYADgAGAAkAAAAEAAQADgAGAAkAAAAEAAUADgAGAAkAAAAEAAYADgAGAAkAAAAFAAQADgAGAAkAAAAFAAYADgAGAAkAAAAGAAQADgAEAAUAAAAGAAYADgAJAAkAAAAEAAEADgAGAAgAAAAFAAUADgAGAAkAAAAGAAUADgAEAAQAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="deco0" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAADAAEADgACAAMAAAABAAQADgAJAAAAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="frame" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAABAP//AAADAAIAAAABAAAADAAAAAAAAAABAAUADAADAAAAAAABAAYAAAADAAEAAAABAAcAAAABAAIAAAACAP//AAACAAEAAAACAAcAAAAAAAEAAAADAP//AAACAAEAAAADAAcAAAAAAAEAAAAEAP//AAACAAEAAAAEAAcAAAAAAAEAAAAFAP//AAACAAEAAAAFAAcAAAAAAAEAAAAGAP//AAACAAEAAAAGAAcAAAAAAAEAAAAHAP//AAACAAIAAAAHAAAAAAABAAEAAAAHAAEAAAABAAEAAAAHAAIAAAABAAEAAAAHAAMAAAABAAEAAAAHAAQAAAABAAEAAAAHAAUAAAABAAEAAAAHAAYAAAABAAEAAAAHAAcAAAAAAAIAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="shadow" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAABAAAADAAAAAEAAGABAAEADAAAAAEAAGABAAIADAAAAAEAAGABAAMADAAAAAEAAGABAAQADAAAAAEAAGABAAUADAAAAAEAAGAAAAAADAABAAMAAAAAAAEADAABAAMAAAAAAAIADAABAAMAAAAAAAMADAABAAMAAAAAAAQADAABAAMAAAAAAAUADAABAAMAAAA=")
+tile_set = ExtResource("2_dm7dv")
+
+[node name="Player" parent="." instance=ExtResource("3_l1asm")]
+z_index = 1
+position = Vector2(207, 112)
+
+[node name="SceneTrigger" parent="." instance=ExtResource("5_o7156")]
+position = Vector2(-1131, -1951)
+connected_scene = "stage_2"
+need_press = "no"
+
+[node name="Exit" type="CollisionShape2D" parent="SceneTrigger"]
+z_index = 1
+position = Vector2(670.75, 1079.75)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_4itf8")
+
+[node name="stage_2_corridor" type="Marker2D" parent="."]
+position = Vector2(95, 134)
+
+[node name="mummy" parent="." instance=ExtResource("6_tb63v")]
+z_index = 1
+position = Vector2(88, 124)
+
+[node name="beforein" type="Area2D" parent="."]
+z_index = 2
+position = Vector2(38, 75)
+
+[node name="beforein" type="CollisionShape2D" parent="beforein"]
+position = Vector2(18, 56)
+shape = SubResource("RectangleShape2D_mg4op")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+z_index = 2
+offset_left = 16.0
+offset_top = 11.0
+offset_right = 56.0
+offset_bottom = 51.0
+scale = Vector2(2, 2)
+texture = ExtResource("8_prb32")
+
+[node name="Control" parent="." instance=ExtResource("4_ahtok")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Dialogue" parent="." instance=ExtResource("7_0noma")]
+position = Vector2(1379, 135)
+
+[connection signal="body_entered" from="beforein" to="." method="_on_beforein_body_entered"]
+[connection signal="body_exited" from="beforein" to="." method="_on_beforein_body_exited"]

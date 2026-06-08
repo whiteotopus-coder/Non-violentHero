@@ -1,0 +1,163 @@
+[gd_scene load_steps=15 format=4 uid="uid://bfntp6583btxx"]
+
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="1_hly61"]
+[ext_resource type="Script" uid="uid://bvou24ebtaeos" path="res://SceneTransTscn/garrett_house.gd" id="1_mk3yq"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="2_1q7en"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="2_mk3yq"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="3_mk3yq"]
+[ext_resource type="PackedScene" uid="uid://bet7m73nhr6gx" path="res://Scene/Stage1/Carrot.tscn" id="3_q4gk7"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="4_q4gk7"]
+[ext_resource type="Texture2D" uid="uid://b88nbt5rs3qy2" path="res://Images/UI/prompt.png" id="5_a82ew"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a82ew"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Animation" id="Animation_5lxpp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(443, -75)]
+}
+
+[sub_resource type="Animation" id="Animation_ijcte"]
+resource_name = "grave"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.16),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(443, -75), Vector2(443, -73)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_61kkm"]
+_data = {
+&"RESET": SubResource("Animation_5lxpp"),
+&"grave": SubResource("Animation_ijcte")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ijcte"]
+size = Vector2(18, 2.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q4gk7"]
+size = Vector2(75, 31)
+
+[node name="GarrettHouse" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_mk3yq")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1376.0
+offset_top = -1424.0
+offset_right = 2229.0
+offset_bottom = 1775.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_a82ew")
+
+[node name="ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAGAAUAAAABAAAAAAAGAAQAAAABAAAAAAAGAAMAAAABAAAAAAAHAAMABwAZAAAAABAHAAQABwAZAAAAABAHAAUABwAZAAAAABAIAAMABwAZAAAAAAAIAAQABwAZAAAAAAAIAAUABwAZAAAAAAAJAAUAAAABAAAAAAAKAAUAAAAIAAIAAAALAAUAAAAIAAIAAAALAAQAAAAIAAIAAAALAAMAAAABAAAAAAAJAAMAAAABAAAAAAAJAAQAAAABAAAAAAAKAAQAAAAIAAIAAAAKAAMAAAABAAAAAAAHAAYABwAVAAAAAAAIAAYABwAVAAAAAAAMAAMAAAABAAAAAAAMAAQAAAAIAAIAAAAMAAUAAAAIAAIAAAANAAUAAAAIAAIAAAANAAQAAAAIAAIAAAANAAMAAAABAAAAAAAOAAMAAAABAAAAAAAPAAMAAAABAAAAAAAPAAQAAAABAAAAAAAPAAUAAAABAAAAAAAGAPz/BwAFAAcAAAAGAP3/BwAFAAcAAAAGAP7/BwAEAAcAAAAGAP//BwAVAAAAAAAGAAAABwAVAAAAAAAGAAEABwAVAAAAAAAGAAIABwAYAAAAAAAHAPz/BwAFAAcAAAAHAP3/BwAFAAcAAAAHAP7/BwAEAAcAAAAHAP//BwAVAAAAAAAHAAAABwAVAAAAAAAHAAEABwAVAAAAAAAIAPz/BwAFAAcAAAAIAP3/BwAFAAcAAAAIAP7/BwAEAAcAAAAIAP//BwAVAAAAAAAIAAAABwAVAAAAAAAIAAEABwAVAAAAAAAIAAIABwAaAAAAAAAJAPz/BwAFAAcAAAAJAP3/BwAFAAcAAAAJAP7/BwAEAAcAAAAJAP//BwAVAAAAAAAJAAAABwAVAAAAAAAJAAEABwAVAAAAAAAJAAIABwAYAAAAAAAKAPz/BwAFAAcAAAAKAP3/BwAFAAcAAAAKAP7/BwAEAAcAAAAKAP//BwAVAAAAAAAKAAAABwAVAAAAAAAKAAEABwAVAAAAAAAKAAIABwAYAAAAAAALAPz/BwAFAAcAAAALAP3/BwAFAAcAAAALAP7/BwAEAAcAAAALAP//BwAVAAAAAAALAAAABwAVAAAAAAALAAEABwAVAAAAAAALAAIABwAYAAAAAAAMAPz/BwAFAAcAAAAMAP3/BwAFAAcAAAAMAP7/BwAEAAcAAAAMAP//BwAZAAAAAAAMAAAABwAZAAAAAAAMAAEABwAVAAAAAAAMAAIABwAYAAAAAAANAPz/BwAFAAcAAAANAP3/BwAFAAcAAAANAP7/BwAEAAcAAAANAP//AAABAAAAAAANAAAAAAABAAAAAAANAAEABwAVAAAAAAANAAIABwAYAAAAAAAOAPz/BwAFAAcAAAAOAP3/BwAFAAcAAAAOAP7/BwAEAAcAAAAOAAIABwAYAAAAAAAPAPz/BwAFAAcAAAAPAP3/BwAFAAcAAAAPAP7/BwAEAAcAAAAPAP//BwAZAAAAABAPAAAABwAZAAAAABAPAAEABwAVAAAAAAAPAAIABwAYAAAAAAAOAP//AAABAAAAAAAOAAAAAAABAAAAAAAOAAEABwAVAAAAAAAHAAIABwAaAAAAABAOAAUAAAAIAAIAAAAOAAQAAAAIAAIAAAA=")
+tile_set = ExtResource("1_hly61")
+rendering_quadrant_size = 64
+
+[node name="deco" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAKAAMABwAMAAYAAAAPAAQABwAAAAAAAAAGAAQABwAAAAAAAAAGAAMABwAPAAQAAAALAAMABwAQAAYAAAAPAAMABwAQAAYAAAAJAAMABwAPAAQAAAAJAAQABwAAAAAAAAAOAAMABwAQAAcAAAAHAP3/BwAYAAIAAAAMAP3/BwAXAAIAAAAMAAQABwATAAQAAAAKAP3/BwAGAAQAAAAPAP7/BwAPAAQAAAANAP//BwAYAAEAAAAOAP//BwAYAAEAAAA=")
+tile_set = ExtResource("1_hly61")
+
+[node name="block" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAKAAMAAAAIAAEAAAALAAMAAAAIAAEAAAAMAAMAAAAIAAEAAAAJAAUAAAAIAAEAAAAGAAQAAAAIAAEAAAAGAAUAAAAIAAEAAAAGAAMAAAAIAAEAAAAGAAAABwAZAAEAAAAHAAAABwAZAAEAAAAIAAAABwAZAAEAAAAJAAAABwAZAAEAAAANAAMAAAAIAAEAAAAOAAMAAAAIAAEAAAAPAAMAAAAIAAEAAAAJAAMAAAAIAAEAAAAJAAQAAAAIAAEAAAAGAAEABwAAAAIAAAAOAP//AAAIAAEAAAANAP//AAAIAAEAAAA=")
+tile_set = ExtResource("1_hly61")
+
+[node name="grave" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAKAAMAAAAIAAEAAAALAAMAAAAIAAEAAAAMAAMAAAAIAAEAAAAJAAUAAAAIAAEAAAAGAAQAAAAIAAEAAAAGAAUAAAAIAAEAAAAGAAMAAAAIAAEAAAAGAAAABwAZAAEAAAAHAAAABwAZAAEAAAAIAAAABwAZAAEAAAAJAAAABwAZAAEAAAANAAMAAAAIAAEAAAAOAAMAAAAIAAEAAAAPAAMAAAAIAAEAAAAJAAMAAAAIAAEAAAAJAAQAAAAIAAEAAAAGAAEABwAAAAIAAAANAP//AAAIAAEAAAA=")
+tile_set = ExtResource("1_hly61")
+
+[node name="frame" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAFAAMAAAADAAEAAAAFAAQAAAADAAEAAAAFAAUAAAADAAEAAAAFAAYAAAABAAIAAAAGAAYADAADAAAAAAAJAAYADAACAAAAAAAKAAYAAAAAAAEAAAALAAYAAAAAAAEAAAAMAAYAAAAAAAEAAAANAAYAAAAAAAEAAAAOAAYAAAAAAAEAAAAPAAYAAAAAAAEAAAAQAAMAAAABAAEAAAAQAAQAAAABAAEAAAAQAAUAAAABAAEAAAAQAAYAAAAAAAIAAAAFAPv/AAADAAIAAAAFAPz/AAADAAEAAAAFAP3/AAADAAEAAAAFAP7/AAADAAEAAAAFAP//AAADAAEAAAAFAAAAAAADAAEAAAAFAAEAAAADAAEAAAAFAAIAAAADAAEAAAAGAPv/AAACAAEAAAAHAPv/AAACAAEAAAAIAPv/AAACAAEAAAAJAPv/AAACAAEAAAAKAPv/AAACAAEAAAALAPv/AAACAAEAAAAMAPv/AAACAAEAAAANAPv/AAACAAEAAAAOAPv/AAACAAEAAAAPAPv/AAACAAEAAAAQAPv/AAACAAIAAAAQAPz/AAABAAEAAAAQAP3/AAABAAEAAAAQAP7/AAABAAEAAAAQAP//AAABAAEAAAAQAAAAAAABAAEAAAAQAAEAAAABAAEAAAAQAAIAAAABAAEAAAA=")
+tile_set = ExtResource("1_hly61")
+rendering_quadrant_size = 64
+
+[node name="shadow" type="TileMapLayer" parent="."]
+z_index = 2
+tile_map_data = PackedByteArray("AAAFAAYADAAAAAEAADAGAAYADAAAAAEAADAHAAYADAAAAAEAADAIAAYADAAAAAEAADAJAAYADAAAAAEAADAKAAYADAAAAAEAADAFAAcADAABAAMAAAAGAAcADAABAAMAAAAHAAcADAABAAMAAAAIAAcADAABAAMAAAAJAAcADAABAAMAAAAKAAcADAABAAMAAAALAAcADAABAAMAAAA=")
+tile_set = ExtResource("1_hly61")
+
+[node name="Carrot" parent="." instance=ExtResource("3_q4gk7")]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(296, -34)
+
+[node name="PosCarrot" type="Marker2D" parent="."]
+position = Vector2(448, 1)
+
+[node name="Chat" type="TextureRect" parent="."]
+visible = false
+z_index = 1
+texture_filter = 1
+offset_left = 443.0
+offset_top = -75.0
+offset_right = 483.0
+offset_bottom = -35.0
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("5_a82ew")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Chat")
+libraries = {
+&"": SubResource("AnimationLibrary_61kkm")
+}
+
+[node name="SceneTrigger" parent="." instance=ExtResource("2_1q7en")]
+position = Vector2(334, 2262)
+connected_scene = "tilemap"
+need_press = "no"
+
+[node name="Exit" type="CollisionShape2D" parent="SceneTrigger"]
+position = Vector2(-38.5, -1023.25)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_ijcte")
+
+[node name="Grave" type="Area2D" parent="."]
+
+[node name="GraveCollision" type="CollisionShape2D" parent="Grave"]
+position = Vector2(447.5, 23.5)
+shape = SubResource("RectangleShape2D_q4gk7")
+
+[node name="Control" parent="." instance=ExtResource("4_q4gk7")]
+
+[node name="Dialogue" parent="." instance=ExtResource("3_mk3yq")]
+position = Vector2(-588, -885)
+
+[node name="Player" parent="." instance=ExtResource("2_mk3yq")]
+z_index = 1
+position = Vector2(256, 182)
+
+[connection signal="body_entered" from="Grave" to="." method="_on_grave_body_entered"]
+[connection signal="body_exited" from="Grave" to="." method="_on_grave_body_exited"]
+
+[editable path="Player"]

@@ -1,0 +1,103 @@
+[gd_scene load_steps=13 format=4 uid="uid://dupjhyeo6rreq"]
+
+[ext_resource type="Script" uid="uid://ctwilc3bp34re" path="res://SceneTransTscn/cave.gd" id="1_7ow77"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="1_eup41"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="2_hlhse"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="3_n3qgr"]
+[ext_resource type="PackedScene" uid="uid://6gwf345127hk" path="res://Scene/Cave/demon.tscn" id="3_yfccj"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="4_hnmxk"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="4_hq1td"]
+[ext_resource type="PackedScene" uid="uid://donjgk6px1h5k" path="res://Scene/Cave/princess.tscn" id="4_lc4db"]
+[ext_resource type="PackedScene" uid="uid://b24lao6jhdp41" path="res://Scene/Castle/king.tscn" id="6_o7c0y"]
+[ext_resource type="PackedScene" uid="uid://xchyo1bsbki3" path="res://Scene/Stage2/otaku.tscn" id="10_uyayh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uyayh"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r50vq"]
+size = Vector2(59, 17.5)
+
+[node name="Cave" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_7ow77")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1080.0
+offset_top = -1232.0
+offset_right = 1060.0
+offset_bottom = 1209.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_uyayh")
+
+[node name="ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAAAAAAAAADAAMAAAD//wAAAAADAAMAAAD/////AAADAAMAAAD//wEAAAADAAMAAAAAAAEAAAADAAMAAAD+/wAAAAADAAMAAAD9/wAAAAADAAMAAAD9////AAADAAMAAAD8//7/AAADAAMAAAD9//3/AAADAAMAAAAEAP3/AAADAAMAAAAFAP3/AAADAAMAAAAFAP7/AAADAAMAAAAFAP//AAADAAMAAAAEAP//AAADAAMAAAAEAAAAAAADAAMAAAADAAAAAAADAAMAAAACAAAAAAADAAMAAAABAAAAAAADAAMAAAD8/wAAAAADAAMAAAD8////AAADAAMAAAD9//7/AAADAAMAAAD+//7/AAADAAMAAAD///7/AAADAAMAAAAAAP3/AAADAAMAAAABAP3/AAADAAMAAAAAAP7/AAADAAMAAAD///3/AAADAAMAAAABAP//AAADAAMAAAD+////AAADAAMAAAACAP3/AAADAAMAAAADAP3/AAADAAMAAAADAP7/AAADAAMAAAACAP7/AAADAAMAAAABAP7/AAADAAMAAAAEAP7/AAADAAMAAAADAP//AAADAAMAAAACAP//AAADAAMAAAD+//3/AAADAAMAAAAFAAAAAAADAAMAAAD3/+z/AAADAAEAAAD7/wEAAAAAAAEAAAD8/wEAAAAAAAEAAAD9/wEAAAAAAAEAAAD+/wEADAADAAAAAAABAAEADAACAAAAAAACAAEAAAAAAAEAAAADAAEAAAAAAAEAAAAEAAEAAAAAAAEAAAAFAAEAAAAAAAEAAAAGAPn/AAADAAMAAAAMAOn/AAACAAIAAAAAAP//AAADAAMAAAD8//3/AAADAAMAAAD7/wAAAAADAAMAAAD7////AAADAAMAAAD7//7/AAADAAMAAAD7//3/AAADAAMAAAD7//z/AAADAAMAAAD7//v/AAADAAMAAAD7//r/AAADAAMAAAD8//r/AAADAAMAAAD9//r/AAADAAMAAAD+//r/AAADAAMAAAD///r/AAADAAMAAAAAAPr/AAADAAMAAAABAPr/AAADAAMAAAACAPv/AAADAAMAAAADAPv/AAADAAMAAAAEAPv/AAADAAMAAAAFAPv/AAADAAMAAAAGAPv/AAADAAMAAAAGAPz/AAADAAMAAAAGAP3/AAADAAMAAAAGAP7/AAADAAMAAAAGAP//AAADAAMAAAAGAAAAAAADAAMAAAAFAPz/AAADAAMAAAAFAPr/AAADAAMAAAAGAPr/AAADAAMAAAAEAPr/AAADAAMAAAADAPr/AAADAAMAAAACAPr/AAADAAMAAAABAPv/AAADAAMAAAAEAPz/AAADAAMAAAADAPz/AAADAAMAAAACAPz/AAADAAMAAAABAPz/AAADAAMAAAAAAPz/AAADAAMAAAD///z/AAADAAMAAAD+//z/AAADAAMAAAD9//z/AAADAAMAAAD8//z/AAADAAMAAAD8//v/AAADAAMAAAD9//v/AAADAAMAAAD+//v/AAADAAMAAAD///v/AAADAAMAAAAAAPv/AAADAAMAAAAFAPn/AAADAAMAAAAEAPn/AAADAAMAAAADAPn/AAADAAMAAAACAPn/AAADAAMAAAABAPn/AAADAAMAAAAAAPn/AAADAAMAAAD///n/AAADAAMAAAD+//n/AAADAAMAAAD9//n/AAADAAMAAAD8//n/AAADAAMAAAD7//n/AAADAAMAAAD6/wAAAAADAAMAAAD6////AAADAAMAAAD6//7/AAADAAMAAAD6//3/AAADAAMAAAD6//z/AAADAAMAAAD6//v/AAADAAMAAAD6//r/AAADAAMAAAD6//n/AAADAAMAAAAHAAAADAACAAAAAAAHAP//AAADAAMAAAAHAP7/AAADAAMAAAAHAP3/AAADAAMAAAAHAPz/AAADAAMAAAAHAPv/DwAEAAMAAAAHAPr/DwADAAMAAAAHAPn/DwADAAMAAAAHAPj/DAABAAAAAAAHAPf/AAABAAEAAAAHAPb/AAABAAEAAAAGAPX/AAACAAEAAAAFAPX/AAACAAEAAAAEAPX/AAACAAEAAAADAPX/AAACAAEAAAACAPX/AAACAAEAAAABAPX/AAACAAEAAAAAAPX/AAACAAEAAAD///X/AAACAAEAAAD+//X/AAACAAEAAAD9//X/AAACAAEAAAD8//X/AAACAAEAAAD7//X/AAACAAEAAAD6//X/AAACAAEAAAD5//b/AAADAAEAAAD5//f/DAAAAAAAAAD5//j/DwADAAMAAAD5//n/DwADAAMAAAD5//r/DwAEAAMAAAD5//v/AAADAAMAAAD5//z/AAADAAMAAAD5//3/AAADAAMAAAD5/wAAAAADAAEAAAD5////DAADAAAAAAD5//7/AAADAAMAAAD6/wEAAAAAAAEAAAAHAAEAAAAAAAIAAAD5/wEAAAABAAIAAAAGAAEAAAAAAAEAAAD6//j/DwAEAAMAAAD7//j/DwAEAAMAAAD8//j/DwAEAAMAAAD9//j/DwAEAAMAAAD+//j/DwAEAAMAAAD///j/DwAEAAMAAAAAAPj/DwAEAAMAAAABAPj/DwAEAAMAAAACAPj/DwAEAAMAAAADAPj/DwAEAAMAAAAEAPj/DwAEAAMAAAAFAPj/DwAEAAMAAAAGAPj/DwAEAAMAAAD6//f/DwADAAMAAAD6//b/DwADAAMAAAD7//b/DwADAAMAAAD7//f/DwADAAMAAAD8//f/DwADAAMAAAD8//b/DwADAAMAAAD9//b/DwADAAMAAAD+//b/DwADAAMAAAD+//f/DwADAAMAAAD///f/DwADAAMAAAAAAPf/DwADAAMAAAABAPf/DwADAAMAAAD9//f/DwADAAMAAAD///b/DwADAAMAAAAAAPb/DwADAAMAAAABAPb/DwADAAMAAAACAPb/DwADAAMAAAADAPb/DwADAAMAAAAEAPb/DwADAAMAAAAFAPb/DwADAAMAAAAFAPf/DwADAAMAAAAGAPf/DwADAAMAAAAEAPf/DwADAAMAAAADAPf/DwADAAMAAAACAPf/DwADAAMAAAAGAPb/DwADAAMAAAD5//X/AAADAAIAAAAHAPX/AAACAAIAAAAIAP3/AAADAAMAAAAIAP7/AAADAAMAAAAJAP7/AAABAAEAAAAJAP3/AAABAAEAAAD4//7/AAADAAEAAAD4//3/AAADAAEAAAD4//z/AAADAAEAAAD4//v/AAADAAEAAAD4//r/AAADAAEAAAD4////AAABAAIAAAAJAP//AAAAAAIAAAAIAAAAAAAAAAIAAAAIAPz/DwAEAAMAAAAIAP//DAACAAAAAAD4//n/AAADAAEAAAAIAPv/DwADAAMAAAAJAPz/AAABAAEAAAAIAPn/DAABAAAAAAAJAPr/AAABAAEAAAAIAPj/AAACAAIAAAAJAPn/AAACAAIAAAAJAPv/AAABAAEAAAD4//j/AAADAAEAAAD4//f/AAADAAIAAAAIAPr/DwADAAMAAAA=")
+tile_set = ExtResource("1_eup41")
+rendering_quadrant_size = 64
+
+[node name="Layer1" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+use_parent_material = true
+tile_map_data = PackedByteArray("AAADAPn/DwAFAAMAAAD+//3/DwABAAQAAAD7//7/DwABAAQAAAAFAAAADwABAAQAAAD6//r/DwABAAQAAAA=")
+tile_set = ExtResource("1_eup41")
+
+[node name="Layer2" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+use_parent_material = true
+tile_map_data = PackedByteArray("AAACAPr/DwAIAAMAAAADAPr/DwAIAAMAAAAEAPr/DwAIAAMAAAAFAPn/DwAIAAMAAAABAPn/DwAIAAMAAAD9//v/DwAJAAMAAAD7//z/DwAJAAMAAAADAPn/DwAIAAQAAAACAPn/DwAJAAQAAAAAAPr/DwAEAAQAAAD///n/DwADAAQAAAAFAPr/DwADAAQAAAABAPv/DwACAAQAAAD+/wEADAAAAAEAADD//wEADAAAAAEAADAAAAEADAAAAAEAADABAAEADAAAAAEAADABAAIADAAAAAEAABAAAAIADAAAAAEAABD//wIADAAAAAEAABD+/wIADAAAAAEAABA=")
+tile_set = ExtResource("1_eup41")
+
+[node name="Player" parent="." node_paths=PackedStringArray("endPoint") instance=ExtResource("2_hlhse")]
+z_index = 1
+position = Vector2(2, 19)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="Player"]
+position = Vector2(-49.75, -43.25)
+
+[node name="demon" parent="." node_paths=PackedStringArray("endPoint") instance=ExtResource("3_yfccj")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(156, -112)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="demon"]
+position = Vector2(-161, 76)
+
+[node name="Princess" parent="." node_paths=PackedStringArray("endPoint") instance=ExtResource("4_lc4db")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(67, -113)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="Princess"]
+position = Vector2(-18.5, 83.25)
+
+[node name="king" parent="." node_paths=PackedStringArray("endPoint") instance=ExtResource("6_o7c0y")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(0, 7)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="king"]
+position = Vector2(50, -2)
+
+[node name="SceneTrigger" parent="." instance=ExtResource("3_n3qgr")]
+position = Vector2(-1295, 183)
+connected_scene = "tilemap"
+need_press = "no"
+
+[node name="Exit" type="CollisionShape2D" parent="SceneTrigger"]
+position = Vector2(645.5, -54.75)
+shape = SubResource("RectangleShape2D_r50vq")
+
+[node name="otaku" parent="." instance=ExtResource("10_uyayh")]
+z_index = 2
+
+[node name="Control" parent="." instance=ExtResource("4_hq1td")]
+
+[node name="Dialogue" parent="." instance=ExtResource("4_hnmxk")]
+
+[editable path="Player"]

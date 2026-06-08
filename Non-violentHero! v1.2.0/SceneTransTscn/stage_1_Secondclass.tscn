@@ -1,0 +1,290 @@
+[gd_scene load_steps=21 format=4 uid="uid://dhmmuw6yuan5c"]
+
+[ext_resource type="Script" uid="uid://bswtghism273p" path="res://SceneTransTscn/stage_1_Secondclass.gd" id="1_r7agl"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Others/new_tile_set.tres" id="2_ipc45"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Others/player.tscn" id="4_ik11t"]
+[ext_resource type="PackedScene" uid="uid://cbsds1ntg8k5g" path="res://Scene/Stage1/kid_class.tscn" id="7_5jcfc"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="7_n54e8"]
+[ext_resource type="Texture2D" uid="uid://b88nbt5rs3qy2" path="res://Images/UI/prompt.png" id="8_c18p2"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="8_j5wfp"]
+[ext_resource type="PackedScene" uid="uid://kcpvdw3boou7" path="res://Scene/SceneTransition/scene_trigger.tscn" id="9_cot5f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j3wvv"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ttppq"]
+size = Vector2(43, 9.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5owx7"]
+radius = 29.6142
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uvfxs"]
+size = Vector2(63, 9)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ownqt"]
+radius = 31.0644
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4whw6"]
+size = Vector2(14.5, 48)
+
+[sub_resource type="Animation" id="Animation_lqjf4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(182, -11)]
+}
+
+[sub_resource type="Animation" id="Animation_ypic6"]
+resource_name = "chair_board"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.23),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(77, -3), Vector2(77, -1)]
+}
+
+[sub_resource type="Animation" id="Animation_3t447"]
+resource_name = "chair_left"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.29),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(45, 155), Vector2(45, 157)]
+}
+
+[sub_resource type="Animation" id="Animation_7hbbs"]
+resource_name = "chair_lonely"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(269, 221), Vector2(269, 223)]
+}
+
+[sub_resource type="Animation" id="Animation_yuesx"]
+resource_name = "chair_teacher"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(269, 31), Vector2(269, 33)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_83hix"]
+_data = {
+&"RESET": SubResource("Animation_lqjf4"),
+&"chair_board": SubResource("Animation_ypic6"),
+&"chair_left": SubResource("Animation_3t447"),
+&"chair_lonely": SubResource("Animation_7hbbs"),
+&"chair_teacher": SubResource("Animation_yuesx")
+}
+
+[node name="stage_1_Secondclass" type="Node2D"]
+y_sort_enabled = true
+texture_filter = 1
+script = ExtResource("1_r7agl")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = -1081.0
+offset_top = -883.0
+offset_right = 1400.0
+offset_bottom = 1262.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_j3wvv")
+
+[node name="ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAABAAAADwALAAAAAAABAAEAAAAAAAAAAAACAAEAAAAAAAAAAAADAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAEAAMAAAAAAAAAAAAFAAMAAAAAAAAAAAAFAAQAAAAAAAAAAAAFAAUAAAAAAAAAAAAEAAUAAAAAAAAAAAADAAUAAAAAAAAAAAADAAQAAAAAAAAAAAACAAQAAAAAAAAAAAABAAQAAAAAAAAAAAABAAMAAAAAAAAAAAACAAIAAAAAAAAAAAADAAMAAAAAAAAAAAACAAUAAAAAAAAAAAACAAMAAAAAAAAAAAAEAAQAAAAAAAAAAAABAAIAAAAAAAAAAAABAAUAAAAAAAAAAAACAAAADwALAAAAAAADAAAADwALAAAAAAAEAAAADwALAAAAAAAFAAAADwALAAAAAAAFAAEAAAAAAAAAAAAFAAIAAAAAAAAAAAADAAEAAAAAAAAAAAAEAAEAAAAAAAAAAAABAAYAAAAAAAAAAAAEAAYAAAAAAAAAAAAFAAYAAAAAAAAAAAAGAAUAAAAAAAAAAAAGAAQAAAAAAAAAAAAGAAMAAAAAAAAAAAAGAAIAAAAAAAAAAAAGAAEAAAAAAAAAAAAGAAAADwALAAAAAAABAP//DwAMAAAAAAACAP//DwAMAAAAAAADAP//DwAMAAAAAAAEAP//DwAMAAAAAAAFAP//DwAMAAAAAAAGAP//DwAMAAAAAAAGAAYAAAAAAAAAAAACAAYAAAAAAAAAAAADAAYAAAAAAAAAAAABAP3/DwAMAAAAAAACAP3/DwAMAAAAAAADAP3/DwAMAAAAAAAEAP3/DwAMAAAAAAAFAP3/DwAMAAAAAAAFAP7/DwAMAAAAAAAEAP7/DwAMAAAAAAADAP7/DwAMAAAAAAACAP7/DwAMAAAAAAABAP7/DwAMAAAAAAAGAP7/DwAMAAAAAAAGAP3/DwAMAAAAAAAHAAEAAAAAAAAAAAAHAAAADwALAAAAAAAHAAIAAAAAAAAAAAAHAAMAAAAAAAAAAAAHAAQAAAAAAAAAAAAHAAUAAAAAAAAAAAAIAAAADwALAAAAAAAJAAQAAAAAAAAAAAAJAAUAAAAAAAAAAAAIAAUAAAAAAAAAAAAIAAQAAAAAAAAAAAAIAAMAAAAAAAAAAAAIAAIAAAAAAAAAAAAIAAEAAAAAAAAAAAAHAP//DwAMAAAAAAAIAP//DwAMAAAAAAAJAP//DwAMAAAAAAAHAP3/DwAMAAAAAAAIAP3/DwAMAAAAAAAHAP7/DwAMAAAAAAAIAP7/DwAMAAAAAAAJAP7/DwAMAAAAAAAJAP3/DwAMAAAAAAAHAAYAAAAAAAAAAAAIAAYAAAAAAAAAAAAJAAYAAAAAAAAAAAAJAAcAAAAAAAAAAAAIAAcAAAAAAAAAAAAHAAcAAAAAAAAAAAAGAAcAAAAAAAAAAAABAAcAAAAAAAAAAAACAAcAAAAAAAAAAAADAAcAAAAAAAAAAAAEAAcAAAAAAAAAAAAFAAcAAAAAAAAAAAAJAAAADwALAAAAAAAJAAEAAAAAAAAAAAAJAAIAAAAAAAAAAAAJAAMAAAAAAAAAAAABAAgAAAAAAAAAAAACAAgAAAAAAAAAAAADAAgAAAAAAAAAAAAEAAgAAAAAAAAAAAAFAAgAAAAAAAAAAAAGAAgAAAAAAAAAAAAHAAgAAAAAAAAAAAAIAAgAAAAAAAAAAAAJAAgAAAAAAAAAAAABAAkAAAAAAAAAAAACAAkAAAAAAAAAAAADAAkAAAAAAAAAAAAEAAkAAAAAAAAAAAAFAAkAAAAAAAAAAAAGAAkAAAAAAAAAAAAHAAkAAAAAAAAAAAAIAAkAAAAAAAAAAAAJAAkAAAAAAAAAAAALAP//DwAMAAEAABALAAAADwAMAAEAABALAAEADwANAAAAABALAAIAAAAAAAAAAAALAAMAAAAAAAAAAAALAAQADAACAAAAAAAKAP3/DwAMAAAAAAAKAP7/DwAMAAAAAAAKAP//DwAMAAAAAAAKAAAADwALAAAAAAAKAAEAAAAAAAAAAAAKAAIAAAAAAAAAAAAKAAMAAAAAAAAAAAAKAAQAAAAAAAAAAAAKAAUAAAAAAAAAAAAKAAYAAAAAAAAAAAAKAAcAAAAAAAAAAAAKAAgAAAAAAAAAAAAKAAkAAAAAAAAAAAD///3/DwAMAAAAAAD///7/DwAMAAAAAAD/////DwAMAAAAAAD//wAADwALAAAAAAD//wEAAAAAAAAAAAD//wIAAAAAAAAAAAD//wMAAAAAAAAAAAD//wQAAAAAAAAAAAD//wUAAAAAAAAAAAD//wYAAAAAAAAAAAD//wcAAAAAAAAAAAD//wgAAAAAAAAAAAD//wkAAAAAAAAAAAAAAP3/DwAMAAAAAAAAAP7/DwAMAAAAAAAAAP//DwAMAAAAAAAAAAAADwALAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAkAAAAAAAAAAAALAP7/DAAAAAAAABA=")
+tile_set = ExtResource("2_ipc45")
+
+[node name=" layer2" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAADAP7/DwABAAUAAAAEAP7/DwABAAUAAAAFAP7/DwABAAUAAAAGAP7/DwABAAUAAAAHAP7/DwABAAUAAAADAP//DwABAAYAAAAEAP//DwABAAYAAAAFAP//DwABAAYAAAAGAP//DwABAAYAAAAHAP//DwABAAYAAAAJAP7/DwAAAAcAAAAJAP//DwAAAAgAAAAKAP7/DwABAAcAAAAKAP//DwABAAgAAAAIAP7/DwACAAUAAAAIAP//DwACAAYAAAD///7/DwAAAAcAAAD/////DwAAAAgAAAD//wAABwAEAAAAAAD+//7/DAAAAAEAAGD+////DAAAAAEAAGD+/wAADAAAAAEAAGD+/wEADAAAAAEAAGD+/wIADAAAAAEAAGD+/wMADAAAAAEAAGD+/wQADAAAAAEAAGAAAP7/DwABAAcAAAAAAP//DwABAAgAAAAAAAAABwAEAAAAAAABAP7/DwAAAAUAAAABAP//DwAAAAYAAAACAP7/DwABAAUAAAACAP//DwABAAYAAAA=")
+tile_set = ExtResource("2_ipc45")
+
+[node name="layer1" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+use_parent_material = true
+tile_map_data = PackedByteArray("AAABAAcADwAGAAUAAAADAAcADwAGAAUAAAAGAAcADwAGAAUAAAAIAAcADwAGAAUAAAABAAgADwAJAAcAAAADAAgADwAJAAcAAAAIAAgADwAIAAUAAAAGAAUADwAGAAUAAAAIAAUADwAGAAUAAAADAAUADwAGAAUAAAABAAUADwAGAAUAAAAGAAYADwAJAAcAAAADAAYADwAJAAcAAAABAAYADwAIAAUAAAAEAP//DwAAAAQAAAAIAP//DwAAAAQAAAAKAP//DwADAAYAAAAAAP//DwADAAYAAAABAP7/DwADAAUAAAAIAAIADwAGAAUAAAAIAAEADwAJAAUAAAAKAAAABwAEAAAAAAACAAAADwAJAAUAAAAJAAAABwAEAAAAAAA=")
+tile_set = ExtResource("2_ipc45")
+
+[node name="deco1" type="TileMapLayer" parent="."]
+z_index = 1
+y_sort_enabled = true
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAFAAkAAAAHAAQAAAAMAP3/DAABAAMAAAAMAP7/DAABAAMAAAAMAP//DAABAAMAAAAMAAAADAABAAMAAAAMAAEADAABAAMAAAAMAAIADAABAAMAAAAMAAMADAABAAMAAAAMAAQADAABAAMAAAAMAAUADAABAAMAAAA=")
+tile_set = ExtResource("2_ipc45")
+
+[node name="frame" type="TileMapLayer" parent="."]
+z_index = 2
+texture_filter = 1
+use_parent_material = true
+tile_map_data = PackedByteArray("AAABAPz/AAACAAEAAAACAPz/AAACAAEAAAADAPz/AAACAAEAAAAEAPz/AAACAAEAAAAFAPz/AAACAAEAAAAGAPz/AAACAAEAAAAHAPz/AAACAAEAAAAIAPz/AAACAAEAAAAJAPz/AAACAAEAAAABAAoAAAAAAAEAAAACAAoAAAAAAAEAAAADAAoAAAAAAAEAAAAEAAoAAAAAAAEAAAAFAAoAAAAAAAEAAAAGAAoAAAAAAAEAAAAHAAoAAAAAAAEAAAAIAAoAAAAAAAEAAAAJAAoAAAAAAAEAAAAKAPz/AAACAAEAAAAKAAoAAAAAAAEAAAALAPz/AAACAAIAAAALAP3/AAABAAEAAAALAAYAAAABAAEAAAALAAcAAAABAAEAAAALAAgAAAABAAEAAAALAAkAAAABAAEAAAALAAoAAAAAAAIAAAD///z/AAACAAEAAAD//woAAAAAAAEAAAD+//z/AAADAAIAAAD+//3/AAADAAEAAAD+//7/AAADAAEAAAD+////AAADAAEAAAD+/wAAAAADAAEAAAD+/wEAAAADAAEAAAD+/wIAAAADAAEAAAD+/wMAAAADAAEAAAD+/wQAAAADAAEAAAD+/wUAAAADAAEAAAD+/wYAAAADAAEAAAD+/wcAAAADAAEAAAD+/wgAAAADAAEAAAD+/wkAAAADAAEAAAD+/woAAAABAAIAAAAAAAoAAAAAAAEAAAAAAPz/AAACAAEAAAALAAUAAAABAAEAAAAMAP3/DAAAAAEAAHAMAP7/DAAAAAEAAHAMAP//DAAAAAEAAHAMAAAADAAAAAEAAHAMAAEADAABAAMAAAAMAAIADAABAAMAAAAMAAMADAABAAMAAAAMAAQADAABAAMAAAALAP7/DAAAAAEAAHALAP//DAAAAAEAAHALAAAADAAAAAEAAHALAAEADAAAAAEAAHALAAIADAAAAAEAAHALAAMADAAAAAEAAHALAAQADAAAAAEAAHA=")
+tile_set = ExtResource("2_ipc45")
+
+[node name="Player" parent="." instance=ExtResource("4_ik11t")]
+z_index = 1
+position = Vector2(345, 85)
+
+[node name="KidA" parent="." instance=ExtResource("7_5jcfc")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(49, 262)
+
+[node name="KidB" parent="." instance=ExtResource("7_5jcfc")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(208, 198)
+
+[node name="KidC" parent="." instance=ExtResource("7_5jcfc")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(112, 262)
+
+[node name="KidD" parent="." instance=ExtResource("7_5jcfc")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(113, 198)
+
+[node name="InFrontOfStudents" type="Area2D" parent="."]
+position = Vector2(-402, -534)
+
+[node name="InFrontOfStudents" type="CollisionShape2D" parent="InFrontOfStudents"]
+z_index = 1
+position = Vector2(514, 704.5)
+shape = SubResource("RectangleShape2D_ttppq")
+
+[node name="InFrontOfStudents2" type="Area2D" parent="."]
+position = Vector2(-690, -540)
+
+[node name="InFrontOfStudents2" type="CollisionShape2D" parent="InFrontOfStudents2"]
+z_index = 1
+position = Vector2(897, 710.75)
+shape = SubResource("RectangleShape2D_ttppq")
+
+[node name="Chair" type="Area2D" parent="."]
+position = Vector2(80, 29)
+
+[node name="Chair" type="CollisionShape2D" parent="Chair"]
+shape = SubResource("CircleShape2D_5owx7")
+
+[node name="Chair2" type="Area2D" parent="."]
+position = Vector2(48, 210)
+
+[node name="Chair" type="CollisionShape2D" parent="Chair2"]
+shape = SubResource("CircleShape2D_5owx7")
+
+[node name="Chair3" type="Area2D" parent="."]
+position = Vector2(273, 282)
+
+[node name="Chair" type="CollisionShape2D" parent="Chair3"]
+shape = SubResource("CircleShape2D_5owx7")
+
+[node name="middle" type="Area2D" parent="."]
+position = Vector2(81, 306)
+
+[node name="middle" type="CollisionShape2D" parent="middle"]
+position = Vector2(-2, -31.5)
+shape = SubResource("RectangleShape2D_uvfxs")
+
+[node name="TeachersTableArea" type="Area2D" parent="."]
+position = Vector2(286, 85)
+
+[node name="TeachersTable" type="CollisionShape2D" parent="TeachersTableArea"]
+position = Vector2(-15, -14)
+shape = SubResource("CircleShape2D_ownqt")
+
+[node name="SceneTrigger" parent="." instance=ExtResource("9_cot5f")]
+position = Vector2(-1187, -1599)
+connected_scene = "stage_1"
+need_press = "no"
+
+[node name="stage_1" type="CollisionShape2D" parent="SceneTrigger"]
+z_index = 1
+position = Vector2(785, 846.5)
+shape = SubResource("RectangleShape2D_4whw6")
+
+[node name="ChairPos" type="Marker2D" parent="."]
+position = Vector2(80, 24)
+
+[node name="ChairPos2" type="Marker2D" parent="."]
+position = Vector2(48, 210)
+
+[node name="ChairPos3" type="Marker2D" parent="."]
+position = Vector2(272, 276)
+
+[node name="TeachersTable" type="Marker2D" parent="."]
+position = Vector2(272, 55)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+z_index = 3
+offset_left = 182.0
+offset_top = -11.0
+offset_right = 189.0
+offset_bottom = -4.0
+texture = ExtResource("8_c18p2")
+expand_mode = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="TextureRect"]
+root_node = NodePath("../..")
+libraries = {
+&"": SubResource("AnimationLibrary_83hix")
+}
+
+[node name="Control" parent="." instance=ExtResource("8_j5wfp")]
+
+[node name="Dialogue" parent="." instance=ExtResource("7_n54e8")]
+position = Vector2(68, 61)
+
+[connection signal="body_entered" from="InFrontOfStudents" to="." method="_on_in_front_of_students_body_entered"]
+[connection signal="body_exited" from="InFrontOfStudents" to="." method="_on_in_front_of_students_body_exited"]
+[connection signal="body_entered" from="InFrontOfStudents2" to="." method="_on_in_front_of_students_2_body_entered"]
+[connection signal="body_exited" from="InFrontOfStudents2" to="." method="_on_in_front_of_students_2_body_exited"]
+[connection signal="area_entered" from="Chair" to="." method="_on_chair_area_entered"]
+[connection signal="area_exited" from="Chair" to="." method="_on_chair_area_exited"]
+[connection signal="body_entered" from="Chair2" to="." method="_on_chair_2_body_entered"]
+[connection signal="body_exited" from="Chair2" to="." method="_on_chair_2_body_exited"]
+[connection signal="body_entered" from="Chair3" to="." method="_on_chair_3_body_entered"]
+[connection signal="body_exited" from="Chair3" to="." method="_on_chair_3_body_exited"]
+[connection signal="body_entered" from="middle" to="." method="_on_middle_body_entered"]
+[connection signal="body_exited" from="middle" to="." method="_on_middle_body_exited"]
+[connection signal="area_entered" from="TeachersTableArea" to="." method="_on_teachers_table_area_area_entered"]
+[connection signal="area_exited" from="TeachersTableArea" to="." method="_on_teachers_table_area_area_exited"]
