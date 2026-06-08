@@ -1,0 +1,959 @@
+[gd_scene load_steps=33 format=3 uid="uid://dd25wh4h2yqjg"]
+
+[ext_resource type="Texture2D" uid="uid://c188dwgd2x8hf" path="res://Images/items/bag_panel.png" id="1_gn4eu"]
+[ext_resource type="Script" uid="uid://c156a4f5r6psx" path="res://Others/bag.gd" id="1_y76ij"]
+[ext_resource type="Texture2D" uid="uid://ditygl8nbfjsw" path="res://Images/items/explanation.png" id="2_5uhbu"]
+[ext_resource type="Texture2D" uid="uid://cscjoc1r5cgdi" path="res://Images/items/get_task.png" id="2_nain7"]
+[ext_resource type="Texture2D" uid="uid://beh1a6i2h36er" path="res://Images/menu_ui/x.png" id="2_pmqo5"]
+[ext_resource type="Texture2D" uid="uid://ceogv7jwngcvb" path="res://Images/UI/eat_button.png" id="3_dg325"]
+[ext_resource type="Texture2D" uid="uid://blmc1efrsptby" path="res://Images/items/bag.png" id="3_mvx5g"]
+[ext_resource type="Texture2D" uid="uid://dru7vml84w7jl" path="res://Images/items/bag_outline.png" id="3_typxs"]
+[ext_resource type="Texture2D" uid="uid://degku54x0ujlb" path="res://Images/menu_ui/x_clicked.png" id="3_y76ij"]
+[ext_resource type="Texture2D" uid="uid://dnipqcvgaly4k" path="res://Images/focus/focus.png" id="4_6v4l2"]
+[ext_resource type="Texture2D" uid="uid://b26tvas55x3p" path="res://Images/items/box_true.png" id="4_mvx5g"]
+[ext_resource type="Texture2D" uid="uid://dd6pndohc4vnj" path="res://Images/items/bag_clicked.png" id="4_typxs"]
+[ext_resource type="Texture2D" uid="uid://brpdr5nnrmv0a" path="res://Images/menu_ui/x_hover.png" id="4_y2hjq"]
+[ext_resource type="Texture2D" uid="uid://bq27rcnnk01ym" path="res://Images/items/bag_hover.png" id="5_nain7"]
+[ext_resource type="Texture2D" uid="uid://cly8i2il8m4ex" path="res://Images/items/box.png" id="5_pmqo5"]
+[ext_resource type="Texture2D" uid="uid://c7ksefkdwnk72" path="res://Images/mirror/hero_school.png" id="8_mpih8"]
+[ext_resource type="Texture2D" uid="uid://bety0403qophk" path="res://Images/menu_ui/yes.png" id="13_ow5bp"]
+[ext_resource type="Texture2D" uid="uid://bjwv5eltopj6d" path="res://Images/focus/x_focus.png" id="13_rk6ab"]
+[ext_resource type="Texture2D" uid="uid://8k6g4mrmntwk" path="res://Images/menu_ui/yes_clicked.png" id="14_rk6ab"]
+[ext_resource type="Texture2D" uid="uid://bmmuxwvyquner" path="res://Images/menu_ui/yes_hover.png" id="15_fofj3"]
+[ext_resource type="Texture2D" uid="uid://bfsejacyxt0w1" path="res://Images/focus/yes_focus.png" id="16_cg1pr"]
+[ext_resource type="Texture2D" uid="uid://pkmv7rkrjakq" path="res://Images/UI/eat_button_click.png" id="17_1oewo"]
+[ext_resource type="Texture2D" uid="uid://bfkbhl2t4avx5" path="res://Images/UI/eat_button_hover.png" id="18_n1ljd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_typxs"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_olia5"]
+texture = ExtResource("2_5uhbu")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nain7"]
+texture = ExtResource("3_typxs")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ilse6"]
+texture = ExtResource("1_gn4eu")
+
+[sub_resource type="Animation" id="Animation_olia5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Panel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Panel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("bagbtn:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1019, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("task:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(451, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("task:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_mpih8"]
+resource_name = "close_bag"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Panel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.133333, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 10), Vector2(0, -20)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Panel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.166667, 0.233333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_nain7"]
+resource_name = "get_task"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("task:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.133333, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(451, -50), Vector2(451, 12), Vector2(451, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("task:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.833333, 0.966667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_5uhbu"]
+resource_name = "open_bag"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Panel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.366667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -20), Vector2(0, 10), Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Panel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.2, 0.433333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_olia5"]
+_data = {
+&"RESET": SubResource("Animation_olia5"),
+&"close_bag": SubResource("Animation_mpih8"),
+&"get_task": SubResource("Animation_nain7"),
+&"open_bag": SubResource("Animation_5uhbu")
+}
+
+[node name="bag" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y76ij")
+
+[node name="task" type="TextureRect" parent="."]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -125.0
+offset_right = 125.0
+offset_bottom = 90.0
+grow_horizontal = 2
+texture = ExtResource("2_nain7")
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="task"]
+layout_mode = 0
+offset_left = 88.0
+offset_top = 37.0
+offset_right = 167.0
+offset_bottom = 60.0
+text = "New Task!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Explanation" type="Panel" parent="."]
+visible = false
+z_index = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_typxs")
+
+[node name="Back" type="Panel" parent="Explanation"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -577.0
+offset_top = -322.0
+offset_right = 572.0
+offset_bottom = 348.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_olia5")
+
+[node name="Img" type="TextureRect" parent="Explanation"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -478.0
+offset_top = -267.0
+offset_right = 45.0
+offset_bottom = 105.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("8_mpih8")
+stretch_mode = 5
+
+[node name="TextOutline" type="Panel" parent="Explanation"]
+texture_filter = 1
+custom_minimum_size = Vector2(480, 140)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -486.0
+offset_top = 99.0
+offset_right = 54.0
+offset_bottom = 273.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_nain7")
+
+[node name="ExplanationText" type="Label" parent="Explanation/TextOutline"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -219.0
+offset_top = -66.0
+offset_right = 224.0
+offset_bottom = 67.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 18
+text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+autowrap_mode = 3
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_ilse6")
+
+[node name="Outline" type="Panel" parent="Panel"]
+texture_filter = 1
+custom_minimum_size = Vector2(500, 500)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -507.0
+offset_top = -312.0
+offset_right = 76.0
+offset_bottom = 314.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_nain7")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -446.0
+offset_top = -205.0
+offset_right = 26.0
+offset_bottom = 211.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/ScrollContainer"]
+layout_mode = 2
+theme_override_constants/separation = 29
+
+[node name="HBoxContainer1" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Text" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer1"]
+custom_minimum_size = Vector2(400, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+
+[node name="box" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer1"]
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="box2" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer1"]
+visible = false
+layout_mode = 2
+texture = ExtResource("4_mvx5g")
+stretch_mode = 5
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Text" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(400, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+
+[node name="box" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="box2" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer2"]
+visible = false
+layout_mode = 2
+texture = ExtResource("4_mvx5g")
+stretch_mode = 5
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Text" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(400, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+
+[node name="box" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="box2" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer3"]
+visible = false
+layout_mode = 2
+texture = ExtResource("4_mvx5g")
+stretch_mode = 5
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Text" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(400, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+
+[node name="box" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="box2" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer4"]
+visible = false
+layout_mode = 2
+texture = ExtResource("4_mvx5g")
+stretch_mode = 5
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Text" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(400, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+
+[node name="box" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer5"]
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="box2" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer5"]
+visible = false
+layout_mode = 2
+texture = ExtResource("4_mvx5g")
+stretch_mode = 5
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Text" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(400, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+
+[node name="box" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer6"]
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="box2" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer6"]
+visible = false
+layout_mode = 2
+texture = ExtResource("4_mvx5g")
+stretch_mode = 5
+
+[node name="HBoxContainer7" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Text" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(400, 20)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+autowrap_mode = 3
+
+[node name="box" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer7"]
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="box2" type="TextureRect" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer7"]
+visible = false
+layout_mode = 2
+texture = ExtResource("4_mvx5g")
+stretch_mode = 5
+
+[node name="Bag" type="NinePatchRect" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/Bag"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 74.0
+offset_top = -100.0
+offset_right = 427.0
+offset_bottom = 253.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="GridContainer" parent="Panel/Bag/MarginContainer"]
+layout_mode = 2
+columns = 3
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect3" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect4" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect5" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect6" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect7" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect8" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="TextureRect9" type="TextureRect" parent="Panel/Bag/MarginContainer/Background"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+texture = ExtResource("5_pmqo5")
+stretch_mode = 5
+
+[node name="Item" type="GridContainer" parent="Panel/Bag/MarginContainer"]
+layout_mode = 2
+columns = 3
+
+[node name="TextureButton1" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton1"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton2" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath("../../Background/TextureRect")
+focus_neighbor_top = NodePath("../../Background/TextureRect2")
+focus_neighbor_right = NodePath("../../Background/TextureRect3")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect5")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton2"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton3" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath("../TextureButton2")
+focus_neighbor_top = NodePath("../../Background/TextureRect3")
+focus_neighbor_right = NodePath("../../Background/TextureRect3")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect6")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton3"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton4" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath("../../Background/TextureRect4")
+focus_neighbor_top = NodePath("../../Background/TextureRect")
+focus_neighbor_right = NodePath("../../Background/TextureRect5")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect7")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton4"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton5" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath("../../Background/TextureRect4")
+focus_neighbor_top = NodePath("../../Background/TextureRect2")
+focus_neighbor_right = NodePath("../../Background/TextureRect6")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect8")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton5"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton6" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath("../../Background/TextureRect5")
+focus_neighbor_top = NodePath("../../Background/TextureRect3")
+focus_neighbor_right = NodePath("../../Background/TextureRect6")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect9")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton6"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton7" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../../Background/TextureRect4")
+focus_neighbor_right = NodePath("../../Background/TextureRect8")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect7")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton7"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton8" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath("../../Background/TextureRect7")
+focus_neighbor_top = NodePath("../../Background/TextureRect5")
+focus_neighbor_right = NodePath("../../Background/TextureRect9")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect8")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton8"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="TextureButton9" type="TextureButton" parent="Panel/Bag/MarginContainer/Item"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+focus_neighbor_left = NodePath("../../Background/TextureRect8")
+focus_neighbor_top = NodePath("../../Background/TextureRect6")
+focus_neighbor_right = NodePath("../../Background/TextureRect9")
+focus_neighbor_bottom = NodePath("../../Background/TextureRect9")
+stretch_mode = 5
+
+[node name="focus" type="TextureRect" parent="Panel/Bag/MarginContainer/Item/TextureButton9"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 117.0
+texture = ExtResource("4_6v4l2")
+stretch_mode = 5
+
+[node name="Task" type="Label" parent="Panel"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -441.0
+offset_top = -260.0
+offset_right = -170.0
+offset_bottom = -211.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Task"
+
+[node name="BagText" type="Label" parent="Panel"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 67.0
+offset_top = -261.0
+offset_right = 294.0
+offset_bottom = -160.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Bag
+"
+
+[node name="Back" type="TextureButton" parent="Panel"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 366.0
+offset_top = -200.0
+offset_right = 405.0
+offset_bottom = -164.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.5, 2.5)
+texture_normal = ExtResource("2_pmqo5")
+texture_pressed = ExtResource("3_y76ij")
+texture_hover = ExtResource("4_y2hjq")
+
+[node name="Comfirmation" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_ilse6")
+
+[node name="Text" type="Label" parent="Comfirmation"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -396.0
+offset_top = -116.0
+offset_right = 392.0
+offset_bottom = 44.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "eat it?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="No" type="TextureButton" parent="Comfirmation"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -488.0
+offset_top = -272.0
+offset_right = -449.0
+offset_bottom = -236.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(2.5, 2.5)
+focus_neighbor_left = NodePath("../Yes")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+focus_next = NodePath(".")
+focus_previous = NodePath(".")
+texture_normal = ExtResource("2_pmqo5")
+texture_pressed = ExtResource("3_y76ij")
+texture_hover = ExtResource("4_y2hjq")
+texture_focused = ExtResource("13_rk6ab")
+
+[node name="Yes" type="TextureButton" parent="Comfirmation"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 408.0
+offset_top = -272.0
+offset_right = 440.0
+offset_bottom = -240.0
+grow_vertical = 0
+scale = Vector2(2.5, 2.5)
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath("../No")
+focus_neighbor_bottom = NodePath(".")
+focus_next = NodePath(".")
+focus_previous = NodePath(".")
+texture_normal = ExtResource("13_ow5bp")
+texture_pressed = ExtResource("14_rk6ab")
+texture_hover = ExtResource("15_fofj3")
+texture_focused = ExtResource("16_cg1pr")
+
+[node name="bagbtn" type="TextureButton" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -133.0
+offset_right = -108.0
+offset_bottom = 31.0
+grow_horizontal = 0
+scale = Vector2(2.5, 2.5)
+texture_normal = ExtResource("3_mvx5g")
+texture_pressed = ExtResource("4_typxs")
+texture_hover = ExtResource("5_nain7")
+
+[node name="BackExp" type="TextureButton" parent="."]
+visible = false
+z_index = 1
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.0
+offset_top = -274.0
+offset_right = -4.00006
+offset_bottom = -238.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.5, 2.5)
+texture_normal = ExtResource("2_pmqo5")
+texture_pressed = ExtResource("3_y76ij")
+texture_hover = ExtResource("4_y2hjq")
+
+[node name="EatButton" type="TextureButton" parent="."]
+visible = false
+z_index = 1
+texture_filter = 1
+layout_mode = 0
+offset_left = 510.0
+offset_top = 335.0
+offset_right = 542.0
+offset_bottom = 367.0
+scale = Vector2(3, 3)
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+texture_normal = ExtResource("3_dg325")
+texture_pressed = ExtResource("17_1oewo")
+texture_hover = ExtResource("18_n1ljd")
+
+[node name="focus" type="TextureRect" parent="EatButton"]
+visible = false
+texture_filter = 1
+layout_mode = 0
+offset_top = -1.0
+offset_right = 32.0
+offset_bottom = 31.0
+texture = ExtResource("4_6v4l2")
+expand_mode = 4
+stretch_mode = 5
+metadata/_edit_group_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_olia5")
+}
+
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton1" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton2" to="." method="_on_texture_button_2_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton3" to="." method="_on_texture_button_3_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton4" to="." method="_on_texture_button_4_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton5" to="." method="_on_texture_button_5_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton6" to="." method="_on_texture_button_6_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton7" to="." method="_on_texture_button_7_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton8" to="." method="_on_texture_button_8_pressed"]
+[connection signal="pressed" from="Panel/Bag/MarginContainer/Item/TextureButton9" to="." method="_on_texture_button_9_pressed"]
+[connection signal="pressed" from="Panel/Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Comfirmation/No" to="." method="_on_no_pressed"]
+[connection signal="pressed" from="Comfirmation/Yes" to="." method="_on_yes_pressed"]
+[connection signal="pressed" from="bagbtn" to="." method="_on_bagbtn_pressed"]
+[connection signal="pressed" from="BackExp" to="." method="_on_back_exp_pressed"]
+[connection signal="pressed" from="EatButton" to="." method="_on_eat_button_pressed"]

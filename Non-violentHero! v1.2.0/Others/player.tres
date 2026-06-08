@@ -1,0 +1,33 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://7yayqjnakfv3"]
+
+[ext_resource type="FontFile" uid="uid://dhgbkltx2aivb" path="res://Dialogue/DialogueTextFile/fusion-pixel-12px-proportional-zh_hans.otf" id="1_nrood"]
+[ext_resource type="Texture2D" uid="uid://dgg66lxvgpyr8" path="res://Images/UI/buttons_hover.png" id="2_k54fb"]
+[ext_resource type="Texture2D" uid="uid://c5hr220vmvs6q" path="res://Images/UI/buttons.png" id="3_fikl0"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_btjwi"]
+texture = ExtResource("2_k54fb")
+texture_margin_left = 50.0
+texture_margin_top = 10.0
+texture_margin_right = 50.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_btt8f"]
+texture = ExtResource("3_fikl0")
+texture_margin_left = 50.0
+texture_margin_top = 10.0
+texture_margin_right = 50.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1jssw"]
+texture = ExtResource("3_fikl0")
+texture_margin_left = 50.0
+texture_margin_top = 10.0
+texture_margin_right = 50.0
+texture_margin_bottom = 10.0
+
+[resource]
+Button/font_sizes/font_size = 20
+Button/fonts/font = ExtResource("1_nrood")
+Button/styles/hover = SubResource("StyleBoxTexture_btjwi")
+Button/styles/normal = SubResource("StyleBoxTexture_btt8f")
+Button/styles/pressed = SubResource("StyleBoxTexture_1jssw")

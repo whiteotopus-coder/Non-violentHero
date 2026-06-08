@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://7itksipp70c7"]
+
+[ext_resource type="Script" uid="uid://c0ceeaq4ul3js" path="res://Others/save_function.gd" id="1_fuhd3"]
+
+[node name="save_function" type="Node2D"]
+script = ExtResource("1_fuhd3")

@@ -1,0 +1,45 @@
+[gd_resource type="Theme" load_steps=9 format=3 uid="uid://do37wgbm6s4bl"]
+
+[ext_resource type="Texture2D" uid="uid://dwwxdgdektkdo" path="res://Images/UI/battle_hover.png" id="1_d3jty"]
+[ext_resource type="Texture2D" uid="uid://cdne8kd3vqtwx" path="res://Images/UI/battle.png" id="1_rx56f"]
+[ext_resource type="Texture2D" uid="uid://27fp88rt8uks" path="res://Images/focus/focus_ending.png" id="2_qrq8k"]
+[ext_resource type="Texture2D" uid="uid://onay6rgojhtk" path="res://Images/UI/battle_clicked.png" id="4_2sxdy"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_23rtt"]
+texture = ExtResource("2_qrq8k")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3etnj"]
+texture = ExtResource("1_d3jty")
+texture_margin_left = 8.0
+texture_margin_top = 8.0
+texture_margin_right = 8.0
+texture_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jtapp"]
+texture = ExtResource("1_rx56f")
+texture_margin_left = 8.0
+texture_margin_top = 8.0
+texture_margin_right = 8.0
+texture_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1x2d7"]
+texture = ExtResource("4_2sxdy")
+texture_margin_left = 8.0
+texture_margin_top = 8.0
+texture_margin_right = 8.0
+texture_margin_bottom = 8.0
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 33
+Button/styles/focus = SubResource("StyleBoxTexture_23rtt")
+Button/styles/hover = SubResource("StyleBoxTexture_3etnj")
+Button/styles/normal = SubResource("StyleBoxTexture_jtapp")
+Button/styles/pressed = SubResource("StyleBoxTexture_1x2d7")
+Label/colors/font_color = Color(0, 0, 0, 1)
+Label/font_sizes/font_size = 20

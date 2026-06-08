@@ -1,0 +1,225 @@
+[gd_scene load_steps=28 format=3 uid="uid://bippiax6pynhg"]
+
+[ext_resource type="Script" path="res://Others/button_game.gd" id="1_grext"]
+[ext_resource type="Texture2D" uid="uid://ctgjyctdtcgft" path="res://Images/q/char/King/cry (1).png" id="2_51s73"]
+[ext_resource type="Texture2D" uid="uid://43w0n6gfcjs" path="res://Images/q/char/King/kingg.png" id="3_vkex0"]
+[ext_resource type="Texture2D" uid="uid://bj2pcm4lfr21f" path="res://Images/q/char/King/close_eyes.png" id="4_hqxur"]
+[ext_resource type="Texture2D" uid="uid://cih6s8xp0y6e4" path="res://Images/q/char/King/k_good_happy.png" id="5_tjwsf"]
+[ext_resource type="Texture2D" uid="uid://dl53ljekakegl" path="res://Images/q/char/King/k_bibi.png" id="6_bkfpr"]
+[ext_resource type="Texture2D" uid="uid://m3lj5b6iv64w" path="res://Images/q/char/King/k_you.png" id="7_dhgh1"]
+[ext_resource type="Texture2D" uid="uid://f2ux4sp0b887" path="res://Images/q/char/King/k_good.png" id="8_82ulg"]
+[ext_resource type="Texture2D" uid="uid://7kj0jycf23qa" path="res://Images/q/char/King/hmm.png" id="9_lcnli"]
+[ext_resource type="Texture2D" uid="uid://clc651ga5sykr" path="res://Images/q/char/King/shock.png" id="10_aqf5j"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="11_8d4g0"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="12_jw4sf"]
+[ext_resource type="PackedScene" uid="uid://cbi4bkp3k4i4e" path="res://Scene/Heart/heartcontainer.tscn" id="13_o3s3u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b5yac"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6xb8d"]
+atlas = ExtResource("2_51s73")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2bj6"]
+atlas = ExtResource("3_vkex0")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5unxg"]
+atlas = ExtResource("4_hqxur")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6hgix"]
+atlas = ExtResource("5_tjwsf")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nshx5"]
+atlas = ExtResource("6_bkfpr")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dmkfb"]
+atlas = ExtResource("7_dhgh1")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wr5p"]
+atlas = ExtResource("8_82ulg")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_333yg"]
+atlas = ExtResource("9_lcnli")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7im3r"]
+atlas = ExtResource("10_aqf5j")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_15qev"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6xb8d")
+}],
+"loop": true,
+"name": &"cry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 20.0,
+"texture": SubResource("AtlasTexture_g2bj6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5unxg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6hgix")
+}],
+"loop": true,
+"name": &"happy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nshx5")
+}],
+"loop": true,
+"name": &"k_wrong",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dmkfb")
+}],
+"loop": true,
+"name": &"k_you",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1wr5p")
+}],
+"loop": true,
+"name": &"king_good",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_333yg")
+}],
+"loop": true,
+"name": &"serious",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7im3r")
+}],
+"loop": true,
+"name": &"shock",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_khiyv"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 3)]
+}
+
+[sub_resource type="Animation" id="Animation_a0x4w"]
+resource_name = "shake"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.00467739, 0.0801388, 0.135264, 0.180291, 0.220394),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 5), Vector2(0, -5), Vector2(0, 3), Vector2(0, -3), Vector2(0, 2)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3x33o"]
+_data = {
+"RESET": SubResource("Animation_khiyv"),
+"shake": SubResource("Animation_a0x4w")
+}
+
+[node name="btn_game" type="Node2D"]
+script = ExtResource("1_grext")
+
+[node name="Panel" type="Panel" parent="."]
+custom_minimum_size = Vector2(900, 100)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -640.0
+offset_top = -384.0
+offset_right = 640.0
+offset_bottom = 384.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_b5yac")
+
+[node name="Name" type="Label" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -570.0
+offset_top = -257.0
+offset_right = -456.0
+offset_bottom = -212.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.22, 0.22)
+sprite_frames = SubResource("SpriteFrames_15qev")
+animation = &"king_good"
+
+[node name="Control" parent="." instance=ExtResource("11_8d4g0")]
+
+[node name="Dialogue" parent="." instance=ExtResource("12_jw4sf")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HeartOpp" parent="CanvasLayer" instance=ExtResource("13_o3s3u")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1.0
+offset_bottom = 1.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Heart" parent="CanvasLayer" instance=ExtResource("13_o3s3u")]
+offset_left = 910.0
+offset_top = 442.0
+offset_right = 333.0
+offset_bottom = -142.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 3)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Camera2D"]
+libraries = {
+"": SubResource("AnimationLibrary_3x33o")
+}
