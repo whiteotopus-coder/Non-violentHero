@@ -1,0 +1,108 @@
+[gd_scene load_steps=16 format=3 uid="uid://6gwf345127hk"]
+
+[ext_resource type="Script" uid="uid://owph7yjdtxlp" path="res://Scene/Cave/demon.gd" id="1_tcin0"]
+[ext_resource type="Texture2D" uid="uid://c8qh8n1ntn8ge" path="res://Images/q/npc/boss.png" id="2_amjwg"]
+[ext_resource type="Texture2D" uid="uid://dy6q68od641p2" path="res://Images/q/npc/boss_sad.png" id="2_lmll7"]
+[ext_resource type="Texture2D" uid="uid://c4ueide44kdme" path="res://Images/q/npc/boss_angry.png" id="2_wd426"]
+[ext_resource type="Texture2D" uid="uid://2hl23w3rhfvk" path="res://Images/q/npc/boss_green.png" id="3_11jhq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lyoi0"]
+atlas = ExtResource("2_wd426")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bl4ob"]
+atlas = ExtResource("2_lmll7")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1yp1"]
+atlas = ExtResource("2_lmll7")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_st030"]
+atlas = ExtResource("2_lmll7")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6x5x0"]
+atlas = ExtResource("2_amjwg")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmll7"]
+atlas = ExtResource("2_amjwg")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wd426"]
+atlas = ExtResource("2_amjwg")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cao15"]
+atlas = ExtResource("3_11jhq")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ieoxb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lyoi0")
+}],
+"loop": true,
+"name": &"angry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bl4ob")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1yp1")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_st030")
+}],
+"loop": false,
+"name": &"cry",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 15.0,
+"texture": SubResource("AtlasTexture_6x5x0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmll7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wd426")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmll7")
+}],
+"loop": true,
+"name": &"demon",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cao15")
+}],
+"loop": true,
+"name": &"green",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_su3ec"]
+size = Vector2(35, 19)
+
+[node name="demon" type="CharacterBody2D"]
+texture_filter = 1
+script = ExtResource("1_tcin0")
+
+[node name="AniDemon" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -8)
+sprite_frames = SubResource("SpriteFrames_ieoxb")
+animation = &"angry"
+autoplay = "demon"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -4.5)
+shape = SubResource("RectangleShape2D_su3ec")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)

@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=3 uid="uid://c2qvnoand64xn"]
+
+[ext_resource type="Script" path="res://Scene/Castle/castle.gd" id="1_esyku"]
+[ext_resource type="TileSet" uid="uid://dkrklsxxbdcn2" path="res://Scene/new_tile_set.tres" id="2_wcprj"]
+[ext_resource type="PackedScene" uid="uid://b24lao6jhdp41" path="res://Scene/Castle/king.tscn" id="4_hvais"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="6_l2r8k"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="7_8l2k3"]
+[ext_resource type="PackedScene" uid="uid://o0im0ipggqoi" path="res://Scene/player.tscn" id="8_nsqie"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1w558"]
+size = Vector2(149, 67)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_12j8d"]
+radius = 141.174
+
+[node name="castle" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_esyku")
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2(0.5, 0.5)
+tile_set = ExtResource("2_wcprj")
+rendering_quadrant_size = 64
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 65539, 0, 0, 131075, 0, 0, 131074, 0, 0, 131073, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0, 131072, 0, 0, 4, 0, 0, 65540, 0, 0, 131076, 0, 0, 5, 0, 0, 65541, 0, 0, 131077, 0, 0, 6, 0, 0, 65542, 0, 0, 131078, 0, 0, 7, 0, 0, 65543, 0, 0, 131079, 0, 0, 196608, 0, 0, 262144, 0, 0, 327680, 0, 0, 196609, 0, 0, 262145, 0, 0, 327681, 0, 0, 196610, 0, 0, 262146, 0, 0, 327682, 0, 0, 196611, 0, 0, 262147, 0, 0, 327683, 0, 0, 196612, 0, 0, 262148, 0, 0, 327684, 0, 0, 196613, 0, 0, 262149, 0, 0, 327685, 0, 0, 196614, 0, 0, 262150, 0, 0, 327686, 0, 0, 196615, 0, 0, 262151, 0, 0, 327687, 0, 0, -65536, 262151, 7, -65535, 262151, 7, -65534, 262151, 7, -65533, 262151, 7, -65532, 262151, 7, -65531, 262151, 7, -65530, 262151, 7, -65529, 262151, 7, 8, 65536, 1, 65544, 65536, 1, 131080, 65536, 1, 196616, 65536, 1, 262152, 65536, 1, 327688, 65536, 1, 393224, 0, 2, 458751, 65536, 2, -1, 196608, 1, 65535, 196608, 1, 131071, 196608, 1, 196607, 196608, 1, 262143, 196608, 1, 327679, 196608, 1, 393215, 196608, 1, -65528, 65536, 1, 393216, 0, 1, 393217, 0, 1, 393218, 0, 1, 393219, 0, 0, 393220, 0, 0, 393221, 0, 1, 393222, 0, 1, 393223, 0, 1, -65537, 196608, 1, -131073, 196608, 1, -131064, 65536, 1, -196600, 65536, 1, -262144, 131072, 1, -262143, 131072, 1, -262142, 131072, 1, -262141, 131072, 1, -262140, 131072, 1, -262139, 131072, 1, -262138, 131072, 1, -262137, 131072, 1, -196609, 196608, 2, -262136, 131072, 2, -196608, 327687, 7, -196607, 327687, 7, -196606, 327687, 7, -196605, 327687, 7, -196604, 327687, 7, -131067, 196615, 7, -131066, 327687, 7, -131065, 327687, 7, -196601, 327687, 7, -196602, 327687, 7, -196603, 327687, 7, -131070, 196615, 7, -131071, 327687, 7, -131069, 327687, 7, -131068, 327687, 7, -131072, 327687, 7)
+
+[node name="player" parent="." instance=ExtResource("8_nsqie")]
+z_index = 1
+position = Vector2(253, 351)
+scale = Vector2(2, 2)
+
+[node name="king" parent="." instance=ExtResource("4_hvais")]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(250, 76)
+scale = Vector2(2, 2)
+
+[node name="Exit" type="Area2D" parent="."]
+
+[node name="Exit" type="CollisionShape2D" parent="Exit"]
+position = Vector2(254, 444.5)
+shape = SubResource("RectangleShape2D_1w558")
+
+[node name="Dialogue" parent="." instance=ExtResource("6_l2r8k")]
+position = Vector2(-379, -41)
+
+[node name="Control" parent="." instance=ExtResource("7_8l2k3")]
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(252, 65)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_12j8d")
+
+[connection signal="area_entered" from="Exit" to="." method="_on_exit_area_entered"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_area_2d_area_exited"]

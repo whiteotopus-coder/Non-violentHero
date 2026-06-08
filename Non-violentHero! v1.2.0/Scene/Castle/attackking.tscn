@@ -1,0 +1,674 @@
+[gd_scene load_steps=47 format=3 uid="uid://bt87oomfeljof"]
+
+[ext_resource type="Script" uid="uid://cup4bmp0rp5oi" path="res://Scene/Castle/attackking.gd" id="1_buu1n"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="2_00jt1"]
+[ext_resource type="Texture2D" uid="uid://43w0n6gfcjs" path="res://Images/q/char/King/kingg.png" id="2_bf50f"]
+[ext_resource type="Texture2D" uid="uid://ctgjyctdtcgft" path="res://Images/q/char/King/cry.png" id="2_qar5u"]
+[ext_resource type="PackedScene" uid="uid://cbi4bkp3k4i4e" path="res://Scene/Heart/heartcontainer.tscn" id="3_emmqt"]
+[ext_resource type="Texture2D" uid="uid://cih6s8xp0y6e4" path="res://Images/q/char/King/k_good_happy.png" id="3_q6v7f"]
+[ext_resource type="Texture2D" uid="uid://dl53ljekakegl" path="res://Images/q/char/King/k_bibi.png" id="4_sc3p1"]
+[ext_resource type="Texture2D" uid="uid://m3lj5b6iv64w" path="res://Images/q/char/King/k_you.png" id="5_iop7h"]
+[ext_resource type="Texture2D" uid="uid://f2ux4sp0b887" path="res://Images/q/char/King/k_good.png" id="6_66i0e"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="7_14qtm"]
+[ext_resource type="Texture2D" uid="uid://7kj0jycf23qa" path="res://Images/q/char/King/hmm.png" id="9_m8acp"]
+[ext_resource type="Texture2D" uid="uid://clc651ga5sykr" path="res://Images/q/char/King/shock.png" id="9_mfk2m"]
+[ext_resource type="Texture2D" uid="uid://derrpvhfk42va" path="res://Images/UI/key/tuto.png" id="14_0ncqw"]
+[ext_resource type="Texture2D" uid="uid://chsuvdmbudl0y" path="res://Images/UI/key/tuto_when_correct.png" id="17_2sxcb"]
+[ext_resource type="Texture2D" uid="uid://dgqvg0me5rw3v" path="res://Images/UI/key/tutorial_when_wrong.png" id="18_l4ian"]
+[ext_resource type="Animation" uid="uid://xd420nq11d2r" path="res://animations/quit_scene_church.res" id="18_rbk4e"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b5yac"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s62hl"]
+atlas = ExtResource("2_bf50f")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_84bnb"]
+atlas = ExtResource("2_qar5u")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kuvnf"]
+atlas = ExtResource("2_qar5u")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h6w7l"]
+atlas = ExtResource("2_bf50f")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mi60e"]
+atlas = ExtResource("2_bf50f")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8tufa"]
+atlas = ExtResource("3_q6v7f")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwrks"]
+atlas = ExtResource("3_q6v7f")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lhbdx"]
+atlas = ExtResource("4_sc3p1")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7nakq"]
+atlas = ExtResource("4_sc3p1")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ondlc"]
+atlas = ExtResource("5_iop7h")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_evghk"]
+atlas = ExtResource("5_iop7h")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhlvh"]
+atlas = ExtResource("6_66i0e")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33ssp"]
+atlas = ExtResource("6_66i0e")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1pt02"]
+atlas = ExtResource("9_m8acp")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3j2wk"]
+atlas = ExtResource("9_m8acp")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idwtw"]
+atlas = ExtResource("9_mfk2m")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xd0dt"]
+atlas = ExtResource("9_mfk2m")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_15qev"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s62hl")
+}],
+"loop": true,
+"name": &"close_eyes",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_84bnb")
+}, {
+"duration": 15.0,
+"texture": SubResource("AtlasTexture_kuvnf")
+}],
+"loop": true,
+"name": &"cry",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 15.0,
+"texture": SubResource("AtlasTexture_h6w7l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mi60e")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8tufa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwrks")
+}],
+"loop": true,
+"name": &"happy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lhbdx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7nakq")
+}],
+"loop": true,
+"name": &"k_wrong",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ondlc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_evghk")
+}],
+"loop": false,
+"name": &"k_you",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 15.0,
+"texture": SubResource("AtlasTexture_nhlvh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33ssp")
+}],
+"loop": true,
+"name": &"king_good",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1pt02")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3j2wk")
+}],
+"loop": false,
+"name": &"serious",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idwtw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xd0dt")
+}],
+"loop": false,
+"name": &"shock",
+"speed": 8.0
+}]
+
+[sub_resource type="Animation" id="Animation_75nqd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../CanvasLayer/TextureRect:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("14_0ncqw")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../CanvasLayer/TextureRect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(501, 308)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../CanvasLayer/HeartOpp:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../CanvasLayer/HeartOpp:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../Dialogue/CanvasLayer/BackToLastQuestion:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_tdl88"]
+resource_name = "shake"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.00467739, 0.0666667, 0.135264, 0.180291, 0.233333, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(3, 5), Vector2(-3, -15), Vector2(0, 3), Vector2(2, -16), Vector2(-2, 6), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3x33o"]
+_data = {
+&"RESET": SubResource("Animation_75nqd"),
+&"quit_attack_scene": ExtResource("18_rbk4e"),
+&"shake": SubResource("Animation_tdl88")
+}
+
+[sub_resource type="Animation" id="Animation_h6w7l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../CanvasLayer/Heart:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(800, 418)]
+}
+
+[sub_resource type="Animation" id="Animation_t8pet"]
+resource_name = "default"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../AnimatedSprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0914042, 0.235039, 0.341677),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -12), Vector2(0, 18), Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../AnimatedSprite2D:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.143635, 0.417848),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../../CanvasLayer/Heart:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.143635, 0.417848),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../../CanvasLayer/Name:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.0739935, 0.356912),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../../CanvasLayer/Name:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.266667, 0.433333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-6, 50), Vector2(-6, 90), Vector2(-6, 71)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../../Control:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.0195866, 0.324267),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../../CanvasLayer/HeartOpp:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1, -100), Vector2(1, 21), Vector2(1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../../CanvasLayer/HeartOpp:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0.0333333, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../../CanvasLayer/Heart:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0.0379732, 0.348268, 0.487141),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(800, 350), Vector2(800, 438), Vector2(800, 418)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y1mqc"]
+_data = {
+&"RESET": SubResource("Animation_h6w7l"),
+&"default": SubResource("Animation_t8pet")
+}
+
+[sub_resource type="Animation" id="Animation_kuvnf"]
+resource_name = "tuto_0"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/TextureRect:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("14_0ncqw")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/TextureRect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0805228, 0.243745, 0.339501),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(501, 400), Vector2(501, 290), Vector2(501, 308)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/TextureRect:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(-0.0108815, 0.187161, 0.363441),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_nhlvh"]
+resource_name = "tuto_1"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/TextureRect:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("17_2sxcb")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/TextureRect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0282918, 0.163222, 0.258978),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(501, 320), Vector2(501, 295), Vector2(501, 308)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/TextureRect:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.015234, 0.261155),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_s62hl"]
+resource_name = "tuto_2"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/TextureRect:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("18_l4ian")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/TextureRect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0282918, 0.169751, 0.243744),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(501, 320), Vector2(501, 295), Vector2(501, 308)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/TextureRect:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.015234, 0.291623),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_sxuyx"]
+resource_name = "tuto_3"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/TextureRect:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("18_l4ian")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/TextureRect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.00435254, 0.0892276, 0.280742),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(501, 308), Vector2(501, 295), Vector2(501, 320)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/TextureRect:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.0130577, 0.354735),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nhlvh"]
+_data = {
+&"tuto_0": SubResource("Animation_kuvnf"),
+&"tuto_1": SubResource("Animation_nhlvh"),
+&"tuto_2": SubResource("Animation_s62hl"),
+&"tuto_3": SubResource("Animation_sxuyx")
+}
+
+[node name="attackking" type="Node2D"]
+position = Vector2(0, 3)
+script = ExtResource("1_buu1n")
+
+[node name="Panel" type="Panel" parent="."]
+custom_minimum_size = Vector2(900, 100)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1262.0
+offset_top = -750.0
+offset_right = 1299.0
+offset_bottom = 767.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_b5yac")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 12)
+scale = Vector2(2.3, 2.3)
+sprite_frames = SubResource("SpriteFrames_15qev")
+animation = &"king_good"
+
+[node name="Dialogue" parent="." instance=ExtResource("2_00jt1")]
+
+[node name="Control" parent="." instance=ExtResource("7_14qtm")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Name" type="Label" parent="CanvasLayer"]
+offset_left = -568.0
+offset_top = -306.0
+offset_right = -454.0
+offset_bottom = -261.0
+theme_override_font_sizes/font_size = 25
+text = "aaa"
+horizontal_alignment = 1
+
+[node name="HeartOpp" parent="CanvasLayer" instance=ExtResource("3_emmqt")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1.0
+offset_bottom = 1.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Heart" parent="CanvasLayer" instance=ExtResource("3_emmqt")]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+offset_left = -352.0
+offset_top = -230.0
+offset_right = -165.0
+offset_bottom = -3.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.5, 1.5)
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+texture_filter = 1
+custom_minimum_size = Vector2(150, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -16.0
+offset_right = 75.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.5, 3.5)
+pivot_offset = Vector2(75, 0)
+texture = ExtResource("14_0ncqw")
+stretch_mode = 5
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(3, 5)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Camera2D"]
+libraries = {
+&"": SubResource("AnimationLibrary_3x33o")
+}
+
+[node name="default" type="AnimationPlayer" parent="Camera2D"]
+root_node = NodePath("../AnimationPlayer")
+libraries = {
+&"": SubResource("AnimationLibrary_y1mqc")
+}
+autoplay = "default"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_nhlvh")
+}
+
+[editable path="Dialogue"]
