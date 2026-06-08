@@ -1,0 +1,238 @@
+[gd_scene load_steps=29 format=3 uid="uid://bet7m73nhr6gx"]
+
+[ext_resource type="Script" uid="uid://dib37niaq1g4j" path="res://Scene/Stage1/Carrot.gd" id="1_4vgav"]
+[ext_resource type="Texture2D" uid="uid://dymjp62gpnh0w" path="res://Images/q/npc/Carrot.png" id="2_xolch"]
+[ext_resource type="Texture2D" uid="uid://dkpkvetuawujb" path="res://Images/q/npc/Carrot_left.png" id="3_6f4qa"]
+[ext_resource type="Texture2D" uid="uid://crlfdgskh4ox2" path="res://Images/UI/chat-box.png" id="3_epp64"]
+[ext_resource type="Texture2D" uid="uid://nb0ec8tkopsa" path="res://Images/q/npc/Carrot_right.png" id="4_bqxsl"]
+[ext_resource type="Texture2D" uid="uid://3cq3av7dpvg5" path="res://Images/q/npc/Carrot_side.png" id="5_bqxsl"]
+[ext_resource type="Texture2D" uid="uid://dxxcemml1443m" path="res://Images/q/npc/Carrot_sleep.png" id="6_xxgtc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_epp64"]
+atlas = ExtResource("2_xolch")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bldrp"]
+atlas = ExtResource("2_xolch")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mas8w"]
+atlas = ExtResource("2_xolch")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xxgtc"]
+atlas = ExtResource("3_6f4qa")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exjgt"]
+atlas = ExtResource("3_6f4qa")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vcmie"]
+atlas = ExtResource("3_6f4qa")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6f4qa"]
+atlas = ExtResource("4_bqxsl")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqxsl"]
+atlas = ExtResource("4_bqxsl")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iba8o"]
+atlas = ExtResource("4_bqxsl")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3udwr"]
+atlas = ExtResource("5_bqxsl")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x1xo8"]
+atlas = ExtResource("5_bqxsl")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ek6s"]
+atlas = ExtResource("6_xxgtc")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7m0lb"]
+atlas = ExtResource("6_xxgtc")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wntgx"]
+atlas = ExtResource("6_xxgtc")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dljl6"]
+animations = [{
+"frames": [{
+"duration": 20.0,
+"texture": SubResource("AtlasTexture_epp64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bldrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mas8w")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 20.0,
+"texture": SubResource("AtlasTexture_xxgtc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exjgt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vcmie")
+}],
+"loop": true,
+"name": &"left",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 20.0,
+"texture": SubResource("AtlasTexture_6f4qa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqxsl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iba8o")
+}],
+"loop": true,
+"name": &"right",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 15.0,
+"texture": SubResource("AtlasTexture_3udwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x1xo8")
+}],
+"loop": true,
+"name": &"side",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ek6s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7m0lb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wntgx")
+}],
+"loop": true,
+"name": &"sleep",
+"speed": 8.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4iiua"]
+radius = 14.0
+height = 36.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6f4qa"]
+radius = 36.0
+height = 72.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ayw0m"]
+radius = 18.1108
+
+[sub_resource type="Animation" id="Animation_32tk5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-8, -43)]
+}
+
+[sub_resource type="Animation" id="Animation_rs3un"]
+resource_name = "chatbox"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.22),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-8, -43), Vector2(-8, -40)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_irdck"]
+_data = {
+&"RESET": SubResource("Animation_32tk5"),
+&"chatbox": SubResource("Animation_rs3un")
+}
+
+[node name="Carrot" type="CharacterBody2D"]
+script = ExtResource("1_4vgav")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -6)
+sprite_frames = SubResource("SpriteFrames_dljl6")
+animation = &"sleep"
+autoplay = "default"
+frame_progress = 0.920901
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_4iiua")
+
+[node name="areaTalk" type="Area2D" parent="."]
+position = Vector2(0, 12)
+
+[node name="areaTalk" type="CollisionShape2D" parent="areaTalk"]
+position = Vector2(-1, 31)
+shape = SubResource("CapsuleShape2D_6f4qa")
+
+[node name="right" type="Area2D" parent="."]
+position = Vector2(79, -15)
+
+[node name="right" type="CollisionShape2D" parent="right"]
+position = Vector2(0, 27)
+shape = SubResource("CircleShape2D_ayw0m")
+
+[node name="left" type="Area2D" parent="."]
+position = Vector2(-77, -21)
+
+[node name="left" type="CollisionShape2D" parent="left"]
+position = Vector2(0, 27)
+shape = SubResource("CircleShape2D_ayw0m")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+z_index = 3
+offset_left = -8.0
+offset_top = -43.0
+offset_right = 41.0
+offset_bottom = -6.0
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("3_epp64")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_irdck")
+}
+
+[connection signal="body_entered" from="areaTalk" to="." method="_on_area_talk_body_entered"]
+[connection signal="body_exited" from="areaTalk" to="." method="_on_area_talk_body_exited"]
+[connection signal="body_entered" from="right" to="." method="_on_right_body_entered"]
+[connection signal="body_entered" from="left" to="." method="_on_left_body_entered"]

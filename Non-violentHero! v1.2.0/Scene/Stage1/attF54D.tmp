@@ -1,0 +1,136 @@
+[gd_scene load_steps=14 format=3 uid="uid://dntgb5rnwj3pi"]
+
+[ext_resource type="Script" path="res://Scene/Stage1/attackstage_1.gd" id="1_ge468"]
+[ext_resource type="PackedScene" uid="uid://dn4a4bfre47g4" path="res://Dialogue/DialogueFile/dialogue.tscn" id="1_jt06w"]
+[ext_resource type="Texture2D" uid="uid://dmjop55nd0cqp" path="res://Images/q/char/Aunty/aunty_1.png" id="2_837mu"]
+[ext_resource type="PackedScene" uid="uid://cbi4bkp3k4i4e" path="res://Scene/Heart/heartcontainer.tscn" id="2_ec1el"]
+[ext_resource type="Texture2D" uid="uid://dgm4s0oyclpgd" path="res://Images/q/char/Aunty/aunty_2.png" id="3_nog14"]
+[ext_resource type="PackedScene" uid="uid://bvdqcanicae2i" path="res://MainMenu/control.tscn" id="6_jx8jm"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3fiby"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_klr5d"]
+atlas = ExtResource("2_837mu")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2d37f"]
+atlas = ExtResource("3_nog14")
+region = Rect2(0, 0, 2480, 3508)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yqcaa"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_klr5d")
+}],
+"loop": true,
+"name": &"angry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2d37f")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_khiyv"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 3)]
+}
+
+[sub_resource type="Animation" id="Animation_a0x4w"]
+resource_name = "shake"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.00467739, 0.0801388, 0.135264, 0.180291, 0.220394),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 5), Vector2(0, -5), Vector2(0, 3), Vector2(0, -3), Vector2(0, 2)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3x33o"]
+_data = {
+"RESET": SubResource("Animation_khiyv"),
+"shake": SubResource("Animation_a0x4w")
+}
+
+[node name="attackstage1" type="Node2D"]
+script = ExtResource("1_ge468")
+
+[node name="Panel" type="Panel" parent="."]
+custom_minimum_size = Vector2(900, 100)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -640.0
+offset_top = -384.0
+offset_right = 640.0
+offset_bottom = 384.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3fiby")
+
+[node name="Name" type="Label" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -568.0
+offset_top = -256.0
+offset_right = -344.0
+offset_bottom = -221.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.26, 0.26)
+sprite_frames = SubResource("SpriteFrames_yqcaa")
+
+[node name="Control" parent="." instance=ExtResource("6_jx8jm")]
+
+[node name="Dialogue" parent="." instance=ExtResource("1_jt06w")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HeartOpp" parent="CanvasLayer" instance=ExtResource("2_ec1el")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Heart" parent="CanvasLayer" instance=ExtResource("2_ec1el")]
+offset_left = 816.0
+offset_top = 440.0
+offset_right = 816.0
+offset_bottom = -144.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 3)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Camera2D"]
+libraries = {
+"": SubResource("AnimationLibrary_3x33o")
+}
