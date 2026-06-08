@@ -1,0 +1,52 @@
+[
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"change_current_character": "busker",
+	"eng_dialogue": "Listen up!",
+	"man_dialogue": "聽好了！",
+	"man_sim_dialogue": "听好了！",
+	"jp_dialogue": "よく聞け！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "The legendary battle suit!",
+	"man_dialogue": "傳說中的戰衣！",
+	"man_sim_dialogue": "传说中的战衣！",
+	"jp_dialogue": "伝説の衣装！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"change_current_character": "right",
+	"eng_dialogue": "And a donut~",
+	"man_dialogue": "還有甜甜圈~",
+	"man_sim_dialogue": "还有甜甜圈~",
+	"jp_dialogue": "それからドーナツだ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "No items, no entry!",
+	"man_dialogue": "你沒拿來前不許通過~",
+	"man_sim_dialogue": "你没拿来前不许通过~",
+	"jp_dialogue": "持ってくるまで通さないからな！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

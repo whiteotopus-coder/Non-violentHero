@@ -1,0 +1,317 @@
+[
+  {
+	"background_song": "no",
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"eng_dialogue": "Huh?",
+	"man_dialogue": "咦？",
+	"man_sim_dialogue": "咦？",
+	"animation": "d_right_idle",
+	"jp_dialogue": "えっ？",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"auto_save": "true",
+	"background_song": "no",
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"animation": "d_right_think",
+	"eng_dialogue": "Why've you got so many donuts?",
+	"man_dialogue": "你怎麼有這麼多甜甜圈啊？",
+	"man_sim_dialogue": "你怎么有这么多甜甜圈啊？",
+	"jp_dialogue": "なんでそんなにドーナツ持ってんの？",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"auto_save": "true",
+	"background_song": "no",
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"eng_dialogue": "Hmm...",
+	"man_dialogue": "嗯...",
+	"man_sim_dialogue": "嗯...",
+	"animation": "d_right_idle",
+	"jp_dialogue": "うーん…",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"auto_save": "true",
+	"background_song": "no",
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "喂！",
+	"man_sim_dialogue": "喂！",
+	"animation": "d_right_idle",
+	"jp_dialogue": "なあ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"jp_name": "右の雑魚",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"animation": "d_right_idle",
+	"eng_dialogue": "Which flavor's the best?",
+	"man_dialogue": "哪一個口味比較好吃？",
+	"man_sim_dialogue": "哪一个口味比较好吃？",
+	"jp_dialogue": "どの味が一番うまいんだ？",
+	"options": [
+	  {
+		"eng_option": "Sea Salt Pufferfish Flavor",
+		"man_sim_option": "海盐河豚口味",
+		"man_option": "海鹽河豚口味",
+		"jp_option": "フグ塩味",
+		"response": [
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"man_sim_dialogue": "噢！",
+			"man_dialogue": "噢！",
+			"eng_dialogue": "Oh!",
+			"jp_dialogue": "おっ！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"man_sim_dialogue": "那我就吃这个吧！",
+			"man_dialogue": "那我就吃這個吧！",
+			"eng_dialogue": "Then I'm eating this one!",
+			"jp_dialogue": "じゃあこれ食う！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"background_song": "no",
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Munch munch munch munch",
+			"man_dialogue": "嚼嚼嚼嚼",
+			"man_sim_dialogue": "嚼嚼嚼嚼",
+			"animation": "d_right_eat",
+			"jp_dialogue": "もぐもぐもぐもぐ",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Munch munch munch...",
+			"man_dialogue": "嚼嚼嚼...",
+			"man_sim_dialogue": "嚼嚼嚼...",
+			"animation": "d_right_eat",
+			"jp_dialogue": "もぐもぐもぐ…",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "......",
+			"man_dialogue": "......",
+			"man_sim_dialogue": "......",
+			"animation": "d_right_eat",
+			"jp_dialogue": "……",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "...",
+			"man_dialogue": "...",
+			"man_sim_dialogue": "...",
+			"animation": "d_right_eat",
+			"jp_dialogue": "…",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"done": "demon_npc_died",
+			"play_quit_animation": "true",
+			"change": "res://SceneTransTscn/ending/show_ending.tscn",
+			"sceneTransition": "dissolve"
+		  }
+		]
+	  },
+	  {
+		"eng_option": "Strawberry Flavor",
+		"man_sim_option": "草莓口味",
+		"man_option": "草莓口味",
+		"jp_option": "いちご味",
+		"response": [
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"man_sim_dialogue": "噢！",
+			"man_dialogue": "噢！",
+			"eng_dialogue": "Oh!",
+			"jp_dialogue": "おっ！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"man_sim_dialogue": "那我就吃这个吧！",
+			"man_dialogue": "那我就吃這個吧！",
+			"eng_dialogue": "Then I'm eating this one!",
+			"jp_dialogue": "じゃあこれ食う！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"background_song": "no",
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Munch munch munch",
+			"man_dialogue": "嚼嚼嚼嚼",
+			"man_sim_dialogue": "嚼嚼嚼嚼",
+			"animation": "d_right_eat",
+			"jp_dialogue": "もぐもぐもぐもぐ",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "It's full of ants inside, so disgusting!!",
+			"man_dialogue": "嘔嘔嘔嘔裡面都是螞蟻好惡心啊！！",
+			"man_sim_dialogue": "呕呕呕呕呕里面都是蚂蚁好恶心啊！！",
+			"animation": "d_right_thrownup",
+			"false_opp": "true",
+			"jp_dialogue": "おええええええ中にアリがびっしりで気持ち悪い！！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Bleurgh bleurgh bleurgh!!",
+			"man_dialogue": "嘔嘔嘔嘔嘔嘔嘔嘔",
+			"man_sim_dialogue": "呕呕呕呕呕呕呕呕",
+			"animation": "d_right_vomit",
+			"false_opp": "true",
+			"jp_dialogue": "おえええええええええ",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"background_song": "comedy",
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "You...even...",
+			"man_dialogue": "你....居然...",
+			"man_sim_dialogue": "你....居然...",
+			"animation": "d_right_vomit",
+			"false_opp": "true",
+			"jp_dialogue": "お前…よくも…",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "…even rigged the donut!",
+			"man_dialogue": "連甜甜圈都設下了這種陷阱！",
+			"man_sim_dialogue": "连甜甜圈都下了毒手！",
+			"animation": "d_right_vomit",
+			"false_opp": "true",
+			"jp_dialogue": "ドーナツにまで手をかけやがって！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Even...the donut...",
+			"man_sim_dialogue": "居然...連甜甜圈都...",
+			"man_dialogue": "居然...連甜甜圈都...",
+			"animation": "d_right_vomit",
+			"jp_dialogue": "まさか…ドーナツにまで…",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "You really are...heartless...",
+			"man_sim_dialogue": "你真的...太恶毒了....",
+			"man_dialogue": "你真的...太惡毒了....",
+			"animation": "d_right_vomit",
+			"jp_dialogue": "お前、本当に…悪辣すぎる…",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Left...I failed you..",
+			"man_sim_dialogue": "兄弟...不能帮你报仇了..",
+			"man_dialogue": "兄弟...不能幫你報仇了..",
+			"animation": "d_right_vomit",
+			"jp_dialogue": "兄弟…仇は取れそうにない…",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "right",
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "I...I’m done for...",
+			"man_dialogue": "我...也撐不住了...",
+			"man_sim_dialogue": "我...也撑不住了...",
+			"animation": "d_right_vomit",
+			"false_opp": "true",
+			"jp_dialogue": "お…俺ももう無理だ…",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"change_current_character": "busker",
+			"eng_name": "Demon Left",
+			"man_name": "左邊小怪",
+			"man_sim_name": "左边小怪",
+			"avatar": "d_left_shock",
+			"eng_dialogue": "We...we lost....",
+			"man_dialogue": "是...是我們輸了....",
+			"man_sim_dialogue": "是...是我们输了....",
+			"done": "setposition",
+			"jp_dialogue": "お…俺たちの負けだ…",
+			"jp_name": "左の雑魚"
+		  },
+		  {
+			"background_song": "no",
+			"done": "cave_entrance_done",
+			"change": "res://SceneTransTscn/tilemap.tscn",
+			"sceneTransition": "dissolve",
+			"play_quit_animation": "true"
+		  }
+		]
+	  }
+	]
+  }
+]

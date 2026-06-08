@@ -1,0 +1,64 @@
+[
+  {
+	"background_song": "no",
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"animation": "shock",
+	"eng_dialogue": "Hero~!",
+	"man_dialogue": "勇者~！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "勇者~！",
+	"jp_dialogue": "勇者〜！",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"animation": "shy",
+	"eng_dialogue": "I’m so in love with you!",
+	"man_dialogue": "不行，我真的太愛你了！！",
+	"ani_chatbox": "chatbox_shake",
+	"ani_effect": "flash",
+	"play_false_animation": "true",
+	"man_sim_dialogue": "不行，我真的太爱你了！！",
+	"jp_dialogue": "もうダメ、私ほんとにあなたのことが大好き！！",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Can you feel my burning love?!",
+	"man_dialogue": "你一定感受到我熱烈的愛了吧！",
+	"ani_chatbox": "chatbox_shake",
+	"ani_effect": "flash",
+	"play_false_animation": "true",
+	"man_sim_dialogue": "你一定感受到我热烈的爱了吧！",
+	"jp_dialogue": "この愛、ちゃんと伝わってるでしょ！",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Then let’s be together—right now!",
+	"man_dialogue": "那我們就馬上結合吧！！",
+	"ani_chatbox": "chatbox_shake",
+	"play_false_animation": "true",
+	"man_sim_dialogue": "那我们马上就结合吧！！",
+	"jp_dialogue": "だから、今すぐ一つになろうよ！！",
+	"jp_name": "魔王"
+  },
+  {
+	"sceneTransition": "dissolve",
+	"change": "res://SceneTransTscn/ending/show_ending.tscn",
+	"demon_love": "false",
+	"play_quit_animation": "true"
+  }
+]

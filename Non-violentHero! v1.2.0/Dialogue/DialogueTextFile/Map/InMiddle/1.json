@@ -1,0 +1,93 @@
+[
+  {
+	"eng_name": "Left-side Student",
+	"man_name": "左邊同學",
+	"eng_dialogue": "Hmm...",
+	"man_dialogue": "嗯...",
+	"man_sim_dialogue": "嗯...",
+	"change_current_character": "nun",
+	"jp_dialogue": "うーん…",
+	"jp_name": "左のクラスメイト"
+  },
+  {
+	"eng_name": "Left-side Student",
+	"man_name": "左邊同學",
+	"eng_dialogue": "Class rep...",
+	"man_dialogue": "班長...",
+	"man_sim_dialogue": "班长...",
+	"jp_dialogue": "委員長…",
+	"jp_name": "左のクラスメイト"
+  },
+  {
+	"eng_name": "Left-side Student",
+	"man_name": "左邊同學",
+	"eng_dialogue": "Why is the teacher standing between us?",
+	"man_dialogue": "爲什麽老師要站在我們中間哦？",
+	"man_sim_dialogue": "为什么老师要站在我们中间？",
+	"jp_dialogue": "なんで先生、ぼくたちの真ん中に立ってるの？",
+	"jp_name": "左のクラスメイト"
+  },
+  {
+	"eng_name": "Class Monitor",
+	"man_name": "班長",
+	"eng_dialogue": "I don’t know either...",
+	"man_dialogue": "我也不知道...",
+	"man_sim_dialogue": "我也不知道...",
+	"change_current_character": "kid",
+	"jp_dialogue": "私にもわかんない…",
+	"jp_name": "委員長"
+  },
+  {
+	"eng_name": "Class Monitor",
+	"man_name": "班長",
+	"eng_dialogue": "Why don’t you ask him yourself?",
+	"man_dialogue": "你自己問...",
+	"man_sim_dialogue": "你自己问...",
+	"jp_dialogue": "自分で聞いてよ…",
+	"jp_name": "委員長"
+  },
+  {
+	"eng_name": "Left-side Student",
+	"man_name": "左邊同學",
+	"eng_dialogue": "Aren't you the class rep...?",
+	"man_dialogue": "你不是班長麽...",
+	"man_sim_dialogue": "你不是班长吗...",
+	"change_current_character": "nun",
+	"jp_dialogue": "ねえ、委員長なんでしょ…",
+	"jp_name": "左のクラスメイト"
+  },
+  {
+	"eng_name": "Left-side Student",
+	"man_name": "左邊同學",
+	"eng_dialogue": "Shouldn’t you be the one asking?",
+	"man_dialogue": "班長問啦！",
+	"man_sim_dialogue": "班长问嘛！",
+	"jp_dialogue": "委員長が聞いてよ！",
+	"jp_name": "左のクラスメイト"
+  },
+  {
+	"eng_name": "Class Monitor",
+	"man_name": "班長",
+	"change_current_character": "kid",
+	"eng_dialogue": "Well... I’m not the class rep right now...",
+	"man_dialogue": "那我現在不當班長了...",
+	"man_sim_dialogue": "那我现在不当班长了...",
+	"ani_kidC": "C_side",
+	"jp_dialogue": "じゃあ今日もう委員長やめる…",
+	"jp_name": "委員長"
+  },
+  {
+	"eng_name": "Class Monitor",
+	"man_name": "班長",
+	"eng_dialogue": "I’ll be the class rep again tomorrow...",
+	"man_dialogue": "我明天再當..",
+	"man_sim_dialogue": "我明天才当..",
+	"jp_dialogue": "明日またやる…",
+	"jp_name": "委員長"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

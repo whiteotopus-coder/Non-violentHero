@@ -1,0 +1,338 @@
+[
+  {
+	"eng_name": "Busker",
+	"change_current_character": "busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"man_dialogue": "你是不是也想唱歌給上帝聼？",
+	"eng_dialogue": "Do you wanna sing for the Lord too?",
+	"man_sim_dialogue": "你是不是也想唱歌给上帝听？",
+	"aniBusker": "talk",
+	"jp_dialogue": "あんたも神様に歌を聴かせたいの？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"man_dialogue": "要不要和我一起唱哦？",
+	"man_sim_dialogue": "要不要和我一起唱？",
+	"eng_dialogue": "Wanna sing together?",
+	"aniBusker": "talk",
+	"options": [
+	  {
+		"eng_option": "You're in my way.",
+		"man_option": "你擋著我了",
+		"man_sim_option": "你很挡路",
+		"response": [
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "shock",
+			"man_dialogue": "什麽~~",
+			"eng_dialogue": "Whaaat~~",
+			"man_sim_dialogue": "什么~~",
+			"jp_dialogue": "なにそれ〜〜",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"man_dialogue": "你和那個修女一樣~~",
+			"eng_dialogue": "You sound just like that nun~~",
+			"man_sim_dialogue": "你和那个修女一样~~",
+			"jp_dialogue": "あのシスターと同じじゃん〜〜",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"man_dialogue": "都要趕我走嗎！",
+			"eng_dialogue": "Are you trying to chase me away too?!",
+			"man_sim_dialogue": "都要赶我走吗！",
+			"jp_dialogue": "あんたもあたしを追い出すの！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "我本來要去教堂的！",
+			"eng_dialogue": "I was just about to head to the church!",
+			"man_sim_dialogue": "我本来要去教堂",
+			"jp_dialogue": "ほんとは教会に行くつもりだったの！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "如果你帮我去教堂，我就不在这边挡路了！",
+			"eng_dialogue": "If you help me get in, I’ll move out of your way!",
+			"man_sim_dialogue": "你如果帮我去教堂，我就不在这边挡路了！",
+			"jp_dialogue": "教会に入れるようにしてくれたら、ここで歌わないよ！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "不然我就继续在这边唱！",
+			"eng_dialogue": "Otherwise, I’ll just keep singing here~",
+			"man_sim_dialogue": "不然我就继续在这边唱！",
+			"done": "church_get_task",
+			"jp_dialogue": "じゃなきゃこのままずっとここで歌うから！",
+			"jp_name": "大道芸人"
+		  }
+		],
+		"jp_option": "すごく邪魔なんだけど"
+	  },
+	  {
+		"eng_option": "Is your drummer dead or something?",
+		"man_option": "你的鼓手死掉了欸",
+		"man_sim_option": "你的鼓手死掉了",
+		"response": [
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "沒有啦！",
+			"eng_dialogue": "Hey, no way!",
+			"man_sim_dialogue": "没有啦！",
+			"jp_dialogue": "違うよ！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "他只是在偷懶而已~",
+			"eng_dialogue": "He’s just slacking off~",
+			"man_sim_dialogue": "他只是在偷懒！",
+			"jp_dialogue": "ただサボってるだけ！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "熊熊不要睡覺了~",
+			"eng_dialogue": "Bear, stop napping!",
+			"man_sim_dialogue": "熊熊不要睡觉了~",
+			"jp_dialogue": "クマちゃん、寝ないでよ〜",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "你起來~",
+			"eng_dialogue": "Get up!",
+			"man_sim_dialogue": "你起来~",
+			"jp_dialogue": "起きて〜",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "我們一起唱！",
+			"eng_dialogue": "Let’s sing together!",
+			"man_sim_dialogue": "我们一起唱歌！",
+			"jp_dialogue": "一緒に歌おう！",
+			"jp_name": "大道芸人"
+		  }
+		],
+		"jp_option": "あんたのドラマー、死んだの？"
+	  },
+	  {
+		"eng_option": "Why did you choose this place?",
+		"man_option": "為什麼在這邊唱歌？",
+		"man_sim_option": "为什么在这里唱歌？",
+		"response": [
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "唉喲。",
+			"eng_dialogue": "Ugh...",
+			"man_sim_dialogue": "哎哟。",
+			"jp_dialogue": "はぁ…",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "我本來要去教堂的！",
+			"eng_dialogue": "I was heading to the church!",
+			"man_sim_dialogue": "我本来要去教堂",
+			"jp_dialogue": "ほんとは教会に行くつもりだったの！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "那邊才是最靠近上帝的！",
+			"eng_dialogue": "It’s the closest place to the Lord!",
+			"man_sim_dialogue": "那边最靠近上帝了！",
+			"jp_dialogue": "あそこが一番神様に近いから！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "可是修女一直趕我！",
+			"eng_dialogue": "But that nun keeps kicking me out!",
+			"man_sim_dialogue": "可是修女一直赶我走",
+			"jp_dialogue": "でもシスターがずっと追い出すの！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "所以我就選這邊~",
+			"eng_dialogue": "So I ended up here~",
+			"man_sim_dialogue": "所以我选这边",
+			"jp_dialogue": "だからこっちにしたの！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "這邊聽得到上帝一點點回應！",
+			"eng_dialogue": "At least I can kinda hear Him replying here!",
+			"man_sim_dialogue": "这边可以听到上帝一点点回应！",
+			"done": "church_get_task",
+			"jp_dialogue": "ここなら神様の返事がちょっとだけ聞こえるの！",
+			"jp_name": "大道芸人"
+		  }
+		],
+		"jp_option": "なんでここで歌ってるの？"
+	  },
+	  {
+		"eng_option": "Can't you afford new clothes?",
+		"man_option": "你沒有錢買衣服啊？",
+		"man_sim_option": "你没有钱买衣服吗？",
+		"response": [
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "shock",
+			"man_dialogue": "什麽意思！",
+			"eng_dialogue": "What do you mean?!",
+			"man_sim_dialogue": "什么意思！",
+			"jp_dialogue": "どういう意味！？",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "shock",
+			"man_dialogue": "你在講我衣服很爛嗎！",
+			"eng_dialogue": "Are you making fun of my outfit?!",
+			"man_sim_dialogue": "你在讲我衣服很烂吗！",
+			"jp_dialogue": "あたしの服ダサいって言いたいの！？",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "shock",
+			"man_dialogue": "這個是時尚來的！",
+			"eng_dialogue": "This is fashion!",
+			"man_sim_dialogue": "这是时尚！",
+			"jp_dialogue": "これはファッションだよ！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "shock",
+			"man_dialogue": "時尚！！",
+			"eng_dialogue": "FASHION!",
+			"man_sim_dialogue": "时尚！！",
+			"jp_dialogue": "ファッション！！",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "啊~不過我確實是沒有錢~",
+			"eng_dialogue": "...But yeah, I’m totally broke~",
+			"man_sim_dialogue": "啊，不过我确实是没有钱。",
+			"jp_dialogue": "あ、でも確かにお金はないけど。",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "no",
+			"man_dialogue": "嗚嗚嗚嗚~",
+			"eng_dialogue": "Boohoohoo~",
+			"man_sim_dialogue": "呜呜呜",
+			"jp_dialogue": "ううう",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"aniBusker": "talk",
+			"man_dialogue": "這種時候只可以祈禱了！",
+			"eng_dialogue": "At times like this, I guess all I can do is pray!",
+			"man_sim_dialogue": "这种时候只可以祈祷了！",
+			"jp_dialogue": "こういう時は祈るしかないの！",
+			"jp_name": "大道芸人"
+		  }
+		],
+		"jp_option": "服を買うお金ないの？"
+	  }
+	],
+	"jp_dialogue": "一緒に歌う？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"man_dialogue": "上帝哦~",
+	"eng_dialogue": "Oh Lord~",
+	"man_sim_dialogue": "上帝哦~",
+	"aniBusker": "default",
+	"jp_dialogue": "神様〜",
+	"jp_name": "大道芸人"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

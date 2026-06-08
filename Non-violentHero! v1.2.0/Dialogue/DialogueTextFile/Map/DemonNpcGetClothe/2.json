@@ -1,0 +1,59 @@
+[
+  {
+	"change_current_character": "busker",
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_shock",
+	"eng_dialogue": "So this is the legendary battle suit, huh...",
+	"man_dialogue": "原來傳說中的戰衣長這樣...",
+	"man_sim_dialogue": "原來传说中的战衣长这样...",
+	"ani_left": "shock",
+	"jp_dialogue": "伝説の衣装ってこんな感じだったのか…",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Whoa...I’ve never seen one before!",
+	"man_dialogue": "我第一次看到耶...",
+	"man_sim_dialogue": "长见识了...",
+	"ani_right": "default",
+	"jp_dialogue": "いい勉強になっちまったな…",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"eng_dialogue": "Hey! What about the donuts?!",
+	"man_dialogue": "喂，還有甜甜圈啊！",
+	"man_sim_dialogue": "还有甜甜圈诶！",
+	"ani_right": "shock",
+	"jp_dialogue": "でもまだドーナツがねぇだろ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "No donuts, no entry!",
+	"man_dialogue": "拿來之前別想進去！",
+	"man_sim_dialogue": "拿来之前你别想进去！",
+	"ani_right": "default",
+	"jp_dialogue": "持ってくるまで中には入れないぞ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"ani_left": "default"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"change_current_character": "right",
+	"eng_dialogue": "What?!",
+	"man_dialogue": "幹什麼！",
+	"man_sim_dialogue": "干什么！",
+	"ani_right": "shock",
+	"jp_dialogue": "なんだよ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"eng_dialogue": "Oh, right!",
+	"man_dialogue": "對吼！",
+	"man_sim_dialogue": "对吼！",
+	"jp_dialogue": "あ、そうだ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "You wanna get through, huh?!",
+	"man_dialogue": "你要過去吼！",
+	"man_sim_dialogue": "你要过去吼！",
+	"ani_right": "default",
+	"jp_dialogue": "お前、通りたいんだったな！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"change_current_character": "busker",
+	"eng_dialogue": "Hmph! You think we’ll just let you pass?!",
+	"man_dialogue": "哼哼，你覺得我們會讓你過去嗎！",
+	"man_sim_dialogue": "哼哼，你觉得我们会让你过去吗！",
+	"ani_left": "default",
+	"jp_dialogue": "ふふ、通してやると思ったか？",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "Heh, thanks for bringing everything to us!",
+	"man_dialogue": "哼哼謝謝你把東西都拿來給我們啊！",
+	"man_sim_dialogue": "哼哼谢谢你把东西都拿来啊！",
+	"jp_dialogue": "ふふ、物を持ってきてくれてありがとな！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"change_current_character": "right",
+	"eng_dialogue": "Go on in then~",
+	"man_dialogue": "你過去吧！",
+	"man_sim_dialogue": "你过去吧！",
+	"jp_dialogue": "通っていいぞ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_shock",
+	"change_current_character": "busker",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "嘿！！！不對！！",
+	"man_sim_dialogue": "嘿！！！不对！！",
+	"ani_left": "shock",
+	"jp_dialogue": "って、おい！！違うだろ！！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_shock",
+	"eng_dialogue": "We were just messing with him!",
+	"man_dialogue": "都說是隨便應付他的！",
+	"man_sim_dialogue": "都说是糊弄他的啦！",
+	"jp_dialogue": "騙すって言ってただろ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_shock",
+	"eng_dialogue": "Who said you could actually let him through?!",
+	"man_dialogue": "怎麼可能真的讓他過去啊！！",
+	"man_sim_dialogue": "谁让你真的让他过去啊！",
+	"jp_dialogue": "なんで本当に通してんだよ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"change_current_character": "right",
+	"eng_dialogue": "Aaaaah! That was the plan?!",
+	"man_dialogue": "啊啊啊啊啊！原來是這樣啊！",
+	"man_sim_dialogue": "啊啊啊啊啊！原来是这样吗！",
+	"ani_right": "shock",
+	"jp_dialogue": "うわああああ！そういうことか！？",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "T-That’s right!",
+	"man_dialogue": "就...就是這樣！",
+	"man_sim_dialogue": "就...就是这样！",
+	"ani_right": "default",
+	"ani_left": "default",
+	"jp_dialogue": "そ、そういうことだよ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "You hear that, idiot?!",
+	"man_dialogue": "聽到了嗎，你這個笨蛋！",
+	"man_sim_dialogue": "听懂了吗，笨蛋！",
+	"jp_dialogue": "分かったかバカ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "We’re not letting you through!",
+	"man_dialogue": "我們是不會讓你過去的！",
+	"man_sim_dialogue": "我们是不会让你过去的！",
+	"options": [
+	  {
+		"eng_option": "You’re cheating!",
+		"man_option": "你們耍賴！",
+		"man_sim_option": "你们耍赖！",
+		"response": [
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Hahaha!",
+			"man_sim_dialogue": "哈哈哈哈！",
+			"man_dialogue": "哈哈哈哈！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_right",
+			"jp_dialogue": "はははは！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "Yeah, we are!",
+			"man_sim_dialogue": "我们就耍赖！",
+			"man_dialogue": "我們就耍賴！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_right",
+			"jp_dialogue": "ずるして何が悪い！",
+			"jp_name": "右の雑魚"
+		  }
+		],
+		"jp_option": "ずるいぞ！"
+	  },
+	  {
+		"eng_option": "Let me through!",
+		"man_option": "讓我過去！",
+		"man_sim_option": "让我过去！",
+		"response": [
+		  {
+			"eng_name": "Demon Left",
+			"man_name": "左邊小怪",
+			"man_sim_name": "左边小怪",
+			"change_current_character": "busker",
+			"eng_dialogue": "No way!",
+			"man_sim_dialogue": "那可不行！",
+			"man_dialogue": "不可以~！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_left",
+			"jp_dialogue": "それは無理だな！",
+			"jp_name": "左の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"change_current_character": "right",
+			"eng_dialogue": "Haha, dream on!",
+			"man_sim_dialogue": "哈哈哈哈你别想！",
+			"man_dialogue": "哈哈哈哈，才不給你過去！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_right",
+			"jp_dialogue": "はははは無理無理！",
+			"jp_name": "右の雑魚"
+		  }
+		],
+		"jp_option": "通してくれ！"
+	  }
+	],
+	"jp_dialogue": "お前を通すわけねぇだろ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"change_current_character": "right",
+	"eng_dialogue": "Too bad! We don’t care if you’re mad!",
+	"man_sim_dialogue": "不满意也没用！",
+	"man_dialogue": "不滿意也沒有用！",
+	"jp_dialogue": "不満ならさ、",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"change_current_character": "busker",
+	"eng_dialogue": "Got a problem? Then fight us for it!",
+	"man_sim_dialogue": "要抗议就和我们一决高下吧！",
+	"man_dialogue": "要抗議就來和我們一決高下吧！！",
+	"jp_dialogue": "勝負で決めようぜ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"background_song": "battle",
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "Take this!",
+	"man_sim_dialogue": "看招！！",
+	"man_dialogue": "看招！！",
+	"jp_dialogue": "くらえ！！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://Scene/Map/attack_entrance.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Teacher, please stop staring at me like that!",
+	"man_dialogue": "老師不要再這樣看我了！",
+	"man_sim_dialogue": "老师不要这样看我了！",
+	"ani_kidB": "B_lose",
+	"jp_dialogue": "先生、そんなふうに見ないでよ！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "I won’t do bad things again!",
+	"man_dialogue": "我不會再做壞事了嗚嗚！",
+	"man_sim_dialogue": "我不会干坏事了呜呜！",
+	"jp_dialogue": "もう悪いことしないからうぅぅ！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "Trust me!",
+	"man_dialogue": "相信我！",
+	"man_sim_dialogue": "相信我！",
+	"jp_dialogue": "信じて！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

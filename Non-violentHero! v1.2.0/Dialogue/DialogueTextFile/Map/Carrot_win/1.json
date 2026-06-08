@@ -1,0 +1,95 @@
+[
+  {
+	"background_song": "no",
+	"eng_name": "Mrs. Karen Garrett",
+	"change_current_character": "carrot",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "夠了！！我受夠了！！",
+	"man_sim_dialogue": "好了！！我受够了！！",
+	"eng_dialogue": "Enough! I’ve had enough!",
+	"animation": "angry",
+	"animation_kid": "default",
+	"jp_dialogue": "もういい！！うんざりよ！！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "你這個老師，一直冤枉我兒子！",
+	"man_sim_dialogue": "你这个老师，一直冤枉我儿子！",
+	"eng_dialogue": "You keep falsely accusing my son!",
+	"animation": "angry_once",
+	"jp_dialogue": "この先生、ずっとうちの子を悪者扱いして！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "我一定會去投訴你的！",
+	"man_sim_dialogue": "我一定会去投诉你的！",
+	"eng_dialogue": "I’m reporting you to the principal!",
+	"animation": "angry_once",
+	"jp_dialogue": "絶対に苦情入れてやるんだから！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "還有，你這個勇者真的是很沒用！",
+	"man_sim_dialogue": "还有，你这个勇者真的是很没有用！",
+	"eng_dialogue": "And you! Some hero you are completely useless!",
+	"animation": "angry_once",
+	"ani_effect": "flash",
+	"jp_dialogue": "それに、あんたみたいな勇者ほんと役立たず！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "我一定會跟我的姐妹們說你有多爛，你就等著吧！",
+	"man_sim_dialogue": "我一定会和我的姐妹们说你有多么差劲，你就等着吧！",
+	"eng_dialogue": "I’ll tell all the other moms how terrible you are! Just you wait!",
+	"animation": "angry_once",
+	"animation_kid": "default_fast",
+	"jp_dialogue": "ママ友たちにもあんたがどれだけダメか全部言いふらしてやるから、覚悟してなさい！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher_scare",
+	"eng_dialogue": "Mrs. Garrett! Please, let’s talk this through!",
+	"man_dialogue": "羅太太！我們再談一下吧！",
+	"man_sim_dialogue": "罗太太！我们再谈一下吧！",
+	"animation": "default",
+	"jp_dialogue": "もう少しお話ししましょう！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"change_current_character": "carrot",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "談個屁！免談！再見！！",
+	"man_sim_dialogue": "谈个屁！免谈！再见！！",
+	"eng_dialogue": "Talk my ass! Not happening! Goodbye!",
+	"animation": "angry_once",
+	"ani_effect": "flash",
+	"jp_dialogue": "話すわけないでしょ！お断り！じゃあね！！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"sceneTransition": "dissolve",
+	"change": "res://SceneTransTscn/ending/show_ending.tscn",
+	"get_out_teacher": "false",
+	"play_quit_animation": "true",
+	"close": "true"
+  }
+]

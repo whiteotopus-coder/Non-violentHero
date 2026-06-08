@@ -1,0 +1,57 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "Why is the teacher sitting there?",
+	"man_dialogue": "老師爲什麽坐這邊哦？",
+	"man_sim_dialogue": "老师为什么坐这边？",
+	"jp_dialogue": "先生、なんでそこに座ってるの？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "You don’t get it!",
+	"man_dialogue": "你不懂啦！",
+	"man_sim_dialogue": "你不懂！",
+	"jp_dialogue": "わかってないな！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "The teacher’s using his pants to wipe the seat!",
+	"man_dialogue": "老師一定是在用褲子擦乾净那個椅子！",
+	"man_sim_dialogue": "老师一定是在用屁股擦干净椅子！",
+	"jp_dialogue": "先生はきっと、お尻で椅子をきれいにしてるんだよ！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Wow!",
+	"man_dialogue": "哇！",
+	"man_sim_dialogue": "哇！",
+	"jp_dialogue": "わあ！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "The teacher’s so neat!",
+	"man_dialogue": "老師好愛乾净呐！",
+	"man_sim_dialogue": "老师好爱干净哦！",
+	"jp_dialogue": "先生ってめっちゃきれい好きなんだね！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

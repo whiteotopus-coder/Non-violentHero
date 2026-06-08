@@ -1,0 +1,130 @@
+[
+  {
+	"done": "setposition",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "對了！",
+	"eng_dialogue": "Oh, and one more thing...",
+	"man_sim_dialogue": "对了...",
+	"jp_dialogue": "そうだ…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "不知道要幹嘛的時候，",
+	"eng_dialogue": "If you’re ever unsure what to do,",
+	"man_sim_dialogue": "不知道要干什么的时候，",
+	"jp_dialogue": "何をしたらいいかわからなくなった時は、",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "你就打開背包，看看任務清單吧！",
+	"eng_dialogue": "just open your bag and check the task list.",
+	"man_sim_dialogue": "你就打开背包，看看任务清单吧！",
+	"jp_dialogue": "バッグを開いて、任務リストを見てみるといい！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "那作為拯救公主的回報...",
+	"eng_dialogue": "And finally, as a reward for rescuing my daughter...",
+	"man_sim_dialogue": "那作为拯救公主的回报...",
+	"jp_dialogue": "それじゃ、姫を助けてくれたお礼として…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "I will allow you to marry my wife.",
+	"man_dialogue": "我會將皇后許配給你。",
+	"man_sim_dialogue": "我会将皇后许配给你。",
+	"jp_dialogue": "皇后をお前にやろう。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "啊，差點忘了給你一個重要的東西！",
+	"eng_dialogue": "Ah! I almost forgot something important!",
+	"man_sim_dialogue": "啊，差点忘了给你一个重要的东西！",
+	"jp_dialogue": "あ、そうだ、大事なものを渡すのを忘れるところだった！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "就是這個~",
+	"eng_dialogue": "This right here~",
+	"man_sim_dialogue": "就是这个~",
+	"give_map": "true",
+	"jp_dialogue": "これだ〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "這可是我親手畫的地圖哦！",
+	"eng_dialogue": "I drew this map myself, you know!",
+	"man_sim_dialogue": "这可是我亲手画的地图哦！",
+	"jp_dialogue": "これは私が自分で描いた地図なんだぞ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "我可是畫得很用心的！你可要好好愛護它，年輕人！",
+	"eng_dialogue": "I put a lot of effort into it! Take good care of it, young man!",
+	"man_sim_dialogue": "我可是画得很用心的！你可要好好爱护它，年轻人！",
+	"jp_dialogue": "かなり気合い入れて描いたんだからな〜！大事にしてくれよ、若者！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "魔王就在洞穴裏，我想他把我女兒藏在裏面了。",
+	"eng_dialogue": "The Demon King is in that cave. I bet he’s hiding my daughter there!",
+	"man_sim_dialogue": "魔王就在洞穴里，我想他把我女儿藏在里面了。",
+	"jp_dialogue": "魔王は洞窟の中にいる。娘はその中に隠されているはずだ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "真是可惡！",
+	"eng_dialogue": "What a jerk!",
+	"man_sim_dialogue": "真是可恶！",
+	"jp_dialogue": "まったくけしからん！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Alright then, let me send you off.",
+	"man_dialogue": "那麼，我送你出去吧。",
+	"man_sim_dialogue": "那么，我送你出去吧。",
+	"jp_dialogue": "では、外まで送ってやろう。",
+	"jp_name": "王様"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"done": "king_go"
+  }
+]

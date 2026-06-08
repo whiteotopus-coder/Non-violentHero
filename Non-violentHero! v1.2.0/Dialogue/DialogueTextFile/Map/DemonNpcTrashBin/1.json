@@ -1,0 +1,58 @@
+[
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "哎！",
+	"man_sim_dialogue": "哎！",
+	"ani_right": "left",
+	"ani_left": "left",
+	"jp_dialogue": "おい！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "That's our bed!",
+	"man_dialogue": "這個是我們的床！",
+	"man_sim_dialogue": "这个是我们的床！",
+	"jp_dialogue": "それ、俺たちのベッドだぞ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Don't touch it!",
+	"man_dialogue": "不要碰我們的東西！",
+	"man_sim_dialogue": "不要碰我们的东西！",
+	"jp_dialogue": "勝手に触るな！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Get out of here!",
+	"man_dialogue": "快滾蛋啦！",
+	"man_sim_dialogue": "走开走开！",
+	"jp_dialogue": "あっち行けあっち行け！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"ani_right": "default",
+	"ani_left": "default",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

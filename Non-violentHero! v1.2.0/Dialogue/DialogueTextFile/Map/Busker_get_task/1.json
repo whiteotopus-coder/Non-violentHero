@@ -1,0 +1,62 @@
+[
+  {
+	"eng_name": "Busker",
+	"change_current_character": "busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Hey, you’re not from around here, are you?",
+	"man_dialogue": "欸，你是外面來的嗎！",
+	"man_sim_dialogue": "诶，你是从外面来的吗！",
+	"aniBusker": "talk",
+	"jp_dialogue": "え、よそから来たの？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "A traveler or something?",
+	"man_dialogue": "旅人什麼的？",
+	"man_sim_dialogue": "是不是旅人啊？",
+	"aniBusker": "talk",
+	"jp_dialogue": "旅の人？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Hey there~",
+	"man_dialogue": "哈咯~",
+	"man_sim_dialogue": "哈咯~",
+	"aniBusker": "talk",
+	"jp_dialogue": "ハロー〜",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "I’m singing for the Lord!",
+	"man_dialogue": "我在唱歌給上帝聽！",
+	"man_sim_dialogue": "我在唱歌给上帝听！",
+	"aniBusker": "talk",
+	"jp_dialogue": "あたしは神様に歌を聴かせてるの！",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Oh, Lord~",
+	"man_dialogue": "上帝哦~",
+	"man_sim_dialogue": "上帝哦~",
+	"aniBusker": "default",
+	"jp_dialogue": "神様〜聞いて〜",
+	"jp_name": "大道芸人"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

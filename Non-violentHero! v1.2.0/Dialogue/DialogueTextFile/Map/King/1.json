@@ -1,0 +1,98 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "You there! You must be the Hero!",
+	"man_dialogue": "你！就是勇者吧！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "你！就是勇者吧！",
+	"change_current_character": "king",
+	"jp_dialogue": "お前！勇者だな！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "You’ve read the letter, right?",
+	"man_dialogue": "你一定看了我寄出的那封信，對吧！",
+	"man_sim_dialogue": "你一定看了我寄出的那封信，对吧！",
+	"jp_dialogue": "私が送ったあの手紙を見たんだろう！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "So you came here to rescue my daughter!",
+	"man_dialogue": "所以你是來救我女兒的！",
+	"man_sim_dialogue": "所以你是来救我女儿的！",
+	"jp_dialogue": "だから娘を助けに来たんだな！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Oh right... you’re that \"Non-violent Hero\", aren’t you?",
+	"man_dialogue": "喔...你是那個什麼「非暴力勇者」對吧？",
+	"man_sim_dialogue": "喔...你是那个什么「非暴力勇者」对吧？",
+	"jp_dialogue": "おお…お前があの「非暴力勇者」ってやつか？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Whatever! As long as you save my daughter, I don’t care!",
+	"man_dialogue": "算了，只要你能救出我女兒就好了。",
+	"man_sim_dialogue": "算了，只要你能救出我女儿就行。",
+	"jp_dialogue": "まあいい、娘を助け出せるならそれでいい。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Now then!",
+	"man_dialogue": "那麼！！",
+	"man_sim_dialogue": "那么！！",
+	"jp_dialogue": "では！！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Let the battle begin!",
+	"man_dialogue": "戰鬥開始吧！！",
+	"man_sim_dialogue": "战斗开始吧！！",
+	"jp_dialogue": "戦闘開始だ！！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Take this!",
+	"man_dialogue": "看招！！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "看招！！",
+	"jp_dialogue": "かかってこい！",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://Scene/Castle/attackking.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

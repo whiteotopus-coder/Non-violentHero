@@ -1,0 +1,48 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "The teacher just sat down!",
+	"man_dialogue": "老師坐去他的位置了！",
+	"man_sim_dialogue": "老师坐去前面的位置了！",
+	"jp_dialogue": "先生、前に座った！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Is that a new teacher?",
+	"man_dialogue": "是新老師啦！",
+	"man_sim_dialogue": "是新老师吗？",
+	"jp_dialogue": "新しい先生かな？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Class rep! Class rep!",
+	"man_dialogue": "班長班長！",
+	"man_sim_dialogue": "班长班长！",
+	"jp_dialogue": "委員長、委員長！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Why is the teacher dressed so weirdly?",
+	"man_dialogue": "這個老師爲什麽穿得這麽奇怪的？",
+	"man_sim_dialogue": "这个老师为什么穿得这么奇怪的？",
+	"jp_dialogue": "あの先生、なんであんな変な格好してるの？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"ach_class_in_session": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

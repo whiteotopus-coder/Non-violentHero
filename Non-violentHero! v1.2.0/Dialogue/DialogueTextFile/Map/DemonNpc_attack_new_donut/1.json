@@ -1,0 +1,57 @@
+[
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"eng_dialogue": "Munch munch munch",
+	"man_dialogue": "嚼嚼嚼嚼",
+	"man_sim_dialogue": "嚼嚼嚼嚼",
+	"animation": "d_right_eat",
+	"jp_dialogue": "もぐもぐもぐもぐ",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"eng_dialogue": "Munch munch...",
+	"man_dialogue": "嚼嚼嚼...",
+	"man_sim_dialogue": "嚼嚼嚼...",
+	"animation": "d_right_eat",
+	"jp_dialogue": "もぐもぐもぐ…",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"background_song": "no",
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"eng_dialogue": "......",
+	"man_dialogue": "......",
+	"man_sim_dialogue": "......",
+	"animation": "d_right_eat",
+	"jp_dialogue": "……",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"eng_dialogue": "...",
+	"man_dialogue": "...",
+	"man_sim_dialogue": "...",
+	"animation": "d_right_eat",
+	"jp_dialogue": "…",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"done": "demon_npc_died",
+	"play_quit_animation": "true",
+	"change": "res://SceneTransTscn/ending/show_ending.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

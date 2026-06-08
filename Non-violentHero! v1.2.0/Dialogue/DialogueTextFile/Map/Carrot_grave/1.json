@@ -1,0 +1,43 @@
+[
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "Huh?",
+	"man_dialogue": "？",
+	"man_sim_dialogue": "？",
+	"jp_dialogue": "？",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "What are you doing?",
+	"man_dialogue": "幹什麽？",
+	"man_sim_dialogue": "干什么？",
+	"jp_dialogue": "何？",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "I don't need any decoration.",
+	"man_dialogue": "我不需要裝飾品啊。",
+	"man_sim_dialogue": "我不需要装饰品啊。",
+	"jp_dialogue": "私、飾り物なんていらないんだけど。",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

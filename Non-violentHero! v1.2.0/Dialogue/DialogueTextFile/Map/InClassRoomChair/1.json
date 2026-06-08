@@ -1,0 +1,68 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "Ah, look!",
+	"man_dialogue": "啊你們看！",
+	"man_sim_dialogue": "啊，你们看！",
+	"jp_dialogue": "あ、見て！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "The teacher sat in the wrong seat!",
+	"man_dialogue": "老師好像坐錯椅子了！",
+	"man_sim_dialogue": "老师好像坐错椅子了！",
+	"jp_dialogue": "先生、椅子間違えてない？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "No way!",
+	"man_dialogue": "怎麽可能！",
+	"man_sim_dialogue": "怎么可能呢！",
+	"jp_dialogue": "そんなわけないでしょ！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "A teacher can't be that dumb!",
+	"man_dialogue": "老師哪裡可能這麽笨！",
+	"man_sim_dialogue": "老师怎么可能这么笨！",
+	"jp_dialogue": "先生がそんなにバカなわけないじゃん！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "But that seat’s for short kids...",
+	"man_dialogue": "可是這個椅子是拿來給不夠高的人",
+	"man_sim_dialogue": "可是这个椅子是给不够高的人",
+	"jp_dialogue": "でもそれ、",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "It’s for standing on to clean the blackboard...",
+	"man_dialogue": "踮脚擦黑板的哦...",
+	"man_sim_dialogue": "踮脚擦黑板的...",
+	"jp_dialogue": "背が低くて黒板消すときにつま先立ちしちゃう人用の椅子だよね…",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"ach_clean_chair": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

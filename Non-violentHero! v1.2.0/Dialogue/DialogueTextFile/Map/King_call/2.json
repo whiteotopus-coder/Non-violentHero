@@ -1,0 +1,42 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Heeyyyy!",
+	"man_dialogue": "喂喂！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "喂！！",
+	"jp_dialogue": "おーい！！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Hey, come back here!",
+	"man_dialogue": "你回來啊！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "你回来啊！！",
+	"jp_dialogue": "戻ってこーい！！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Come talk to me first!",
+	"man_dialogue": "先過來這邊！",
+	"man_sim_dialogue": "先过来这边！",
+	"jp_dialogue": "先にこっちへ来なさい！",
+	"jp_name": "王様"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

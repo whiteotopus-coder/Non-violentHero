@@ -1,0 +1,79 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Why...why do you keep turning your back on me?",
+	"man_dialogue": "你...為什麼總是一轉身就走？",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "你...为什么总是一转身就走？",
+	"jp_dialogue": "お前は…どうしていつも背を向けて行ってしまうんだ？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "You show up, then leave without saying a word...",
+	"man_dialogue": "來了，卻一句話都不說就走...",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "来了，却一句话都不说就走...",
+	"jp_dialogue": "来たのに、一言も話さずに去っていく…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "What do you really want?!",
+	"man_dialogue": "你到底想幹什麼！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "你到底想干什么！",
+	"jp_dialogue": "一体何がしたいんだ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "If leaving is really what you want...",
+	"man_dialogue": "既然你真的那麼想走",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "既然你真的那么想走",
+	"jp_dialogue": "そんなに帰りたいなら、",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "then I won’t stop you anymore...",
+	"man_dialogue": "那我也不攔你了...",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "那我也不拦你了...",
+	"jp_dialogue": "もう止めはしない…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "go.",
+	"man_dialogue": "走吧。",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "走吧。",
+	"jp_dialogue": "行け。",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://SceneTransTscn/ending/show_ending.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

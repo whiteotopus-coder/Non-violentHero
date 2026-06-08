@@ -1,0 +1,83 @@
+[
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Oh no!",
+	"man_dialogue": "喔！",
+	"man_sim_dialogue": "哦！",
+	"ani_kidB": "B_hands_up",
+	"jp_dialogue": "あ！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "Is the teacher staring at me?",
+	"man_dialogue": "老師是在盯著我看嗎！",
+	"man_sim_dialogue": "老师是在看我吗！",
+	"jp_dialogue": "先生、今見てるのぼくかな！？",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "That’s creepy!",
+	"man_dialogue": "好可怕！",
+	"man_sim_dialogue": "好可怕！",
+	"jp_dialogue": "怖い！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Girl",
+	"man_name": "左邊女同學",
+	"man_sim_name": "左边女同学",
+	"change_current_character": "nun",
+	"eng_dialogue": "Did you forget to hand in your homework?",
+	"man_dialogue": "你是不是沒有交功課",
+	"man_sim_dialogue": "你是不是忘记交作业了？",
+	"ani_kidD": "D_side",
+	"jp_dialogue": "宿題出し忘れたんじゃない？",
+	"jp_name": "左の女子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"change_current_character": "right",
+	"eng_dialogue": "No way!",
+	"man_dialogue": "怎麽可能！",
+	"man_sim_dialogue": "怎么可能！",
+	"jp_dialogue": "そんなわけないでしょ！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "Did this teacher even give us homework?!",
+	"man_dialogue": "這個老師有給過功課嗎！",
+	"man_sim_dialogue": "这个老师有给过作业吗！",
+	"jp_dialogue": "この先生、宿題なんて出したことあった？",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "If he did... I definitely didn’t do it.",
+	"man_dialogue": "有給過的話我是沒有做過...",
+	"man_sim_dialogue": "有给过的话我是没有做过...",
+	"ani_kidB": "B_back",
+	"jp_dialogue": "出してたとしても、ぼくはやってないけど…",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

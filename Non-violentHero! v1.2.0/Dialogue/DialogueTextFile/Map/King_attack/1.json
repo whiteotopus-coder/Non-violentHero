@@ -1,0 +1,1933 @@
+[
+  {
+	"auto_save": "true",
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "default",
+	"eng_dialogue": "Hero!",
+	"man_dialogue": "非什麼什麼勇者！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "非什么什么勇者！",
+	"change_current_character": "king",
+	"jp_dialogue": "非なんとか勇者！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "HAHA! Got you~~",
+	"man_dialogue": "嚇到了吧~",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "吓到了吧~",
+	"jp_dialogue": "びっくりしただろ〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Actually, I'm here to teach you the tutorial!",
+	"man_dialogue": "其實我是來給你教學的啦！",
+	"ani_chatbox": "chatbox_shake",
+	"animation": "k_you",
+	"man_sim_dialogue": "其实我是来给你教学的啦！",
+	"jp_dialogue": "実は私は、お前に戦い方を教えに来たんだ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "With a young hero like you willing to step forward,",
+	"man_dialogue": "有你這樣的年輕勇者願意前來...",
+	"animation": "default",
+	"man_sim_dialogue": "有你这样的年轻勇者愿意前来...",
+	"jp_dialogue": "お前のような若い勇者が来てくれた以上…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "there’s hope for the princess!",
+	"man_dialogue": "公主就有希望了！",
+	"ani_chatbox": "chatbox_shake",
+	"animation": "shock",
+	"man_sim_dialogue": "公主就有希望了！",
+	"jp_dialogue": "姫を助けられる希望はある！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "And for that... I must properly thank you!",
+	"man_dialogue": "為此...我要好好的感謝你！",
+	"man_sim_dialogue": "为此...我要好好的感谢你！",
+	"animation": "happy",
+	"jp_dialogue": "だからこそ…しっかり恩返しをしないとな！",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "no",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "I’ve decided to make a sacrifice...",
+	"man_dialogue": "我決定獻身...",
+	"ani_chatbox": "chatbox_shake",
+	"animation": "king_good",
+	"man_sim_dialogue": "我决定献身...",
+	"jp_dialogue": "この身を捧げて…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "to act as your enemy and show you how to fight!",
+	"man_dialogue": "模擬成你的敵人，為你示範一下如何戰鬥！",
+	"animation": "k_you",
+	"man_sim_dialogue": "模拟成你的敌人，为你示范一下如何战斗！",
+	"jp_dialogue": "お前の敵役を演じながら、どう戦うか見せてやることにした！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "That’s sincere enough, right, young one?",
+	"man_dialogue": "夠誠意了吧，年輕人？",
+	"animation": "happy",
+	"man_sim_dialogue": "够诚意了吧，年轻人？",
+	"jp_dialogue": "なかなか誠意あるだろう？",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "See the hearts and name at the top left?",
+	"man_dialogue": "看到畫面左上角的愛心和名字了吧？",
+	"animation": "king_good",
+	"man_sim_dialogue": "看到画面左上角的爱心和名字了吧？",
+	"jp_dialogue": "画面左上にあるハートと名前、見えただろう？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "That’s my name...and my HP!",
+	"man_dialogue": "那可是我的名字，和我的血量喔！",
+	"animation": "king_good",
+	"man_sim_dialogue": "那可是我的名字，和我的血量喔！",
+	"jp_dialogue": "あれは私の名前とHPだ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "The settings button is at the top right. You can save and load your game there!",
+	"man_dialogue": "右上角是設定按鈕，可以存檔和讀取檔案！",
+	"animation": "king_good",
+	"man_sim_dialogue": "右上角是设置按钮，可以存档和读取档案！",
+	"jp_dialogue": "右上は設定ボタンで、セーブとロードができる！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "And the one next to it is your backpack. You can check your quests and items inside!",
+	"man_dialogue": "它的左邊是背包，可以查看任務列表和得到的物品！",
+	"animation": "happy",
+	"man_sim_dialogue": "它的左边是背包，可以查看任务列表和得到的物品！",
+	"jp_dialogue": "その左にあるのがバッグで、任務一覧や手に入れたアイテムを確認できる！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "As for how battles work...",
+	"man_dialogue": "而對戰方式就是...",
+	"animation": "default",
+	"man_sim_dialogue": "而对战方式就是...",
+	"jp_dialogue": "そして戦い方だが…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Just pick the correct answer from the options! ...So easy! Right~?",
+	"man_dialogue": "在提供的選項裡，選出對的答案！！...好簡單！對吧~",
+	"animation": "happy",
+	"man_sim_dialogue": "在提供的选项里，选出对的答案！！...好简单！对吧~",
+	"jp_dialogue": "出てきた選択肢の中から、正しい答えを選ぶ！！…簡単だろ〜？",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "no",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": ".........",
+	"man_dialogue": ".........",
+	"animation": "happy",
+	"man_sim_dialogue": ".........",
+	"jp_dialogue": "………",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Hey! Don’t go asking something like, \"If it’s so easy, why don’t you do it yourself!\"",
+	"man_dialogue": "...誒！不要問「這麼簡單，你為什麼不自己上」這種話喔！",
+	"animation": "shock",
+	"man_sim_dialogue": "...诶！不要问「这么简单，你为什么不自己上」这种话哦！",
+	"jp_dialogue": "…えっ！「そんなに簡単ならなんで自分で行かないんだ」なんて聞くなよ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Look...my castle doesn’t even have chairs...My legs are completely numb. I can’t even walk anymore...",
+	"man_dialogue": "你看看...我的城堡長年連椅子都沒有...我的腿已經麻木了，走不動了。",
+	"animation": "cry",
+	"man_sim_dialogue": "你看看...我的城堡长年连椅子都没有...我的腿已经麻木了，走不动了。",
+	"jp_dialogue": "この城じゃ、長年ずっと椅子すらなくてな…私の足はもうしびれて動けんのだ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "So I’m counting on you, young one!",
+	"man_dialogue": "所以只可以靠你了，年輕人！",
+	"animation": "k_you",
+	"man_sim_dialogue": "所以只可以靠你了，年轻人！",
+	"jp_dialogue": "だから頼れるのはお前だけなんだ、若者！",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "As long as your HP doesn’t hit zero, and your opponent’s does, you win.",
+	"man_dialogue": "只要最後你的血量沒有歸零，並且對手的血量歸零，你就贏了。",
+	"animation": "default",
+	"man_sim_dialogue": "只要最后你的血量没有归零，并且对手的血量归零，你就赢了。",
+	"jp_dialogue": "最後にお前のHPがゼロになっていなくて、相手のHPがゼロになっていれば勝ちだ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Alright, try this.",
+	"man_dialogue": "那就來試試看吧。你就先回答我...",
+	"man_sim_dialogue": "那就来试试看吧。你就先回答我...",
+	"animation": "happy",
+	"jp_dialogue": "じゃあやってみよう。まずはこれに答えてくれ…",
+	"jp_name": "王様"
+  },
+  {
+	"hide_last_option_btn": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "我那的美麗的女兒，公主叫什麼名字？",
+	"animation": "default",
+	"eng_dialogue": "What’s my daughter’s name?",
+	"man_sim_dialogue": "我的美丽女儿，公主叫什么名字？",
+	"options": [
+	  {
+		"eng_option": "Princess",
+		"man_sim_option": "公主",
+		"man_option": "公主",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "什么公主",
+			"man_dialogue": "什麼公主",
+			"eng_dialogue": "What princess?",
+			"jp_dialogue": "姫って何だ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "shock",
+			"man_sim_dialogue": "啊？你是在回答我公主的名字是公主吗？",
+			"man_dialogue": "啊？你的意思是公主的名字就叫公主嗎？",
+			"eng_dialogue": "Huh? You think her name is literally Princess?",
+			"jp_dialogue": "え？お前、姫の名前は「姫」だって答えてるのか？",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "shock",
+			"man_sim_dialogue": "你以为我在跟你在猜谜吗！",
+			"man_dialogue": "你以為我在跟你玩猜謎遊戲嗎！",
+			"eng_dialogue": "Do you think I'm playing a guessing game with you?!",
+			"jp_dialogue": "なぞなぞでもしてると思ってるのか！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "k_wrong",
+			"man_sim_dialogue": "我女儿才不叫公主！！",
+			"man_dialogue": "我女兒才不叫公主！！",
+			"eng_dialogue": "My daughter is NOT named Princess!",
+			"false": "true",
+			"jp_dialogue": "うちの娘は姫なんて名前じゃない！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "shock",
+			"man_sim_dialogue": "啊，是名字不叫公主！",
+			"man_dialogue": "啊，是她的名字不叫公主！",
+			"eng_dialogue": "So her name isn't Princess!",
+			"jp_dialogue": "ああ、名前が「姫」じゃないって意味だぞ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "serious",
+			"man_sim_dialogue": "绕的我都头晕了...",
+			"man_dialogue": "被你繞得頭都暈了...",
+			"eng_dialogue": "You're making my head spin...",
+			"jp_dialogue": "自分で言ってて頭がこんがらがってきた…",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "姫"
+	  },
+	  {
+		"eng_option": "I don't know",
+		"man_sim_option": "不知道",
+		"man_option": "不知道",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "现如今还有敢于说不知道的年轻人...",
+			"man_dialogue": "現在還有敢說不知道的年輕人...",
+			"eng_dialogue": "Ah...a young person who dares to admit they don't know...",
+			"jp_dialogue": "この時代に、わからないと正直に言える若者がまだいたとは…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "cry",
+			"man_sim_dialogue": "真是感动...",
+			"man_dialogue": "真的是太感動了...",
+			"eng_dialogue": "I'm truly touched...",
+			"jp_dialogue": "感動した…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "但是很抱歉",
+			"man_dialogue": "但是很抱歉喔",
+			"eng_dialogue": "But sorry...",
+			"jp_dialogue": "だが残念ながら、",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "k_wrong",
+			"man_sim_dialogue": "这样还是算你答错哦~",
+			"man_dialogue": "這樣還是算你答錯喔~",
+			"eng_dialogue": "That still counts as a wrong answer~",
+			"false": "true",
+			"jp_dialogue": "それでも不正解扱いだぞ〜",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "わからない"
+	  },
+	  {
+		"eng_option": "Emily",
+		"man_sim_option": "小美",
+		"man_option": "小美",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "k_wrong",
+			"man_sim_dialogue": "错啦错啦！",
+			"man_dialogue": "錯啦錯啦！",
+			"eng_dialogue": "Wrong, wrong!",
+			"jp_dialogue": "違う違う！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "serious",
+			"man_sim_dialogue": "我才不会给我女儿取这种满地都是的名字！",
+			"man_dialogue": "我才不會給我女兒取這種滿地都是的名字！",
+			"eng_dialogue": "I would never give my daughter such a common name!",
+			"jp_dialogue": "私が娘にそんなありふれた名前をつけるわけないだろ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "default",
+			"man_sim_dialogue": "我的女儿的名字应该要是那种...",
+			"man_dialogue": "我女兒的名字應該是那種...",
+			"eng_dialogue": "My daughter's name should be something...",
+			"jp_dialogue": "うちの娘の名前はもっとこう…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "happy",
+			"man_sim_dialogue": "特别到让人一听就会记住的！",
+			"man_dialogue": "特別到讓人一聽就記住的！",
+			"eng_dialogue": "so unique that everyone remembers it instantly!",
+			"jp_dialogue": "一度聞いたら絶対忘れないような特別な名前であるべきなんだ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "k_wrong",
+			"man_sim_dialogue": "所以你错啦！",
+			"man_dialogue": "所以你答錯啦！",
+			"eng_dialogue": "So you're wrong!",
+			"false": "true",
+			"jp_dialogue": "だから不正解だ！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "さくら"
+	  },
+	  {
+		"eng_option": "Can you give me a hint?",
+		"man_sim_option": "可以给我提示吗",
+		"man_option": "可以給一點提示嗎",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "k_wrong",
+			"man_sim_dialogue": "错了！",
+			"man_dialogue": "錯了！",
+			"eng_dialogue": "No!",
+			"jp_dialogue": "不正解！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "我女儿不叫“可以给我提示吗”！",
+			"man_dialogue": "我女兒不叫“可以給一點提示嗎”！",
+			"eng_dialogue": "My daughter’s name is not \"Can you give me a hint?\"!",
+			"false": "true",
+			"jp_dialogue": "うちの娘の名前は「ヒントをもらえますか」じゃない！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "ヒントをもらえますか"
+	  }
+	],
+	"jp_dialogue": "私の美しい娘、姫の名前は何だ？",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Ha! Now for the answer. Her name is...",
+	"man_dialogue": "那現在就來解答！",
+	"man_sim_dialogue": "那现在就来解答！",
+	"animation": "default",
+	"jp_dialogue": "では答えを発表しよう！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Seraphina Calista Isolde Elowen Bellamy Charlotte Wang!",
+	"man_dialogue": "我女兒的名字是--瑟拉菲娜 卡莉絲妲 伊索德 伊洛雯 貝拉米 夏洛特 王！",
+	"man_sim_dialogue": "我女儿的名字是--瑟拉菲娜 卡莉丝妲 伊索德 伊洛雯 贝拉米 夏洛特 王！",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "うちの娘の名前は――セラフィナ・カリスタ・イゾルデ・エロウェン・ベラミー・シャーロット・王だ！",
+	"jp_name": "王様"
+  },
+  {
+	"hide_last_option_btn": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Cool name, right? I'm really good at naming~",
+	"man_dialogue": "很酷炫吧~我可真會取名啊！",
+	"man_sim_dialogue": "很酷炫吧~我可真会取名啊！",
+	"animation": "happy",
+	"options": [
+	  {
+		"eng_option": "None of those were the correct answer!",
+		"man_sim_option": "里面都没有正确答案！",
+		"man_option": "裡面都沒有正確答案！",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "king_good",
+			"man_sim_dialogue": "哎呀，没关系啦~",
+			"man_dialogue": "哎呀，沒有關係啦",
+			"eng_dialogue": "Aiya~",
+			"jp_dialogue": "まあまあ、大丈夫だよ〜",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "happy",
+			"man_sim_dialogue": "这是示范而已嘛~",
+			"man_dialogue": "這是示範而已嘛~",
+			"eng_dialogue": "It's just an example~",
+			"jp_dialogue": "これはただの実演だからな〜",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "k_you",
+			"man_sim_dialogue": "你知道怎么战斗了比较重要~",
+			"man_dialogue": "你知道怎麼戰鬥了比較重要~",
+			"eng_dialogue": "As long as you understand how to fight, that's what matters~",
+			"jp_dialogue": "戦い方がわかるほうが大事なんだよ〜",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "default",
+			"man_sim_dialogue": "反正就是~",
+			"man_dialogue": "反正就是~",
+			"eng_dialogue": "Anyway~",
+			"jp_dialogue": "要するに〜",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "その中に正解ないじゃん"
+	  },
+	  {
+		"eng_option": "That's too long, no one will remember it.",
+		"man_sim_option": "名字太长了，记不住的",
+		"man_option": "名字太長了，記不住的",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "default",
+			"man_sim_dialogue": "哎哟，这也是没办法的嘛...",
+			"man_dialogue": "哎喲，這也是沒辦法的嘛...",
+			"eng_dialogue": "Well, there was just no helping it...",
+			"jp_dialogue": "いやあ、それは仕方ないんだよ…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "我只有一个女儿，可是这些名字都很好听...",
+			"man_dialogue": "我只有一個女兒，可是這些名字都很好聼...",
+			"eng_dialogue": "I only have one daughter, but all those names sounded so lovely...",
+			"jp_dialogue": "娘は一人しかいないのに、どの名前も響きが良すぎてな…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "shock",
+			"man_sim_dialogue": "所以我就全部给她取了！",
+			"man_dialogue": "所以我就全部都給她取了！",
+			"eng_dialogue": "So I gave her all of them!",
+			"jp_dialogue": "だから全部つけた！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "happy",
+			"man_sim_dialogue": "我可真是个好爸爸啊。",
+			"man_dialogue": "我可真是個好爸爸啊。",
+			"eng_dialogue": "What a great dad I am.",
+			"jp_dialogue": "私はなんて立派な父親なんだろうな！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "default",
+			"man_sim_dialogue": "啊，离题了。",
+			"man_dialogue": "啊，離題了。",
+			"eng_dialogue": "Ah, I'm getting off track.",
+			"jp_dialogue": "ああ、話が逸れた。",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "反正就是~",
+			"man_dialogue": "反正就是~",
+			"eng_dialogue": "Anyway~",
+			"jp_dialogue": "とにかく〜",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "名前が長すぎて覚えられない"
+	  }
+	],
+	"jp_dialogue": "かっこいいだろ〜？いやあ、私はほんと名づけのセンスがあるな！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "If you choose the wrong answer, you'll lose HP.",
+	"man_dialogue": "當你答錯了，就會扣你的血量啦。",
+	"man_sim_dialogue": "当你答错了，就会扣你的血量啦。",
+	"animation": "k_you",
+	"jp_dialogue": "間違えた答えを選ぶと、HPが減るんだ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Very logical.",
+	"man_dialogue": "非常符合邏輯！",
+	"man_sim_dialogue": "非常符合逻辑！",
+	"ani_chatbox": "chatbox_shake",
+	"animation": "happy",
+	"jp_dialogue": "なかなか理にかなってるだろう！",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Next, just answer this...",
+	"man_dialogue": "那接下來，你說說...",
+	"man_sim_dialogue": "那接下来，你说说...",
+	"animation": "default",
+	"jp_dialogue": "では次だ、お前…",
+	"jp_name": "王様"
+  },
+  {
+	"hide_last_option_btn": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Who is the princess’s favorite person?",
+	"man_dialogue": "公主最喜歡的人是誰呢？",
+	"man_sim_dialogue": "公主最喜欢的人是谁吧。",
+	"options": [
+	  {
+		"eng_option": "King",
+		"man_sim_option": "国王",
+		"man_option": "國王",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "king_good",
+			"man_sim_dialogue": "啊哈！",
+			"man_dialogue": "啊哈！",
+			"eng_dialogue": "Ha Ha!",
+			"jp_dialogue": "あはは！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "happy",
+			"man_sim_dialogue": "对了对了！",
+			"man_dialogue": "對了對了！",
+			"eng_dialogue": "That's right!",
+			"jp_dialogue": "正解正解！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王"
+	  },
+	  {
+		"eng_option": "King",
+		"man_sim_option": "国王",
+		"man_option": "國王",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "king_good",
+			"man_sim_dialogue": "啊哈！",
+			"man_dialogue": "啊哈！",
+			"eng_dialogue": "Ha Ha!",
+			"jp_dialogue": "あはは！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "happy",
+			"man_sim_dialogue": "对了对了！",
+			"man_dialogue": "對了對了！",
+			"eng_dialogue": "That's right!",
+			"jp_dialogue": "正解正解！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王"
+	  },
+	  {
+		"eng_option": "King",
+		"man_sim_option": "国王",
+		"man_option": "國王",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "king_good",
+			"man_sim_dialogue": "啊哈！",
+			"man_dialogue": "啊哈！",
+			"eng_dialogue": "Ha Ha!",
+			"jp_dialogue": "あはは！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "happy",
+			"man_sim_dialogue": "对了对了！",
+			"man_dialogue": "對了對了！",
+			"eng_dialogue": "That's right!",
+			"jp_dialogue": "正解正解！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王"
+	  },
+	  {
+		"eng_option": "King",
+		"man_sim_option": "国王",
+		"man_option": "國王",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "king_good",
+			"man_sim_dialogue": "啊哈！",
+			"man_dialogue": "啊哈！",
+			"eng_dialogue": "Ha Ha!",
+			"jp_dialogue": "あはは！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "happy",
+			"man_sim_dialogue": "对了对了！",
+			"man_dialogue": "對了對了！",
+			"eng_dialogue": "That's right!",
+			"jp_dialogue": "正解正解！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王"
+	  }
+	],
+	"jp_dialogue": "姫が一番好きな人は誰だと思う？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Princess loves me the most~",
+	"man_dialogue": "公主最喜歡的人就是爸爸啦~",
+	"man_sim_dialogue": "公主最喜欢的人就是爸爸啦~",
+	"jp_dialogue": "姫が一番好きなのはパパなんだよ〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Correct~",
+	"man_dialogue": "答對~",
+	"man_sim_dialogue": "答对~",
+	"jp_dialogue": "正解〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Haha, that's an obvious question, right?",
+	"man_dialogue": "哈哈，這題的答案很簡單吧？",
+	"man_sim_dialogue": "哈哈，这题的答案很简单吧？",
+	"jp_dialogue": "はは、この問題は簡単だっただろ？",
+	"jp_name": "王様"
+  },
+  {
+	"hide_last_option_btn": "true",
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "She loves me the most. It's an ironclad fact!",
+	"man_dialogue": "公主最喜歡的人是爸爸，是鐵一般的事實！",
+	"man_sim_dialogue": "公主最喜欢的人是爸爸，是铁一般的事实！",
+	"options": [
+	  {
+		"eng_option": "None of these are the correct answer!",
+		"man_sim_option": "里面都没有正确答案！",
+		"man_option": "裡面都沒有正確答案！",
+		"response": [
+		  {
+			"play_punch_sound": "true",
+			"play_false_animation": "true",
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "shock",
+			"man_sim_dialogue": "嘿！！",
+			"man_dialogue": "嘿！！",
+			"eng_dialogue": "Hey!",
+			"false_opp": "true",
+			"jp_dialogue": "おい！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"play_false_animation": "true",
+			"background_song": "comedy",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "你什么意思！！",
+			"man_dialogue": "你什麼意思！！",
+			"eng_dialogue": "What do you mean!",
+			"false_opp": "true",
+			"jp_dialogue": "どういう意味だ！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "答案就是国王！！",
+			"man_dialogue": "答案就是國王！！",
+			"eng_dialogue": "The answer is me!",
+			"false_opp": "true",
+			"jp_dialogue": "答えは国王！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "是公主的爸爸！！",
+			"man_dialogue": "是公主的爸爸！！",
+			"eng_dialogue": "It’s her father!",
+			"false_opp": "true",
+			"jp_dialogue": "つまり姫の父親！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "是正确到不能再正确的答案！！！",
+			"man_dialogue": "是正確到不能再正確的答案！！！",
+			"eng_dialogue": "It’s absolutely the correct answer!",
+			"false_opp": "true",
+			"jp_dialogue": "これ以上ないほど正しい答えだろうが！！！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "その中に正解ないじゃん"
+	  },
+	  {
+		"eng_option": "A poor dad's fantasy",
+		"man_sim_option": "可怜的爸爸的幻想",
+		"man_option": "可憐的爸爸的幻想",
+		"response": [
+		  {
+			"play_punch_sound": "true",
+			"play_false_animation": "true",
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "shock",
+			"man_sim_dialogue": "什么！！",
+			"man_dialogue": "什麼！！",
+			"eng_dialogue": "What?!",
+			"false_opp": "true",
+			"jp_dialogue": "何だと！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"play_false_animation": "true",
+			"background_song": "comedy",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "你...一点都不懂身为一个父亲的心情！！",
+			"man_dialogue": "你...一點都不懂身為一個父親的心情！！",
+			"eng_dialogue": "You...have no idea what it's like to be a father!",
+			"jp_dialogue": "お前は…父親の気持ちを何一つわかってない！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "cry",
+			"man_sim_dialogue": "看着她一天天长大，最喜欢的人从爸爸，变成偶像，再变成男友...",
+			"man_dialogue": "看著她一天天長大，最喜歡的人從爸爸，變成偶像，再變成男友...",
+			"eng_dialogue": "Watching her grow up...first I'm her favorite, then it's idols, and then it's a boyfriend...",
+			"false_opp": "true",
+			"jp_dialogue": "娘が日に日に大きくなって、一番好きな人がパパからアイドルに、そして彼氏に変わっていく…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "shock",
+			"man_sim_dialogue": "你明白那种心情吗！！...",
+			"man_dialogue": "你明白那種心情嗎！！...",
+			"eng_dialogue": "Do you understand that feeling!...",
+			"false_opp": "true",
+			"jp_dialogue": "その気持ちがお前にわかるか！！…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "cry",
+			"man_sim_dialogue": "我幻想一下不行吗！！...",
+			"man_dialogue": "我幻想一下不可以嗎！！...",
+			"eng_dialogue": "Can't I at least have my little fantasy?!...",
+			"false_opp": "true",
+			"jp_dialogue": "少しくらい夢見たっていいだろう！！…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "呜呜...",
+			"man_dialogue": "嗚嗚...",
+			"eng_dialogue": "(T.T)...",
+			"jp_dialogue": "うう…",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "ただの父親の願望でしょ"
+	  },
+	  {
+		"eng_option": "The one she likes the most would be her little boyfriend.",
+		"man_sim_option": "公主最喜欢的一定是她的小男友",
+		"man_option": "公主最愛的一定是他的小男友啦",
+		"response": [
+		  {
+			"play_false_animation": "true",
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "shock",
+			"man_sim_dialogue": "哦？！",
+			"man_dialogue": "喔？！",
+			"eng_dialogue": "Oh?!",
+			"false_opp": "true",
+			"jp_dialogue": "おお！？",
+			"jp_name": "王様"
+		  },
+		  {
+			"play_false_animation": "true",
+			"background_song": "comedy",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "你怎么知道！！",
+			"man_dialogue": "你怎麼知道！！",
+			"eng_dialogue": "How did you know!",
+			"false_opp": "true",
+			"jp_dialogue": "なんで知ってるんだ！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "不对！！",
+			"man_dialogue": "不對啦！！",
+			"eng_dialogue": "No way!",
+			"false_opp": "true",
+			"jp_dialogue": "いや違う！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "公主最喜欢的是爸爸！！",
+			"man_dialogue": "公主最喜歡的是爸爸啦！！",
+			"eng_dialogue": "Princess loves me the most!",
+			"jp_dialogue": "姫が一番好きなのはパパだ！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "不可能是什么小男友！！",
+			"man_dialogue": "怎麼可能是什麼小男友！！",
+			"eng_dialogue": "There's no way it's her little boyfriend!",
+			"false_opp": "true",
+			"jp_dialogue": "彼氏なんかのはずがない！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "serious",
+			"man_sim_dialogue": "可恶，有天我一定会解决他...",
+			"man_dialogue": "可惡，有一天我一定要解決他...",
+			"eng_dialogue": "Damn it...",
+			"jp_dialogue": "くそ、いつか絶対あいつはどうにかしてやる…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"animation": "default",
+			"man_sim_dialogue": "不过...",
+			"man_dialogue": "不過...",
+			"eng_dialogue": "One day I'll deal with him...",
+			"jp_dialogue": "だが…",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "姫が一番好きなのはどうせ彼氏でしょ"
+	  },
+	  {
+		"eng_option": "That’s not true",
+		"man_sim_option": "这不是事实",
+		"man_option": "這不是事實",
+		"response": [
+		  {
+			"play_punch_sound": "true",
+			"play_false_animation": "true",
+			"background_song": "no",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "shock",
+			"man_sim_dialogue": "什么！！",
+			"man_dialogue": "什麼！！",
+			"eng_dialogue": "What?!",
+			"false_opp": "true",
+			"jp_dialogue": "何だと！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"play_false_animation": "true",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "公主最喜欢的人是爸爸！！",
+			"man_dialogue": "公主最喜歡的人是爸爸啦！！",
+			"eng_dialogue": "The princess loves me the most!",
+			"false_opp": "true",
+			"jp_dialogue": "姫が一番好きなのはパパ！！",
+			"jp_name": "王様"
+		  },
+		  {
+			"play_punch_sound": "true",
+			"play_false_animation": "true",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "这是铁一般的事实！！",
+			"man_dialogue": "這是鐵一般的事實！！",
+			"eng_dialogue": "This is an ironclad fact!",
+			"false_opp": "true",
+			"jp_dialogue": "これは絶対に揺るがない事実なんだ！！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "それは事実じゃない"
+	  }
+	],
+	"jp_dialogue": "姫が一番好きなのはパパ！これは揺るぎない事実だ！",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "no",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "...So you noticed, huh?",
+	"man_dialogue": "可惡，居然被你敏銳的察覺到了...",
+	"man_sim_dialogue": "可恶，居然被你敏锐的察觉到了...",
+	"animation": "serious",
+	"jp_dialogue": "くっ、まさかそこを鋭く見抜くとは…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Yes...this is how you attack your opponent...",
+	"man_dialogue": "是的...這就是攻擊對手的方法...",
+	"man_sim_dialogue": "是的...这就是攻击对手的方法...",
+	"animation": "serious",
+	"jp_dialogue": "そうだ…これこそが相手を攻撃する方法…",
+	"jp_name": "王様"
+  },
+  {
+	"play_false_animation": "true",
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "It’s...the power of words!",
+	"man_dialogue": "使用語言的力量...來讓對手屈服!!",
+	"man_sim_dialogue": "使用语言的力量...来让对手屈服!!",
+	"ani_chatbox": "chatbox_shake",
+	"animation": "k_you",
+	"jp_dialogue": "言葉の力を使って…相手を屈服させるんだ!!",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "But...it’s just a test! I’m not triggered at all!",
+	"man_dialogue": "但是...這只是示範而已，我可沒有被你刺激到喔！",
+	"man_sim_dialogue": "但是...这只是示范而已，我可没有被你刺激到喔！",
+	"animation": "k_wrong",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "だが…これはあくまで実演だからな、私は別に傷ついてなんかないぞ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "...I didn’t expect to endure this kind of emotional damage",
+	"man_dialogue": "...沒想到還要承受這樣的刺激。",
+	"man_sim_dialogue": "...没想到还要承受这样的刺激。",
+	"ani_chatbox": "chatbox_shake",
+	"animation": "serious",
+	"jp_dialogue": "…まさかこんな刺激に耐える必要があるとは。",
+	"jp_name": "王様"
+  },
+  {
+	"play_false_animation": "true",
+	"ani_chatbox": "chatbox_shake",
+	"show_last_option_btn": "true",
+	"background_song": "no",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "...喔！",
+	"eng_dialogue": "...Oh!",
+	"man_sim_dialogue": "...喔！",
+	"animation": "shock",
+	"jp_dialogue": "…おっと！",
+	"jp_name": "王様"
+  },
+  {
+	"show_last_option_btn": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "差點忘了這個按鈕。",
+	"eng_dialogue": "Almost forgot about this button.",
+	"man_sim_dialogue": "差点忘了这个按钮。",
+	"animation": "default",
+	"jp_dialogue": "危うくこのボタンを説明し忘れるところだった。",
+	"jp_name": "王様"
+  },
+  {
+	"show_last_option_btn": "true",
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "This is the undo button.",
+	"man_dialogue": "這是撤回按鈕。",
+	"man_sim_dialogue": "这是撤回按钮。",
+	"animation": "default",
+	"jp_dialogue": "これは巻き戻しボタンだ。",
+	"jp_name": "王様"
+  },
+  {
+	"show_last_option_btn": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "按了它，就會回到前一個問題。",
+	"eng_dialogue": "It brings you back to the earlier question,",
+	"man_sim_dialogue": "按了它，就会回到前一个问题。",
+	"animation": "k_you",
+	"jp_dialogue": "押すと、一つ前の問題に戻れる。",
+	"jp_name": "王様"
+  },
+  {
+	"show_last_option_btn": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "有了它，你就可以每個選項都點一次，看看結果。",
+	"eng_dialogue": "and you can pick all the options if you want to see what happens.",
+	"man_sim_dialogue": "有了它，你就可以把每个选项都点一遍，看看结果。",
+	"animation": "default",
+	"jp_dialogue": "これがあれば、全ての選択肢を押して結果を見て回ることもできる。",
+	"jp_name": "王様"
+  },
+  {
+	"show_last_option_btn": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "現在還按不到啦，別試了。",
+	"eng_dialogue": "It’s not available yet, so don’t press it.",
+	"man_sim_dialogue": "现在还按不到啦，别试了。",
+	"animation": "k_wrong",
+	"jp_dialogue": "今はまだ押せないけどな、試すなよ。",
+	"jp_name": "王様"
+  },
+  {
+	"change_current_character": "king",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "想試的話...就用這些來試吧！",
+	"animation": "happy",
+	"eng_dialogue": "If you wish to test it...then use these options!",
+	"man_sim_dialogue": "想试的话...就用这些来试吧！",
+	"options": [
+	  {
+		"eng_option": "You really are a great father, Your Majesty!",
+		"man_sim_option": "国王真是一个优秀的父亲!",
+		"man_option": "國王真是一個優秀的父親!",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "诶，谢谢谢谢，年轻人！",
+			"man_dialogue": "誒，謝謝謝謝，年輕人！",
+			"eng_dialogue": "Haha, thanks a lot, young man!",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "おお、ありがとうありがとう、若者！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "你真的深刻的理解了...什么叫做好父亲！",
+			"man_dialogue": "你真的深刻的理解了...什麼叫做好父親！",
+			"eng_dialogue": "You truly understand...what a good father is!",
+			"animation": "close_eyes",
+			"jp_dialogue": "お前は本当によくわかってる…いい父親というものを！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "看来，你也有做父亲的潜质啊！",
+			"man_dialogue": "看來，你也有做父親的潛質啊！",
+			"eng_dialogue": "You’ve got the potential to be a great father!",
+			"animation": "happy",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "見どころがあるな、お前にも父親の素質があるぞ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "加油吧，我看好你！",
+			"man_dialogue": "加油吧，我看好你！",
+			"eng_dialogue": "Go for it, I’m rooting for you!",
+			"jp_dialogue": "頑張れよ、期待してるぞ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "哈哈哈！",
+			"man_dialogue": "哈哈哈！",
+			"eng_dialogue": "Hahaha!",
+			"jp_dialogue": "ははは！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王は本当に立派な父親ですね！"
+	  },
+	  {
+		"eng_option": "Your Majesty’s sacrifice is truly noble!",
+		"man_sim_option": "国王为此献身真是伟大!",
+		"man_option": "國王為此獻身真是偉大!",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "诶，这是应该的嘛！",
+			"man_dialogue": "誒，這是應該的嘛！",
+			"eng_dialogue": "Of course, it's what I should do!",
+			"animation": "serious",
+			"jp_dialogue": "いやいや、当然のことだよ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "小学的时候，我的同桌没有带课本时，",
+			"man_dialogue": "小學的時候，我的同桌沒有帶課本時，",
+			"eng_dialogue": "When I was in primary school, when my deskmate forgot his textbook,",
+			"animation": "default",
+			"jp_dialogue": "小学校の頃、隣の席のやつが教科書を忘れた時なんか、",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "我都会献出我的观察力，",
+			"man_dialogue": "我都會獻出我的觀察力，",
+			"eng_dialogue": "I would use my observation skills,",
+			"jp_dialogue": "私は自慢の観察力を駆使して、",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "帮他注意老师什么时候看他了，提醒他躲一躲。",
+			"man_dialogue": "幫他注意老師什麼時候看他了，提醒他躲一躲。",
+			"eng_dialogue": "and tell him when the teacher looked over so he could hide.",
+			"animation": "serious",
+			"jp_dialogue": "先生がそいつを見るタイミングを見極めて、隠れるよう合図してやったものだ。",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "这样看来...我从小就充满勇于献身的精神呢。",
+			"man_dialogue": "這樣看來...我從小就充滿勇於獻身的精神呢。",
+			"eng_dialogue": "So it seems...I’ve always had a spirit of sacrifice.",
+			"animation": "close_eyes",
+			"jp_dialogue": "そう考えると…私は子どもの頃から自己犠牲の精神に満ちていたんだな。",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "年轻人，你可要好好学学啊。",
+			"man_dialogue": "年輕人，你可要好好學學啊。",
+			"eng_dialogue": "Young man, you should learn from this!",
+			"animation": "shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "若者よ、お前もしっかり見習うんだぞ。",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王が身を捧げて教えてくれるなんて偉大ですね！"
+	  },
+	  {
+		"eng_option": "Your Majesty’s teaching is so clear!",
+		"man_sim_option": "国王的教学真是清楚!",
+		"man_option": "國王的教學真是清楚!",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "诶！",
+			"man_dialogue": "誒！",
+			"eng_dialogue": "Oh!",
+			"animation": "king_good",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "おお！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "不用客气啦，年轻人！",
+			"man_dialogue": "不用客氣啦，年輕人！",
+			"eng_dialogue": "It’s nothing, young one!",
+			"animation": "king_good",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "遠慮しなくていいぞ、若者！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "应该的应该的！",
+			"man_dialogue": "應該的應該的！",
+			"eng_dialogue": "That’s only natural!",
+			"ani_chatbox": "chatbox_shake",
+			"animation": "happy",
+			"jp_dialogue": "当然のことだからな！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "我从小学开始就是班上最聪明的学生...",
+			"man_dialogue": "我從小學開始就是班上最聰明的學生...",
+			"eng_dialogue": "I’ve been the smartest kid in class since elementary school...",
+			"animation": "close_eyes",
+			"jp_dialogue": "私は小学生の頃からクラスで一番賢い生徒でな…",
+			"jp_name": "王様"
+		  },
+		  {
+			"change_current_character": "setting",
+			"avatar": "setting",
+			"eng_name": "System",
+			"man_name": "系統",
+			"man_sim_name": "系統",
+			"man_sim_dialogue": "太多了，请您闭嘴。",
+			"man_dialogue": "太多了，請您閉嘴。",
+			"eng_dialogue": "That will be all. Kindly remain silent.",
+			"jp_dialogue": "長いので黙ってください。",
+			"jp_name": "システム"
+		  },
+		  {
+			"change_current_character": "king",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "诶，这个系统怎么这么没有礼貌！",
+			"man_dialogue": "誒，這個系統怎麽這麼沒有禮貌！",
+			"eng_dialogue": "Hey, this system is so rude!",
+			"animation": "shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "おい、このシステム、なんて無礼なんだ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"change_current_character": "setting",
+			"avatar": "setting",
+			"eng_name": "System",
+			"man_name": "系統",
+			"man_sim_name": "系統",
+			"man_sim_dialogue": "我使用了「您」，是礼貌的表现。",
+			"man_dialogue": "我使用了「您」，是禮貌的表現。",
+			"eng_dialogue": "By all standard linguistic definitions, my statement was polite.",
+			"animation": "default",
+			"jp_dialogue": "「ください」と敬語を使っているので礼儀はあります。",
+			"jp_name": "システム"
+		  },
+		  {
+			"change_current_character": "king",
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "还顶嘴，真是顽皮！",
+			"man_dialogue": "還頂嘴，真是頑皮！",
+			"eng_dialogue": "Talking back, huh? How naughty!",
+			"animation": "shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "言い返すとは、なかなか生意気だな！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王の説明、とてもわかりやすいです！"
+	  },
+	  {
+		"eng_option": "You’re a naming genius, Your Majesty!",
+		"man_sim_option": "国王取名的功力一流!",
+		"man_option": "國王取名的功力一流!",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "哇！",
+			"man_dialogue": "哇！",
+			"eng_dialogue": "Wow!",
+			"animation": "shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "おお！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "我好久没有被年轻人这样称赞了诶！",
+			"man_dialogue": "我好久沒有被年輕人這樣稱讚了誒!",
+			"eng_dialogue": "I haven't been praised like this by young people in a long time!",
+			"animation": "shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "若い者にこんなふうに褒められるのは久しぶりだぞ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "想不到你也这么喜欢我女儿的名字喔！",
+			"man_dialogue": "想不到你也這麼喜歡我女兒的名字喔！",
+			"eng_dialogue": "I didn't expect you to like my daughter's names that much!",
+			"animation": "default",
+			"jp_dialogue": "まさかお前も、うちの娘の名前がそんなに好きだったとはな！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "有机会，我也可以帮你取名喔！",
+			"man_dialogue": "有機會，我也可以幫你取名喔！",
+			"eng_dialogue": "If there's a chance, I can name you too!",
+			"animation": "king_good",
+			"jp_dialogue": "機会があれば、お前の名前もつけてやれるぞ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "或者，帮你的孩子取名！",
+			"man_dialogue": "或者，幫你的孩子取名！",
+			"eng_dialogue": "Or I could help name your children!",
+			"animation": "king_good",
+			"jp_dialogue": "あるいは、お前の子どもの名前もな！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "女生，就叫玉兰莲华春梅，",
+			"man_dialogue": "女生，就叫玉蘭蓮華春梅，",
+			"eng_dialogue": "For girls, name her Lily-Rose Mary Sunshine Blossom.",
+			"jp_dialogue": "女の子なら花子・良子・恵子・清子・春子、",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "男生，就叫阿明国强德发。",
+			"man_dialogue": "男生，就叫阿明國強德發。",
+			"eng_dialogue": "For boys, name him Alex-Charlie Power Max Johnson.",
+			"jp_dialogue": "男の子なら太郎・次郎・三郎・四郎だ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "不用跟我客气啦，哈哈哈！",
+			"man_dialogue": "不用跟我客氣啦，哈哈哈！",
+			"eng_dialogue": "You're welcome, haha!",
+			"animation": "happy",
+			"jp_dialogue": "遠慮するな、ははは！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "国王は名づけのセンスが一流ですね！"
+	  }
+	],
+	"jp_dialogue": "試したいなら…今あるやつで適当に試してみろ！",
+	"jp_name": "王様"
+  },
+  {
+	"change_current_character": "setting",
+	"avatar": "setting",
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"man_sim_dialogue": "现在可以按撤回按钮，然后选其他虚伪的夸赞看看会发生什么事。",
+	"man_dialogue": "現在可以按撤回按鈕，然後選其他虛僞的誇贊看看會發生什麽事。",
+	"eng_dialogue": "You may now hit the undo button and explore other insincere compliments.",
+	"jp_dialogue": "今なら巻き戻しボタンを押して、ほかの白々しいお世辞を選ぶとどうなるか試せるぞ。",
+	"jp_name": "システム"
+  },
+  {
+	"change_current_character": "king",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "誒，這個系統講話真的是沒禮貌！",
+	"eng_dialogue": "Hey, this system is really rude!",
+	"man_sim_dialogue": "诶，这个系统讲话真的是没礼貌！",
+	"animation": "shock",
+	"jp_dialogue": "おい、このシステムほんと失礼だな！",
+	"jp_name": "王様"
+  },
+  {
+	"change_current_character": "king",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "都看完了嗎？",
+	"eng_dialogue": "Did you go through everything?",
+	"man_sim_dialogue": "都看完了吗？",
+	"animation": "default",
+	"jp_dialogue": "全部見たか？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "怎麼樣，是不是更了解了呢？",
+	"eng_dialogue": "Clearer now?",
+	"man_sim_dialogue": "怎么样，是不是更了解了呢？",
+	"animation": "happy",
+	"jp_dialogue": "どうだ、少しはわかってきただろう？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "不用道謝~",
+	"eng_dialogue": "You don’t have to thank me~",
+	"man_sim_dialogue": "不用道谢~",
+	"animation": "happy",
+	"jp_dialogue": "礼なんていらんぞ〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "教學就是要做足做全嘛！",
+	"eng_dialogue": "A proper tutorial should cover everything!",
+	"man_sim_dialogue": "教学就是要做足做全嘛！",
+	"animation": "happy",
+	"jp_dialogue": "教えるなら、きっちり最後までやらないとな！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "哈哈哈！",
+	"eng_dialogue": "Hahaha!",
+	"man_sim_dialogue": "哈哈哈！",
+	"animation": "happy",
+	"jp_dialogue": "ははは！",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "no",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "啊！",
+	"eng_dialogue": "Oh!",
+	"man_sim_dialogue": "啊！",
+	"animation": "shock",
+	"jp_dialogue": "あ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "...我的血量還沒有歸零...",
+	"eng_dialogue": "...My HP hasn’t dropped to zero yet...",
+	"man_sim_dialogue": "...我的血量还没有归零...",
+	"animation": "serious",
+	"jp_dialogue": "…私のHPがまだゼロになっていない…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "額...",
+	"eng_dialogue": "Ugh...",
+	"man_sim_dialogue": "額...",
+	"animation": "serious",
+	"jp_dialogue": "えっと…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "所以...你只可以依靠下面的最後一擊了！",
+	"eng_dialogue": "So...only the final hit is left!",
+	"man_sim_dialogue": "所以...你只可以依靠下面的最后一击了！",
+	"animation": "k_you",
+	"jp_dialogue": "だから…最後の一撃は下にあるやつに頼るしかない！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "你就...根據銀幕上的按鈕，",
+	"eng_dialogue": "Just...follow the keys on the screen,",
+	"man_sim_dialogue": "你就...根据银幕上的按钮，",
+	"animation": "default",
+	"jp_dialogue": "お前は画面に出てるボタンを見て、",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "點擊指定的按鈕，",
+	"eng_dialogue": "click the correct key,",
+	"man_sim_dialogue": "点击指定的按钮，",
+	"animation": "default",
+	"jp_dialogue": "指定されたやつを押せばいい。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "用語言的力量...讓對手清醒過來吧！！",
+	"eng_dialogue": "Use the power of words...snap them back to reality!",
+	"man_sim_dialogue": "用语言的力量...让对手清醒过来吧！！",
+	"animation": "default",
+	"jp_dialogue": "そうすれば…言葉の力で相手を正気に戻せるんだ！！",
+	"jp_name": "王様"
+  },
+  {
+	"background_song": "happy",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "這是戰鬥中按鈕的樣子。",
+	"eng_dialogue": "Here, this is what the keys look like in the game.",
+	"man_sim_dialogue": "这是战斗中按钮的样子。",
+	"animation": "k_you",
+	"play_tutorial_animation": "true",
+	"jp_dialogue": "これが戦闘中のボタンの見た目だ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "如果按對了，按鈕會變成綠色的。",
+	"eng_dialogue": "If you click the right key, the key will change to green.",
+	"man_sim_dialogue": "如果按对了，按钮会变成绿色的。",
+	"animation": "king_good",
+	"play_tutorial_animation": "true",
+	"jp_dialogue": "正しく押せば、ボタンは緑になる。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "如果按錯了，就會變成紅色的。",
+	"eng_dialogue": "If you click the wrong one, the key will turn red.",
+	"man_sim_dialogue": "如果按错了，就会变成红色的。",
+	"animation": "k_wrong",
+	"play_tutorial_animation": "true",
+	"jp_dialogue": "間違えて押せば、赤になる。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "就是這麽簡單啦。",
+	"eng_dialogue": "And That's all.",
+	"man_sim_dialogue": "就是这么简单啦。",
+	"animation": "default",
+	"play_tutorial_animation": "true",
+	"jp_dialogue": "それだけだ、簡単だろ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "一旦進入戰鬥就沒辦法存檔咯，建議你現在馬上存啦。",
+	"eng_dialogue": "Oh, I strongly recommend you save your game now before you continue.",
+	"man_sim_dialogue": "一旦进入战斗就没法存档咯，建议你现在就马上存啦。",
+	"animation": "default",
+	"jp_dialogue": "一度戦闘に入るとセーブはできないからな、今のうちにすぐセーブしておくといい。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "不過現在只是示範而已，輸了我也會讓你過的啦。",
+	"eng_dialogue": "And this is just a tutorial.",
+	"man_sim_dialogue": "不过现在只是示范而已，输了我也会让你过的啦。",
+	"animation": "happy",
+	"jp_dialogue": "まあ今はあくまで実演だから、負けても通してやるけどな。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "不用太認真...",
+	"eng_dialogue": "You can still pass even if you fail, so just take it easy.",
+	"man_sim_dialogue": "不用太认真...",
+	"animation": "king_good",
+	"jp_dialogue": "そんなに本気にならなくていいぞ…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "...最主要是我年紀大了，下手輕點啊，年輕人。",
+	"eng_dialogue": "...Actually, I’m just getting old, so go easy on me, young man.",
+	"man_sim_dialogue": "...最主要是我年纪大了，下手轻点啊，年轻人。",
+	"animation": "serious",
+	"jp_dialogue": "…何より私はもう年だからな、手加減してくれよ若者。",
+	"jp_name": "王様"
+  },
+  {
+	"auto_save": "true",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"man_dialogue": "那...現在馬上進入戰鬥吧！！",
+	"eng_dialogue": "Let's start the game now!",
+	"man_sim_dialogue": "那么...进入战斗吧！！",
+	"animation": "k_you",
+	"done": "king_tutorial",
+	"man_sim_mention": "下面进入战斗...",
+	"man_mention": "下面進入戰鬥...",
+	"eng_mention": "Prepare for battle...",
+	"jp_dialogue": "では…戦闘開始だ！！",
+	"jp_name": "王様",
+	"jp_mention": "このあと戦闘…"
+  },
+  {
+	"done": "setposition",
+	"change": "res://Others/button_game.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "This battle suit... even our trash cans don’t smell this bad.",
+	"man_dialogue": "我們的垃圾桶都沒有這件衣服有味道...",
+	"man_sim_dialogue": "我们的垃圾桶都没有这件衣服有味道...",
+	"jp_dialogue": "俺たちのゴミ箱だって、この服ほど臭くない…",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"change_current_character": "busker",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "Th-That's not...a trash can...",
+	"man_dialogue": "那...才不是....垃圾桶..",
+	"man_sim_dialogue": "那...才不是...垃圾桶..",
+	"jp_dialogue": "そ…それは…ゴミ箱じゃ…",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"change_current_character": "busker",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "It’s... a bed...",
+	"man_dialogue": "是...床...",
+	"man_sim_dialogue": "是...床...",
+	"jp_dialogue": "ベッド…なんだ…",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Looks like our scent isn’t strong enough...",
+	"man_dialogue": "是我們的氣味不夠濃烈...",
+	"man_sim_dialogue": "是我们的气味不够浓烈...",
+	"jp_dialogue": "俺たちの臭いが足りなかったんだ…",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "We... lost...",
+	"man_dialogue": "我們...輸了...",
+	"man_sim_dialogue": "我们...输了...",
+	"jp_dialogue": "俺たちの…負けだ…",
+	"jp_name": "右の雑魚",
+	"dirty": "true"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+	"background_song": "no",
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"animation": "cry",
+	"eng_dialogue": "(T_T)... Hero~",
+	"man_dialogue": "嗚嗚嗚...勇者~",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "呜呜呜...勇者~",
+	"jp_dialogue": "うぅぅ…勇者〜",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"animation": "cry",
+	"eng_dialogue": "I understand now... you really don’t like me...",
+	"man_dialogue": "我知道...你不喜歡我了啦...",
+	"man_sim_dialogue": "我知道...你不喜欢我了啦...",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "分かってるよ…最初から私のこと好きじゃなかったんでしょ…",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"animation": "cry",
+	"eng_dialogue": "Fine... you can’t force someone to love you...",
+	"man_dialogue": "好吧...愛一個人就不可以强迫他！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "好吧...爱一个人就不可以强迫他！",
+	"jp_dialogue": "わかった…人を好きになるって、無理やりじゃだめなんだよね…",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"animation": "cry",
+	"eng_dialogue": "(T_T)... I get it... I won’t force you...",
+	"man_dialogue": "嗚嗚嗚...我知道了...我不會强迫你的啦...",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "呜呜呜...我知道了...我不会强迫你的啦...",
+	"jp_dialogue": "うぅぅ…分かった…もう無理に迫ったりしないよ…",
+	"jp_name": "魔王"
+  },
+  {
+	"done": "cave_done",
+	"change": "res://SceneTransTscn/cave.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Alright!",
+	"man_dialogue": "好啦！",
+	"man_sim_dialogue": "好啦！",
+	"ani_kidD": "D_side",
+	"jp_dialogue": "もういい！全部白状する！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "It was all me!",
+	"man_dialogue": "都是我做的啦！",
+	"man_sim_dialogue": "都是我干的啦！",
+	"jp_dialogue": "全部ぼくがやりました！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "I'm sorry, teacher...(T_T)",
+	"man_dialogue": "對不起老師嗚嗚",
+	"man_sim_dialogue": "对不起老师呜呜",
+	"ani_kidB": "B_lose",
+	"jp_dialogue": "ごめんなさい、先生ぇぇ…",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "I won’t do it again...ever!",
+	"man_dialogue": "我下次不敢了...",
+	"man_sim_dialogue": "我下次不敢了...",
+	"jp_dialogue": "次はもうしません…",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

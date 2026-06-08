@@ -1,0 +1,28 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Isn’t that the no-friends seat?",
+	"man_dialogue": "那邊是沒有朋友的人坐的吧！",
+	"man_sim_dialogue": "那边是没有朋友的坐的吧！",
+	"ani_kidC": "C_side",
+	"jp_dialogue": "あそこって、友達いない人の席でしょ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "That’s kinda sad...",
+	"man_dialogue": "好可憐....",
+	"man_sim_dialogue": "好可怜....",
+	"jp_dialogue": "かわいそう…",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

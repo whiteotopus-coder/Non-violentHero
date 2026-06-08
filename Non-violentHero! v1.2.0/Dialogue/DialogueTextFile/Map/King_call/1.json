@@ -1,0 +1,43 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Waiiiit!",
+	"man_dialogue": "等一下哦哦哦！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "等一下哦哦哦！",
+	"change_current_character": "king",
+	"jp_dialogue": "ちょっと待ってえええ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Didn’t you come here to see me?",
+	"man_dialogue": "你不是來找我的嗎！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "你不是来找我的吗！",
+	"jp_dialogue": "私を探しに来たんじゃないのか！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "At least talk to me first!",
+	"man_dialogue": "至少先來和我說話吧！",
+	"man_sim_dialogue": "至少先来和我说话吧！",
+	"jp_dialogue": "せめて先に話しかけてからにしてくれよ！",
+	"jp_name": "王様"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

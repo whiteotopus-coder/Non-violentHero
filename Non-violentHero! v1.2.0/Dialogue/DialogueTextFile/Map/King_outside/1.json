@@ -1,0 +1,256 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Got any other questions?",
+	"man_dialogue": "你還有別的問題嗎？",
+	"man_sim_dialogue": "你还有什么疑问吗？",
+	"change_current_character": "king",
+	"options": [
+	  {
+		"eng_option": "Why is your castle so small?",
+		"man_option": "爲什麽你的城堡這麽迷你？",
+		"man_sim_option": "你的城堡为什么这么迷你？",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "问这什么问题啊!",
+			"eng_dialogue": "What kind of question is that?!",
+			"man_dialogue": "我是叫你問我怎麽救我的女兒！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "そんなこと聞いてどうするんだ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "我是叫你问我怎么救我女儿！",
+			"eng_dialogue": "That’s not what you should be asking!",
+			"man_dialogue": "不是問這種東西！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "聞くべきなのは、どうやって娘を助けるかだろう！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "なんで城がこんなにミニサイズなの？"
+	  },
+	  {
+		"eng_option": "Weren’t your legs numb?",
+		"man_option": "你的脚不是麻木了嗎？",
+		"man_sim_option": "你的脚不是麻木了吗？",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "...",
+			"eng_dialogue": "...",
+			"man_dialogue": "...",
+			"jp_dialogue": "…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": ".....",
+			"eng_dialogue": ".....",
+			"man_dialogue": ".....",
+			"jp_dialogue": "……",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": ".......",
+			"eng_dialogue": ".......",
+			"man_dialogue": ".......",
+			"jp_dialogue": "………",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "今天天气真好！",
+			"eng_dialogue": "So...nice weather today!",
+			"man_dialogue": "今天天氣真好！",
+			"jp_dialogue": "今日はいい天気だな！",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "足しびれてたんじゃないの？"
+	  },
+	  {
+		"eng_option": "Is your wife beautiful?",
+		"man_option": "皇后漂亮嗎？",
+		"man_sim_option": "皇后漂亮吗？",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "那是当然的！",
+			"eng_dialogue": "Of course she was!",
+			"man_dialogue": "那是當然的！",
+			"jp_dialogue": "それはもちろんだ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "她年轻时超级漂亮的",
+			"eng_dialogue": "She was stunning when she was younger.",
+			"man_dialogue": "她年輕時超級漂亮的",
+			"jp_dialogue": "若い頃は本当に綺麗でな",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "每个人看到都移不开视线",
+			"eng_dialogue": "No one could take their eyes off her.",
+			"man_dialogue": "每個人看到她都移不開視綫。",
+			"jp_dialogue": "誰もが目を離せなかった",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "但她在我女儿4岁时离开了人世...",
+			"eng_dialogue": "But she passed away when my daughter was only four...",
+			"man_dialogue": "但是可惜她在我女兒4歲時離開了人世....",
+			"jp_dialogue": "だが、娘が4歳の時にこの世を去ってしまった…",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "不过你别担心，冥婚的事情我会处理好",
+			"eng_dialogue": "But don’t worry, I’ll handle the spirit marriage.",
+			"man_dialogue": "不過你別擔心，冥婚的事情我會處理好的。",
+			"jp_dialogue": "でも安心しろ、冥婚の件は私がちゃんと手配しておく、",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "你放心去救我女儿吧。",
+			"eng_dialogue": "You just focus on saving my daughter.",
+			"man_dialogue": "你放心去救我女兒吧。",
+			"jp_dialogue": "お前は安心して娘を助けに行ってくれ。",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "皇后って綺麗だった？"
+	  },
+	  {
+		"eng_option": "What should I do now?",
+		"man_option": "現在要幹什麽？",
+		"man_sim_option": "我现在该干嘛？",
+		"response": [
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "去找魔王，救我的女儿啊！",
+			"eng_dialogue": "Go find the Demon King and save my daughter!",
+			"man_dialogue": "去找魔王，救我的女兒啊！",
+			"jp_dialogue": "魔王を探して、私の娘を助けるんだよ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "魔王他就在山洞里。",
+			"eng_dialogue": "He’s in the cave.",
+			"man_dialogue": "魔王他就在山洞裡。",
+			"jp_dialogue": "魔王は洞窟の中にいる。",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "不知道魔王在哪里的话，你可以看地图啊！",
+			"eng_dialogue": "If you don’t know where it is, check the map!",
+			"man_dialogue": "不知道魔王在哪裡的話，你可以看地圖啊！",
+			"jp_dialogue": "魔王がどこにいるかわからなければ、地図を見ればいいだろう！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "我都画得这么美丽了！",
+			"eng_dialogue": "I even drew it beautifully!",
+			"man_dialogue": "我都畫得這麽美麗了！",
+			"jp_dialogue": "あれだけ美しく描いてやったんだからな！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_dialogue": "或者不知道要幹嘛的時候，你就打開背包，看看裡面的任務清單！",
+			"eng_dialogue": "If you’re lost, check your bag and the task list.",
+			"man_sim_dialogue": "或者不知道要干什么的时候，你就打开背包，看看里面的任务清单！",
+			"jp_dialogue": "それでも何をすればいいかわからなくなったら、バッグを開いて中の任務リストを見るんだ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "勇者啊..我说过很多次啦...！",
+			"eng_dialogue": "Hero... I’ve said this so many times!",
+			"man_dialogue": "勇者啊，我說過很多次啦...",
+			"jp_dialogue": "勇者よ…私は何度も言っただろう…！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "你得认真听啊！",
+			"eng_dialogue": "Try listening properly, will you?",
+			"man_dialogue": "你得認真聽啊！",
+			"jp_dialogue": "ちゃんと聞いてくれよ！",
+			"jp_name": "王様"
+		  },
+		  {
+			"eng_name": "King",
+			"man_name": "國王",
+			"man_sim_name": "国王",
+			"man_sim_dialogue": "年轻人不要这么没耐心...",
+			"eng_dialogue": "Young people have no patience these days...",
+			"man_dialogue": "年輕人不要這麽沒有耐心...",
+			"jp_dialogue": "まったく…若者よ、そんなにせっかちになるもんじゃないぞ…",
+			"jp_name": "王様"
+		  }
+		],
+		"jp_option": "今は何をすればいいの？"
+	  }
+	],
+	"jp_dialogue": "まだ何か聞きたいことはあるか？",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

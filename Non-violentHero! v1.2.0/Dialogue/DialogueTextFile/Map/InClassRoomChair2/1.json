@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "Hey! He’s sitting right next to you!",
+	"man_dialogue": "诶坐你旁邊叻！",
+	"man_sim_dialogue": "喂，坐你旁边诶！",
+	"jp_dialogue": "ねえ、そこ座るの！？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "What if he’s not even a teacher?",
+	"man_dialogue": "會不會其實不是老師？",
+	"man_sim_dialogue": "会不会不是老师",
+	"jp_dialogue": "もしかして先生じゃなくて",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Is he, like... a transfer student?",
+	"man_dialogue": "是新同學？",
+	"man_sim_dialogue": "是新同学？",
+	"jp_dialogue": "新しい生徒とか？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "Eh!",
+	"man_dialogue": "诶！",
+	"man_sim_dialogue": "诶！",
+	"jp_dialogue": "え！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "The teacher’s back again!",
+	"man_dialogue": "老師又回來了！",
+	"man_sim_dialogue": "老师回来了？",
+	"jp_dialogue": "先生戻ってきた？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Where did he just go?",
+	"man_dialogue": "老師剛才去哪裡？",
+	"man_sim_dialogue": "老师刚刚去哪里？",
+	"jp_dialogue": "さっきどこ行ってたの？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "No idea!",
+	"man_dialogue": "不知道！",
+	"man_sim_dialogue": "不知道！",
+	"jp_dialogue": "知らない！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Go ask him yourself!",
+	"man_dialogue": "你自己去問啦~",
+	"man_sim_dialogue": "你自己去问~",
+	"jp_dialogue": "自分で聞けば〜",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

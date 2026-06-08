@@ -1,0 +1,42 @@
+[
+  {
+	"change_current_character": "busker",
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_angry",
+	"eng_dialogue": "So sneaky...",
+	"man_dialogue": "好奸詐....",
+	"man_sim_dialogue": "好奸诈....",
+	"jp_dialogue": "なんて卑怯な…",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"change_current_character": "busker",
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_angry",
+	"eng_dialogue": "You really did this...",
+	"man_dialogue": "居然出此下策...",
+	"man_sim_dialogue": "居然出此下策...",
+	"jp_dialogue": "こんな手を使うなんて…",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"eng_dialogue": "That’s disgusting... ugh...",
+	"man_dialogue": "好惡心嘔嘔嘔...",
+	"man_sim_dialogue": "好恶心呕呕呕...",
+	"jp_dialogue": "気持ち悪すぎるおえええ…",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

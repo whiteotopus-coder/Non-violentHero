@@ -1,0 +1,81 @@
+[
+  {
+	"background_song": "no",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "shock",
+	"eng_dialogue": "Why are you trying so hard?!",
+	"man_dialogue": "你幹嘛這麽賣力啊！！",
+	"man_sim_dialogue": "你干嘛这么卖力啊！！",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "なんでそんな本気出すんだよ！！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Even if you lost, I would’ve let you pass anyway!",
+	"man_dialogue": "你輸了我也會讓你過的啊！！",
+	"man_sim_dialogue": "你输了我也会让你过的啊！！",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "負けても通してやるつもりだったのに！！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "serious",
+	"eng_dialogue": "Ugh...my old heart can't take this...",
+	"man_dialogue": "可惡...老頭子的心臟承受不起啊..",
+	"man_sim_dialogue": "可恶...老头我的心脏可承受不起这种打击！",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "くそ…年寄りの心臓にこんなショックはきついんだよ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "cry",
+	"eng_dialogue": "Cough, cough...how could you bully a fragile old man like me...? Oh no, my heart...!",
+	"man_dialogue": "咳咳咳咳....你這個小年輕一點都不懂得尊老愛幼....哎喲....我心臟病要犯了！",
+	"man_sim_dialogue": "咳咳咳咳...你这个年轻人居然欺负我这个老头！....我开始感觉心脏疼痛！",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "ゲホゲホゲホ…お前みたいな若者がこの老人をいじめるなんて！…胸が苦しくなってきた！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "serious",
+	"eng_dialogue": "Oh right...I still need you to rescue my daughter. Okay, fine...I’ll drop the act.",
+	"man_dialogue": "啊對，還得靠你去救我女兒...算了不演了...",
+	"man_sim_dialogue": "啊对，还得靠你去救我女儿...算了不演了...",
+	"ani_chatbox": "chatbox_shake",
+	"jp_dialogue": "あ、そうだ、まだお前に娘を助けてもらわないと…もう演技はやめだ…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "serious",
+	"eng_dialogue": "Tutorial's over.",
+	"man_dialogue": "教學結束了啦...",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "教学就到这边结束...",
+	"jp_dialogue": "チュートリアルはここまでにしよう…",
+	"jp_name": "王様"
+  },
+  {
+	"ach_too_easy": "true",
+	"done": "setposition",
+	"change": "res://SceneTransTscn/castle.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]

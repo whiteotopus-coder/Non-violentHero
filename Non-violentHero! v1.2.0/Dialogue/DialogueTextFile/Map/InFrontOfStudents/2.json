@@ -1,0 +1,52 @@
+[
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "喂！",
+	"man_sim_dialogue": "喂！",
+	"ani_kidB": "B_back_side",
+	"jp_dialogue": "ねえ！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "The teacher is staring at you again!",
+	"man_dialogue": "老師又在看你耶！",
+	"man_sim_dialogue": "老师又盯着你看了耶！",
+	"jp_dialogue": "先生、またあの子のこと見てるよ！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Boy",
+	"man_name": "右邊男同學",
+	"man_sim_name": "右边男同学",
+	"eng_dialogue": "You definitely did something bad!",
+	"man_dialogue": "你果然有做壞事吧！",
+	"man_sim_dialogue": "你果然干了什么坏事吧！",
+	"ani_kidB": "B_back_side_laugh",
+	"jp_dialogue": "やっぱり何かやったんでしょ！",
+	"jp_name": "右の男子クラスメイト"
+  },
+  {
+	"eng_name": "The Girl",
+	"man_name": "左邊女同學",
+	"man_sim_name": "左边女同学",
+	"change_current_character": "nun",
+	"eng_dialogue": "I didn’t...(T_T)...",
+	"man_dialogue": "沒有...嗚嗚嗚嗚....",
+	"man_sim_dialogue": "没有...呜呜呜...",
+	"ani_kidD": "D_cry",
+	"jp_dialogue": "してないよ…うぅ…",
+	"jp_name": "左の女子クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

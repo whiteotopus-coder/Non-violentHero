@@ -1,0 +1,75 @@
+[
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "What?!",
+	"man_dialogue": "什麼？！",
+	"man_sim_dialogue": "什么？！",
+	"jp_dialogue": "何だと！？",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "You...!",
+	"man_dialogue": "你...！",
+	"man_sim_dialogue": "你...！",
+	"jp_dialogue": "お前…！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "You slept in our bed while we couldn’t even do anything?!",
+	"man_dialogue": "居然乘我們無力反抗的時候睡我們的床...！",
+	"man_sim_dialogue": "居然在我们无力反抗的时候睡我们的床...！",
+	"jp_dialogue": "俺たちが抵抗できない隙に、俺たちのベッドで寝やがって…！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Damn it...!",
+	"man_dialogue": "可惡...！",
+	"man_sim_dialogue": "可恶....！",
+	"jp_dialogue": "くそっ…！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "...you totally took advantage of us!",
+	"man_dialogue": "...乘人之危...！",
+	"man_sim_dialogue": "...乘人之危...！",
+	"jp_dialogue": "…卑怯者め…！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "This is too much...",
+	"man_dialogue": "太過分了...",
+	"man_sim_dialogue": "太过分了...",
+	"jp_dialogue": "ひどすぎるだろ…",
+	"jp_name": "右の雑魚",
+	"dirty": "true"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

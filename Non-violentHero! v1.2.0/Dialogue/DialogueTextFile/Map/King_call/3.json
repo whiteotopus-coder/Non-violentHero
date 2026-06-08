@@ -1,0 +1,53 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Aren’t you here to help me find my daughter?!",
+	"man_dialogue": "你不是來幫我找公主的嗎！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "你不是来帮我找公主的吗！",
+	"jp_dialogue": "お前、姫を探すのを手伝いに来たんじゃないのか！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Then come talk to me first!",
+	"man_dialogue": "那你先來跟我說話啊！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "那你先来跟我说话啊！",
+	"jp_dialogue": "だったらまず私に話しかけなさいよ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "You’re the only hero who showed up!",
+	"man_dialogue": "你可是唯一一個來的勇者！",
+	"man_sim_dialogue": "你可是唯一一个来的勇者！",
+	"jp_dialogue": "来てくれた勇者はお前一人なんだから！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "I’m not letting you leave!",
+	"man_dialogue": "不答應我，我是不會讓你走的！",
+	"man_sim_dialogue": "不答应我，我是不会让你走的！",
+	"jp_dialogue": "引き受けてくれないなら、行かせないぞ！",
+	"jp_name": "王様"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

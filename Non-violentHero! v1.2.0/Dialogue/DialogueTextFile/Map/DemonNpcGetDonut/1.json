@@ -1,0 +1,56 @@
+[
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"eng_dialogue": "What?",
+	"man_dialogue": "什麼？",
+	"man_sim_dialogue": "什么？",
+	"ani_right": "shock",
+	"jp_dialogue": "何？",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"change_current_character": "right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"eng_dialogue": "You got the donuts?",
+	"man_dialogue": "拿到甜甜圈了？",
+	"man_sim_dialogue": "拿到甜甜圈了？",
+	"jp_dialogue": "ドーナツを手に入れたって？",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"change_current_character": "busker",
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "Nope! Not even close!",
+	"man_dialogue": "不行！",
+	"man_sim_dialogue": "不行！",
+	"jp_dialogue": "ダメだ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"change_current_character": "busker",
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "You gotta bring us the legendary battle suit too!",
+	"man_dialogue": "你把傳說中的戰衣也拿來再説！",
+	"man_sim_dialogue": "你得先把传说中的战衣也拿来！",
+	"jp_dialogue": "伝説の衣装も持ってこい！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"ani_right": "default"
+  }
+]

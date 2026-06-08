@@ -1,0 +1,38 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Hey, look over there!",
+	"man_dialogue": "喂你們看！",
+	"man_sim_dialogue": "喂你们看！",
+	"ani_kidC": "C_side",
+	"jp_dialogue": "ねえ見て！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "He went and sat way over there by himself!",
+	"man_dialogue": "他坐去那麽邊緣的位置了！",
+	"man_sim_dialogue": "他坐去那么边缘的位置了！",
+	"jp_dialogue": "あんな端っこの席に座ったよ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "Is he a loner or something?",
+	"man_dialogue": "該不會是邊緣人吧！",
+	"man_sim_dialogue": "该不会是边缘人吧！",
+	"jp_dialogue": "もしかして友達いないのかな！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

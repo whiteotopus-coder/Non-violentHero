@@ -1,0 +1,161 @@
+[
+  {
+	"eng_name": "Teacher",
+	"change_current_character": "nun",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher",
+	"eng_dialogue": "Uh... so... Mrs. Garrett...",
+	"man_dialogue": "呃...羅太太...",
+	"man_sim_dialogue": "额...罗太太",
+	"jp_dialogue": "えっと…ロブのお母さん",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher",
+	"eng_dialogue": "The principal asked me to...talk to you about your child’s...behavior issues...",
+	"man_dialogue": "我是校長派來處理您孩子...霸凌同學的事情的...",
+	"man_sim_dialogue": "我是校长派来解决您孩子...欺负同学的事的...",
+	"jp_dialogue": "校長に言われて、お子さんの…いじめの件を解決しに来ました…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"change_current_character": "carrot",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"avatar": "carrot",
+	"eng_dialogue": "What?!",
+	"man_dialogue": "什麼！！",
+	"man_sim_dialogue": "什么！！",
+	"jp_dialogue": "何ですって！！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher_scare",
+	"eng_dialogue": "Aahhh! I-I’m sorry!",
+	"man_dialogue": "啊啊啊！！對、對不起！！",
+	"man_sim_dialogue": "噫噫噫！！对不起！！",
+	"jp_dialogue": "ひぃぃぃ！！すみません！！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "How many times do I have to say this?! Robert would NEVER bully anyone!",
+	"man_dialogue": "要我講幾次！羅伯不可能會欺負人！",
+	"man_sim_dialogue": "要我说多少次！!罗伯不可能会欺负人！",
+	"jp_dialogue": "何度言わせるの！！うちのロブがいじめなんてするわけないでしょ！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "Y-You’re right...absolutely right...",
+	"man_dialogue": "您...您說的都對...",
+	"man_sim_dialogue": "您...您说的都是...",
+	"jp_dialogue": "おっしゃる通りです…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher",
+	"eng_dialogue": "N-No...this isn’t right...how are we supposed to fix this...?",
+	"man_dialogue": "不...不對...這樣要怎麼解決問題...",
+	"man_sim_dialogue": "不...不对...这样下去怎么解决问题啊...",
+	"jp_dialogue": "ち、違う…このままじゃどうやって解決すればいいの…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher_cry",
+	"eng_dialogue": "Why did the principal make me do this...",
+	"man_dialogue": "嗚嗚嗚...為什麼校長要派我來做這種事啊...",
+	"man_sim_dialogue": "呜呜呜...为什么校长要我来做这种事啊...",
+	"jp_dialogue": "ううう…なんで校長はこんなこと私にやらせるの…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"eng_dialogue": "Don’t worry, Miss! I brought Mister to help you!",
+	"man_dialogue": "老師你別怕！我找了一個大哥哥來幫你了！",
+	"man_sim_dialogue": "老师，你别怕！我带了大哥哥来帮你了！",
+	"jp_dialogue": "先生、怖がらないで！お兄ちゃんを連れてきたよ！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "Huh? Who the hell are you?",
+	"man_dialogue": "啊？你誰啊你？",
+	"man_sim_dialogue": "啊？谁啊你？",
+	"jp_dialogue": "え？誰？",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"eng_dialogue": "Mister is a hero! He’ll make a fair judgment!",
+	"man_dialogue": "大哥哥可是勇者！一定能做出公平公正的評價的！",
+	"man_sim_dialogue": "大哥哥可是勇者，一定可以做出公平公正的评价的！",
+	"jp_dialogue": "お兄ちゃんは勇者だから、きっと公平に判断してくれるよ！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "Please...! We’re counting on you!",
+	"man_dialogue": "啊...！那就麻煩你了！！",
+	"man_sim_dialogue": "啊...那就拜托你了！！",
+	"jp_dialogue": "あ…じゃあお願いします！！",
+	"jp_name": "先生"
+  },
+  {
+	"background_song": "battle",
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot_angry",
+	"eng_dialogue": "Huh?? I never agreed to this!",
+	"man_dialogue": "蛤？？我可沒有同意啊！",
+	"man_sim_dialogue": "哈？？我可没有同意啊！",
+	"jp_dialogue": "はあ？？そんなの聞いてないんだけど！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://Scene/Stage1/attackstage_1.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

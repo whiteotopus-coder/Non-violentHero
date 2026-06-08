@@ -1,0 +1,235 @@
+[
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_shock",
+	"change_current_character": "busker",
+	"eng_dialogue": "What?!",
+	"man_dialogue": "什麼！",
+	"man_sim_dialogue": "什么！",
+	"ani_left": "shock",
+	"jp_dialogue": "何だと！？",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_shock",
+	"eng_dialogue": "You brought both of them?!",
+	"man_dialogue": "兩個都拿來了？",
+	"man_sim_dialogue": "两个都拿来了？",
+	"jp_dialogue": "両方持ってきたのか！？",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"change_current_character": "right",
+	"eng_dialogue": "L-L-Let me see!",
+	"man_dialogue": "我我我我看看！",
+	"man_sim_dialogue": "我我我我看看！",
+	"ani_right": "shock",
+	"jp_dialogue": "おおおっ！ちょっと見せてみろ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_shock",
+	"eng_dialogue": "You actually brought them!",
+	"man_dialogue": "真的拿來了！",
+	"man_sim_dialogue": "真的拿来了！",
+	"jp_dialogue": "本当に持ってきやがった！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"change_current_character": "busker",
+	"eng_dialogue": "I didn’t expect you to be this capable...",
+	"man_dialogue": "沒想到你還蠻厲害的嘛...",
+	"ani_right": "default",
+	"man_sim_dialogue": "没想到你还蛮厉害的嘛...",
+	"ani_left": "shock",
+	"avatar": "d_left_shock",
+	"options": [
+	  {
+		"eng_option": "Can I pass now?",
+		"man_option": "可以讓我過去了嗎？",
+		"man_sim_option": "可以让我过去了吗？",
+		"response": [
+		  {
+			"eng_name": "Demon Left",
+			"man_name": "左邊小怪",
+			"man_sim_name": "左边小怪",
+			"change_current_character": "busker",
+			"eng_dialogue": "Sure.",
+			"man_dialogue": "可以啊",
+			"man_sim_dialogue": "行啊！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_left",
+			"ani_left": "default",
+			"jp_dialogue": "いいぞ！",
+			"jp_name": "左の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Left",
+			"man_name": "左邊小怪",
+			"man_sim_name": "左边小怪",
+			"eng_dialogue": "Hand over the stuff first!",
+			"man_dialogue": "你先把東西拿來！",
+			"man_sim_dialogue": "你先把东西拿来！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_left",
+			"jp_dialogue": "まずは物を渡せ！",
+			"jp_name": "左の雑魚"
+		  }
+		],
+		"jp_option": "通ってもいい？"
+	  },
+	  {
+		"eng_option": "You’re blocking the way.",
+		"man_option": "你們很擋路",
+		"man_sim_option": "你们很挡路",
+		"response": [
+		  {
+			"eng_name": "Demon Left",
+			"man_name": "左邊小怪",
+			"man_sim_name": "左边小怪",
+			"change_current_character": "busker",
+			"eng_dialogue": "Shut up!",
+			"man_dialogue": "閉嘴啦！",
+			"man_sim_dialogue": "少废话！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_left",
+			"ani_left": "default",
+			"jp_dialogue": "うるせぇ！",
+			"jp_name": "左の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"change_current_character": "right",
+			"eng_dialogue": "Hand over the stuff first!",
+			"man_dialogue": "給我把東西拿來再説！",
+			"man_sim_dialogue": "把东西拿来再说！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_right",
+			"jp_dialogue": "まずは物を渡せって言ってんだろ！",
+			"jp_name": "右の雑魚"
+		  }
+		],
+		"jp_option": "お前ら邪魔なんだよ！"
+	  }
+	],
+	"jp_dialogue": "思ったよりやるじゃないか…",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"eng_dialogue": "Did you hear that? Hand it over!",
+	"man_dialogue": "聽到了嗎，快把東西拿來！",
+	"man_sim_dialogue": "听到了吗，快把东西拿来！",
+	"change_current_character": "busker",
+	"avatar": "d_left",
+	"ani_left": "default",
+	"options": [
+	  {
+		"eng_option": "Give",
+		"man_option": "給",
+		"man_sim_option": "给",
+		"response": [
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"change_current_character": "right",
+			"eng_dialogue": "Hahahaha!",
+			"man_dialogue": "哈哈哈哈！",
+			"man_sim_dialogue": "哈哈哈哈！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_right",
+			"jp_dialogue": "はははは！",
+			"jp_name": "右の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"eng_dialogue": "We got it! We got it!",
+			"man_dialogue": "拿到啦拿到啦！",
+			"man_sim_dialogue": "到手啦到手啦！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_right",
+			"jp_dialogue": "手に入れたぞ手に入れたぞ！",
+			"jp_name": "右の雑魚"
+		  }
+		],
+		"jp_option": "渡す"
+	  },
+	  {
+		"eng_option": "Refuse",
+		"man_option": "不給",
+		"man_sim_option": "不给",
+		"response": [
+		  {
+			"eng_name": "Demon Left",
+			"man_name": "左邊小怪",
+			"man_sim_name": "左边小怪",
+			"eng_dialogue": "That’s not up to you!",
+			"man_dialogue": "誰管你啊！",
+			"man_sim_dialogue": "这可由不得你！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_left_angry",
+			"ani_left": "angry",
+			"jp_dialogue": "それは通用しねぇな！",
+			"jp_name": "左の雑魚"
+		  },
+		  {
+			"eng_name": "Demon Right",
+			"man_name": "右邊小怪",
+			"man_sim_name": "右边小怪",
+			"change_current_character": "right",
+			"eng_dialogue": "Give it here!",
+			"man_dialogue": "拿來！",
+			"man_sim_dialogue": "拿来！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "d_right",
+			"jp_dialogue": "よこせ！",
+			"jp_name": "右の雑魚"
+		  }
+		],
+		"jp_option": "渡さない"
+	  }
+	],
+	"jp_dialogue": "聞こえなかったのか？さっさと渡せ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"done": "get_rob",
+	"eng_name": "System",
+	"man_name": "系統",
+	"eng_dialogue": "Your items have been stolen.",
+	"man_dialogue": "東西都被搶走了。",
+	"man_sim_dialogue": "东西都被抢走了",
+	"ani_chatbox": "chatbox_shake",
+	"avatar": "setting",
+	"change_current_character": "setting",
+	"jp_dialogue": "全部奪われてしまった",
+	"jp_name": "システム"
+  },
+  {
+	"ani_left": "default",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

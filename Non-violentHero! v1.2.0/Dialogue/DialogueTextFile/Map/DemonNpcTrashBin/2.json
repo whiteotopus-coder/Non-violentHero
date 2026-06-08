@@ -1,0 +1,70 @@
+[
+  {
+	"eng_name": "Demon Left",
+	"change_current_character": "busker",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "嘿！",
+	"man_sim_dialogue": "嘿！",
+	"ani_right": "left",
+	"ani_left": "left",
+	"jp_dialogue": "おい！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"change_current_character": "busker",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "I told you not to touch it! That's our bed!",
+	"man_dialogue": "都叫你不要碰了，這是我們的床！",
+	"man_sim_dialogue": "都叫你不要碰了，这是我们的床！",
+	"jp_dialogue": "触るなって言っただろ、それ俺たちのベッドなんだよ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Exactly!",
+	"man_dialogue": "對！",
+	"man_sim_dialogue": "对！",
+	"jp_dialogue": "そうだよ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Even if you beg, we won’t let you sleep here!",
+	"man_dialogue": "就算你求我們，我們也不會讓你睡在這邊的！",
+	"man_sim_dialogue": "就算你求我们，我们也不会让你睡我们的床的！",
+	"jp_dialogue": "たとえ頼まれても、お前なんかに使わせてやらないからな！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Yeah, get lost!",
+	"man_dialogue": "滾開啦！",
+	"man_sim_dialogue": "走开走开！",
+	"jp_dialogue": "あっち行けあっち行け！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"ani_right": "default",
+	"ani_left": "default",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

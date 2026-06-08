@@ -1,0 +1,86 @@
+[
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "pink",
+	"avatar": "teacherclass_1",
+	"ani_teacher": "class1_side_eyes",
+	"eng_dialogue": "Eh!",
+	"man_dialogue": "诶！",
+	"man_sim_dialogue": "诶！",
+	"jp_dialogue": "えっ！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacherclass_1",
+	"eng_dialogue": "Hey, you!",
+	"man_dialogue": "同學！",
+	"man_sim_dialogue": "同学！",
+	"jp_dialogue": "ねえ君！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacherclass_1",
+	"eng_dialogue": "Who are you?",
+	"man_dialogue": "你是？",
+	"man_sim_dialogue": "你是？",
+	"jp_dialogue": "君、誰なんだ？",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacherclass_1",
+	"eng_dialogue": "This isn’t your class, is it?",
+	"man_dialogue": "這裡不是你的班哦！",
+	"man_sim_dialogue": "这里不是你的班哦！",
+	"jp_dialogue": "ここ、君のクラスじゃないよ！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacherclass_1",
+	"eng_dialogue": "Did you walk into the wrong class?",
+	"man_dialogue": "你是不是進錯班了？",
+	"man_sim_dialogue": "你是不是走错班级了？",
+	"jp_dialogue": "教室間違えたんじゃない？",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Hahahahahaha!",
+	"man_dialogue": "哈哈哈哈哈哈哈",
+	"man_sim_dialogue": "哈哈哈哈哈哈哈",
+	"jp_dialogue": "はははははは",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "He totally came to the wrong class~",
+	"man_dialogue": "認錯班了啦~",
+	"man_sim_dialogue": "走错班级了啦~",
+	"ani_teacher": "class_1",
+	"jp_dialogue": "教室間違えてるよ〜",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+	"eng_name": "Busker",
+	"change_current_character": "busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "P-please don’t kick me out~~",
+	"man_dialogue": "你不要趕我走~~",
+	"man_sim_dialogue": "你不要赶我走~~",
+	"aniBusker": "no",
+	"jp_dialogue": "追い出さないでよ〜〜",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Huh?",
+	"man_dialogue": "欸？",
+	"man_sim_dialogue": "诶？",
+	"jp_dialogue": "え？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "I can go inside the church now?",
+	"man_dialogue": "我可以進去教堂了？",
+	"man_sim_dialogue": "我可以进去教堂了？",
+	"aniBusker": "talk",
+	"jp_dialogue": "教会に入っていいの？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Really?!",
+	"man_dialogue": "真的假的~？",
+	"man_sim_dialogue": "真的假的？",
+	"aniBusker": "shock",
+	"jp_dialogue": "マジで？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Wait...you actually convinced the nun?",
+	"man_dialogue": "哇！該不會是你說服修女的吧~",
+	"man_sim_dialogue": "哇！该不会是你说服修女的吧！",
+	"aniBusker": "shock",
+	"jp_dialogue": "わあ！もしかしてあんたがシスターを説得してくれたの？",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "That’s amazing!",
+	"man_dialogue": "你好厲害~！",
+	"man_sim_dialogue": "你好厉害~",
+	"aniBusker": "talk",
+	"jp_dialogue": "すごい！",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "I’m going right now~!",
+	"man_dialogue": "我現在馬上~就過去！",
+	"man_sim_dialogue": "我现在马上~就过去！",
+	"aniBusker": "talk",
+	"jp_dialogue": "じゃあ今すぐ行く〜！",
+	"jp_name": "大道芸人"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"done": "move_to_church",
+	"close": "true",
+	"ani_player": "change_scene"
+  }
+]

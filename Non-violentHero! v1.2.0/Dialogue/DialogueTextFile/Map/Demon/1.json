@@ -1,0 +1,104 @@
+[
+  {
+	"eng_name": "Princess",
+	"change_current_character": "pink",
+	"man_name": "公主",
+	"man_sim_name": "公主",
+	"eng_dialogue": "What?!",
+	"man_dialogue": "啊！",
+	"man_sim_dialogue": "啊！",
+	"ani_chatbox": "chatbox_shake",
+	"avatar": "princess",
+	"jp_dialogue": "何だ…！？",
+	"jp_name": "姫"
+  },
+  {
+	"eng_name": "Princess",
+	"man_name": "公主",
+	"man_sim_name": "公主",
+	"eng_dialogue": "Did someone just break in?!",
+	"man_dialogue": "什么！有人来了吗！",
+	"man_sim_dialogue": "什么！有人来了吗!",
+	"ani_chatbox": "chatbox_shake",
+	"avatar": "princess",
+	"jp_dialogue": "誰か侵入したのか！？",
+	"jp_name": "姫"
+  },
+  {
+	"eng_name": "Demon",
+	"change_current_character": "demon_king",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "What?! Someone actually got in here?!",
+	"man_dialogue": "什么，怎么会！",
+	"man_sim_dialogue": "什么，怎么会！",
+	"ani_chatbox": "chatbox_shake",
+	"avatar": "demonking",
+	"jp_dialogue": "な、なぜだ…！",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Demon",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Weren’t my brothers guarding the door?!",
+	"man_dialogue": "我的兄弟们不是在看门吗！",
+	"man_sim_dialogue": "我的兄弟们不是在看门吗！",
+	"ani_chatbox": "chatbox_shake",
+	"avatar": "demonking",
+	"jp_dialogue": "部下が見張っていたはずだろ！",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Demon",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "How did you get in here?!",
+	"man_dialogue": "你怎麼進來的？！",
+	"man_sim_dialogue": "你怎么进来的？！",
+	"ani_chatbox": "chatbox_shake",
+	"avatar": "demonking",
+	"jp_dialogue": "どうやって入ってきた！？",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Demon",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "You must have used some underhanded trick!",
+	"man_dialogue": "一定是採用了卑鄙的手段！",
+	"man_sim_dialogue": "一定是采用了卑鄙的手段！",
+	"ani_chatbox": "chatbox_shake",
+	"avatar": "demonking",
+	"jp_dialogue": "どうせ卑怯な手を使ったに決まってる！",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Demon",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "You won’t get away with this!",
+	"man_dialogue": "我是不會放任你的！",
+	"man_sim_dialogue": "我可不会放任你！",
+	"avatar": "demonking",
+	"jp_dialogue": "このまま通すわけにはいかねぇ！",
+	"jp_name": "魔王"
+  },
+  {
+	"background_song": "battle",
+	"eng_name": "Demon",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Prepare yourself!",
+	"man_dialogue": "接招吧！",
+	"man_sim_dialogue": "接招吧！",
+	"avatar": "demonking",
+	"jp_dialogue": "くらえ！",
+	"jp_name": "魔王"
+  },
+  {
+	"startChat_for_non_attack": "true",
+	"change": "res://Scene/Cave/attackcave.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

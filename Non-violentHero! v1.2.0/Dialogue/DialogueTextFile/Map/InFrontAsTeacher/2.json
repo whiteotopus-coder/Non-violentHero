@@ -1,0 +1,38 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "Haha, teacher!",
+	"man_dialogue": "哈哈 老師",
+	"man_sim_dialogue": "哈哈 老师",
+	"jp_dialogue": "はは、先生〜",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "We were just joking, we swear!",
+	"man_dialogue": "我們剛剛是開玩笑的拉",
+	"man_sim_dialogue": "我们刚刚是开玩笑的拉~",
+	"jp_dialogue": "さっきのは冗談ですって〜",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Please don't be mad...",
+	"man_dialogue": "老師不要生氣哦！",
+	"man_sim_dialogue": "老师不要生气哦！",
+	"jp_dialogue": "先生、怒らないでくださいね〜",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

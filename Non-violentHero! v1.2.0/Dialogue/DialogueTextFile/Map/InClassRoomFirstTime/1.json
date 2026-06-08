@@ -1,0 +1,58 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "Oh oh!",
+	"man_dialogue": "哦哦！",
+	"man_sim_dialogue": "哦哦！",
+	"jp_dialogue": "おお！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Someone's coming!",
+	"man_dialogue": "有人來了啦！",
+	"man_sim_dialogue": "有人来了！",
+	"jp_dialogue": "誰か来た！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "What?!",
+	"man_dialogue": "什麽！",
+	"man_sim_dialogue": "什么！",
+	"jp_dialogue": "えっ！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Who is it?!",
+	"man_dialogue": "誰來了！",
+	"man_sim_dialogue": "谁来了！",
+	"jp_dialogue": "誰が来たの！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Is it the teacher?!",
+	"man_dialogue": "是老師來了嗎！",
+	"man_sim_dialogue": "是老师来了？",
+	"jp_dialogue": "先生が来たの？",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

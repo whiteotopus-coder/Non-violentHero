@@ -1,0 +1,40 @@
+[
+  {
+	"eng_name": "Teacher",
+	"change_current_character": "pink",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "Hey, you!",
+	"man_dialogue": "同學！",
+	"man_sim_dialogue": "同学！",
+	"jp_dialogue": "そこの君！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"change_current_character": "pink",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "Alright...",
+	"man_dialogue": "好了...",
+	"man_sim_dialogue": "好了...",
+	"jp_dialogue": "ほら…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"change_current_character": "pink",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "Get back to your seat!",
+	"man_dialogue": "快回到你的位置上吧！",
+	"man_sim_dialogue": "快回到你的座位上！",
+	"jp_dialogue": "早く自分の席に戻りなさい！",
+	"jp_name": "先生"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

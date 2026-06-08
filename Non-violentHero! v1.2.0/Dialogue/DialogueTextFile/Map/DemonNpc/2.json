@@ -1,0 +1,55 @@
+[
+  {
+	"ani_left": "angry",
+	"eng_name": "Demon Left",
+	"change_current_character": "busker",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_angry",
+	"eng_dialogue": "What do you want?!",
+	"man_dialogue": "幹什麽！",
+	"man_sim_dialogue": "干嘛！",
+	"jp_dialogue": "何だよ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left_angry",
+	"eng_dialogue": "You can’t go past here!",
+	"man_dialogue": "都說了這邊不可以過了！",
+	"man_sim_dialogue": "都说不允许通过了！",
+	"jp_dialogue": "通れないって言っただろ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Yeah, that’s right!",
+	"man_dialogue": "對啊！",
+	"man_sim_dialogue": "对啊！",
+	"jp_dialogue": "そうだよ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_angry",
+	"ani_right": "angry",
+	"eng_dialogue": "Now get lost!",
+	"man_dialogue": "快滾開！",
+	"man_sim_dialogue": "快滚开！",
+	"jp_dialogue": "さっさと失せろ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"ani_right": "default",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

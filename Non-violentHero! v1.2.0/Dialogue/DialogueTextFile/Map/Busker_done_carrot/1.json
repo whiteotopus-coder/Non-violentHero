@@ -1,0 +1,156 @@
+[
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"change_current_character": "carrot",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"avatar": "carrot_angry",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "啊！",
+	"man_sim_dialogue": "啊！",
+	"jp_dialogue": "あ！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"change_current_character": "carrot",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"avatar": "carrot_angry",
+	"eng_dialogue": "You!",
+	"man_dialogue": "你這個勇者！",
+	"man_sim_dialogue": "你这个勇者！",
+	"jp_dialogue": "あんた、勇者！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"change_current_character": "carrot",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"avatar": "carrot",
+	"eng_dialogue": "W-what are you doing here?!",
+	"man_dialogue": "你...你在這邊幹嘛！",
+	"man_sim_dialogue": "你...你在这边干嘛！",
+	"jp_dialogue": "あ…ここで何してんの！？",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"change_current_character": "carrot",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"avatar": "carrot",
+	"eng_dialogue": "Are you here to yell at me again?!",
+	"man_dialogue": "你還要來罵我嗎！",
+	"man_sim_dialogue": "你还要来骂我吗！",
+	"jp_dialogue": "またあたしを怒鳴りに来たの！？",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Busker",
+	"change_current_character": "busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"avatar": "busker",
+	"eng_dialogue": "Hero, go on! Give her a piece of your mind!",
+	"man_dialogue": "勇者，駡她！駡她！",
+	"man_sim_dialogue": "勇者！骂她！骂她！",
+	"aniBusker": "no",
+	"options": [
+	  {
+		"eng_option": "You can go inside the church now.",
+		"man_option": "你可以進去教堂裡面了",
+		"man_sim_option": "你可以进去教堂里面了",
+		"response": [
+		  {
+			"eng_name": "Busker",
+			"change_current_character": "busker",
+			"avatar": "busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"eng_dialogue": "Really?!",
+			"man_dialogue": "哇，真的嗎！",
+			"man_sim_dialogue": "哇，真的吗！",
+			"aniBusker": "shock",
+			"jp_dialogue": "教会に入っていいって？",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"change_current_character": "busker",
+			"avatar": "busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"eng_dialogue": "You convinced the nun?",
+			"man_dialogue": "是你說服修女的嗎！",
+			"man_sim_dialogue": "是你说服修女的吗！",
+			"aniBusker": "shock",
+			"jp_dialogue": "わあ！あんたが説得してくれたの？",
+			"jp_name": "大道芸人"
+		  },
+		  {
+			"eng_name": "Busker",
+			"change_current_character": "busker",
+			"avatar": "busker",
+			"man_name": "街頭歌手",
+			"man_sim_name": "街头歌手",
+			"eng_dialogue": "That’s incredible!",
+			"man_dialogue": "你好厲害！",
+			"man_sim_dialogue": "你好厉害！",
+			"aniBusker": "talk",
+			"jp_dialogue": "すごい！",
+			"jp_name": "大道芸人"
+		  }
+		],
+		"jp_option": "教会に入っていいって"
+	  }
+	],
+	"jp_dialogue": "勇者！このおばさんに言い返して！言い返して！",
+	"jp_name": "大道芸人"
+  },
+  {
+	"change_current_character": "carrot",
+	"eng_name": "Mrs. Karen Garrett",
+	"avatar": "carrot_angry",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "啊？那個難搞的修女瘋了嗎？",
+	"man_sim_dialogue": "啊？那个难搞的修女疯了吗？",
+	"eng_dialogue": "Huh? Did that strict nun finally lose it?!",
+	"jp_dialogue": "え？あの面倒くさいシスター、頭おかしくなったの？",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Busker",
+	"change_current_character": "busker",
+	"avatar": "busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Then I’m going right now~!",
+	"man_dialogue": "那我現在就過去~！",
+	"man_sim_dialogue": "那我现在就过去~！",
+	"aniBusker": "talk",
+	"jp_dialogue": "じゃあ今すぐ行く〜！",
+	"jp_name": "大道芸人"
+  },
+  {
+	"change_current_character": "carrot",
+	"eng_name": "Mrs. Karen Garrett",
+	"avatar": "carrot_angry",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"man_dialogue": "快滾開！我要回家！",
+	"man_sim_dialogue": "快滚！我要回家了！",
+	"eng_dialogue": "Get outta here! I’m going home!",
+	"jp_dialogue": "さっさと失せて！あたし帰るから！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"done": "move_to_church",
+	"close": "true",
+	"ani_player": "change_scene"
+  }
+]

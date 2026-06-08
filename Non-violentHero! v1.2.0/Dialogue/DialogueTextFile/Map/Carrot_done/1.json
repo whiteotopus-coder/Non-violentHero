@@ -1,0 +1,58 @@
+[
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "Goodbye, Mrs. Garrett!",
+	"man_dialogue": "再見了，羅太太！",
+	"man_sim_dialogue": "再见了！罗太太！",
+	"jp_dialogue": "さようなら、ロブのお母さん！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "Yeah, yeah!",
+	"man_dialogue": "知道啦知道啦！",
+	"man_sim_dialogue": "知道啦知道啦！",
+	"jp_dialogue": "はいはい、わかったわよ！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "And Robert...maybe you should head back to class now...",
+	"man_dialogue": "然後羅伯...你就回到你的班上繼續上課吧...",
+	"man_sim_dialogue": "然后罗伯，你就回到你的班上上课吧...",
+	"jp_dialogue": "それじゃロブ、あんたは教室に戻って授業を受けなさい…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Robert Garrett",
+	"change_current_character": "otaku",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"man_dialogue": "啊...哦。",
+	"man_sim_dialogue": "啊...哦。",
+	"eng_dialogue": "...Oh... okay.",
+	"jp_dialogue": "あ…うん。",
+	"jp_name": "ロバート"
+  },
+  {
+	"done": "setposition",
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"carrot_leave_room": "true",
+	"change": "res://SceneTransTscn/stage_1_class.tscn",
+	"sceneTransition": "dissolve",
+	"close": "true"
+  }
+]

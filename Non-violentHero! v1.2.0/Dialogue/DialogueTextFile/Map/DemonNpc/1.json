@@ -1,0 +1,92 @@
+[
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Huh?",
+	"man_dialogue": "誒？",
+	"man_sim_dialogue": "诶？",
+	"jp_dialogue": "え？",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Why is someone here?!",
+	"man_dialogue": "這邊怎麼會有人！",
+	"man_sim_dialogue": "这边怎么会有人！",
+	"jp_dialogue": "なんでここに人がいるんだ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"change_current_character": "busker",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"ani_left": "default",
+	"eng_dialogue": "Who are you?",
+	"man_dialogue": "你誰啊？",
+	"man_sim_dialogue": "你谁啊？",
+	"jp_dialogue": "お前誰だよ？",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"ani_left": "default",
+	"eng_dialogue": "You’re not allowed to pass!",
+	"man_dialogue": "這邊不可以過！",
+	"man_sim_dialogue": "这边不允许通过！",
+	"jp_dialogue": "ここは通行禁止だ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Left",
+	"man_name": "左邊小怪",
+	"man_sim_name": "左边小怪",
+	"avatar": "d_left",
+	"eng_dialogue": "There are VIPs inside handling important business!",
+	"man_dialogue": "裡面有重要的人在做重要的事！",
+	"man_sim_dialogue": "里面有重要的人在做重要的事！",
+	"jp_dialogue": "中で偉いヤツが大事なことやってんだよ！",
+	"jp_name": "左の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"change_current_character": "right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right",
+	"eng_dialogue": "Yeah, that’s right!",
+	"man_dialogue": "對啊！",
+	"man_sim_dialogue": "对啊！",
+	"jp_dialogue": "そうだそうだ！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"avatar": "d_right_angry",
+	"ani_right": "angry",
+	"eng_dialogue": "So get out of here!",
+	"man_dialogue": "所以走開！",
+	"man_sim_dialogue": "所以走开！",
+	"jp_dialogue": "だからあっち行け！",
+	"jp_name": "右の雑魚"
+  },
+  {
+	"ani_right": "default",
+	"ani_left": "default",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

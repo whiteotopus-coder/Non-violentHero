@@ -1,0 +1,48 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"change_current_character": "right",
+	"eng_dialogue": "Oh no...",
+	"man_dialogue": "哎呀...",
+	"man_sim_dialogue": "哎呀...",
+	"jp_dialogue": "あっ…",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "He really is the teacher?!",
+	"man_dialogue": "原來是老師诶...",
+	"man_sim_dialogue": "原来是老师啊...",
+	"jp_dialogue": "ほんとに先生だったんだ…",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "Uh-oh...we just laughed at him!",
+	"man_dialogue": "慘了我們剛剛還笑他！",
+	"man_sim_dialogue": "完蛋了，我们刚刚还笑他！",
+	"jp_dialogue": "やばい、さっき笑っちゃった！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "同學們",
+	"man_sim_name": "同学们",
+	"eng_dialogue": "We're totally gonna get scolded...",
+	"man_dialogue": "等下他要罵我們了！",
+	"man_sim_dialogue": "他要训我们了！",
+	"jp_dialogue": "怒られるかも！",
+	"jp_name": "クラスメイトたち"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true",
+	"clear_script": "true"
+  }
+]

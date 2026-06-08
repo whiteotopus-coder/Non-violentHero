@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Busker",
+	"change_current_character": "busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Oh Lord~!",
+	"man_dialogue": "上帝~！",
+	"man_sim_dialogue": "上帝~！",
+	"jp_dialogue": "神様〜！",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "Let me share my love with you~",
+	"man_dialogue": "我要向你傳達~",
+	"man_sim_dialogue": "我要向你传达~",
+	"jp_dialogue": "この想いを〜",
+	"jp_name": "大道芸人"
+  },
+  {
+	"eng_name": "Busker",
+	"man_name": "街頭歌手",
+	"man_sim_name": "街头歌手",
+	"eng_dialogue": "All the feelings in my heart~",
+	"man_dialogue": "我的愛意~",
+	"man_sim_dialogue": "我的爱意~",
+	"jp_dialogue": "届けたいの〜",
+	"jp_name": "大道芸人"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

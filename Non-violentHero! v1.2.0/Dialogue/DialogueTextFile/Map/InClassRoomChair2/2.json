@@ -1,0 +1,27 @@
+[
+  {
+	"eng_name": "Students",
+	"man_name": "隔壁同學",
+	"man_sim_name": "隔壁同学",
+	"change_current_character": "nun",
+	"eng_dialogue": "Why is he sitting next to me...?",
+	"man_dialogue": "爲什麽坐我這邊...",
+	"man_sim_dialogue": "为什么坐我这边...",
+	"jp_dialogue": "なんでこっちに座るの…",
+	"jp_name": "隣のクラスメイト"
+  },
+  {
+	"eng_name": "Students",
+	"man_name": "隔壁同學",
+	"man_sim_name": "隔壁同学",
+	"eng_dialogue": "Ugh...this is so stressful...",
+	"man_dialogue": "好壓力..",
+	"man_sim_dialogue": "好压力...",
+	"jp_dialogue": "プレッシャーすごい…",
+	"jp_name": "隣のクラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

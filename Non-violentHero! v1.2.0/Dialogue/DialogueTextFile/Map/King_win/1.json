@@ -1,0 +1,57 @@
+[
+  {
+	"background_song": "no",
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "happy",
+	"eng_dialogue": "Ohoho! Hero, you lost, huh?",
+	"man_dialogue": "哎哟勇者，你輸了啊！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "哎哟勇者，你输了啊！",
+	"jp_dialogue": "おっと勇者、負けちゃったか！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Don’t worry~ I’m just wayyyy too strong, that’s all! Nothing to be ashamed of~",
+	"man_dialogue": "沒關係啦~畢竟我太強了嘛，也是沒辦法的事~",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "没关系啦！毕竟我这么强，你赢不了也是没办法的事~",
+	"jp_dialogue": "まあまあ、しょうがないさ！私が強すぎるんだから、お前が勝てないのも無理はない〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "king_good",
+	"eng_dialogue": "Even if you lost, I’ll still let you pass~",
+	"man_dialogue": "但是輸了也沒關係啦~我也是會讓你通過的~",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "但是输了也没关系啦~我也会让你通过的~",
+	"jp_dialogue": "でも負けても大丈夫だぞ〜ちゃんと通してやるからな〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"animation": "happy",
+	"eng_dialogue": "So, that’s it for the tutorial~",
+	"man_dialogue": "所以教學就到這邊咯~",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "那教学就结束咯~",
+	"jp_dialogue": "それじゃチュートリアルは終了だ〜",
+	"jp_name": "王様"
+  },
+  {
+	"ach_smug_king": "true",
+	"done": "setposition",
+	"change": "res://SceneTransTscn/castle.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]
