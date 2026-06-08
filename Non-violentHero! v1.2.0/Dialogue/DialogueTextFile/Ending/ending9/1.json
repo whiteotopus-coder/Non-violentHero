@@ -1,0 +1,93 @@
+[
+  {
+	"background_song": "comedy",
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Princess~",
+	"man_dialogue": "公主~",
+	"avatar": "demonking",
+	"man_sim_dialogue": "公主~",
+	"animation": "default",
+	"ani_char": "none",
+	"jp_dialogue": "姫〜",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Calm down!",
+	"man_dialogue": "你冷靜點啊！",
+	"avatar": "demonking",
+	"man_sim_dialogue": "你冷静点啊！",
+	"jp_dialogue": "落ち着いて！",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "A hero this rare would be such a waste to eat!",
+	"man_dialogue": "這可是難得的勇者啊，你這樣吃掉太可惜了！",
+	"avatar": "demonking",
+	"man_sim_dialogue": "难得的勇者啊...你这样吃掉太可惜了！",
+	"jp_dialogue": "せっかくの勇者なのに…食べちゃうなんてもったいない！",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "Princess",
+	"man_name": "公主",
+	"man_sim_name": "公主",
+	"change_current_character": "pink",
+	"eng_dialogue": "Grrrroarrrr",
+	"man_dialogue": "吼........",
+	"avatar": "princess_angry",
+	"man_sim_dialogue": "吼........",
+	"jp_dialogue": "グルル……",
+	"jp_name": "姫"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Sigh... I guess there’s no stopping her...",
+	"man_dialogue": "唉...看來是阻止不了了...",
+	"avatar": "demonking",
+	"man_sim_dialogue": "唉...看来是阻止不了了...",
+	"jp_dialogue": "はぁ…もう止められないか…",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Goodbye, hero...",
+	"man_dialogue": "勇者，再見了...",
+	"avatar": "demonking",
+	"man_sim_dialogue": "勇者，再见了...",
+	"jp_dialogue": "勇者、さようなら…",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Ending 9: The Unstoppable Princess",
+	"man_dialogue": "結局九： 惹不起的公主",
+	"man_sim_dialogue": "结局九： 惹不起的公主",
+	"done": "ending9",
+	"jp_dialogue": "エンディング9： 手に負えない姫",
+	"jp_name": "システム"
+  },
+  {
+	"change": "res://MainMenu/main_menu.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

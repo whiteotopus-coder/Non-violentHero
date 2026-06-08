@@ -1,0 +1,193 @@
+[
+  {
+	"background_song": "comedy",
+	"change_current_character": "mummy",
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Ugh...",
+	"man_dialogue": "哎喲...",
+	"man_sim_dialogue": "哎哟...",
+	"avatar": "mummy_cry",
+	"animation": "food_die",
+	"ani_char": "none",
+	"jp_dialogue": "あらら…",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Kid...",
+	"man_dialogue": "小弟弟...",
+	"man_sim_dialogue": "小弟弟...",
+	"avatar": "mummy_cry",
+	"jp_dialogue": "坊や…",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "How did this happen...",
+	"man_dialogue": "怎麼會這樣...",
+	"man_sim_dialogue": "怎么会这样...",
+	"avatar": "mummy_cry",
+	"jp_dialogue": "どうしてこんなことに…",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"eng_dialogue": "Hero... You actually died from overeating?!",
+	"man_dialogue": "勇者，你居然會撐死...",
+	"man_sim_dialogue": "勇者，你居然会撑死...",
+	"jp_dialogue": "勇者、まさか食べすぎて死ぬなんて……",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"change_current_character": "mummy",
+	"eng_dialogue": "I...",
+	"man_dialogue": "嗚嗚嗚",
+	"man_sim_dialogue": "呜呜呜",
+	"avatar": "mummy_cry",
+	"jp_dialogue": "ううう…",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "I shouldn’t have let him eat so much...",
+	"man_dialogue": "不應該讓他吃這麽多的...",
+	"man_sim_dialogue": "不应该让他吃这么多的...",
+	"avatar": "mummy_cry",
+	"jp_dialogue": "こんなに食べさせるべきじゃなかった…",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "He was Otaku’s only friend...",
+	"man_dialogue": "這可是肥宅唯一的朋友啊...",
+	"man_sim_dialogue": "这可是肥宅唯一的朋友啊...",
+	"avatar": "mummy_cry",
+	"jp_dialogue": "この子はオタクにとって唯一の友達だったのに……",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"eng_dialogue": "Wait!",
+	"man_dialogue": "啊，難不成...",
+	"man_sim_dialogue": "啊，难不成...",
+	"jp_dialogue": "あれ…まさか…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "kingangry",
+	"eng_dialogue": "Were you trying to skip rescuing my daughter and marry the Queen instead?!",
+	"man_dialogue": "勇者是想跳過拯救公主的任務，直接和皇后結婚嗎！",
+	"man_sim_dialogue": "勇者是想跳过拯救公主的任务，直接和皇后结婚吗！",
+	"jp_dialogue": "勇者は姫を救うのを飛ばして、直接皇后と結婚しようとしたのか！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "kingangry",
+	"eng_dialogue": "You really are impatient!",
+	"man_dialogue": "真是心急...",
+	"man_sim_dialogue": "真是心急啊...",
+	"jp_dialogue": "せっかちだなぁ…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "kingangry",
+	"eng_dialogue": "There’s no way she would’ve agreed to that!",
+	"man_dialogue": "這樣她可不會答應你！",
+	"man_sim_dialogue": "这样她可是不会答应你的！",
+	"jp_dialogue": "それじゃあ彼女は受け入れないよ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "...Forget it. Nothing I say matters anymore. Rest in peace, Hero.",
+	"man_dialogue": "算了...再多説什麽也沒有用了......一路好走啊，勇者！",
+	"man_sim_dialogue": "算了，再多说也没有用...一路好走啊，勇者！",
+	"jp_dialogue": "もう何言っても無駄か…安らかに眠れ、勇者。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"change_current_character": "mummy",
+	"eng_dialogue": "Ugh... My son couldn’t even make it to your funeral. I hope you don’t mind, kid.",
+	"man_dialogue": "肥宅那家伙真是的，朋友的葬禮也不參與...希望你不會介意啊，小弟弟...",
+	"man_sim_dialogue": "肥宅那家伙真是的，朋友的葬礼也不来参与...希望你别介意啊小弟弟。",
+	"avatar": "mummy_cry",
+	"jp_dialogue": "あのオタク、友達の葬式にも来ないなんて…坊や、気にしないでね。",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Here... Auntie packed you some food... In case you get hungry on the way.",
+	"man_dialogue": "還有，你就盡量吃，阿姨最後幫你弄了一點菜，你在路上餓的話可以吃一點。",
+	"man_sim_dialogue": "还有，你尽管吃吧，阿姨最后再给你弄了一些菜，你在路上饿的话可以吃一点。",
+	"avatar": "mummy_cry",
+	"jp_dialogue": "あと、これ食べていきなさい。最後にちょっと料理作っておいたから、道中でお腹空いたら食べてね。",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"eng_dialogue": "...Actually, maybe he doesn’t want to see food ever again.",
+	"man_dialogue": "...他應該不會想再看到食物了啦。",
+	"man_sim_dialogue": "...我觉得他不会想再看到食物了。",
+	"jp_dialogue": "…もう食べ物なんて見たくないだろうね。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "System",
+	"change_current_character": "setting",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"man_dialogue": "結局七： 吃飽好上路",
+	"man_sim_dialogue": "结局七：吃饱好上路",
+	"eng_dialogue": "Ending 7: Rest in Food",
+	"done": "ending7",
+	"jp_dialogue": "エンディング7： 満腹の旅立ち",
+	"jp_name": "システム"
+  },
+  {
+	"change": "res://MainMenu/main_menu.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

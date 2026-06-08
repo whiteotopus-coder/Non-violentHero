@@ -1,0 +1,89 @@
+[
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hey, buddy!",
+	"man_dialogue": "小兄弟！",
+	"man_sim_dialogue": "小兄弟！",
+	"change_current_character": "police",
+	"jp_dialogue": "兄ちゃん！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "So you really did disguise yourself as a teacher!",
+	"man_dialogue": "你居然假扮老師！",
+	"man_sim_dialogue": "你居然假扮老师！",
+	"jp_dialogue": "学校のやつらから聞いたんだけど、教師に変装して学校に潜り込んでたんだって？",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "But the King already explained everything.",
+	"man_dialogue": "不過國王已經來解釋過了",
+	"man_sim_dialogue": "不过国王已经来解释过了",
+	"jp_dialogue": "でも王様が説明してくれたぞ",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "It was all part of your plan to rescue the princess!",
+	"man_dialogue": "這是你拯救公主的策略！",
+	"man_sim_dialogue": "这是你拯救公主的策略！",
+	"jp_dialogue": "これは姫を救うための作戦なんだろ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Well... if it’s for the princess,",
+	"man_dialogue": "既然是爲了救公主！",
+	"man_sim_dialogue": "既然是为了救公主！",
+	"jp_dialogue": "姫のためなんだよな！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "I guess there’s nothing we can do about it!",
+	"man_dialogue": "那就沒辦法了！",
+	"man_sim_dialogue": "那就没办法了！",
+	"jp_dialogue": "それなら仕方ないな！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "You're free to go!",
+	"man_dialogue": "你走吧！",
+	"man_sim_dialogue": "你走吧！",
+	"jp_dialogue": "行っていいぞ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hahahahaha!",
+	"man_dialogue": "哈哈哈！",
+	"ani_police": "laugh",
+	"man_sim_dialogue": "哈哈哈！",
+	"jp_dialogue": "ははは！",
+	"jp_name": "新米警官"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"ani_police": "policeman",
+	"close": "true"
+  }
+]

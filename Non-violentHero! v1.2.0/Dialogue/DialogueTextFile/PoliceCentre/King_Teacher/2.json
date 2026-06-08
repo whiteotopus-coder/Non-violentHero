@@ -1,0 +1,31 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"eng_dialogue": "Just focus on rescuing my daughter!",
+	"man_dialogue": "你專心的去救我女兒吧！",
+	"man_sim_dialogue": "你专心的去救我女儿吧！",
+	"avatar": "king_happy",
+	"ani_king": "happy",
+	"jp_dialogue": "安心して娘を救いに行け！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Don’t worry~ Your record will stay perfectly clean!",
+	"man_dialogue": "不會留任何前科的！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "不会留任何前科的！",
+	"avatar": "king_happy",
+	"jp_dialogue": "前科なんてつけさせない！",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hey, buddy!",
+	"man_dialogue": "小兄弟！",
+	"man_sim_dialogue": "小兄弟！",
+	"change_current_character": "police",
+	"jp_dialogue": "兄ちゃん！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "That teacher said you were some kind of creepy stalker!",
+	"man_dialogue": "那個老師說你是變態跟蹤狂！",
+	"man_sim_dialogue": "那个老师说你是变态跟踪狂！",
+	"jp_dialogue": "あの先生があんたをストーカーって言ってたけど！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "But the King already came by and explained everything.",
+	"man_dialogue": "不過國王已經來解釋過了",
+	"man_sim_dialogue": "不过国王已经来解释过了",
+	"jp_dialogue": "王様が説明してくれたからな",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "So I guess it was all just a misunderstanding!",
+	"man_dialogue": "所以我相信這是個誤會啦！",
+	"man_sim_dialogue": "所以我相信这是个误会啦！",
+	"jp_dialogue": "誤解だって信じてるぜ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Since everything’s cleared up now,",
+	"man_dialogue": "既然都解決了！",
+	"man_sim_dialogue": "既然都解決了！",
+	"jp_dialogue": "もう解決したし！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "you can leave without worrying about anything!",
+	"man_dialogue": "你就放心的離開吧！",
+	"man_sim_dialogue": "你就放心的离开吧！",
+	"jp_dialogue": "安心して行っていいぞ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hahahahaha!",
+	"man_dialogue": "哈哈哈！",
+	"ani_police": "laugh",
+	"man_sim_dialogue": "哈哈哈！",
+	"jp_dialogue": "ははは！",
+	"jp_name": "新米警官"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"ani_police": "policeman",
+	"close": "true"
+  }
+]

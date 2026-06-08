@@ -1,0 +1,103 @@
+[
+  {
+	"background_song": "comedy",
+	"eng_name": "System",
+	"change_current_character": "setting",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"animation": "otaku_alone",
+	"eng_dialogue": "And so, Otaku got kicked out by his mom.",
+	"man_dialogue": "就這樣，肥宅被媽媽一腳踹出了家裡的大門。",
+	"man_sim_dialogue": "就这样，肥宅被妈妈一脚踹出了家里的大门。",
+	"ani_char": "none",
+	"jp_dialogue": "こうして、オタクは母親に家から蹴り出された。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "He didn’t even manage to bring his legendary battle suit with him.",
+	"man_dialogue": "由於行李打包得過於匆忙，傳説中的戰衣也沒有帶走。",
+	"man_sim_dialogue": "由于行李打包得过于匆忙，传说中的战衣也没有带走。",
+	"jp_dialogue": "荷造りがあまりに慌ただしかったため、伝説の衣装も持ってこれなかった。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Without all the items the demons demanded, the Hero was unable to rescue the princess.",
+	"man_dialogue": "導致勇者無法收齊小怪們要求的物品，拯救公主的事情也被擱置了。",
+	"man_sim_dialogue": "导致勇者无法收齐小怪们要求的物品，拯救公主的事情也被搁置了。",
+	"jp_dialogue": "そのせいで勇者はモンスターたちの要求するアイテムを集められず、姫の救出も中断された。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"animation": "otaku_hero",
+	"eng_dialogue": "With no job and nowhere left to go, the Hero eventually ended up homeless... Sleeping on the streets alongside Otaku.",
+	"man_dialogue": "勇者的績效不佳，找不到工作，只可以和肥宅一起睡大街。",
+	"man_sim_dialogue": "勇者的绩效不佳，找不到工作，只可以和肥宅一起睡大街。",
+	"jp_dialogue": "勇者は成績が悪く、仕事も見つからず、あのオタクと一緒に路上生活をするしかなかった。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "otaku",
+	"change_current_character": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku",
+	"eng_dialogue": "Hero... Trusting you was the biggest mistake of my life.",
+	"man_dialogue": "勇者...我真的是不該相信你...",
+	"man_sim_dialogue": "勇者...我真的是不该相信你...",
+	"jp_dialogue": "勇者…本当に君を信じるべきじゃなかった…",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku",
+	"animation": "otaku_angry",
+	"eng_dialogue": "Also, could you maybe beg somewhere else?",
+	"man_dialogue": "還有你可不可以去別邊啊？",
+	"man_sim_dialogue": "还有你可不可以去别边啊？",
+	"jp_dialogue": "あとさ、他の場所行ってくれない？",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku",
+	"eng_dialogue": "You keep stealing all my customers... People stop giving me money the moment they see you!",
+	"man_dialogue": "不要來這邊搶我的生意...別人看到你都捐給你，不捐給我了！",
+	"man_sim_dialogue": "不要来这边抢我的生意...别人看到你都捐给你，不捐给我了！",
+	"jp_dialogue": "ここで商売の邪魔しないで…君がいるとみんな君に寄付して、私にくれないんだよ！",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "System",
+	"change_current_character": "setting",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Ending 6: Homeless Together",
+	"man_dialogue": "結局六： 流浪街頭",
+	"man_sim_dialogue": "结局六： 流浪街头",
+	"done": "ending6",
+	"jp_dialogue": "エンディング6： 伝説の路上生活",
+	"jp_name": "システム"
+  },
+  {
+	"change": "res://MainMenu/main_menu.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

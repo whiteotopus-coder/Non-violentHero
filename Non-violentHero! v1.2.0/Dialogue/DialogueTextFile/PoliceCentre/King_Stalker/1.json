@@ -1,0 +1,134 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"eng_dialogue": "...Hero...",
+	"man_dialogue": "...勇者..",
+	"man_sim_dialogue": "...勇者..",
+	"jp_dialogue": "…勇者…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "A... stalker?",
+	"man_dialogue": "變態跟蹤狂嗎...",
+	"man_sim_dialogue": "变态跟踪狂吗...",
+	"jp_dialogue": "変態ストーカーだって…？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "They called you a stalker?!",
+	"man_dialogue": "居然...說你是變態跟蹤狂！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "居然...说你是变态跟踪狂！",
+	"jp_dialogue": "まさか…そんなことを言われるなんて！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Impossible! A hero like you would never do such a thing!",
+	"man_dialogue": "勇者怎麽可能是什麽變態跟蹤狂呢！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "勇者怎么可能是什么变态跟踪狂呢！",
+	"avatar": "kingangry",
+	"ani_king": "angry",
+	"jp_dialogue": "勇者が変態ストーカーなわけないだろう！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "That teacher is clearly spreading ridiculous lies!",
+	"man_dialogue": "那個老師真的是血口噴人！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "那个老师真的是血口噴人！",
+	"avatar": "kingangry",
+	"ani_king": "angry",
+	"jp_dialogue": "あの教師、でたらめを言いおって！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Of course... This must all be part of some undercover investigation...",
+	"man_dialogue": "你一定是爲了調查...",
+	"man_sim_dialogue": "你一定是为了调查...",
+	"avatar": "kingangry",
+	"jp_dialogue": "きっとお前は調査のために…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "You disguised yourself as a suspicious creep to infiltrate the area, didn't you?",
+	"man_dialogue": "僞裝成間諜潛入對吧！",
+	"man_sim_dialogue": "伪装成间谍潜入對吧！",
+	"avatar": "kingangry",
+	"jp_dialogue": "スパイとして潜入しているんだろう！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Brilliant...",
+	"man_dialogue": "真是高深啊...",
+	"man_sim_dialogue": "真是高深啊...",
+	"avatar": "kingangry",
+	"jp_dialogue": "なんと高度な作戦だ…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"eng_dialogue": "You truly are worthy of the title of hero!",
+	"man_dialogue": "我會全力協助你的！",
+	"man_sim_dialogue": "我会全力協助你的！",
+	"ani_king": "happy",
+	"jp_dialogue": "私は全力で協力しよう！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"eng_dialogue": "I’ve already spoken to the authorities on your behalf.",
+	"man_dialogue": "我幫你和警察溝通好了",
+	"man_sim_dialogue": "我帮你和警察沟通好了",
+	"jp_dialogue": "警察には私から話を通しておいた",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"eng_dialogue": "Now go! Focus all your efforts on rescuing my daughter!",
+	"man_dialogue": "你專心的去救我女兒吧！",
+	"man_sim_dialogue": "你专心的去救我女儿吧！",
+	"jp_dialogue": "お前は安心して娘を救いに行け！",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

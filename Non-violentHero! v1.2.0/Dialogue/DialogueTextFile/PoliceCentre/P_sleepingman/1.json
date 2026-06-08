@@ -1,0 +1,86 @@
+[
+  {
+	"eng_name": "Police Man",
+	"man_name": "警察",
+	"man_sim_name": "警察",
+	"change_current_character": "demon_king",
+	"eng_dialogue": "Zzz...",
+	"man_dialogue": "zz",
+	"man_sim_dialogue": "zz",
+	"jp_dialogue": "zz",
+	"jp_name": "警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "警察",
+	"man_sim_name": "警察",
+	"eng_dialogue": "Zzzz...",
+	"man_dialogue": "zzz",
+	"man_sim_dialogue": "zzz",
+	"jp_dialogue": "zzz",
+	"jp_name": "警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "警察",
+	"man_sim_name": "警察",
+	"eng_dialogue": "Zzzzz...",
+	"man_dialogue": "zzzzz",
+	"man_sim_dialogue": "zzzzz",
+	"jp_dialogue": "zzzzz",
+	"jp_name": "警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"change_current_character": "police",
+	"eng_dialogue": "Uh-oh!",
+	"man_dialogue": "哎喲",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "哎哟",
+	"jp_dialogue": "おっと",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "The chief’s snoring again! That’s basically his way of saying hello!",
+	"man_dialogue": "警長用打鼾聲打招呼",
+	"ani_police": "laugh",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "警长用打鼾声打招呼",
+	"jp_dialogue": "警長がいびきで挨拶してるぞ",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "What a down-to-earth boss!",
+	"man_dialogue": "真是親民呢！",
+	"ani_police": "laugh",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "真是亲民呢！",
+	"jp_dialogue": "親しみやすいなあ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hahahaha!",
+	"man_dialogue": "哈哈哈！",
+	"ani_police": "laugh",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "哈哈哈！",
+	"jp_dialogue": "ははは！",
+	"jp_name": "新米警官"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"ani_police": "policeman",
+	"close": "true"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "What do you think you're doing?!",
+	"man_dialogue": "幹什麼！",
+	"man_sim_dialogue": "干什么！",
+	"jp_dialogue": "何しに来たの！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "After making a fool out of me, you still have the nerve to come into my house?!",
+	"man_dialogue": "羞辱我還不夠，還跑進我的家！",
+	"man_sim_dialogue": "羞辱我还不够，还跑进我的家！",
+	"jp_dialogue": "まだ私をバカにし足りないの？それで家にまで入ってくるなんて！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "Get out of my house!",
+	"man_dialogue": "滾出我的家啦！",
+	"man_sim_dialogue": "滚出我的家啦！",
+	"jp_dialogue": "今すぐ出てってよ！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

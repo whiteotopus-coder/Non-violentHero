@@ -1,0 +1,29 @@
+[
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"change_current_character": "pink",
+	"avatar": "cashier",
+	"eng_dialogue": "Looking for the restroom?",
+	"man_dialogue": "你幹嘛跑進來？",
+	"man_sim_dialogue": "你干嘛跑进来？",
+	"jp_dialogue": "何か用ですか？",
+	"jp_name": "店員"
+  },
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"avatar": "cashier",
+	"eng_dialogue": "It’s in the back.",
+	"man_dialogue": "廁所的話在後面。",
+	"man_sim_dialogue": "厕所的话在后面。",
+	"jp_dialogue": "....トイレなら、奥のドアです。",
+	"jp_name": "店員"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

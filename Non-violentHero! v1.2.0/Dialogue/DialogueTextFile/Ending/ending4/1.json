@@ -1,0 +1,167 @@
+[
+  {
+	"background_song": "comedy",
+	"eng_name": "King",
+	"change_current_character": "king",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "勇者，真是謝謝你啊！",
+	"man_sim_dialogue": "勇者，真是谢谢你啊！",
+	"eng_dialogue": "Hero... thank you so much.",
+	"animation": "marry_queen",
+	"ani_char": "none",
+	"jp_dialogue": "勇者、本当にありがとう！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "因爲你，我才能找到我的女兒！",
+	"man_sim_dialogue": "因为你，我才找得到我女儿！",
+	"eng_dialogue": "Thanks to you, I was finally reunited with my daughter.",
+	"jp_dialogue": "おかげで娘を見つけられた！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "把皇后托付給像你這麽厲害的人..",
+	"man_sim_dialogue": "把皇后托付给你这么有能力的人...",
+	"eng_dialogue": "Leaving the future Queen in the hands of someone as dependable as you...",
+	"jp_dialogue": "皇后を君のような有能な者に託せて…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "我也可以放心了啦。",
+	"man_sim_dialogue": "我也能放心了啦。",
+	"eng_dialogue": "I can finally rest easy.",
+	"jp_dialogue": "私も安心だ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "這是我精心挑選的棺材哦！",
+	"man_sim_dialogue": "这可是我精心挑选的棺材哦！",
+	"eng_dialogue": "I personally chose this coffin just for you.",
+	"jp_dialogue": "これは私が厳選した棺だよ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "睡起來很舒服吧？",
+	"man_sim_dialogue": "睡起来很舒适吧？",
+	"eng_dialogue": "Comfortable, isn’t it?",
+	"jp_dialogue": "寝心地いいだろう？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "啊，我的妻子已經在黃泉等你咯！",
+	"man_sim_dialogue": "啊，我妻子已经在黄泉等你了！",
+	"eng_dialogue": "My wife is already waiting for you on the other side.",
+	"jp_dialogue": "ああ、皇后はあの世で君を待っている！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "就不耽誤你們的時間啦！",
+	"man_sim_dialogue": "不耽误你们的时间咯！",
+	"eng_dialogue": "So I won’t keep you any longer.",
+	"jp_dialogue": "時間を取らせるのも悪いしな！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"man_dialogue": "可以蓋棺材了~",
+	"man_sim_dialogue": "可以盖棺材了~",
+	"eng_dialogue": "Now then... let us close the coffin.",
+	"jp_dialogue": "さあ、蓋を閉めよう〜",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "System",
+	"change_current_character": "setting",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"man_dialogue": "勇者有什麼話要說的嗎？",
+	"man_sim_dialogue": "勇者，要发言吗？",
+	"eng_dialogue": "Hero... any last words?",
+	"jp_dialogue": "勇者、何か言い残すことはあるか？",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"man_dialogue": "現在不説以後就沒有機會咯！",
+	"man_sim_dialogue": "不然以后就没机会咯！",
+	"eng_dialogue": "Speak now, or you’ll never get another chance~",
+	"jp_dialogue": "今言わないと、もう機会はないぞ！",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"man_dialogue": "那現在就蓋上棺材吧！",
+	"man_sim_dialogue": "那现在就盖上棺材吧！",
+	"eng_dialogue": "...Alright then. Closing the coffin now.",
+	"jp_dialogue": "それじゃあ、閉めるぞ！",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"man_dialogue": "再見了，勇者。",
+	"man_sim_dialogue": "再见了，勇者。",
+	"eng_dialogue": "Goodbye, Hero.",
+	"animation": "byebye",
+	"jp_dialogue": "さようなら、勇者。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"man_dialogue": "結局四：通往愛情的墳墓",
+	"man_sim_dialogue": "结局四： 通往爱情的坟墓",
+	"eng_dialogue": "Ending 4: The Grave of Love",
+	"done": "ending4",
+	"jp_dialogue": "エンディング4： 愛へ続く墓",
+	"jp_name": "システム"
+  },
+  {
+	"change": "res://MainMenu/main_menu.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+	"background_song": "no",
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"change_current_character": "setting",
+	"avatar": "setting",
+	"eng_dialogue": "The hero left the castle...",
+	"man_dialogue": "勇者不言一語",
+	"man_sim_dialogue": "勇者不言一语",
+	"animation": "leave",
+	"ani_char": "none",
+	"jp_dialogue": "勇者は一言も話さず、",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "Without looking back even once.",
+	"man_dialogue": "頭也不回地離開了城堡。",
+	"man_sim_dialogue": "头也不回地离开了城堡。",
+	"jp_dialogue": "振り返ることなく城を去った。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "With no other options left,",
+	"man_dialogue": "無奈的國王只能獨自尋找公主的蹤跡。",
+	"man_sim_dialogue": "无奈的国王只能独自寻找公主的踪迹。",
+	"jp_dialogue": "途方に暮れた王様は、",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "the king set out to search for the princess himself.",
+	"man_dialogue": "勇者的背影令國王久久不能忘懷。",
+	"man_sim_dialogue": "勇者的背影令国王无法忘怀。",
+	"jp_dialogue": "一人で姫の行方を探すしかなかった。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "Even now, one question still lingers in his mind...",
+	"man_dialogue": "至今某個疑問仍在國王的腦海中回響",
+	"man_sim_dialogue": "至今某个疑问仍然在国王脑海中回响",
+	"jp_dialogue": "勇者の去りゆく背中は、",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"eng_dialogue": "What was that guy even doing here?",
+	"man_dialogue": "這個人是來幹嘛的啊？",
+	"man_sim_dialogue": "这家伙究竟是来干嘛的啊？",
+	"jp_dialogue": "王様の記憶に深く焼き付いた。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"change_current_character": "setting",
+	"avatar": "setting",
+	"eng_dialogue": "Did the king ever manage to rescue his daughter?",
+	"man_dialogue": "不知道國王最後找到他女兒了嗎？",
+	"man_sim_dialogue": "不知道国王最后找到公主了吗？",
+	"jp_dialogue": "今でも、ある疑問が王様の頭の中をぐるぐる回っている——",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "In the end...",
+	"man_dialogue": "不過也不重要了。",
+	"man_sim_dialogue": "不过这些都不重要了。",
+	"jp_dialogue": "あいつ、結局何しに来たんだ？",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "it didn’t really matter anymore.",
+	"man_dialogue": "勇者揮一揮衣袖",
+	"man_sim_dialogue": "勇者挥一挥衣袖",
+	"jp_dialogue": "王様は無事、姫を救い出せたのだろうか？",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "What a mysterious hero.",
+	"man_dialogue": "發現自己沒有衣袖。",
+	"man_sim_dialogue": "发现自己没有衣袖。",
+	"jp_dialogue": "……まあ、そんなことはどうでもいい。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "Ending 1: Three Strikes and You're Out",
+	"man_dialogue": "結局一： 事不過三",
+	"man_sim_dialogue": "结局一： 事不过三",
+	"done": "ending1",
+	"jp_dialogue": "エンディング1： 三度の猶予もここまで",
+	"jp_name": "システム"
+  },
+  {
+	"change": "res://MainMenu/main_menu.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

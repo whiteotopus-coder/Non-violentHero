@@ -1,0 +1,76 @@
+[
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hey, buddy!",
+	"man_dialogue": "小兄弟！",
+	"man_sim_dialogue": "小兄弟！",
+	"change_current_character": "police",
+	"ani_police": "policeman",
+	"avatar": "police",
+	"jp_dialogue": "兄ちゃん！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "You like donuts too?",
+	"man_dialogue": "你也喜歡甜甜圈嗎？",
+	"man_sim_dialogue": "你也喜欢甜甜圈吗？",
+	"avatar": "police",
+	"jp_dialogue": "あんたもドーナツ好きか？",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Sorry, the chief already ate them all!",
+	"man_dialogue": "不好意思，甜甜圈已經被警長吃完啦！",
+	"man_sim_dialogue": "不好意思，甜甜圈已经被警长吃完啦！",
+	"avatar": "police",
+	"jp_dialogue": "悪いな、ドーナツは警長が全部食べちまったんだ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Oh, but we did drop one outside earlier~",
+	"man_dialogue": "噢，不過我們剛剛掉了一個在地上！",
+	"man_sim_dialogue": "噢，不过我们刚刚掉了一个在地上！",
+	"avatar": "police",
+	"jp_dialogue": "ああ、でもさっき一個地面に落としたんだよ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Maybe you’ll get lucky!",
+	"man_dialogue": "你可以去外面碰碰運氣～",
+	"man_sim_dialogue": "你可以去外面碰碰运气~",
+	"avatar": "police",
+	"jp_dialogue": "外で運試ししてみな〜",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hahahaha!",
+	"man_dialogue": "哈哈哈！",
+	"man_sim_dialogue": "哈哈哈！",
+	"avatar": "police_laugh",
+	"ani_police": "laugh",
+	"jp_dialogue": "ははは！",
+	"jp_name": "新米警官"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"ani_police": "policeman",
+	"close": "true"
+  }
+]

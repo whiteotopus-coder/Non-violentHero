@@ -1,0 +1,84 @@
+[
+  {
+	"eng_name": "Police Man",
+	"man_name": "警察",
+	"man_sim_name": "警察",
+	"change_current_character": "carrot",
+	"eng_dialogue": "Zzz...",
+	"man_dialogue": "Zzz",
+	"man_sim_dialogue": "Zzz",
+	"jp_dialogue": "Zzz",
+	"jp_name": "警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "警察",
+	"man_sim_name": "警察",
+	"eng_dialogue": "If it’s not important...",
+	"man_dialogue": "沒事...",
+	"man_sim_dialogue": "没事....",
+	"jp_dialogue": "用がなきゃ…",
+	"jp_name": "警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "警察",
+	"man_sim_name": "警察",
+	"eng_dialogue": "Just... leave me alone...",
+	"man_dialogue": "別來和我說話...",
+	"man_sim_dialogue": "别来和我说话...",
+	"jp_dialogue": "話しかけるな…",
+	"jp_name": "警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"change_current_character": "police",
+	"eng_dialogue": "Hey, you there!",
+	"man_dialogue": "哎",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "哎",
+	"jp_dialogue": "おい",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Don’t bother the senior officer!",
+	"man_dialogue": "你別打擾前輩了！",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "你别打扰前辈了！",
+	"jp_dialogue": "先輩の邪魔するなよ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Got questions? Ask me instead!",
+	"man_dialogue": "有什麽問題就來找我吧！",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "有什么问题就来找我吧！",
+	"jp_dialogue": "何か用があるなら俺に言え！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hahahaha!",
+	"man_dialogue": "哈哈哈！",
+	"ani_police": "laugh",
+	"avatar": "police_laugh",
+	"man_sim_dialogue": "哈哈哈！",
+	"jp_dialogue": "ははは！",
+	"jp_name": "新米警官"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"ani_police": "policeman",
+	"close": "true"
+  }
+]

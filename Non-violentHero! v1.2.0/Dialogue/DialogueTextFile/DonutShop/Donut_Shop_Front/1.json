@@ -1,0 +1,40 @@
+[
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"change_current_character": "pink",
+	"avatar": "cashier",
+	"eng_dialogue": "...",
+	"man_dialogue": "你好。",
+	"man_sim_dialogue": "你好。",
+	"jp_dialogue": "いらっしゃいませ。",
+	"jp_name": "店員"
+  },
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"avatar": "cashier",
+	"eng_dialogue": "Donuts are sold out today.",
+	"man_dialogue": "今天的甜甜圈賣完了。",
+	"man_sim_dialogue": "今天的甜甜圈卖完了。",
+	"jp_dialogue": "本日のドーナツは売り切れです。",
+	"jp_name": "店員"
+  },
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"avatar": "cashier",
+	"eng_dialogue": "Just bagels and bread left.",
+	"man_dialogue": "剩下一些貝果和麵包。",
+	"man_sim_dialogue": "剩下一些贝果和面包。",
+	"jp_dialogue": "ベーグルとパンなら少し残ってます。",
+	"jp_name": "店員"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

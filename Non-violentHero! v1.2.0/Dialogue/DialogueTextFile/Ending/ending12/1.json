@@ -1,0 +1,247 @@
+[
+  {
+	"change_current_character": "setting",
+	"background_song": "no",
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "......",
+	"man_dialogue": "......",
+	"man_sim_dialogue": "......",
+	"jp_dialogue": "……",
+	"ani_char": "none",
+	"animation": "demonnpc_died"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "Recently...",
+	"man_dialogue": "近期...",
+	"man_sim_dialogue": "近期...",
+	"jp_dialogue": "最近……"
+  },
+  {
+	"background_song": "comedy",
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "a horrifying murder case that shocked both humans and gods has occurred.",
+	"man_dialogue": "發生了一起人神共憤的謀殺事件。",
+	"man_sim_dialogue": "发生了一起人神共愤的谋杀事件。",
+	"jp_dialogue": "世にも恐ろしい殺人事件が発生しました。"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "A certain hero is believed to have given...",
+	"man_dialogue": "一名勇者...",
+	"man_sim_dialogue": "一名勇者...",
+	"jp_dialogue": "ある勇者が……"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "a donut laced with pufferfish poison to the demon on the right from Hell,",
+	"man_dialogue": "把摻雜了河豚毒素的甜甜圈，送給了來自地獄的右邊小怪，",
+	"man_sim_dialogue": "把掺杂了河豚毒素的甜甜圈，送给了来自地狱的右边小怪，",
+	"jp_dialogue": "フグ毒入りのドーナツを、地獄から来た右の雑魚に渡し、"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "and encouraged him to eat it, resulting in the demon's death.",
+	"man_dialogue": "並教唆他吃下去，導致小怪不治身亡。",
+	"man_sim_dialogue": "并教唆他吃下去，导致小怪不治身亡。",
+	"jp_dialogue": "食べるようそそのかした結果、雑魚は死亡したとのことです。"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "Now then, to better understand what happened...",
+	"man_dialogue": "那麼，為了更瞭解事情的經過...",
+	"man_sim_dialogue": "那么，为了更了解事情的经过...",
+	"jp_dialogue": "それでは、事件の詳細を知るために……",
+	"animation": "breaking_news"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "let's hear from the victim of this tragic incident.",
+	"man_dialogue": "讓我們來訪問一下這起事件的被害者。",
+	"man_sim_dialogue": "让我们来访问一下这起事件的被害者。",
+	"jp_dialogue": "今回の被害者に話を聞いてみましょう。",
+	"animation": "breaking_news0"
+  },
+  {
+	"change_current_character": "right",
+	"avatar": "d_right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"jp_name": "右の雑魚",
+	"eng_dialogue": "Th-th-that hero...",
+	"man_dialogue": "這這這這個勇者...",
+	"man_sim_dialogue": "这这这这个勇者...",
+	"jp_dialogue": "ああああの勇者……",
+	"animation": "breaking_news1"
+  },
+  {
+	"avatar": "d_right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"jp_name": "右の雑魚",
+	"eng_dialogue": "was seriously trying to kill me!",
+	"man_dialogue": "居然下死手！",
+	"man_sim_dialogue": "居然下死手！",
+	"jp_dialogue": "本気で殺しに来やがった！"
+  },
+  {
+	"avatar": "d_right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"jp_name": "右の雑魚",
+	"eng_dialogue": "That's just cruel!!",
+	"man_dialogue": "真是太狠心了！",
+	"man_sim_dialogue": "真是太狠心了！",
+	"jp_dialogue": "ひどすぎるよ！！"
+  },
+  {
+	"avatar": "d_right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"jp_name": "右の雑魚",
+	"eng_dialogue": "Do you know how long I trained to finally earn this life?!",
+	"man_dialogue": "這可是我好不容易修煉來的一條命！",
+	"man_sim_dialogue": "这可是我好不容易修炼来的一条命！",
+	"jp_dialogue": "せっかく長年修行して、やっと手に入れた命だったのに！"
+  },
+  {
+	"avatar": "d_right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"jp_name": "右の雑魚",
+	"eng_dialogue": "And now I'm stuck living in Hell again!",
+	"man_dialogue": "害我現在只能待在地獄裡了！",
+	"man_sim_dialogue": "害我现在只能待在地狱里了！",
+	"jp_dialogue": "そのせいで、今は地獄暮らしだよ！"
+  },
+  {
+	"avatar": "d_right",
+	"eng_name": "Demon Right",
+	"man_name": "右邊小怪",
+	"man_sim_name": "右边小怪",
+	"jp_name": "右の雑魚",
+	"eng_dialogue": "Aaaahhh~ I don't wanna start training all over again~~~",
+	"man_dialogue": "啊啊啊～～～我不想重新修煉過啊～～～",
+	"man_sim_dialogue": "啊啊啊～～～我不想重新修炼过啊～～～",
+	"jp_dialogue": "ああああ～また一から修行なんてしたくないよ～～～",
+	"animation": "breaking_news2"
+  },
+  {
+	"change_current_character": "setting",
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "What a pitiful victim.",
+	"man_dialogue": "真是可憐的被害人。",
+	"man_sim_dialogue": "真是可怜的被害人。",
+	"jp_dialogue": "なんとも哀れな被害者です。",
+	"animation": "breaking_news3"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "This hero usually referred to himself as a \"non-violent hero\"...",
+	"man_dialogue": "這位勇者平常自稱為非暴力系勇者...",
+	"man_sim_dialogue": "这位勇者平常自称为非暴力系勇者...",
+	"jp_dialogue": "この勇者は普段、「非暴力系勇者」を名乗っていましたが……"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "but it seems he was actually a violent hero after all.",
+	"man_dialogue": "沒想到實際上是暴力系勇者。",
+	"man_sim_dialogue": "没想到实际上是暴力系勇者。",
+	"jp_dialogue": "実際は暴力系勇者だったようです。"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "The suspect has already been arrested...",
+	"man_dialogue": "該犯人目前已經被抓捕...",
+	"man_sim_dialogue": "该犯人目前已经被抓捕...",
+	"jp_dialogue": "なお、犯人は現在すでに逮捕されており……",
+	"animation": "breaking_news4"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "and we can only hope he reflects on his crimes while in prison.",
+	"man_dialogue": "希望他在監獄裡好好反省自己的罪過。",
+	"man_sim_dialogue": "希望他在监狱里好好反省自己的罪过。",
+	"jp_dialogue": "刑務所でしっかり罪を反省してほしいものです。"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "That's all for tonight's broadcast.",
+	"man_dialogue": "今天的播報就到這邊，",
+	"man_sim_dialogue": "今天的播报就到这边，",
+	"jp_dialogue": "本日のニュースは以上です。"
+  },
+  {
+	"eng_name": "Announcement",
+	"man_name": "廣播",
+	"man_sim_name": "广播",
+	"jp_name": "アナウンス",
+	"eng_dialogue": "Good night, everyone.",
+	"man_dialogue": "大家晚安。",
+	"man_sim_dialogue": "大家晚安。",
+	"jp_dialogue": "皆さん、おやすみなさい。"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Ending 12: Violent Hero",
+	"man_dialogue": "結局十二：暴力系勇者",
+	"man_sim_dialogue": "结局十二：暴力系勇者",
+	"jp_dialogue": "エンディング12：暴力系勇者",
+	"jp_name": "システム"
+  },
+  {
+	"done": "ending12",
+	"change": "res://MainMenu/main_menu.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

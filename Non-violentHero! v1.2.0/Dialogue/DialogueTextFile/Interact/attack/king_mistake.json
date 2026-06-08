@@ -1,0 +1,62 @@
+[
+	{
+		"eng_dialogue": "Ugh! What was I gonna say again?",
+		"man_dialogue": "額，我要說什麼來著？",
+		"man_sim_dialogue": "额，我要说什么来着？",
+		"jp_dialogue": "あれ…何言おうとしてたんだっけ？"
+	},
+	{
+		"eng_dialogue": "My head's stuck!",
+		"man_dialogue": "啊，腦袋卡著了！",
+		"man_sim_dialogue": "啊，脑袋卡着了！",
+		"jp_dialogue": "あっ、頭が回らない…！"
+	},
+	{
+		"eng_dialogue": "Ah, I don't even know what to say...",
+		"man_dialogue": "啊，不知道能說什麼！",
+		"man_sim_dialogue": "啊，不知道能说什么！",
+		"jp_dialogue": "ああ…もう何も言えない…"
+	},
+	{
+		"eng_dialogue": "How did it end up like this...",
+		"man_dialogue": "怎麼會這樣...",
+		"man_sim_dialogue": "怎么会这样...",
+		"jp_dialogue": "なんでこうなったんだろう…"
+	},
+	{
+		"eng_dialogue": "Ugh! What was I gonna say again?",
+		"man_dialogue": "額，我要説什麽來著？",
+		"man_sim_dialogue": "额，我要说什么来着？？",
+		"jp_dialogue": "あれ…何言おうとしてたんだっけ？"
+	},	
+	{
+		"eng_dialogue": "Ugh! What was I gonna say again?",
+		"man_dialogue": "額，我要說什麼來著？",
+		"man_sim_dialogue": "额，我要说什么来着？",
+		"jp_dialogue": "あれ…何言おうとしてたんだっけ？"
+	},
+	{
+		"eng_dialogue": "My head's stuck!",
+		"man_dialogue": "啊，腦袋卡著了！",
+		"man_sim_dialogue": "啊，脑袋卡着了！",
+		"jp_dialogue": "あっ、頭が回らない…！"
+	},
+	{
+		"eng_dialogue": "Ah, I don't even know what to say...",
+		"man_dialogue": "啊，不知道能說什麼！",
+		"man_sim_dialogue": "啊，不知道能说什么！",
+		"jp_dialogue": "ああ…もう何も言えない…"
+	},
+	{
+		"eng_dialogue": "How did it end up like this...",
+		"man_dialogue": "怎麼會這樣...",
+		"man_sim_dialogue": "怎么会这样...",
+		"jp_dialogue": "なんでこうなったんだろう…"
+	},
+	{
+		"eng_dialogue": "Ugh! What was I gonna say again?",
+		"man_dialogue": "額，我要説什麽來著？",
+		"man_sim_dialogue": "额，我要说什么来着？？",
+		"jp_dialogue": "あれ…何言おうとしてたんだっけ？"
+	},
+]

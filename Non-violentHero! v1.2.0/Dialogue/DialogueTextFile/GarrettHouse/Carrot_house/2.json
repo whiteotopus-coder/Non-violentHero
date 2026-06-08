@@ -1,0 +1,42 @@
+[
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "What are you staring at?!",
+	"man_dialogue": "看什麼看！",
+	"man_sim_dialogue": "看什么看！",
+	"jp_dialogue": "何見てんの！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "You... you don't know the first thing about raising kids!",
+	"man_dialogue": "你有孩子也不一定有能力教育好啦！",
+	"man_sim_dialogue": "你有孩子也不一定有能力教育好啦！",
+	"jp_dialogue": "さっきはよくも疑ってくれたわね！子どももいないくせに、口出ししないで！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"eng_name": "Mrs. Karen Garrett",
+	"man_name": "羅太太",
+	"man_sim_name": "罗太太",
+	"change_current_character": "carrot",
+	"avatar": "carrot",
+	"eng_dialogue": "Now get out of my sight!",
+	"man_dialogue": "現在滾出我的視線！",
+	"man_sim_dialogue": "现在滚出我的视线！",
+	"jp_dialogue": "今すぐ私の前から消えて！",
+	"jp_name": "ロブのお母さん"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

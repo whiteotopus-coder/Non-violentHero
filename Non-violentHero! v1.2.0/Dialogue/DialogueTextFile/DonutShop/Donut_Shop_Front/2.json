@@ -1,0 +1,40 @@
+[
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"change_current_character": "pink",
+	"avatar": "cashier",
+	"eng_dialogue": "What do you want?",
+	"man_dialogue": "你要買什麼？",
+	"man_sim_dialogue": "你要买什么？",
+	"jp_dialogue": "何を買いますか？",
+	"jp_name": "店員"
+  },
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"avatar": "cashier",
+	"eng_dialogue": "......",
+	"man_dialogue": "......",
+	"man_sim_dialogue": "......",
+	"jp_dialogue": "……",
+	"jp_name": "店員"
+  },
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"avatar": "cashier",
+	"eng_dialogue": "No money? Then get outta here.",
+	"man_dialogue": "沒錢就滾蛋。",
+	"man_sim_dialogue": "没钱就滚蛋。",
+	"jp_dialogue": "お金がないなら、出ていってください。",
+	"jp_name": "店員"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

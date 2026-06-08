@@ -1,0 +1,110 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"eng_dialogue": "..Hero...",
+	"man_dialogue": "...勇者..",
+	"man_sim_dialogue": "..勇者..",
+	"jp_dialogue": "…勇者…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "...You...",
+	"man_dialogue": "..你..",
+	"man_sim_dialogue": "..你..",
+	"jp_dialogue": "…お前…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "You actually went undercover as a teacher...?",
+	"man_dialogue": "居然假扮老師...",
+	"man_sim_dialogue": "居然假扮老师..",
+	"jp_dialogue": "教師に変装するとは…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "This... this must be...",
+	"man_dialogue": "這...一定是...",
+	"man_sim_dialogue": "这...一定是...",
+	"jp_dialogue": "これはきっと…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Part of your plan to rescue the princess, right?",
+	"man_dialogue": "拯救公主的策略之一對吧！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "拯救公主的策略之一對吧！",
+	"avatar": "kingangry",
+	"ani_king": "angry",
+	"jp_dialogue": "姫を救うための作戦の一つなんだな！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "kingangry",
+	"eng_dialogue": "What a brilliant strategy...",
+	"man_dialogue": "真是高深啊...",
+	"man_sim_dialogue": "真是高深啊...",
+	"ani_king": "angry",
+	"jp_dialogue": "なんと見事な策だ…",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"eng_dialogue": "Leave the rest to me!",
+	"man_dialogue": "放心吧！",
+	"man_sim_dialogue": "放心吧！",
+	"ani_king": "happy",
+	"jp_dialogue": "安心しろ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"eng_dialogue": "I’ve already smoothed things over with the police.",
+	"man_dialogue": "我幫你和警察溝通好了",
+	"man_sim_dialogue": "我帮你和警察沟通好了",
+	"jp_dialogue": "警察には私から話を通しておいた",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king_happy",
+	"eng_dialogue": "Your only mission now is to rescue my daughter!",
+	"man_dialogue": "你專心的去救我女兒吧！",
+	"man_sim_dialogue": "你专心的去救我女儿吧！",
+	"jp_dialogue": "お前は安心して娘を救いに行け！",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

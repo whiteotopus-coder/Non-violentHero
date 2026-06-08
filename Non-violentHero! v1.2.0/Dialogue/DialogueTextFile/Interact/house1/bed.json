@@ -1,0 +1,10 @@
+[
+  {
+	"action": "sleep",
+	"ani_player": "lay_down",
+	"text_eng": "Lay down?",
+	"text_sim_man": "躺下？",
+	"text_man": "躺下?",
+	"text_jp": "横になりますか？"
+  }
+]

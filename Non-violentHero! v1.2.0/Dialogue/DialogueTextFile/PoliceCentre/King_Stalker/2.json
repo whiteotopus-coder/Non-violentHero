@@ -1,0 +1,53 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"eng_dialogue": "You're not a stalker!",
+	"man_dialogue": "你才不是跟蹤狂",
+	"man_sim_dialogue": "你才不是跟踪狂",
+	"jp_dialogue": "お前はストーカーなんかじゃない",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "You're actually an undercover spy, aren't you?",
+	"man_dialogue": "而是間諜對吧！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "而是间谍對吧！",
+	"jp_dialogue": "スパイなんだろう！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "Go, Spy Hero!",
+	"man_dialogue": "加油間諜勇者！",
+	"man_sim_dialogue": "加油间谍勇者！",
+	"avatar": "king_happy",
+	"ani_king": "happy",
+	"jp_dialogue": "スパイ勇者、",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"eng_dialogue": "My daughter is counting on you!",
+	"man_dialogue": "我的女兒就靠你了！",
+	"man_sim_dialogue": "我的女儿就靠你了！",
+	"avatar": "king_happy",
+	"jp_dialogue": "私の娘はお前に任せたぞ！",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

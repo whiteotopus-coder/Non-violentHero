@@ -1,0 +1,62 @@
+[
+	{
+		"eng_dialogue": "Doesn't the teacher share some responsibility too?",
+		"man_dialogue": "老師也有責任吧？",
+		"man_sim_dialogue": "老师也有责任吧？",
+		"jp_dialogue": "先生にも責任があるんじゃないですか？"
+	},
+	{
+		"eng_dialogue": "Or...maybe it's the school's fault?",
+		"man_dialogue": "其實是校方的問題？",
+		"man_sim_dialogue": "其实是校方的问题？",
+		"jp_dialogue": "それとも…学校側の問題かもしれませんよね？"
+	},
+	{
+		"eng_dialogue": "Honestly, I don't even know who's right or wrong.",
+		"man_dialogue": "我其實也不知道誰對誰錯",
+		"man_sim_dialogue": "我其实也不知道谁对谁错",
+		"jp_dialogue": "正直、誰が正しいのかもよく分からなくて…"
+	},
+	{
+		"eng_dialogue": "Uh... I don't really know what's going on either.",
+		"man_dialogue": "額...我也不知道是什麼情況",
+		"man_sim_dialogue": "额...我也不知道是什么情况",
+		"jp_dialogue": "えっと…私も何が起きてるのかよく分からなくて…"
+	},
+	{
+		"eng_dialogue": "Do we even have any proof, actually?",
+		"man_dialogue": "其實我們好像也沒有證據？",
+		"man_sim_dialogue": "其实我们好像也没有证据？",
+		"jp_dialogue": "そもそも、証拠ってあるんですか？"
+	},
+	{
+		"eng_dialogue": "Doesn't the teacher share some responsibility too?",
+		"man_dialogue": "老師也有責任吧？",
+		"man_sim_dialogue": "老师也有责任吧？",
+		"jp_dialogue": "先生にも責任があるんじゃないですか？"
+	 },
+	 {
+		"eng_dialogue": "Or...maybe it's the school's fault?",
+		"man_dialogue": "其實是校方的問題？",
+		"man_sim_dialogue": "其实是校方的问题？",
+		"jp_dialogue": "それとも…学校側の問題かもしれませんよね？"
+	 },
+	 {
+		"eng_dialogue": "Honestly, I don't even know who's right or wrong.",
+		"man_dialogue": "我其實也不知道誰對誰錯",
+		"man_sim_dialogue": "我其实也不知道谁对谁错",
+		"jp_dialogue": "正直、誰が正しいのかもよく分からなくて…"
+	 },
+	 {
+		"eng_dialogue": "Uh... I don't really know what's going on either.",
+		"man_dialogue": "額...我也不知道是什麼情況",
+		"man_sim_dialogue": "额...我也不知道是什么情况",
+		"jp_dialogue": "えっと…私も何が起きてるのかよく分からなくて…"
+	 },
+	 {
+		"eng_dialogue": "Do we even have any proof, actually?",
+		"man_dialogue": "其實我們好像也沒有證據？",
+		"man_sim_dialogue": "其实我们好像也没有证据？",
+		"jp_dialogue": "そもそも、証拠ってあるんですか？"
+	}
+]

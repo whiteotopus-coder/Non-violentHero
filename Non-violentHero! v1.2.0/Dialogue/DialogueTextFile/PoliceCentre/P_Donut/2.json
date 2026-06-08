@@ -1,0 +1,86 @@
+[
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "That donut should still be out there somewhere...",
+	"man_dialogue": "那個甜甜圈現在應該還在地上吧？",
+	"man_sim_dialogue": "那个甜甜圈现在应该还在地上吧？",
+	"ani_police": "policeman",
+	"avatar": "police",
+	"jp_dialogue": "あのドーナツ、まだ外にあるかもな？",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Or maybe that kid who’s always running around already picked it up?",
+	"man_dialogue": "也有可能被那個到處亂跑的小孩撿走了？",
+	"man_sim_dialogue": "也可能被那个到处乱跑的小孩捡走了？",
+	"avatar": "police",
+	"jp_dialogue": "もしかしたら、あの走り回ってる子どもが拾ったかも？",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "He’s always grabbing random stuff off the ground.",
+	"man_dialogue": "那個小孩很喜歡在地上亂撿東西！",
+	"man_sim_dialogue": "那个小孩很喜欢在地上乱捡东西！",
+	"avatar": "police",
+	"jp_dialogue": "あの子、よく地面のもの拾ってるんだよ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Oh, and lately he’s been turning orange for some reason. No clue why.",
+	"man_dialogue": "話說那個小孩最近變成橙色的了，不知道怎麼回事？",
+	"man_sim_dialogue": "话说那个小孩最近变成橙色的了，不知道怎么回事？",
+	"avatar": "police",
+	"jp_dialogue": "そういえば最近あの子、オレンジ色になっててさ…なんでだろうな？",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Anyway, we haven’t eaten that donut yet, so it should still be fresh!",
+	"man_dialogue": "那個甜甜圈我們還沒吃過的，還新呢！",
+	"man_sim_dialogue": "那个甜甜圈我们还没吃过的，还新呢！",
+	"avatar": "police",
+	"jp_dialogue": "落とす前は手つけてなかったから、まだ新しいぞ！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Go on, buddy! Try your luck!",
+	"man_dialogue": "你就出去碰碰運氣吧，小兄弟！",
+	"man_sim_dialogue": "你就出去碰碰运气吧，小兄弟！",
+	"avatar": "police",
+	"jp_dialogue": "外で探してみな、兄ちゃん！",
+	"jp_name": "新米警官"
+  },
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"eng_dialogue": "Hahaha!",
+	"man_dialogue": "哈哈哈！",
+	"man_sim_dialogue": "哈哈哈！",
+	"avatar": "police_laugh",
+	"ani_police": "laugh",
+	"jp_dialogue": "ははは！",
+	"jp_name": "新米警官"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"ani_police": "policeman",
+	"close": "true"
+  }
+]

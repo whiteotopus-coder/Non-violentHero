@@ -1,0 +1,295 @@
+[
+  {
+	"eng_name": "Police Man",
+	"man_name": "菜鳥警察",
+	"man_sim_name": "菜鸟警察",
+	"change_current_character": "police",
+	"eng_dialogue": "Hello!",
+	"man_dialogue": "你好！",
+	"man_sim_dialogue": "你好！",
+	"avatar": "police_laugh",
+	"options": [
+	  {
+		"eng_option": "Your boss is sleeping.",
+		"man_option": "你的上司在睡覺",
+		"man_sim_option": "你的上司在睡觉",
+		"response": [
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Hahahaha!",
+			"man_sim_dialogue": "哈哈哈",
+			"man_dialogue": "哈哈哈",
+			"ani_police": "laugh",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ははは、",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Yeah, he is!",
+			"man_sim_dialogue": "是啊！",
+			"man_dialogue": "是啊！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "そうなんだよ！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "The chief’s been working really hard lately, so he deserves the rest!",
+			"man_sim_dialogue": "警长工作辛苦啦！",
+			"man_dialogue": "警長工作辛苦啦！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "警長も仕事で疲れてるんだ！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Look at him...",
+			"man_sim_dialogue": "看他！",
+			"man_dialogue": "看他！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "見てみろよ！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "He’s completely exhausted. Just sneaking in a quick nap!",
+			"man_sim_dialogue": "都累的在这边偷偷休息啦！",
+			"man_dialogue": "都累的在這邊偷偷休息啦！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ここでこっそり休んでるだろ！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Let’s just pretend we didn’t see anything, alright?",
+			"man_sim_dialogue": "就当作沒看见！",
+			"man_dialogue": "就當作沒看見！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "見なかったことにしてやろう！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Let the man enjoy his beauty sleep!",
+			"man_sim_dialogue": "让他好好休息吧！",
+			"man_dialogue": "讓他好好休息吧！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ゆっくり休ませてあげようぜ！",
+			"jp_name": "新米警官"
+		  }
+		],
+		"jp_option": "あなたの上司が寝てますよ"
+	  },
+	  {
+		"eng_option": "Is this some kind of secret nap station?",
+		"man_option": "這邊是專門睡覺的地方嗎？",
+		"man_sim_option": "这边是专门睡觉的地方吗？",
+		"response": [
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Hahahaha!",
+			"man_sim_dialogue": "哈哈哈",
+			"man_dialogue": "哈哈哈",
+			"ani_police": "laugh",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ははは",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "You’re pretty funny, buddy!",
+			"man_sim_dialogue": "小兄弟你还怪幽默的叻！",
+			"man_dialogue": "小兄弟你還怪幽默的叻！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "兄ちゃん、なかなか面白いな！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "This is a police station!",
+			"man_sim_dialogue": "这边是警察局啦！",
+			"man_dialogue": "這邊是警察局啦！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ここは警察署だぞ！",
+			"jp_name": "新米警官"
+		  }
+		],
+		"jp_option": "ここって寝る場所なんですか？"
+	  },
+	  {
+		"eng_option": "Can I sleep here?",
+		"man_option": "我可以在這邊睡覺嗎？",
+		"man_sim_option": "我可以在这边睡觉吗？",
+		"response": [
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Hahahaha!",
+			"man_sim_dialogue": "哈哈哈",
+			"man_dialogue": "哈哈哈",
+			"ani_police": "laugh",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ははは",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "No way!",
+			"man_sim_dialogue": "不行啦小兄弟！",
+			"man_dialogue": "不行啦小兄弟！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ダメだな、兄ちゃん！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "If the chief catches you sleeping here, he’ll tear you apart!",
+			"man_sim_dialogue": "在警察局里睡觉会被警长骂的哦~！",
+			"man_dialogue": "在警察局裡睡覺會被警長罵的哦~！",
+			"avatar": "police_laugh",
+			"jp_dialogue": "警察署で寝てたら警長に怒られるぞ〜！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Hahahaha!",
+			"man_sim_dialogue": "哈哈哈",
+			"man_dialogue": "哈哈哈",
+			"ani_police": "laugh",
+			"avatar": "police_laugh",
+			"jp_dialogue": "ははは",
+			"jp_name": "新米警官"
+		  }
+		],
+		"jp_option": "ここで寝てもいいですか？"
+	  },
+	  {
+		"eng_option": "Emergency! The princess has been kidnapped!",
+		"man_option": "我要報案！公主被魔王抓走啦！！",
+		"man_sim_option": "报案，公主被魔王抓走了！",
+		"response": [
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "What?! The princess was kidnapped?!",
+			"man_sim_dialogue": "什么！",
+			"man_dialogue": "什麽！",
+			"ani_police": "serious",
+			"avatar": "police_serious",
+			"jp_dialogue": "何だって！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "That’s kidnapping! A serious crime!",
+			"man_sim_dialogue": "公主被抓走了？",
+			"man_dialogue": "公主被抓走了?",
+			"ani_police": "serious",
+			"avatar": "police_serious",
+			"jp_dialogue": "姫がさらわれただと！？",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "I’m on it! I’ll rescue her right away!",
+			"man_sim_dialogue": "这可是绑架案啊，十足的大事！",
+			"man_dialogue": "這可是綁架啊！是件大事！",
+			"ani_police": "serious",
+			"avatar": "police_serious",
+			"jp_dialogue": "これは誘拐事件だ、大事件だぞ！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Chief! Seniors...! ...Nope, they’re all wiped out.",
+			"man_sim_dialogue": "我马上前去营救！",
+			"man_dialogue": "我馬上前去營救！",
+			"ani_police": "serious",
+			"avatar": "police_serious",
+			"jp_dialogue": "今すぐ助けに行く！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Fine! I’ll handle this myself!",
+			"man_sim_dialogue": "警长，前輩...不行，大家都这么累，我得自己行动！",
+			"man_dialogue": "警長！前輩！...不行，大家都這麽累，看來得靠我一個人了！！",
+			"ani_police": "serious",
+			"avatar": "police_serious",
+			"jp_dialogue": "警長！先輩！……いや、ダメだ、みんな疲れてる、俺が行くしかない！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"eng_dialogue": "Hang tight, buddy! I’ll bring the princess back safe and sound!",
+			"man_sim_dialogue": "小兄弟，等我的好消息吧！！",
+			"man_dialogue": "小兄弟，等我的好消息吧！！",
+			"ani_police": "laugh",
+			"avatar": "police_laugh",
+			"jp_dialogue": "兄ちゃん、いい知らせを待っててくれ！！",
+			"jp_name": "新米警官"
+		  },
+		  {
+			"police_ending": "true",
+			"sceneTransition": "dissolve",
+			"change": "res://SceneTransTscn/ending/show_ending.tscn",
+			"eng_name": "Police Man",
+			"man_name": "菜鳥警察",
+			"man_sim_name": "菜鸟警察",
+			"ani_police": "laugh",
+			"avatar": "police_laugh",
+			"jp_name": "新米警官"
+		  }
+		],
+		"jp_option": "通報します、姫が魔王にさらわれました！"
+	  }
+	],
+	"jp_dialogue": "こんにちは！",
+	"jp_name": "新米警官"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"ani_police": "policeman",
+	"close": "true"
+  }
+]

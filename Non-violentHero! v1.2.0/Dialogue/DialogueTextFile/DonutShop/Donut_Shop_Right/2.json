@@ -1,0 +1,40 @@
+[
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"change_current_character": "pink",
+	"avatar": "cashier",
+	"eng_dialogue": "So you’re not buying anything, just here to use the restroom?",
+	"man_dialogue": "你什麼都不買，跑進來借廁所的嗎？",
+	"man_sim_dialogue": "你什么都不买，跑进来借厕所的吗？",
+	"jp_dialogue": "何も買わずにトイレだけですか？",
+	"jp_name": "店員"
+  },
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"avatar": "cashier",
+	"eng_dialogue": "Whatever. Boss pays for it anyway.",
+	"man_dialogue": "無所謂，反正水費是老闆付的。",
+	"man_sim_dialogue": "无所谓，反正水费是老板付的。",
+	"jp_dialogue": "まあいいですけど、水道代は店長持ちなので。",
+	"jp_name": "店員"
+  },
+  {
+	"eng_name": "Cashier",
+	"man_name": "店員",
+	"man_sim_name": "店员",
+	"avatar": "cashier",
+	"eng_dialogue": "Use it if you want.",
+	"man_dialogue": "你隨便用吧。",
+	"man_sim_dialogue": "你随便用吧。",
+	"jp_dialogue": "ご自由にどうぞ。",
+	"jp_name": "店員"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+	"background_song": "comedy",
+	"change_current_character": "setting",
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Thank you all for gathering here today to celebrate the wedding of these two lovely souls.",
+	"man_dialogue": "謝謝大家來參與今天這對新人的婚禮。",
+	"man_sim_dialogue": "谢谢大家来参加这对新人的婚礼。",
+	"animation": "marry_green",
+	"ani_char": "none",
+	"jp_dialogue": "本日はこの二人の結婚式にお越しいただき、ありがとうございます。",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "The Demon King was even willing to sacrifice himself",
+	"man_dialogue": "魔王願意犧牲自己...",
+	"man_sim_dialogue": "魔王牺牲自己...",
+	"jp_dialogue": "魔王は自らを犠牲にし…",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "for the sake of the Hero...",
+	"man_dialogue": "不計代價的為勇者付出...",
+	"man_sim_dialogue": "为勇者付出的精神...",
+	"jp_dialogue": "勇者のために尽くし続けたその想い…",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Such devotion is truly moving!",
+	"man_dialogue": "這種愛著實令人感動！",
+	"man_sim_dialogue": "这种爱，着实令人感动！",
+	"jp_dialogue": "この愛、実に感動的です！",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "And now, let us leave the stage to the happy couple!",
+	"man_dialogue": "現在就把時間交給新人吧！",
+	"man_sim_dialogue": "现在就把时间交给新人吧！",
+	"jp_dialogue": "それでは、新郎新婦にお時間をお渡ししましょう！",
+	"jp_name": "システム"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "I’m truly grateful that I got to meet the Hero.",
+	"man_dialogue": "可以遇到勇者，真的很感激！",
+	"man_sim_dialogue": "真的很感激可以遇到勇者！",
+	"jp_dialogue": "勇者に出会えたこと、本当に感謝しています！",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "For him, I’d even be willing to turn green!",
+	"man_dialogue": "為了他，就算我變得綠綠的也無所謂！",
+	"man_sim_dialogue": "为了他，我变得绿绿的也无所谓！",
+	"jp_dialogue": "彼のためなら、緑色になっても構いません！",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Ah... no, wait. I was born green.",
+	"man_dialogue": "啊不是，其實我本來就是綠色的啦！",
+	"man_sim_dialogue": "啊，勇者其实我本来就是绿色的啦！",
+	"jp_dialogue": "…あ、もともと緑だったわ！",
+	"jp_name": "魔王"
+  },
+  {
+	"change_current_character": "demon_king",
+	"eng_name": "Demon King",
+	"man_name": "魔王",
+	"man_sim_name": "魔王",
+	"eng_dialogue": "Hero... please don’t hate me!",
+	"man_dialogue": "勇者你不要討厭我哦！",
+	"man_sim_dialogue": "不是红色的，你不要讨厌我哦！",
+	"jp_dialogue": "赤じゃないから、嫌わないでね！",
+	"jp_name": "魔王"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"change_current_character": "setting",
+	"avatar": "setting",
+	"eng_dialogue": "What a beautiful love story.",
+	"man_dialogue": "真是美麗的愛情！",
+	"man_sim_dialogue": "真是美丽的爱情！",
+	"jp_dialogue": "なんて美しい愛なんでしょう！",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Let us all give our blessings to the newlyweds!",
+	"man_dialogue": "讓我們祝福這對新人吧！",
+	"man_sim_dialogue": "让我们祝福这对新人吧！",
+	"jp_dialogue": "それでは、この二人を祝福しましょう！",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"man_sim_name": "系统",
+	"avatar": "setting",
+	"eng_dialogue": "Ending 10: Love in Green",
+	"man_dialogue": "結局十： 青色的戀愛",
+	"man_sim_dialogue": "结局十： 青色的爱情",
+	"done": "ending10",
+	"jp_dialogue": "エンディング10： 緑の愛",
+	"jp_name": "システム"
+  },
+  {
+	"change": "res://MainMenu/main_menu.tscn",
+	"sceneTransition": "dissolve"
+  }
+]
