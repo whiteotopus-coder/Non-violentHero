@@ -1,0 +1,27 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "kid",
+	"eng_dialogue": "You can sit here if you want.",
+	"man_dialogue": "你要坐我旁邊也可以",
+	"man_sim_dialogue": "你要坐我旁边也行",
+	"jp_dialogue": "隣に座ってもいいよ",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "No one’s using this seat anyway.",
+	"man_dialogue": "本來沒有人坐的。",
+	"man_sim_dialogue": "这边本来没人坐的。",
+	"jp_dialogue": "もともと誰も座ってなかったし。",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

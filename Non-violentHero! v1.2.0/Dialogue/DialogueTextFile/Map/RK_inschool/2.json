@@ -1,0 +1,130 @@
+[
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"ani_kid": "wow",
+	"eng_dialogue": "What's wrong?",
+	"man_dialogue": "怎麽啦？",
+	"man_sim_dialogue": "怎么了？",
+	"change_current_character": "kid",
+	"options": [
+	  {
+		"eng_option": "What are you doing here?",
+		"man_option": "你在這邊幹什麽？",
+		"man_sim_option": "你在这边干嘛？",
+		"response": [
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "shock",
+			"eng_dialogue": "Ah!",
+			"man_sim_dialogue": "啊！",
+			"man_dialogue": "啊！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "あ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "I...I'm just getting some fresh air!",
+			"man_sim_dialogue": "我我在这边吹风！",
+			"man_dialogue": "我...我在這邊吹風！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "ぼぼぼ僕、ここで風に当たってただけ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "I'm not spying on anyone!",
+			"man_sim_dialogue": "我没有偷看里面！",
+			"man_dialogue": "我沒有在偷看裡面！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "中なんて見てないし！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "And I'm definitely not eavesdropping!",
+			"man_sim_dialogue": "也没有偷听！",
+			"man_dialogue": "也沒有在偷聽！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "盗み聞きもしてないよ！",
+			"jp_name": "子供"
+		  }
+		],
+		"jp_option": "ここで何してるの？"
+	  },
+	  {
+		"eng_option": "You're blocking the entrance.",
+		"man_option": "你擋著門口了",
+		"man_sim_option": "你挡着门口了",
+		"response": [
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "Ah!",
+			"ani_kid": "shock",
+			"man_sim_dialogue": "啊！",
+			"man_dialogue": "啊！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "あっ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "Oh, sorry!",
+			"man_sim_dialogue": "不好意思！",
+			"man_dialogue": "不好意思！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "ごめんなさい！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "But mister, you can't go in there!",
+			"man_sim_dialogue": "但是大哥哥你不能进去啦！",
+			"man_dialogue": "但是大哥哥你不能進去啦",
+			"jp_dialogue": "でもお兄ちゃん、入っちゃダメだよ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "That's the teacher's office!",
+			"ani_kid": "stalk",
+			"man_sim_dialogue": "这是老师的办公室！",
+			"man_dialogue": "這邊是老師的辦公室！",
+			"jp_dialogue": "ここ、先生の職員室だから！",
+			"jp_name": "子供"
+		  }
+		],
+		"jp_option": "入口ふさいでるよ"
+	  }
+	],
+	"jp_dialogue": "どうしたの？",
+	"jp_name": "子供"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

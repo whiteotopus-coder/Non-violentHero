@@ -1,0 +1,39 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "What’s your problem?!",
+	"man_dialogue": "什么毛病啊你？",
+	"man_sim_dialogue": "什么毛病啊你？",
+	"jp_dialogue": "何考えてんだよお前？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Get out of here!",
+	"man_dialogue": "还不给我滚开！",
+	"man_sim_dialogue": "还不给我滚开！",
+	"jp_dialogue": "さっさとどっか行けよ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Aren’t you scared? Robert will make you drink carrot juice!",
+	"man_dialogue": "不怕罗伯逼你喝萝卜汁吗！",
+	"man_sim_dialogue": "不怕罗伯逼你喝萝卜汁吗！",
+	"jp_dialogue": "ロブにニンジンジュース飲まされたいのか！？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

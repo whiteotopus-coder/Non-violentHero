@@ -1,0 +1,30 @@
+[
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"ani_kid": "wow",
+	"eng_dialogue": "Mister!",
+	"man_dialogue": "大哥哥！",
+	"man_sim_dialogue": "大哥哥！",
+	"jp_dialogue": "お兄ちゃん！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "They’re right up ahead!",
+	"man_dialogue": "老師他們就在前面！",
+	"man_sim_dialogue": "老师他们就在前面那边！",
+	"jp_dialogue": "先生たち、前のほうにいるよ！",
+	"jp_name": "子供"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

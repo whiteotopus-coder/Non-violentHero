@@ -1,0 +1,29 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "You can't just walk into someone else's house without asking!",
+	"avatar": "pink_sad",
+	"man_dialogue": "你不可以亂進別人家裡欸！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "你不可以乱进别人家里！",
+	"jp_dialogue": "人の家に勝手に入っちゃダメですよ！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Did I forget to lock the door or something...?",
+	"avatar": "pink_sad",
+	"man_dialogue": "我不是鎖門了嗎...",
+	"man_sim_dialogue": "我不是锁门了吗...",
+	"jp_dialogue": "ちゃんと鍵かけたはずなのに…",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

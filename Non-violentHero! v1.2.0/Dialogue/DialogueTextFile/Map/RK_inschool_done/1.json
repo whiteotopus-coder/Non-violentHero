@@ -1,0 +1,119 @@
+[
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"eng_dialogue": "Wow!",
+	"man_dialogue": "哇！",
+	"man_sim_dialogue": "哇！",
+	"jp_dialogue": "わあ！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "You're amazing, mister!",
+	"man_dialogue": "大哥哥，你好厲害哦！",
+	"man_sim_dialogue": "大哥哥，你好厉害哦！",
+	"jp_dialogue": "お兄ちゃん、すごいね！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "I knew you could help!",
+	"man_dialogue": "我就知道你一定可以幫到老師的！",
+	"man_sim_dialogue": "我就知道你一定可以帮到老师的！",
+	"jp_dialogue": "やっぱり先生を助けられると思ってたよ！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "Thanks for helping!",
+	"man_dialogue": "謝謝你的幫忙！",
+	"man_sim_dialogue": "谢谢你的帮忙！",
+	"jp_dialogue": "手伝ってくれてありがとう！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "Oh, right...",
+	"man_dialogue": "啊，對了...",
+	"man_sim_dialogue": "啊，对了...",
+	"jp_dialogue": "あ、そうだ…",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "Here's the donut!",
+	"man_dialogue": "這個甜甜圈給你！",
+	"man_sim_dialogue": "这个甜甜圈给你！",
+	"jp_dialogue": "このドーナツあげる！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "Um... I actually found it on the roadside...",
+	"man_dialogue": "雖然是我在路邊撿到的...",
+	"man_sim_dialogue": "虽然是路边捡到的...",
+	"jp_dialogue": "道端で拾ったやつだけど…",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "I was gonna eat it myself...",
+	"man_dialogue": "我本來要自己吃掉的",
+	"man_sim_dialogue": "我本来要自己吃掉的",
+	"jp_dialogue": "本当は自分で食べようと思ってたんだけど",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "But you can have it!",
+	"man_dialogue": "不過既然大哥哥想要就給大哥哥吧！",
+	"man_sim_dialogue": "不过既然大哥哥想要就给大哥哥吧！",
+	"jp_dialogue": "でも、お兄ちゃんにあげるね！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "system",
+	"man_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "You obtained a donut!",
+	"man_dialogue": "得到了甜甜圈！",
+	"man_sim_dialogue": "得到了甜甜圈！",
+	"done": "task_1_get",
+	"jp_dialogue": "ドーナツを手に入れた！",
+	"jp_name": "システム"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://SceneTransTscn/stage_1_class.tscn",
+	"sceneTransition": "dissolve",
+	"close": "true"
+  }
+]

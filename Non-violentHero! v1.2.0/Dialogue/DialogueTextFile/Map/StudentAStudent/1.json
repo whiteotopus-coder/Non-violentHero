@@ -1,0 +1,27 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "kid",
+	"eng_dialogue": "Are you really in this class?",
+	"man_dialogue": "你是這個班的同學？",
+	"man_sim_dialogue": "你这个班的吗？",
+	"jp_dialogue": "同じクラスの人？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "I don’t think I’ve seen you before...",
+	"man_dialogue": "我沒有看過你诶...",
+	"man_sim_dialogue": "我没见过你诶...",
+	"jp_dialogue": "見たことないけど…",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

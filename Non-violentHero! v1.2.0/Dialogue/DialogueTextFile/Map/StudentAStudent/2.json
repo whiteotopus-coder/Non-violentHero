@@ -1,0 +1,27 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "kid",
+	"eng_dialogue": "I don’t think I’ve seen you before...",
+	"man_dialogue": "我沒有看過你啊..",
+	"man_sim_dialogue": "我没见过你啊..",
+	"jp_dialogue": "見たことないなあ…",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "Or... maybe I forgot?",
+	"man_dialogue": "難道我忘記了？",
+	"man_sim_dialogue": "难不成我忘了？",
+	"jp_dialogue": "もしかして私が忘れてるだけ？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

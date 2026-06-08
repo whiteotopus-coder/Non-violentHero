@@ -1,0 +1,43 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Ah!",
+	"animateQPink": "shock",
+	"avatar": "pink_shock",
+	"man_dialogue": "啊!",
+	"man_sim_dialogue": "啊！",
+	"jp_dialogue": "あっ！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "You again!",
+	"animateQPink": "shock",
+	"avatar": "pink_shock",
+	"man_dialogue": "又是你！",
+	"man_sim_dialogue": "又是你！",
+	"jp_dialogue": "またあなたですか！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "You can't just barge into my house!",
+	"animateQPink": "shock",
+	"avatar": "pink_shock",
+	"man_dialogue": "又亂進別人家裡！",
+	"man_sim_dialogue": "又乱进别人家里！",
+	"jp_dialogue": "また勝手に人の家に入ってきたんですか！？",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

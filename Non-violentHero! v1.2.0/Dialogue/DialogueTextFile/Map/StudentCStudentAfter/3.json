@@ -1,0 +1,102 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Hey! Boss, did you just win a battle in the teacher’s office?",
+	"man_dialogue": "老大，剛剛在老師辦公室打勝仗了嗎？",
+	"man_sim_dialogue": "老大，刚刚在老师办公室打胜仗了吗？",
+	"jp_dialogue": "ボス、さっき職員室でうまくやったんすか？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Robert Garrett",
+	"change_current_character": "otaku",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"eng_dialogue": "...Hmph.",
+	"man_dialogue": "...哼。",
+	"man_sim_dialogue": "...哼。",
+	"jp_dialogue": "…当然だ。",
+	"jp_name": "ロバート"
+  },
+  {
+	"eng_name": "Robert Garrett",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"eng_dialogue": "...Isn’t it obvious?",
+	"man_dialogue": "...那還用說嗎。",
+	"man_sim_dialogue": "...那还用说吗。",
+	"jp_dialogue": "…そんなの決まってるだろ。",
+	"jp_name": "ロバート"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Haha, I knew you’d win, boss!",
+	"man_dialogue": "哈哈，我就知道老大一定會贏！",
+	"man_sim_dialogue": "哈哈，我就知道老大一定会赢！",
+	"jp_dialogue": "ははっ、やっぱりボスは勝つと思ってたっすよ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Robert Garrett",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"change_current_character": "otaku",
+	"eng_dialogue": "Hey! Don’t be so flashy! Keep it...low-key!",
+	"man_dialogue": "...不要那麽張揚！要...低調一點！",
+	"man_sim_dialogue": "...不要那么张扬！要...低调一点！",
+	"jp_dialogue": "…あんまり騒ぐな！もっと…目立たないようにしろ！",
+	"jp_name": "ロバート"
+  },
+  {
+	"eng_name": "Robert Garrett",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"eng_dialogue": "Don’t let the hero hear this...",
+	"man_dialogue": "不要給那個勇者聽到...",
+	"man_sim_dialogue": "不要给那个勇者听到...",
+	"jp_dialogue": "あの勇者に聞かれるなよ…",
+	"jp_name": "ロバート"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Ah!",
+	"man_dialogue": "啊！",
+	"man_sim_dialogue": "啊！",
+	"jp_dialogue": "あっ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "Got it,",
+	"man_dialogue": "好的老大！",
+	"man_sim_dialogue": "好的老大！",
+	"jp_dialogue": "了解っす、ボス！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "boss!",
+	"man_dialogue": "老大果然有格局啊，厲害！",
+	"man_sim_dialogue": "老大果然有格局啊，厉害！",
+	"jp_dialogue": "やっぱりボス、器が違うっすね！すげえ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

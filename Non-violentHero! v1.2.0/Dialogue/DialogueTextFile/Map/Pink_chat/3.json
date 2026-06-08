@@ -1,0 +1,233 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Why are you still talking to me...",
+	"man_dialogue": "你還想說什麽...",
+	"man_sim_dialogue": "你还想说什么...",
+	"avatar": "pink_sad",
+	"options": [
+	  {
+		"eng_option": "Are you poisoned?",
+		"man_option": "你中毒了嗎？",
+		"man_sim_option": "你中毒了吗？",
+		"response": [
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "Poisoned?!",
+			"man_sim_dialogue": "中毒？？",
+			"man_dialogue": "中毒？？",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_shock",
+			"animateQPink": "shock",
+			"jp_dialogue": "毒？？",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "I'm not!",
+			"man_sim_dialogue": "我没有！",
+			"man_dialogue": "我沒有！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_shock",
+			"jp_dialogue": "違いますよ！！",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "I was born pink!",
+			"man_sim_dialogue": "我本来就是粉红色！",
+			"man_dialogue": "我本來就是粉紅色的！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_down",
+			"animateQPink": "down",
+			"jp_dialogue": "私はもともとピンクなんです！",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "And I’ll stay pink forever!",
+			"man_sim_dialogue": "以后也永远是粉红色！",
+			"man_dialogue": "以後也永遠是粉紅色！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_shock",
+			"animateQPink": "shock",
+			"jp_dialogue": "これから先もずっとピンクなんですから！",
+			"jp_name": "ピンクタコ"
+		  }
+		],
+		"jp_option": "毒にやられたんですか？"
+	  },
+	  {
+		"eng_option": "Can you give me your house?",
+		"man_option": "你的家可以給我嗎？",
+		"man_sim_option": "可以给我你的房子吗？",
+		"response": [
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "No way!",
+			"man_sim_dialogue": "不可以！！",
+			"man_dialogue": "不可以！！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_shock",
+			"animateQPink": "shock",
+			"jp_dialogue": "ダメです！！",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "Where would I live if I gave it to you?!",
+			"man_sim_dialogue": "给了你我住哪里！",
+			"man_dialogue": "給了你我住哪裡！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_shock",
+			"jp_dialogue": "あげたら私、どこに住めばいいんですか！",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "I don't want to end up sleeping on the street!",
+			"man_sim_dialogue": "我不要做流浪鱼！",
+			"man_dialogue": "我不要睡路邊！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_shock",
+			"jp_dialogue": "流浪のタコにはなりたくないです！！",
+			"jp_name": "ピンクタコ"
+		  }
+		],
+		"jp_option": "家ちょうだい"
+	  },
+	  {
+		"eng_option": "What is your name?",
+		"man_option": "你叫什麽名字？",
+		"man_sim_option": "你叫什么名字？",
+		"response": [
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "As you can see,",
+			"man_sim_dialogue": "鱼如其名",
+			"man_dialogue": "魚如其名",
+			"avatar": "pink",
+			"animateQPink": "default",
+			"jp_dialogue": "「名は体を表す」って言いますし…",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "I’m Pink Octopus.",
+			"man_sim_dialogue": "我就粉章鱼啊。",
+			"man_dialogue": "我就是粉章魚啊。",
+			"avatar": "pink",
+			"jp_dialogue": "私、ピンクタコです。",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "Hey!",
+			"man_sim_dialogue": "不对！",
+			"man_dialogue": "不對！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "pink_shock",
+			"animateQPink": "shock",
+			"jp_dialogue": "…って違います！",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "You should be the one telling me your name!",
+			"man_sim_dialogue": "不是应该你先说吗！",
+			"man_dialogue": "你還沒說你叫什麽名字欸！",
+			"avatar": "pink_shock",
+			"animateQPink": "shock",
+			"jp_dialogue": "先に名乗るのはそちらじゃないですか！？",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "So, who are you?",
+			"man_sim_dialogue": "所以你是谁啊？",
+			"man_dialogue": "所以你是誰啊？",
+			"avatar": "pink",
+			"animateQPink": "default",
+			"jp_dialogue": "それで、あなたはどなたなんですか？",
+			"jp_name": "ピンクタコ"
+		  }
+		],
+		"jp_option": "名前ですか？"
+	  },
+	  {
+		"eng_option": "Give me money!",
+		"man_option": "給我錢！",
+		"man_sim_option": "给我钱！",
+		"response": [
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "I'm broke...",
+			"man_sim_dialogue": "我没钱...",
+			"man_dialogue": "我很窮的...",
+			"avatar": "pink",
+			"animateQPink": "default",
+			"jp_dialogue": "お金なんてないですよ…",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "I catch all my food by myself!",
+			"man_sim_dialogue": "我的粮食都是自己下水抓的",
+			"man_dialogue": "吃的都是自己下水抓的。",
+			"avatar": "pink",
+			"jp_dialogue": "食べ物は自分で潜って獲ってますし…",
+			"jp_name": "ピンクタコ"
+		  },
+		  {
+			"eng_name": "Pink Octopus",
+			"man_name": "粉章魚",
+			"man_sim_name": "粉章鱼",
+			"eng_dialogue": "If I have extra, I’ll consider sharing some with you...",
+			"man_sim_dialogue": "多的鱼可以分你一点。",
+			"man_dialogue": "多的魚可以分你一點..",
+			"avatar": "pink",
+			"jp_dialogue": "余った魚なら少しくらい分けてあげますけど…",
+			"jp_name": "ピンクタコ"
+		  }
+		],
+		"jp_option": "金くれ！"
+	  }
+	],
+	"jp_dialogue": "まだ何かあるんですか…",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

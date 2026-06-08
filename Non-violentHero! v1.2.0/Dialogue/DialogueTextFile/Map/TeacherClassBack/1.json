@@ -1,0 +1,81 @@
+[
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "pink",
+	"eng_dialogue": "Wait!",
+	"ani_teacher": "class1_shock",
+	"man_dialogue": "等等！",
+	"man_sim_dialogue": "等等！",
+	"jp_dialogue": "待ちなさい！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "Don’t even think about leaving!",
+	"ani_teacher": "class1_angry",
+	"man_dialogue": "別想走！",
+	"man_sim_dialogue": "别想跑！",
+	"jp_dialogue": "逃げるんじゃない！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "I asked around.",
+	"man_dialogue": "我問了大家！",
+	"man_sim_dialogue": "我问了大家！",
+	"jp_dialogue": "みんなに聞いたけど！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "No one’s ever seen you before!",
+	"man_dialogue": "根本就沒有人見過你！",
+	"man_sim_dialogue": "根本没人认识你！",
+	"jp_dialogue": "誰もあなたのこと知らないって言ってたわ！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "You’re not a teacher!",
+	"man_dialogue": "你根本不是老師！",
+	"man_sim_dialogue": "你根本不是老师！",
+	"jp_dialogue": "あなた、教師じゃないでしょ！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "I’ve already called the police!",
+	"man_dialogue": "我已經叫了警察！",
+	"man_sim_dialogue": "我已经报警了！",
+	"jp_dialogue": "もう警察に通報したから！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "You’re not going anywhere until they get here!",
+	"man_dialogue": "警察來之前你哪裡都別想去！",
+	"man_sim_dialogue": "警察来前你哪里都别想去！",
+	"jp_dialogue": "警察が来るまで、どこにも行かせないわよ！",
+	"jp_name": "先生"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"done": "pos_to_chair_police",
+	"change": "res://SceneTransTscn/house_2.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

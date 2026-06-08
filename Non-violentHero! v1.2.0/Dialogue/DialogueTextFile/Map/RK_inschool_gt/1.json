@@ -1,0 +1,368 @@
+[
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"ani_kid": "wow",
+	"eng_dialogue": "Hi, mister!",
+	"man_dialogue": "哈咯勇者大哥哥！",
+	"man_sim_dialogue": "哈咯勇者大哥哥！",
+	"have_unclock_option": "true",
+	"options": [
+	  {
+		"eng_option": "Do you know where I can get donuts?",
+		"man_option": "你知道哪裡有甜甜圈嗎？",
+		"man_sim_option": "你知道哪里有甜甜圈吗",
+		"response": [
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "Donuts?",
+			"man_sim_dialogue": "甜甜圈？",
+			"man_dialogue": "甜甜圈？",
+			"avatar": "kid",
+			"jp_dialogue": "ドーナツ？",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "I’ve got one!",
+			"man_sim_dialogue": "我有哦！",
+			"man_dialogue": "我有甜甜圈哦！",
+			"avatar": "kid",
+			"jp_dialogue": "僕、持ってるよ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "Do you want it, mister?",
+			"man_sim_dialogue": "大哥哥你要甜甜圈？",
+			"man_dialogue": "大哥哥要甜甜圈嗎？",
+			"show_last_option_kid": "true",
+			"avatar": "kid",
+			"jp_dialogue": "お兄ちゃん、ドーナツ欲しいの？",
+			"jp_name": "子供"
+		  }
+		],
+		"jp_option": "ドーナツがある場所知ってる？"
+	  },
+	  {
+		"eng_option": "Do you know where to find the legendary battle suit?",
+		"man_option": "你知道哪裡有傳說中的戰衣嗎？",
+		"man_sim_option": "你知道哪里有传说中的战衣吗？",
+		"response": [
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "wow",
+			"eng_dialogue": "Ah!",
+			"man_sim_dialogue": "啊！",
+			"man_dialogue": "啊！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "あ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "I've heard about it!",
+			"man_sim_dialogue": "我有听说过！",
+			"man_dialogue": "我有聽說過！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "聞いたことあるよ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "There’s a house on the left after you leave the school.",
+			"man_sim_dialogue": "出校门口左边那间房子",
+			"man_dialogue": "出學校門口左邊的那閒房子",
+			"avatar": "kid",
+			"jp_dialogue": "校門を出て左の家",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "The lady there says her son keeps bragging about a legendary battle suit.",
+			"man_sim_dialogue": "那边的阿姨说他儿子整天说着什么传说中战衣的！",
+			"man_dialogue": "那邊的阿姨說他的兒子整天在那邊說什麽傳說中的戰衣！",
+			"avatar": "kid",
+			"jp_dialogue": "あそこのおばさんが、息子がいつも伝説の衣装がどうとか言ってるって言ってた！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "Maybe he’s got it!",
+			"man_sim_dialogue": "说不定衣服就在阿姨儿子手上哦！",
+			"man_dialogue": "說不定衣服就在那個阿姨的兒子手上哦！",
+			"avatar": "kid",
+			"jp_dialogue": "もしかしたら、その服はおばさんの息子が持ってるかも！",
+			"jp_name": "子供"
+		  }
+		],
+		"jp_option": "伝説の衣装がある場所知ってる？"
+	  },
+	  {
+		"eng_option": "What are you doing here?",
+		"man_option": "你在這邊幹什麽？",
+		"man_sim_option": "你在这边干嘛？",
+		"response": [
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "shock",
+			"eng_dialogue": "Ah!",
+			"man_sim_dialogue": "啊！",
+			"man_dialogue": "啊！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "あ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "I-I’m just getting some fresh air!",
+			"man_sim_dialogue": "我我我在这边吹风！",
+			"man_dialogue": "我...我在這邊吹風！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "ぼぼぼ僕、ここで風に当たってるだけ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "I'm not spying on anyone!",
+			"man_sim_dialogue": "我没有偷看里面！",
+			"man_dialogue": "我沒有在偷看裡面！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "中なんて見てないし！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "And I’m definitely not listening in!",
+			"man_sim_dialogue": "也没有偷听！",
+			"man_dialogue": "也沒有在偷聽！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "盗み聞きもしてないよ！",
+			"jp_name": "子供"
+		  }
+		],
+		"jp_option": "ここで何してるの？"
+	  },
+	  {
+		"eng_option": "Can you give me a donut?",
+		"man_option": "可以給我甜甜圈嗎？",
+		"man_sim_option": "可以给我甜甜圈吗？",
+		"response": [
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "shock",
+			"eng_dialogue": "You want a donut, mister?",
+			"man_sim_dialogue": "大哥哥要甜甜圈哦？",
+			"man_dialogue": "大哥哥要甜甜圈哦！",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "kid",
+			"jp_dialogue": "お兄ちゃん、ドーナツ欲しいの？",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "stalk",
+			"eng_dialogue": "Hmm...",
+			"man_sim_dialogue": "嗯...",
+			"man_dialogue": "嗯...",
+			"avatar": "kid",
+			"jp_dialogue": "うーん…",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "I can give you one...",
+			"man_sim_dialogue": "我可以给大哥哥甜甜圈",
+			"man_dialogue": "我可以給大哥哥甜甜圈",
+			"avatar": "kid",
+			"jp_dialogue": "ドーナツはあげてもいいけど",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "But I need a little favor first!",
+			"man_sim_dialogue": "但我想大哥哥帮我一个忙！",
+			"man_dialogue": "但是我想大哥哥幫我一個忙！",
+			"avatar": "kid",
+			"jp_dialogue": "その代わり、お兄ちゃんにお願いがあるんだ！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "There’s this bully in my class who’s been bothering everyone...",
+			"man_sim_dialogue": "班上的小霸王欺负大家很久了",
+			"man_dialogue": "我們班的小霸王在班上欺負大家很久了",
+			"avatar": "kid",
+			"jp_dialogue": "クラスのいじめっ子がずっとみんなを困らせてて",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "Even the teacher can’t stop him.",
+			"man_sim_dialogue": "老师也拿他没办法",
+			"man_dialogue": "老師也拿他沒辦法",
+			"avatar": "kid",
+			"jp_dialogue": "先生もお手上げなんだ",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "So the teacher called his mom in today.",
+			"man_sim_dialogue": "所以老师今天约了他妈妈来学校",
+			"man_dialogue": "所以老師今天約了他媽媽來學校",
+			"avatar": "kid",
+			"jp_dialogue": "それで今日、先生がその子のお母さんを学校に呼んだんだけど",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "But it’s...not going very well.",
+			"man_sim_dialogue": "但感觉进展不是很顺利...",
+			"man_dialogue": "但是感覺進展不是很順利...",
+			"avatar": "kid",
+			"jp_dialogue": "なんだかうまくいってないみたいで…",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "wow",
+			"eng_dialogue": "If you help the teacher, I’ll give it to you!",
+			"man_sim_dialogue": "大哥哥帮老师的话我就给大哥哥甜甜圈",
+			"man_dialogue": "大哥哥去幫老師的話我就把甜甜圈給大哥哥！",
+			"avatar": "kid",
+			"jp_dialogue": "お兄ちゃんが先生を助けてくれたら、ドーナツあげる",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "stalk",
+			"eng_dialogue": "I really don’t want to be bullied anymore...",
+			"man_sim_dialogue": "我不想再被他欺负了...",
+			"man_dialogue": "我不想再被他欺負了...",
+			"avatar": "kid",
+			"jp_dialogue": "もういじめられたくないんだ…",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"eng_dialogue": "The teacher’s office is just ahead.",
+			"man_sim_dialogue": "其实前面就是老师的办公室",
+			"man_dialogue": "其實前面就是老師的辦公室",
+			"avatar": "kid",
+			"jp_dialogue": "実はこの先が先生の職員室なんだ",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "wow",
+			"eng_dialogue": "If you’re willing to help...",
+			"man_sim_dialogue": "大哥哥如果愿意帮这个忙",
+			"man_dialogue": "大哥哥如果你願意幫忙的話",
+			"avatar": "kid",
+			"jp_dialogue": "もし手伝ってくれるなら",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "wow",
+			"eng_dialogue": "Just go on in!",
+			"man_sim_dialogue": "就直接进去吧！",
+			"man_dialogue": "就直接進去吧！",
+			"avatar": "kid",
+			"jp_dialogue": "そのまま入っていって！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"ani_kid": "stalk",
+			"eng_dialogue": "I’ll sneak in before you!",
+			"man_sim_dialogue": "我先溜进去好了...",
+			"man_dialogue": "我先偷偷進去好了...",
+			"avatar": "kid",
+			"jp_dialogue": "僕、先にこっそり入ってるね！",
+			"jp_name": "子供"
+		  },
+		  {
+			"eng_name": "Kid",
+			"man_name": "小孩",
+			"man_sim_name": "小孩",
+			"avatar": "kid",
+			"kid_enter_room": "true",
+			"close": "true",
+			"startChat_for_non_attack": "false",
+			"ani_player": "change_scene",
+			"jp_name": "子供"
+		  }
+		],
+		"jp_option": "ドーナツくれない？"
+	  }
+	],
+	"jp_dialogue": "ハロー、勇者のお兄ちゃん！",
+	"jp_name": "子供"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

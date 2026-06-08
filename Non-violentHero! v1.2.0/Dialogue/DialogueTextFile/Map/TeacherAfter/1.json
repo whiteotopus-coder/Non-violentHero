@@ -1,0 +1,53 @@
+[
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "pink",
+	"eng_dialogue": "Ah!",
+	"ani_teacher": "class1_shock_side",
+	"man_dialogue": "啊！",
+	"man_sim_dialogue": "啊！",
+	"jp_dialogue": "あ！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "You again! You creep!",
+	"ani_teacher": "class1_shock_side",
+	"man_dialogue": "你這個可疑人物怎麽又出現了！",
+	"man_sim_dialogue": "这个可疑人物又出现了！",
+	"jp_dialogue": "またあの怪しい人が来た！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "Someone take him to the police!",
+	"ani_teacher": "class1_shock_side",
+	"man_dialogue": "快把他送去警察局！",
+	"man_sim_dialogue": "快抓去警局！",
+	"jp_dialogue": "早く警察に連れていって！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_dialogue": "This school really isn’t safe anymore...",
+	"ani_teacher": "class1_side_eyes",
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"man_dialogue": "學校真的是不安全呢...",
+	"man_sim_dialogue": "学校真是不安全呢...",
+	"jp_dialogue": "学校ってほんとに危ないわね…",
+	"jp_name": "先生"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"done": "pos_to_chair_police",
+	"change": "res://SceneTransTscn/house_2.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

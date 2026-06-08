@@ -1,0 +1,38 @@
+[
+  {
+	"eng_name": "Robert Garrett",
+	"change_current_character": "otaku",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"eng_dialogue": "Wah!",
+	"man_dialogue": "嗚欸！",
+	"man_sim_dialogue": "嗚欸！",
+	"jp_dialogue": "うわっ！",
+	"jp_name": "ロバート"
+  },
+  {
+	"eng_name": "Robert Garrett",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"eng_dialogue": "Why are you here?!",
+	"man_dialogue": "你怎麽會在這邊！",
+	"man_sim_dialogue": "你怎么会在这边！",
+	"jp_dialogue": "なんでお前ここにいるんだよ！",
+	"jp_name": "ロバート"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Hey, boss, do you know this guy?",
+	"man_dialogue": "誒，這是老大認識的人嗎？",
+	"man_sim_dialogue": "诶，这是老大认识的人吗？",
+	"jp_dialogue": "え、もしかしてボスの知り合いなのか？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

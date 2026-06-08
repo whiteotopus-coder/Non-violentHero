@@ -1,0 +1,50 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "喂！",
+	"man_sim_dialogue": "喂！",
+	"jp_dialogue": "おい！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "You can't sit here!",
+	"man_dialogue": "不准坐这边！",
+	"man_sim_dialogue": "不准坐这边！",
+	"jp_dialogue": "そこ座るなよ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "This is Robert's spot!",
+	"man_dialogue": "这是罗伯老大的位置！",
+	"man_sim_dialogue": "这是罗伯老大的位置！",
+	"jp_dialogue": "そこはロブの兄貴の席だぞ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "He’ll make you drink carrot juice!",
+	"man_dialogue": "小心他等下逼你喝萝卜汁！",
+	"man_sim_dialogue": "小心他等下逼你喝萝卜汁！",
+	"jp_dialogue": "あとでニンジンジュース飲まされても知らないからな！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

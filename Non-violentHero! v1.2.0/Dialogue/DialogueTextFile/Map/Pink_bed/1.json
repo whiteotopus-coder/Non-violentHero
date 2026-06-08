@@ -1,0 +1,46 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Hey!",
+	"avatar": "pink_shock",
+	"man_dialogue": "喂！！！",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"man_sim_dialogue": "喂！！！",
+	"jp_dialogue": "ちょ、ちょっと！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Don't lie on my bed!",
+	"avatar": "pink_shock",
+	"man_dialogue": "不要睡我的床啊！！",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"man_sim_dialogue": "不要擅自睡在我的床上啊！！！",
+	"jp_dialogue": "勝手に私のベッドで寝ないでください！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "You didn’t even take off your shoes!",
+	"avatar": "pink_down",
+	"man_dialogue": "你沒有脫鞋啊啊啊！！",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "down",
+	"man_sim_dialogue": "你没有脱鞋啊！！",
+	"jp_dialogue": "靴も脱いでないじゃないですか！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

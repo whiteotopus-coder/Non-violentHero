@@ -1,0 +1,40 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "So who are you?",
+	"avatar": "pink_sad",
+	"man_dialogue": "你誰啊到底",
+	"man_sim_dialogue": "谁啊你到底",
+	"animateQPink": "default",
+	"jp_dialogue": "本当にどなたなんですか、あなた…",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Why are you talking to me?",
+	"avatar": "pink_sad",
+	"man_dialogue": "還跑來和我講話啊？",
+	"man_sim_dialogue": "还跑来和我搭话？",
+	"jp_dialogue": "しかも普通に話しかけてきますし…",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "That’s really rude, you know!",
+	"avatar": "pink_sad",
+	"man_dialogue": "你這樣很沒有禮貌！",
+	"man_sim_dialogue": "你这样很没礼貌！",
+	"jp_dialogue": "そういうの、ちょっと失礼だと思います…",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

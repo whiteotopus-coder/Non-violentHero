@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "king",
+	"eng_dialogue": "Hey there, new kid~",
+	"man_dialogue": "哈嘍新同學~",
+	"man_sim_dialogue": "哈咯，新同学~",
+	"jp_dialogue": "ハロー、新しい子〜",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "This seat’s taken.",
+	"man_dialogue": "我們這邊有人了！",
+	"man_sim_dialogue": "这个位置有人了！",
+	"jp_dialogue": "この席はもう人がいるよ！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "Try somewhere else~",
+	"man_dialogue": "你去坐別邊吧~",
+	"man_sim_dialogue": "你坐别的位置吧~",
+	"jp_dialogue": "別の席にしなよ〜",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"eng_dialogue": "Mister, you have to help her!",
+	"man_dialogue": "大哥哥，你快去救老師吧！",
+	"man_sim_dialogue": "大哥哥，你快去救老师吧！",
+	"jp_dialogue": "お兄ちゃん、早く先生を助けてあげて！",
+	"jp_name": "子供"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

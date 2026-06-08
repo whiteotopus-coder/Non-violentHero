@@ -1,0 +1,86 @@
+[
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "Thank you so much...",
+	"man_dialogue": "真的很感謝你們！",
+	"man_sim_dialogue": "真是谢谢你们!",
+	"jp_dialogue": "本当にありがとうございました！",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher",
+	"eng_dialogue": "Otherwise, I might’ve lost my job again...",
+	"man_dialogue": "不然我可能又要丟掉工作了...",
+	"man_sim_dialogue": "不然我的工作又要没了...",
+	"jp_dialogue": "じゃなかったら、また私の仕事が危なかったです…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"eng_dialogue": "So... if we just get Robert to stop bullying people, will everything be okay?",
+	"man_dialogue": "老師，只要叫羅伯不要再欺負人就可以了嗎？",
+	"man_sim_dialogue": "老师，只要叫罗伯不要再欺负人就可以了吗？",
+	"jp_dialogue": "先生、ロブにもういじめないように言えばそれで終わりですか？",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "Sigh... if only it were that simple...",
+	"man_dialogue": "唉...哪有這麼簡單...",
+	"man_sim_dialogue": "唉...怎么可能这么简单...",
+	"jp_dialogue": "はぁ…そんな簡単なわけないよ…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher",
+	"eng_dialogue": "If Robert does it again, I’ll have to meet with Mrs. Garrett all over again...",
+	"man_dialogue": "如果羅伯又欺負人，我就又要去見羅太太...",
+	"man_sim_dialogue": "如果罗伯再欺负人的话，我又要再与罗太太会面...",
+	"jp_dialogue": "もしロブがまたいじめをしたら、またロブのお母さんと会わなきゃいけないし…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher_scare",
+	"eng_dialogue": "Just thinking about dealing with them makes me feel sick...",
+	"man_dialogue": "光是想到要再見到他們，我就開始反胃想吐...",
+	"man_sim_dialogue": "想到还要面对他们...我就开始恶心干呕想吐...",
+	"jp_dialogue": "またあのお母さんと会うと思うだけで…吐き気がして、えずきそうで…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher_cry",
+	"eng_dialogue": "I’m so stressed out...",
+	"man_dialogue": "壓力真的好大...",
+	"man_sim_dialogue": "压力好大...",
+	"jp_dialogue": "ストレスがすごい…",
+	"jp_name": "先生"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

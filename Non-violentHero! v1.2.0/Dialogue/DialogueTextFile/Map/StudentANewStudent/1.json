@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "kid",
+	"eng_dialogue": "Hmm...",
+	"man_dialogue": "嗯...",
+	"man_sim_dialogue": "嗯...",
+	"jp_dialogue": "うーん…",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "Are you a new transfer student?",
+	"man_dialogue": "你是轉校生哦？",
+	"man_sim_dialogue": "你是转学生？",
+	"jp_dialogue": "転校生？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "Um... hi.",
+	"man_dialogue": "哈咯...",
+	"man_sim_dialogue": "你好...",
+	"jp_dialogue": "こんにちは…",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

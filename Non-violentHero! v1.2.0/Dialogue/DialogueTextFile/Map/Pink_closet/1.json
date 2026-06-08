@@ -1,0 +1,59 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Hey!",
+	"man_dialogue": "啊！！",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"avatar": "pink_shock",
+	"man_sim_dialogue": "啊！！",
+	"jp_dialogue": "あっ！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Don't open my closet!",
+	"animateQPink": "shock",
+	"avatar": "pink_shock",
+	"man_dialogue": "不要亂開人家的櫃子啊！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "不要乱开我的柜子啊！！",
+	"jp_dialogue": "勝手にクローゼット開けないでください！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "You’ll mess it up!",
+	"animateQPink": "shock",
+	"avatar": "pink_shock",
+	"man_dialogue": "會弄亂的！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "会弄乱的！",
+	"jp_dialogue": "またぐちゃぐちゃになりますよ！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "I just tidied it up yesterday!",
+	"animateQPink": "down",
+	"avatar": "pink_down",
+	"man_dialogue": "我昨天才整理的！！",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "我昨天才整理！！",
+	"jp_dialogue": "昨日せっかく片づけたのに！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

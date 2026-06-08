@@ -1,0 +1,46 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Ahh!",
+	"avatar": "pink_shock",
+	"man_dialogue": "啊！！",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"man_sim_dialogue": "啊！！",
+	"jp_dialogue": "あ！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Don’t step on that!",
+	"avatar": "pink_shock",
+	"man_dialogue": "那個不是拿來站的！！",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"man_sim_dialogue": "这个不是拿来踮脚的！！",
+	"jp_dialogue": "それ、踏み台にするものじゃないですよ！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"eng_dialogue": "Don't mess around!",
+	"avatar": "pink_down",
+	"man_dialogue": "不要亂來啊！！",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "down",
+	"man_sim_dialogue": "别乱来啊！！",
+	"jp_dialogue": "変なことしないでください！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

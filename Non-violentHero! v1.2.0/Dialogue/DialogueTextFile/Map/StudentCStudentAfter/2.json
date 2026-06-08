@@ -1,0 +1,59 @@
+[
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "Boss, what’s going on?",
+	"man_dialogue": "老大，這是怎麽了？",
+	"man_sim_dialogue": "老大，这是怎么了？",
+	"jp_dialogue": "ボス、どうしたんすか？",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "You don’t seem like your usual self.",
+	"man_dialogue": "好像沒有平常的氣勢了。",
+	"man_sim_dialogue": "好像没有平常的气势了。",
+	"jp_dialogue": "いつもの勢いがないっすよ。",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Robert Garrett",
+	"man_name": "羅伯",
+	"man_sim_name": "罗伯",
+	"change_current_character": "otaku",
+	"eng_dialogue": "...Even I need to rest sometimes...",
+	"man_dialogue": "...老大...也是要休息的...",
+	"man_sim_dialogue": "...老大...也是要休息的...",
+	"jp_dialogue": "…ボスだって…休む時はある…",
+	"jp_name": "ロバート"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"change_current_character": "right",
+	"eng_dialogue": "I see! You must be tired, boss!",
+	"man_dialogue": "原來如此！老大一定是累了！",
+	"man_sim_dialogue": "原来如此！老大一定是累了！",
+	"jp_dialogue": "なるほど！ボスも疲れてるんすね！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"eng_name": "Student",
+	"man_name": "同學",
+	"man_sim_name": "同学",
+	"eng_dialogue": "You should get some rest!",
+	"man_dialogue": "那老大好好休息吧！",
+	"man_sim_dialogue": "那老大好好休息吧！",
+	"jp_dialogue": "じゃあボス、ゆっくり休んでください！",
+	"jp_name": "クラスメイト"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

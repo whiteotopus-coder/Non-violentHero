@@ -1,0 +1,73 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"avatar": "pink_shock",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"eng_dialogue": "?!",
+	"man_dialogue": "？！",
+	"man_sim_dialogue": "？！",
+	"jp_dialogue": "？！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"avatar": "pink_shock",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"eng_dialogue": "Waaahhh!!",
+	"man_dialogue": "啊啊啊啊啊啊啊！！",
+	"man_sim_dialogue": "啊啊啊啊啊啊啊！！",
+	"jp_dialogue": "きゃああああああ！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"avatar": "pink_shock",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"eng_dialogue": "My bed!!!",
+	"man_dialogue": "我的床啊！！！",
+	"man_sim_dialogue": "我的床啊！！！",
+	"jp_dialogue": "わたしのベッドが！！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"avatar": "pink_shock",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"eng_dialogue": "You… you really…!",
+	"man_dialogue": "你给我...",
+	"man_sim_dialogue": "你给我...",
+	"jp_dialogue": "もう、お前ってば…",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"avatar": "pink_shock",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"eng_dialogue": "At least take a bath before lying on my bed, okay?!",
+	"man_dialogue": "洗澡了才躺我的床啊！",
+	"man_sim_dialogue": "洗澡了才躺我的床啊！",
+	"jp_dialogue": "せめてお風呂に入ってから、わたしのベッドに寝てくださいっ！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"animateQPink": "down",
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

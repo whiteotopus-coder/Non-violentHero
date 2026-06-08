@@ -1,0 +1,322 @@
+[
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "pink",
+	"eng_dialogue": "Huh?",
+	"ani_teacher": "class1_shock",
+	"man_dialogue": "額?",
+	"man_sim_dialogue": "额？",
+	"jp_dialogue": "あれ？",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"eng_dialogue": "What's the matter?",
+	"ani_teacher": "class_1",
+	"man_dialogue": "同學怎麽了?",
+	"man_sim_dialogue": "同学，怎么了？",
+	"options": [
+	  {
+		"eng_option": "I’m a student in this class.",
+		"man_option": "我是這班的同學",
+		"man_sim_option": "我是班上的同学",
+		"response": [
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Ah!",
+			"man_sim_dialogue": "啊！",
+			"ani_teacher": "class1_shock",
+			"man_dialogue": "啊！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "あ！",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Seriously?!",
+			"man_sim_dialogue": "是吗！",
+			"ani_teacher": "class1_shock",
+			"man_dialogue": "是嗎！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "そうなの！",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"ani_teacher": "class1_side_eyes",
+			"eng_dialogue": "Don’t tell me you’re so quiet I forgot you were even here...",
+			"man_sim_dialogue": "难不成是存在感低到我忘了他了？...",
+			"man_dialogue": "難道是存在感低到我忘記了？...",
+			"jp_dialogue": "もしかして存在感が薄すぎて私が忘れてたのかも…？",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "That’s...kind of sad.",
+			"man_sim_dialogue": "好可怜...",
+			"man_dialogue": "好可憐...",
+			"jp_dialogue": "かわいそう…",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"ani_teacher": "class1_shock",
+			"eng_dialogue": "Sorry, I didn't recognize you...",
+			"man_sim_dialogue": "不好意思啊老师没认出你...",
+			"man_dialogue": "不好意思啊老師沒認出你...",
+			"jp_dialogue": "ごめんなさいね、先生気づかなかったわ…",
+			"jp_name": "先生"
+		  },
+		  {
+			"ach_im_student": "true",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"ani_teacher": "class_1",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Alright, hurry up and take your seat!",
+			"man_sim_dialogue": "快回到你的座位上吧！",
+			"man_dialogue": "你快回去你的位置吧！",
+			"i_am_student": "true",
+			"jp_dialogue": "早く自分の席に戻ってね！",
+			"jp_name": "先生"
+		  }
+		],
+		"jp_option": "このクラスの生徒です"
+	  },
+	  {
+		"eng_option": "I’m a new transfer student.",
+		"man_option": "我是新的轉學生",
+		"man_sim_option": "我是转学生",
+		"response": [
+		  {
+			"ani_teacher": "class1_shock",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Ah!",
+			"man_sim_dialogue": "啊！",
+			"man_dialogue": "啊！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "あ！",
+			"jp_name": "先生"
+		  },
+		  {
+			"ani_teacher": "class1_shock",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Oh! That explains it!",
+			"man_sim_dialogue": "是这样吗！",
+			"man_dialogue": "原來是這樣嗎！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "そういうこと！",
+			"jp_name": "先生"
+		  },
+		  {
+			"ani_teacher": "class1_side_eyes",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Why didn't the principal tell me about this...?",
+			"man_sim_dialogue": "校长怎么没有通知我啊...",
+			"man_dialogue": "校長怎麽沒有通知啊...",
+			"jp_dialogue": "校長先生、どうして私に知らせてくれなかったのかしら…",
+			"jp_name": "先生"
+		  },
+		  {
+			"ani_teacher": "class_1",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Well, there are plenty of empty seats.",
+			"man_sim_dialogue": "这边还有很多位置！",
+			"man_dialogue": "這邊還有很多空位！",
+			"jp_dialogue": "席はまだたくさん空いてるわ！",
+			"jp_name": "先生"
+		  },
+		  {
+			"ach_im_student": "true",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Go ahead and pick a seat.",
+			"man_sim_dialogue": "你选个座位吧。",
+			"man_dialogue": "你選個位置入座吧。",
+			"new_student": "true",
+			"jp_dialogue": "好きなところに座ってね。",
+			"jp_name": "先生"
+		  }
+		],
+		"jp_option": "転校生です"
+	  },
+	  {
+		"eng_option": "I’m your secret admirer.",
+		"man_option": "我是老師的愛慕者",
+		"man_sim_option": "我是老师的爱慕者",
+		"response": [
+		  {
+			"ani_teacher": "class1_shock",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "What?!",
+			"man_sim_dialogue": "什么！",
+			"man_dialogue": "什麽！",
+			"ani_chatbox": "chatbox_shake",
+			"ach_love_teacher": "true",
+			"jp_dialogue": "何ですって！",
+			"jp_name": "先生"
+		  },
+		  {
+			"ani_teacher": "class1_shock",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "You're a creepy stalker?!",
+			"man_sim_dialogue": "你是变态跟踪狂！",
+			"man_dialogue": "你是變態跟蹤狂！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "あなた、変態ストーカーね！",
+			"jp_name": "先生"
+		  },
+		  {
+			"ani_teacher": "class1_shock",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Someone call the police!",
+			"man_sim_dialogue": "快把这个人送进警局！",
+			"man_dialogue": "快把這個人送去警察局！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "この人を早く警察に連れていって！",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"teacher_stalker": "true",
+			"change": "res://SceneTransTscn/house_2.tscn",
+			"sceneTransition": "dissolve",
+			"done": "pos_to_chair_police",
+			"startChat_for_non_attack": "false",
+			"clear_script": "true",
+			"jp_name": "先生"
+		  }
+		],
+		"jp_option": "先生のことが好きなんです"
+	  },
+	  {
+		"eng_option": "It’s my class now.",
+		"man_option": "到我的課了",
+		"man_sim_option": "到我的课了",
+		"response": [
+		  {
+			"ani_teacher": "class1_shock",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Oh, you're a teacher too?!",
+			"man_sim_dialogue": "什么！原来你也是老师！",
+			"man_dialogue": "欸，原來你也是老師嗎！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "あら、",
+			"jp_name": "先生"
+		  },
+		  {
+			"ani_teacher": "class1_shock",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "My apologies!",
+			"man_sim_dialogue": "不好意思！",
+			"man_dialogue": "不好意思...",
+			"jp_dialogue": "今日の担当はあなただったのね！",
+			"jp_name": "先生"
+		  },
+		  {
+			"ani_teacher": "class_1",
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Sorry...I misunderstood.",
+			"man_sim_dialogue": "因为我第一次见到你...",
+			"man_dialogue": "因爲我第一次見到你...",
+			"jp_dialogue": "すみません！",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Hope I didn’t take up your class time.",
+			"man_sim_dialogue": "希望我没有占用你的课太久！",
+			"man_dialogue": "希望我沒有佔你的課太久吧...",
+			"jp_dialogue": "初めてお見かけしたものですから…",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Alright everyone, class dismissed for today!",
+			"man_sim_dialogue": "同学们",
+			"man_dialogue": "同學們今天就這樣吧！",
+			"jp_dialogue": "時間、取っちゃってごめんなさいね…",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "I’ll get going now...",
+			"man_sim_dialogue": "老师先走了...",
+			"man_dialogue": "老師先走了...",
+			"jp_dialogue": "みんな、ごめんなさいね",
+			"jp_name": "先生"
+		  },
+		  {
+			"eng_name": "Teacher",
+			"man_name": "老師",
+			"man_sim_name": "老师",
+			"eng_dialogue": "Goodbye, everyone...",
+			"man_sim_dialogue": "再见！",
+			"man_dialogue": "再見！",
+			"jp_dialogue": "先生は先に失礼するわね…またね！",
+			"jp_name": "先生"
+		  },
+		  {
+			"ach_takeover_class": "true",
+			"teacher_leave_class": "true",
+			"startChat_for_non_attack": "false",
+			"close": "true",
+			"ani_player": "change_scene",
+			"clear_script": "true"
+		  }
+		],
+		"jp_option": "私の授業の時間です"
+	  }
+	],
+	"jp_dialogue": "どうしたの？",
+	"jp_name": "先生"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

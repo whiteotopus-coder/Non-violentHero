@@ -1,0 +1,75 @@
+[
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "Sigh...If only all kids were as pure as you...",
+	"man_dialogue": "唉...如果所有小孩都像你這樣單純就好了...",
+	"man_sim_dialogue": "唉...如果所有小孩都像你这样单纯就好了...",
+	"jp_dialogue": "はぁ…みんな君みたいに純粋な子だったらよかったのに…",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"change_current_character": "kid",
+	"avatar": "kid",
+	"eng_dialogue": "Miss, I think everyone is really nice to me, except Robert, who sometimes bullies me...",
+	"man_dialogue": "老師，我覺得除了羅伯有時會欺負我，其他人都對我很好耶！",
+	"man_sim_dialogue": "老师，我觉得除了罗伯有时候会欺负我，其他人都很好哇！",
+	"jp_dialogue": "先生、ロブがたまにいじめてくる以外は、みんないい人だよ？",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "Someone was even worried I’d get tired chewing, so they chewed the food for me… and spit it out!",
+	"man_dialogue": "那個誰還怕我嘴巴累，先幫我把食物咬一咬再吐給我吃！",
+	"man_sim_dialogue": "那个谁怕我嘴巴累，会咀嚼了食物吐给我吃诶！",
+	"jp_dialogue": "あの子なんて、僕の口が疲れないようにって、食べ物を噛んでから吐いて食べさせてくれるし！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Kid",
+	"man_name": "小孩",
+	"man_sim_name": "小孩",
+	"avatar": "kid",
+	"eng_dialogue": "And they thought plain water was too bland, so they added some mud to give it some flavor!",
+	"man_dialogue": "而且還覺得白開水沒味道，幫我加了一點泥土提味呢！",
+	"man_sim_dialogue": "而且怕我的白开水没有味道，还加了一些泥土给我呢！",
+	"jp_dialogue": "それに、ただの水だと味がないからって、土まで入れてくれるんだよ！",
+	"jp_name": "子供"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"change_current_character": "nun",
+	"avatar": "teacher",
+	"eng_dialogue": "......",
+	"man_dialogue": "......",
+	"man_sim_dialogue": "......",
+	"jp_dialogue": "……",
+	"jp_name": "先生"
+  },
+  {
+	"eng_name": "Teacher",
+	"man_name": "老師",
+	"man_sim_name": "老师",
+	"avatar": "teacher",
+	"eng_dialogue": "...Yeah, I’m quitting.",
+	"man_dialogue": "......我還是辭職好了。",
+	"man_sim_dialogue": "......我还是辞职好了。",
+	"jp_dialogue": "……やっぱり私、辞めようかな。",
+	"jp_name": "先生"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

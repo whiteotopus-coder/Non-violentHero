@@ -1,0 +1,34 @@
+[
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"avatar": "pink_shock",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"eng_dialogue": "No! Don’t lie on it!",
+	"man_dialogue": "不要躺了！",
+	"man_sim_dialogue": "不要躺了！",
+	"jp_dialogue": "もう、寝転ばないでくださいっ！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"eng_name": "Pink Octopus",
+	"man_name": "粉章魚",
+	"man_sim_name": "粉章鱼",
+	"avatar": "pink_shock",
+	"ani_chatbox": "chatbox_shake",
+	"animateQPink": "shock",
+	"eng_dialogue": "Get off! Right now!",
+	"man_dialogue": "快下来啊！",
+	"man_sim_dialogue": "快下来啊！",
+	"jp_dialogue": "早く降りてくださいっ！",
+	"jp_name": "ピンクタコ"
+  },
+  {
+	"animateQPink": "down",
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]
