@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://de7nampequot4"]
+
+[ext_resource type="AudioStream" uid="uid://71mks8jds5pm" path="res://Sound/song.wav" id="1_v8wx1"]
+[ext_resource type="Script" uid="uid://c1rwd8tk4t78e" path="res://Sound/backgroundmusic.gd" id="2_3kkmf"]
+
+[node name="Backgroundmusic" type="AudioStreamPlayer"]
+process_mode = 3
+stream = ExtResource("1_v8wx1")
+script = ExtResource("2_3kkmf")
