@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=3 uid="uid://cxvty21f45nk8"]
+
+[ext_resource type="Texture2D" uid="uid://dq8tfhun1vtmu" path="res://Images/q/npc/badkid.png" id="1_4ot5n"]
+
+[sub_resource type="GDScript" id="GDScript_sda4j"]
+script/source = "extends CharacterBody2D
+
+
+@onready var animated_sprite_2d = $AnimatedSprite2D
+
+
+func _on_area_2d_area_entered(area):
+	Global.keepChat = true
+	Global.place = \"Map\"
+	Global.character_name = \"Kid_chat\"
+
+
+func _on_area_2d_area_exited(area):
+	Global.startChat = false
+	Global.place = \"\"
+	Global.character_name = \"\"
+	Global.keepChat = false
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tnaco"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_4ot5n")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n16q7"]
+radius = 16.0
+height = 32.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wvuqm"]
+radius = 72.0
+
+[node name="Kid" type="CharacterBody2D"]
+scale = Vector2(4, 4)
+script = SubResource("GDScript_sda4j")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_tnaco")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("CapsuleShape2D_n16q7")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_wvuqm")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_area_2d_area_exited"]

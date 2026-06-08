@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://83whxttdydbl"]
+
+[ext_resource type="Texture2D" uid="uid://0i3ukdb3148i" path="res://Images/q/npc/drum.png" id="1_y5ge8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uavt8"]
+radius = 26.0
+height = 56.0
+
+[node name="Drum" type="CharacterBody2D"]
+texture_filter = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_y5ge8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-32, -3)
+shape = SubResource("CapsuleShape2D_uavt8")
