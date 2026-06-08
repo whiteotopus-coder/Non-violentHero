@@ -1,0 +1,53 @@
+[
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Is it good?",
+	"man_dialogue": "好吃嗎！",
+	"man_sim_dialogue": "怎么样，好吃吗？",
+	"avatar": "mummy",
+	"change_current_character": "mummy",
+	"jp_dialogue": "どう？おいしい？",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "I made it all myself~",
+	"man_dialogue": "這可是阿姨親手做的~",
+	"man_sim_dialogue": "这可是阿姨做的~",
+	"avatar": "mummy",
+	"jp_dialogue": "これ、おばちゃんが作ったのよ〜",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "There’s plenty more!",
+	"man_dialogue": "我還有煮很多！",
+	"man_sim_dialogue": "阿姨还煮了很多哦~",
+	"avatar": "mummy",
+	"jp_dialogue": "まだまだたくさんあるからね〜",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Eat more, don’t be shy~",
+	"man_dialogue": "你快吃吧，不用跟阿姨客氣~",
+	"man_sim_dialogue": "你快吃吧！不用跟我客气~",
+	"avatar": "mummy",
+	"food_num": "true",
+	"jp_dialogue": "遠慮しないでどんどん食べて〜",
+	"jp_name": "オタクの母"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"bites": "true",
+	"close": "true"
+  }
+]

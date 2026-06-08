@@ -1,0 +1,101 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "......",
+	"man_dialogue": "......",
+	"man_sim_dialogue": "......",
+	"jp_dialogue": "……",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "Sorry you had to see that.",
+	"man_dialogue": "不好意思，",
+	"man_sim_dialogue": "不好意思，",
+	"jp_dialogue": "すみません、",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "And thanks for the water.",
+	"man_dialogue": "讓你見笑了。",
+	"man_sim_dialogue": "让你见笑了。",
+	"jp_dialogue": "お見苦しいところをお見せしました。",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "Here...",
+	"man_dialogue": "謝謝你的水。",
+	"man_sim_dialogue": "谢谢你的水。",
+	"jp_dialogue": "お水をありがとうございました。",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "take this as a thank-you.",
+	"man_dialogue": "作爲答謝，給你這個。",
+	"man_sim_dialogue": "作为答谢，给你这个。",
+	"jp_dialogue": "お礼に、こちらをどうぞ。",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "system",
+	"man_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "You obtained a donut!",
+	"man_dialogue": "得到了甜甜圈！",
+	"man_sim_dialogue": "得到了甜甜圈！",
+	"done": "task_3_get",
+	"jp_dialogue": "ドーナツを手に入れた！",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "It's a Sea Salt Pufferfish donut.",
+	"man_dialogue": "這是海鹽河豚口味的甜甜圈。",
+	"man_sim_dialogue": "这是海盐河豚口味的甜甜圈。",
+	"jp_dialogue": "これはフグ塩味のドーナツです。",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "They're really good. You should try one sometime.",
+	"man_dialogue": "很好吃的，你也可以嘗嘗。",
+	"man_sim_dialogue": "很好吃的，你也可以尝尝。",
+	"jp_dialogue": "とても美味しいので、よかったら食べてみてください。",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

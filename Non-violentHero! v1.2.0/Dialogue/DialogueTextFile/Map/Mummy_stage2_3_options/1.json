@@ -1,0 +1,373 @@
+[
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"change_current_character": "mummy",
+	"eng_dialogue": "What is it now?",
+	"man_dialogue": "哎喲！",
+	"man_sim_dialogue": "哎喲！",
+	"avatar": "mummy",
+	"jp_dialogue": "あら！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Oh, you again!",
+	"man_dialogue": "又是你！",
+	"man_sim_dialogue": "又是你！",
+	"avatar": "mummy",
+	"jp_dialogue": "またあなた！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "What do you want this time?",
+	"man_dialogue": "還有什麽事情？",
+	"man_sim_dialogue": "还有什么事情？",
+	"avatar": "mummy",
+	"options": [
+	  {
+		"eng_option": "Robbery!",
+		"man_option": "打劫！",
+		"man_sim_option": "打劫！",
+		"response": [
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Rob what?!",
+			"man_dialogue": "什麽打劫！",
+			"man_sim_dialogue": "什么打劫！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "何が強盗よ！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Go rob that noisy beggar outside, she’s got more money than me!",
+			"man_dialogue": "你去搶門口那個一直唱歌的乞丐，搶到的錢可能還比較多！",
+			"man_sim_dialogue": "你去抢门口那个一直唱歌的乞丐，抢到的钱可能还比较多！",
+			"jp_dialogue": "外でずっと歌ってるあの人を狙ったほうが、まだお金持ってるかもしれないわよ！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Now get out!",
+			"man_dialogue": "出去出去！",
+			"man_sim_dialogue": "出去出去！",
+			"jp_dialogue": "出てって出てって！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"change": "res://SceneTransTscn/tilemap.tscn",
+			"sceneTransition": "dissolve",
+			"startChat_for_non_attack": "false"
+		  }
+		],
+		"jp_option": "強盗だ！"
+	  },
+	  {
+		"eng_option": "Auntie, did you buy insurance yet?",
+		"man_option": "請問阿姨您买保险了嗎?",
+		"man_sim_option": "请问您买保险了吗?",
+		"response": [
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Insurance again?!",
+			"man_dialogue": "你還要我買保險？",
+			"man_sim_dialogue": "你还要我买保险？",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "まだ保険をすすめる気？",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Do I look like I’m dying?!",
+			"man_dialogue": "我看起來是隨時要死掉了嗎！",
+			"man_sim_dialogue": "我看起来是随时要死掉了吗！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "私、そんなに今にも死にそうに見える！？",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "You keep coming here to sell insurance!",
+			"man_dialogue": "一直來賣我保險！",
+			"man_sim_dialogue": "一直来卖我保险！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "何度もうちに来て、保険を売りつけようとして！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "No more insurance!",
+			"man_dialogue": "不要保險了！",
+			"man_sim_dialogue": "不要保险了！",
+			"jp_dialogue": "保険はいらないの！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "If that’s all,",
+			"man_dialogue": "沒有其他事情就出去！",
+			"man_sim_dialogue": "没有其他事情就出去！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "他に用がないなら帰って帰って！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "get out!",
+			"man_dialogue": "出去出去！",
+			"man_sim_dialogue": "出去出去！",
+			"jp_dialogue": "出てって出てって！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"change": "res://SceneTransTscn/tilemap.tscn",
+			"sceneTransition": "dissolve",
+			"startChat_for_non_attack": "false"
+		  }
+		],
+		"jp_option": "保険に入ってますか？"
+	  },
+	  {
+		"eng_option": "I am your son's friend",
+		"man_option": "我是您兒子的朋友",
+		"man_sim_option": "我是您儿子的朋友",
+		"response": [
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Oh!",
+			"man_sim_dialogue": "哎哟！",
+			"man_dialogue": "哎喲！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "あら！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "You are Otaku's friend!",
+			"man_sim_dialogue": "你是肥宅的朋友啊！",
+			"man_dialogue": "你是肥宅的朋友啊！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "あの子のお友達なのね！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "So you were just messing with Auntie earlier, huh?!",
+			"man_sim_dialogue": "所以你剛剛是在跟阿姨開玩笑是嗎！",
+			"man_dialogue": "所以你刚刚是在跟阿姨开玩笑是吗！",
+			"jp_dialogue": "じゃあさっきのはおばちゃんへの冗談だったのね！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Haha, you’re hilarious!",
+			"man_sim_dialogue": "哈哈，你很幽默誒！",
+			"man_dialogue": "哈哈，你很幽默诶！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "はは、なかなかユーモアあるじゃない！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Come in, come in!",
+			"man_sim_dialogue": "快进来快进来！",
+			"man_dialogue": "快點進來快點進來！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "さあさあ、入って入って！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "He just stays home all day.",
+			"man_sim_dialogue": "他整天躺在家里",
+			"man_dialogue": "他整天躺在家裡面",
+			"jp_dialogue": "あの子、毎日家でゴロゴロしてるから",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "I was worried he didn’t have any friends.",
+			"man_sim_dialogue": "我还怕他没有朋友",
+			"man_dialogue": "我還怕他沒有朋友",
+			"jp_dialogue": "友達なんていないんじゃないかって心配してたの",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "I’m so relieved!",
+			"man_sim_dialogue": "太好了",
+			"man_dialogue": "太好了",
+			"jp_dialogue": "よかったわ",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "He’s upstairs, on the second floor.",
+			"man_sim_dialogue": "他就在二楼的房间里面",
+			"man_dialogue": "他就在二樓的房間裡面",
+			"jp_dialogue": "あの子なら2階の部屋にいるわよ",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "He hasn’t come out in two days.",
+			"man_sim_dialogue": "两天没看到他出房门了",
+			"man_dialogue": "兩天沒有看到他出房間了",
+			"jp_dialogue": "もう2日も部屋から出てきてないの",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "No idea what he’s up to.",
+			"man_sim_dialogue": "不知道搞什么鬼",
+			"man_dialogue": "也不知道搞什麽鬼",
+			"jp_dialogue": "何してるんだか…",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Come on, I’ll take you to him!",
+			"man_sim_dialogue": "来，我带你去找他！",
+			"man_dialogue": "來我帶你去找他！",
+			"jp_dialogue": "ほら、案内するわね！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"change": "res://SceneTransTscn/stage_2_corridor.tscn",
+			"sceneTransition": "dissolve"
+		  }
+		],
+		"jp_option": "あなたの息子さんの友達です"
+	  },
+	  {
+		"eng_option": "Wanna join my team?",
+		"man_option": "您有沒有興趣加入我的團隊?",
+		"man_sim_option": "您有没有兴趣加入我们的团队？",
+		"response": [
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "What “join my team” line?",
+			"man_sim_dialogue": "什么团队？",
+			"man_dialogue": "什麽團隊？",
+			"jp_dialogue": "チームって何？",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "I’ve heard that “join a team” line before.",
+			"man_sim_dialogue": "我之前听那谁说什么进团队",
+			"man_dialogue": "我之前聼那個誰講進什麽團隊",
+			"jp_dialogue": "前に誰かがチームに入ったとか言ってて、",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Next thing you know, they got scammed!",
+			"man_sim_dialogue": "然后被人家骗钱！",
+			"man_dialogue": "然后被人家騙錢",
+			"jp_dialogue": "そのあとお金をだまし取られたのよ！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Are you trying to scam me?!",
+			"man_sim_dialogue": "你是不是来骗我的！",
+			"man_dialogue": "你是不是來騙我的哦！",
+			"jp_dialogue": "あなたも私をだます気！？",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "No, no, I'm not interested!",
+			"man_sim_dialogue": "不要不要，我没兴趣！",
+			"man_dialogue": "不要不要，沒有興趣！",
+			"jp_dialogue": "嫌よ〜、興味ないわ！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"eng_name": "Mummy",
+			"man_name": "肥宅媽咪",
+			"man_sim_name": "肥宅妈咪",
+			"eng_dialogue": "Get out, get out!",
+			"man_sim_dialogue": "出去出去！",
+			"man_dialogue": "出去出去！",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "出てって出てって！",
+			"jp_name": "オタクの母"
+		  },
+		  {
+			"change": "res://SceneTransTscn/tilemap.tscn",
+			"sceneTransition": "dissolve",
+			"startChat_for_non_attack": "false"
+		  }
+		],
+		"jp_option": "うちのチームに入りませんか？"
+	  }
+	],
+	"jp_dialogue": "まだ何か用？",
+	"jp_name": "オタクの母"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

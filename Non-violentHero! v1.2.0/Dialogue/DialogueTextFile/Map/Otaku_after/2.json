@@ -1,0 +1,252 @@
+[
+  {
+	"eng_name": "Otaku",
+	"change_current_character": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "How’s that, huh?",
+	"man_dialogue": "怎樣！",
+	"man_sim_dialogue": "怎么样！",
+	"jp_dialogue": "どうだ！",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "Blinded by the brilliance of my battle suit, huh~",
+	"man_dialogue": "被我的戰衣閃到眼睛了吧~",
+	"man_sim_dialogue": "被我的战衣闪到眼睛了吧~",
+	"options": [
+	  {
+		"eng_option": "Can I use it as a foot rag?",
+		"man_option": "我可以拿來當抹脚步嗎",
+		"man_sim_option": "我可以拿來当抹脚步吗",
+		"response": [
+		  {
+			"avatar": "otaku_shock",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "什麽！！！",
+			"eng_dialogue": "Whaaaattt!",
+			"man_sim_dialogue": "什么！！",
+			"jp_dialogue": "何だと！！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"avatar": "otaku_shock",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "不可以！！！",
+			"eng_dialogue": "Absolutely not!",
+			"man_sim_dialogue": "不可以！！",
+			"jp_dialogue": "ダメに決まってるだろ！！",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "足ふきマット代わりにしていい？"
+	  },
+	  {
+		"eng_option": "Why does it look like this?",
+		"man_option": "爲什麽長這樣的",
+		"man_sim_option": "为什么长这样哦",
+		"response": [
+		  {
+			"avatar": "otaku_happy",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "哼哼！",
+			"eng_dialogue": "Hmph!",
+			"man_sim_dialogue": "哼哼！",
+			"jp_dialogue": "ふふん！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"avatar": "otaku_happy",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "被它的美貌震懾到了吧！",
+			"eng_dialogue": "Shocked by its dazzling beauty, right?",
+			"man_sim_dialogue": "被它的美貌震慑到了吧",
+			"jp_dialogue": "その美しさに圧倒されたんだろ",
+			"jp_name": "オタク"
+		  },
+		  {
+			"avatar": "otaku_happy",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "爲了保持它原始的狀態",
+			"eng_dialogue": "To preserve its original glory,",
+			"man_sim_dialogue": "为了保持它最原始的状态",
+			"jp_dialogue": "元のままにしておきたくてさ",
+			"jp_name": "オタク"
+		  },
+		  {
+			"avatar": "otaku_happy",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "我都沒有洗過呢！",
+			"eng_dialogue": "I’ve never washed it. Not even once!",
+			"man_sim_dialogue": "我都没有洗过呢！",
+			"jp_dialogue": "一度も洗ってないんだ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"avatar": "otaku",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "雖然是穿過幾次啦...",
+			"eng_dialogue": "Though I have worn it a few times...",
+			"man_sim_dialogue": "虽然穿过几次了啦...",
+			"jp_dialogue": "まあ、何回か着たけどな…",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "なんでこんな見た目なの"
+	  },
+	  {
+		"eng_option": "I don't want this.",
+		"man_option": "我不要這個，還給你",
+		"man_sim_option": "我不要这个，还给你",
+		"response": [
+		  {
+			"avatar": "otaku_shock",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "什麽！！",
+			"eng_dialogue": "What?!",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "什么！！",
+			"jp_dialogue": "何だと！！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"avatar": "otaku_shock",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "不行啊，兄弟！",
+			"eng_dialogue": "No can do, bro!",
+			"man_sim_dialogue": "那可不行啊兄弟！",
+			"jp_dialogue": "それはダメだぞ兄弟！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku_shock",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "送出去的東西，哪裡可以拿回來呢！",
+			"eng_dialogue": "A gift is a gift, no take-backs!",
+			"man_sim_dialogue": "送出去的东西哪有拿回来的道理！",
+			"jp_dialogue": "一度あげたものを返してもらうなんてありえないだろ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "你就好好留著吧！",
+			"eng_dialogue": "You better take good care of it!",
+			"man_sim_dialogue": "你好好收着吧！",
+			"jp_dialogue": "ちゃんと受け取っとけよ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku_happy",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "不用跟我客氣啦~",
+			"eng_dialogue": "No need to be shy, bro~",
+			"man_sim_dialogue": "不用跟我客气啦~",
+			"jp_dialogue": "遠慮するなって〜",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku_happy",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "哈哈哈哈！",
+			"eng_dialogue": "Hahahaha!",
+			"man_sim_dialogue": "哈哈哈哈！",
+			"jp_dialogue": "はははは！",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "いらないから、返すよ。"
+	  },
+	  {
+		"eng_option": "Isn't this just an anime T-shirt?",
+		"man_option": "這是動漫t吧",
+		"man_sim_option": "这不就是动漫t吗",
+		"response": [
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku_happy",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "欸~",
+			"eng_dialogue": "Eh~",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "欸~",
+			"jp_dialogue": "え〜",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku_happy",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "這可是我爲我老婆應援的時候穿的戰衣啊！",
+			"eng_dialogue": "This is the sacred uniform I wore to support my waifu!",
+			"man_sim_dialogue": "这可是我为我老婆应援的时候穿的战衣啊！",
+			"jp_dialogue": "これは俺が嫁を応援する時に着る衣装なんだぞ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "歷經了風霜汗水",
+			"eng_dialogue": "It has weathered storms... and buckets of sweat.",
+			"man_sim_dialogue": "经历了风霜汗水",
+			"jp_dialogue": "風雨と汗をくぐり抜けた",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"avatar": "otaku_happy",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_dialogue": "是個百分百合格的出色戰衣！",
+			"eng_dialogue": "A truly outstanding, fully qualified battle suit!",
+			"man_sim_dialogue": "是个百分百合格的出色战衣！",
+			"jp_dialogue": "100パーセント合格の立派な衣装",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "ただのアニメTシャツじゃん"
+	  }
+	],
+	"jp_dialogue": "俺の衣装の輝きに目がくらんだだろ〜",
+	"jp_name": "オタク"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

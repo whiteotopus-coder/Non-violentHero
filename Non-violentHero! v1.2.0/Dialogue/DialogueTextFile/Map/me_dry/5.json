@@ -1,0 +1,17 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "......",
+	"man_dialogue": "......",
+	"man_sim_dialogue": "......",
+	"jp_dialogue": "……",
+	"jp_name": "作者"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

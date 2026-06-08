@@ -1,0 +1,59 @@
+[
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"change_current_character": "otaku",
+	"eng_dialogue": "....",
+	"man_dialogue": "....",
+	"man_sim_dialogue": "....",
+	"jp_dialogue": "……",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"eng_dialogue": "Who?",
+	"man_dialogue": "誰啊？",
+	"man_sim_dialogue": "谁啊？",
+	"jp_dialogue": "誰だ？",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"eng_dialogue": "My friend?",
+	"man_dialogue": "朋友？",
+	"man_sim_dialogue": "朋友？",
+	"jp_dialogue": "友達？",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"eng_dialogue": "Do I even have friends?",
+	"man_dialogue": "我有朋友的嗎？",
+	"man_sim_dialogue": "我有朋友的吗？",
+	"jp_dialogue": "俺、友達なんていたっけ…",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"eng_dialogue": "Whatever. Just come in.",
+	"man_dialogue": "算了，進來吧。",
+	"man_sim_dialogue": "算了，进来吧。",
+	"jp_dialogue": "まあいい、入れよ。",
+	"jp_name": "オタク"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://SceneTransTscn/stage_2_room.tscn",
+	"sceneTransition": "dissolve",
+	"stage_2_room_done": "true"
+  }
+]

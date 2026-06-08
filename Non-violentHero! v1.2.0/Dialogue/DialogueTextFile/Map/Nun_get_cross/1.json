@@ -1,0 +1,28 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"change_current_character": "nun",
+	"eng_dialogue": "Huh?",
+	"man_dialogue": "？",
+	"man_sim_dialogue": "?",
+	"jp_dialogue": "？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Why did you take the cross?",
+	"man_dialogue": "你拿走十字架幹嘛？",
+	"man_sim_dialogue": "你拿走十字架干嘛？",
+	"jp_dialogue": "その十字架、持っていって何する気？",
+	"jp_name": "シスター"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

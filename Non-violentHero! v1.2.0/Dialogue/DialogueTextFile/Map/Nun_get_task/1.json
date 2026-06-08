@@ -1,0 +1,36 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Who are you?",
+	"man_dialogue": "你是谁啊...",
+	"man_sim_dialogue": "你谁啊...",
+	"jp_dialogue": "誰よ、あなた…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Stop wandering around in front of me...",
+	"man_dialogue": "別在我眼前晃來晃去的...",
+	"man_sim_dialogue": "别在我前面晃来晃去的...",
+	"jp_dialogue": "私の前をうろうろしないで…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "You're an eyesore.",
+	"man_dialogue": "礙眼。",
+	"man_sim_dialogue": "碍眼。",
+	"jp_dialogue": "目障りよ。",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

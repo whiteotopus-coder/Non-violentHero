@@ -1,0 +1,42 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "I was just out here enjoying the sea breeze...",
+	"man_dialogue": "我只是在這邊吹海風...",
+	"man_sim_dialogue": "我只是在这边吹海风...",
+	"jp_dialogue": "ただ海風に当たってただけなのに……",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "Didn't expect I'd end up completely dried out.",
+	"man_dialogue": "沒想到會乾掉。",
+	"man_sim_dialogue": "没想到会干掉。",
+	"jp_dialogue": "まさか干からびるとは。",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "That was pretty careless of me.",
+	"man_dialogue": "真是粗心。",
+	"man_sim_dialogue": "真是粗心。",
+	"jp_dialogue": "迂闊だったよ。",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

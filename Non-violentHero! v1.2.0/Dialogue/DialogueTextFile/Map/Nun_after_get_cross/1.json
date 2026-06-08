@@ -1,0 +1,27 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"change_current_character": "nun",
+	"eng_dialogue": "Never mind. Just take it.",
+	"man_dialogue": "算了，你拿走吧。",
+	"man_sim_dialogue": "算了，你拿走吧。",
+	"jp_dialogue": "もういいわ、持っていきなさい。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "I have no use for it now.",
+	"man_dialogue": "我現在也用不到。",
+	"man_sim_dialogue": "我现在也用不到。",
+	"jp_dialogue": "今の私にはもう必要ないわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

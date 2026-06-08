@@ -1,0 +1,44 @@
+[
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"change_current_character": "mummy",
+	"eng_dialogue": "Here, have some more~",
+	"man_dialogue": "來，阿姨還有~",
+	"man_sim_dialogue": "来阿姨还有~",
+	"avatar": "mummy",
+	"food_num": "true",
+	"jp_dialogue": "ほら、おばちゃんまだあるよ〜",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "...Huh? Huh??",
+	"man_dialogue": "欸...欸！",
+	"man_sim_dialogue": "欸...欸！",
+	"avatar": "mummy",
+	"jp_dialogue": "…え？",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Kid? What’s wrong?",
+	"man_dialogue": "小弟，你怎麽了？",
+	"man_sim_dialogue": "小弟，你怎么了！",
+	"avatar": "mummy",
+	"food_num": "true",
+	"jp_dialogue": "坊や、どうしたの！？",
+	"jp_name": "オタクの母"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"food_ending": "true",
+	"change": "res://SceneTransTscn/ending/show_ending.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

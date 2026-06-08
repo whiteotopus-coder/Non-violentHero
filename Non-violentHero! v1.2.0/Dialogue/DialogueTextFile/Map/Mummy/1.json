@@ -1,0 +1,63 @@
+[
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Hey, kid!",
+	"man_dialogue": "小弟！",
+	"man_sim_dialogue": "小弟弟",
+	"avatar": "mummy",
+	"change_current_character": "mummy",
+	"jp_dialogue": "坊や",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "You must be starving!",
+	"man_dialogue": "你肚子餓了吧？",
+	"man_sim_dialogue": "你吃了吗？",
+	"avatar": "mummy",
+	"jp_dialogue": "ごはん食べた？",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Come in! Auntie made lots of food!",
+	"man_dialogue": "來！阿姨煮了很多東西！",
+	"man_sim_dialogue": "来，阿姨煮了很多吃的！",
+	"avatar": "mummy",
+	"jp_dialogue": "ほら、おばちゃんいっぱい料理作ったの！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "I’ve just put everything on the table!",
+	"man_dialogue": "我放在餐桌上啊！",
+	"man_sim_dialogue": "我就放去餐桌上吧！",
+	"avatar": "mummy",
+	"jp_dialogue": "食卓に置いておくね！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Go on, eat! No need to be shy with Auntie!",
+	"man_dialogue": "你快去吃吧，不用跟阿姨客氣~",
+	"man_sim_dialogue": "你不要跟阿姨客气，快吃吧快吃吧~",
+	"avatar": "mummy",
+	"jp_dialogue": "遠慮しないで、どんどん食べてね〜",
+	"jp_name": "オタクの母"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"feed_you": "true",
+	"close": "true"
+  }
+]

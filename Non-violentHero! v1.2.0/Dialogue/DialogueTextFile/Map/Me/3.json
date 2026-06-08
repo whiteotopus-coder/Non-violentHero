@@ -1,0 +1,47 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "你一直來找我欸。",
+	"eng_dialogue": "You keep coming back to me.",
+	"man_sim_dialogue": "你一直来找我呢。",
+	"change_current_character": "pink",
+	"jp_dialogue": "ずっと私のところに来るね。",
+	"jp_name": "作者"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "難道你沒有朋友嗎。",
+	"eng_dialogue": "Don’t tell me you don’t have any friends.",
+	"man_sim_dialogue": "难道你没有朋友吗。",
+	"jp_dialogue": "もしかして友達いないの？",
+	"jp_name": "作者"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "別傷心。",
+	"eng_dialogue": "It’s okay.",
+	"man_sim_dialogue": "别伤心。",
+	"jp_dialogue": "落ち込まないで。",
+	"jp_name": "作者"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "我也沒有。",
+	"eng_dialogue": "I don’t have any either.",
+	"man_sim_dialogue": "我也没有。",
+	"jp_dialogue": "私もいないから。",
+	"jp_name": "作者"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

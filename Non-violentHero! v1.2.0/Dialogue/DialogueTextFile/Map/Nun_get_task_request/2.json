@@ -1,0 +1,47 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "You...",
+	"man_dialogue": "你...",
+	"man_sim_dialogue": "你...",
+	"jp_dialogue": "あなた…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Still not giving up...?",
+	"man_dialogue": "還不放棄嗎...？",
+	"man_sim_dialogue": "还不放弃吗...？",
+	"jp_dialogue": "まだ諦めていないの…？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Since you're so determined,",
+	"man_dialogue": "既然你這麽有決心",
+	"man_sim_dialogue": "既然你这么有决心",
+	"jp_dialogue": "そこまでの覚悟があるなら",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "I'll give you one more chance.",
+	"man_dialogue": "那我就再給你一次機會吧。",
+	"man_sim_dialogue": "那我就再给你一次机会吧。",
+	"jp_dialogue": "もう一度だけチャンスをあげるわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://Scene/Church/attackchurch.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

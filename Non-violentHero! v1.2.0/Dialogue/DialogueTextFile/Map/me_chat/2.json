@@ -1,0 +1,41 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"animateQMe": "me_sleep",
+	"eng_dialogue": "Hero!",
+	"man_dialogue": "勇者！",
+	"man_sim_dialogue": "勇者！",
+	"jp_dialogue": "勇者！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "How’s it going?",
+	"man_dialogue": "進展怎麽樣了啊？",
+	"man_sim_dialogue": "进展如何了？",
+	"jp_dialogue": "進み具合はどうだ？",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "Have you found my daughter?",
+	"man_dialogue": "找到我女兒了沒啊？",
+	"man_sim_dialogue": "找到我女儿了吗？",
+	"jp_dialogue": "娘は見つかったか？",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Ugh...why am I running into so many weirdos lately?",
+	"man_dialogue": "爲什麽最近總是見到一堆怪人...",
+	"man_sim_dialogue": "为什么最近见到的都是一些怪人....",
+	"jp_dialogue": "最近どうして会う人会う人、変な人ばっかりなの…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "I just want to see the princess...",
+	"man_dialogue": "可惡，好想見公主...",
+	"man_sim_dialogue": "可恶，好想见公主...",
+	"jp_dialogue": "もう…姫に会いたい…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Where in the world did she go...",
+	"man_dialogue": "公主...到底跑哪裡去了...",
+	"man_sim_dialogue": "公主到底跑哪里去了...",
+	"jp_dialogue": "姫はいったいどこへ行っちゃったの…",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

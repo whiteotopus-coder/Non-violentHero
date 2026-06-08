@@ -1,0 +1,118 @@
+[
+  {
+	"eng_name": "Mummy",
+	"change_current_character": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Otaku!",
+	"avatar": "mummy",
+	"man_dialogue": "肥宅！",
+	"ani_mummy": "left",
+	"man_sim_dialogue": "肥宅！",
+	"jp_dialogue": "オタク！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Otaku! Open the door!",
+	"avatar": "mummy",
+	"man_dialogue": "肥宅！開門！",
+	"man_sim_dialogue": "肥宅！开门！",
+	"ani_mummy": "left",
+	"jp_dialogue": "オタク！開けなさい！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Your friend is here!",
+	"avatar": "mummy",
+	"man_dialogue": "你朋友來找你！",
+	"man_sim_dialogue": "你朋友来了！",
+	"ani_mummy": "left",
+	"jp_dialogue": "お友達が来たわよ！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": ".....",
+	"avatar": "mummy",
+	"man_dialogue": ".....",
+	"man_sim_dialogue": ".....",
+	"ani_mummy": "left",
+	"jp_dialogue": "……",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "I’m going downstairs first.",
+	"avatar": "mummy",
+	"man_dialogue": "我先下去了哈",
+	"man_sim_dialogue": "我先下去了哈",
+	"ani_mummy": "left",
+	"jp_dialogue": "おばちゃんは先に下に戻るわね",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "You can open the door later!",
+	"avatar": "mummy",
+	"man_dialogue": "等下你自己開門給他！",
+	"man_sim_dialogue": "等下你自己开门给他！",
+	"ani_mummy": "left",
+	"jp_dialogue": "あとでちゃんとドア開けてあげてね！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Kid.",
+	"avatar": "mummy",
+	"man_dialogue": "小弟",
+	"man_sim_dialogue": "小弟弟",
+	"ani_mummy": "right",
+	"jp_dialogue": "坊や、",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Auntie’s going downstairs now.",
+	"avatar": "mummy",
+	"man_dialogue": "阿姨先下樓了哈",
+	"man_sim_dialogue": "阿姨先下去了哈",
+	"ani_mummy": "right",
+	"jp_dialogue": "おばちゃん先に下に行くね",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "He’ll open the door for you later.",
+	"avatar": "mummy",
+	"man_dialogue": "等下他會開門給你的。",
+	"man_sim_dialogue": "等下他会给你开门的。",
+	"ani_mummy": "right",
+	"jp_dialogue": "あとであの子がドア開けてくれるからね！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"clear_script": "true",
+	"startChat_for_non_attack": "false",
+	"change": "res://SceneTransTscn/stage_2_corridor.tscn",
+	"sceneTransition": "dissolve",
+	"stage_2_corridor_done": "true"
+  }
+]

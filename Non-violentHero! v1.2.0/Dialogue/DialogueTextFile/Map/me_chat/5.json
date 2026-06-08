@@ -1,0 +1,52 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "kingangry",
+	"eng_dialogue": "You're not really asleep, are you?",
+	"man_dialogue": "你在裝睡對吧！",
+	"man_sim_dialogue": "你在装睡对吧！",
+	"jp_dialogue": "寝たふりしてるだろ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "kingangry",
+	"animateQMe": "me_sleep",
+	"eng_dialogue": "I know you heard everything I said.",
+	"man_dialogue": "你不要以爲我不知道哦！",
+	"man_sim_dialogue": "我可是知道的哦！",
+	"jp_dialogue": "私はわかってるんだぞ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "kingangry",
+	"eng_dialogue": "You're just pretending not to hear me.",
+	"man_dialogue": "你一定聽到我說話了！",
+	"man_sim_dialogue": "你一定听到我说话了！",
+	"jp_dialogue": "今、絶対私の話聞こえてただろ！",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "kingangry",
+	"eng_dialogue": "Aren’t you?!",
+	"man_dialogue": "所以你在裝睡對吧！",
+	"man_sim_dialogue": "所以你在装睡对吧！",
+	"jp_dialogue": "だから寝たふりしてるんだろ！？",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

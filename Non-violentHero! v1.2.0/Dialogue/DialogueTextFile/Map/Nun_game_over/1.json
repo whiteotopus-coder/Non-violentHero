@@ -1,0 +1,50 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"animation": "nun_black",
+	"man_dialogue": "...",
+	"eng_dialogue": "...",
+	"man_sim_dialogue": "...",
+	"jp_dialogue": "…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "你果然不值得信任...",
+	"eng_dialogue": "As expected, you are not to be trusted...",
+	"man_sim_dialogue": "你果然不值得信任...",
+	"jp_dialogue": "やっぱりあなたは信用できない…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "我不會提供幫助的。",
+	"eng_dialogue": "I won't help you.",
+	"man_sim_dialogue": "我不会提供帮助的。",
+	"jp_dialogue": "手助けなんてしないわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "滾蛋吧。",
+	"eng_dialogue": "Now, get out of my sight...",
+	"man_sim_dialogue": "滚吧。",
+	"jp_dialogue": "消えなさい。",
+	"jp_name": "シスター"
+  },
+  {
+	"add": "Nun",
+	"back_pos": "game_over_church",
+	"change": "res://SceneTransTscn/church.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]

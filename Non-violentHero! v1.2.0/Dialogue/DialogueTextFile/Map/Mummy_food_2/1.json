@@ -1,0 +1,43 @@
+[
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"change_current_character": "mummy",
+	"eng_dialogue": "Wow, you're eating as much as Otaku!",
+	"man_dialogue": "哇你吃的跟肥宅一樣多欸！",
+	"man_sim_dialogue": "哇你吃的跟肥宅一样多欸！",
+	"avatar": "mummy",
+	"food_num": "true",
+	"jp_dialogue": "わあ、あのオタクの子と同じくらいたくさん食べるのね！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "No wonder, you must be Otaku’s friend!",
+	"man_dialogue": "果然是肥宅的朋友！",
+	"man_sim_dialogue": "果然是肥宅的朋友！",
+	"avatar": "mummy",
+	"jp_dialogue": "やっぱりあの子の友達だわ！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Come on, Auntie made plenty more. Don’t be shy~",
+	"man_dialogue": "來，阿姨還有很多，不用跟阿姨客氣~",
+	"man_sim_dialogue": "来阿姨还有很多，不用跟阿姨客气~",
+	"avatar": "mummy",
+	"food_num": "true",
+	"jp_dialogue": "ほら、おばちゃんまだいっぱいあるから、遠慮しないでね〜",
+	"jp_name": "オタクの母"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"bites": "true",
+	"close": "true"
+  }
+]

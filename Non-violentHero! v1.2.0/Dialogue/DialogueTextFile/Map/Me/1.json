@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "哈嘍。",
+	"eng_dialogue": "Hello.",
+	"man_sim_dialogue": "嗨！",
+	"change_current_character": "pink",
+	"jp_dialogue": "やあ！",
+	"jp_name": "作者"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "我是作者。",
+	"eng_dialogue": "I’m the creator.",
+	"man_sim_dialogue": "我是作者。",
+	"jp_dialogue": "作者です。",
+	"jp_name": "作者"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "祝你玩的開心哦。",
+	"eng_dialogue": "Have fun.",
+	"man_sim_dialogue": "祝你玩得开心哦。",
+	"jp_dialogue": "楽しんでくれたらうれしいです。",
+	"jp_name": "作者"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

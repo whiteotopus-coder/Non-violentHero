@@ -1,0 +1,82 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"man_dialogue": "怎麽了？",
+	"eng_dialogue": "What is it?",
+	"man_sim_dialogue": "怎么了？",
+	"animateQMe": "me_default",
+	"options": [
+	  {
+		"eng_option": "Your game is boring",
+		"man_option": "你的游戲好無聊",
+		"man_sim_option": "你的游戏好无聊",
+		"response": [
+		  {
+			"eng_name": "Creator",
+			"man_name": "作者",
+			"man_sim_name": "作者",
+			"man_sim_dialogue": "...",
+			"eng_dialogue": "...",
+			"man_dialogue": "...",
+			"jp_dialogue": "…",
+			"jp_name": "作者"
+		  },
+		  {
+			"eng_name": "Creator",
+			"man_name": "作者",
+			"man_sim_name": "作者",
+			"man_sim_dialogue": "噢。",
+			"eng_dialogue": "Oh.",
+			"man_dialogue": "哦。",
+			"jp_dialogue": "あ、そう。",
+			"jp_name": "作者"
+		  },
+		  {
+			"animateQMe": "me_cry",
+			"startChat_for_non_attack": "false",
+			"close": "true"
+		  }
+		],
+		"jp_option": "このゲームつまんない"
+	  },
+	  {
+		"eng_option": "Your game is fun!",
+		"man_option": "你的游戲好好玩！",
+		"man_sim_option": "你的游戏好好玩！",
+		"response": [
+		  {
+			"eng_name": "Creator",
+			"man_name": "作者",
+			"man_sim_name": "作者",
+			"man_sim_dialogue": "...",
+			"eng_dialogue": "...",
+			"man_dialogue": "...",
+			"jp_dialogue": "…",
+			"jp_name": "作者"
+		  },
+		  {
+			"eng_name": "Creator",
+			"man_name": "作者",
+			"man_sim_name": "作者",
+			"man_sim_dialogue": "谢谢",
+			"eng_dialogue": "Thanks.",
+			"man_dialogue": "謝謝。",
+			"animateQMe": "me_happy",
+			"jp_dialogue": "ありがとう",
+			"jp_name": "作者"
+		  }
+		],
+		"jp_option": "このゲームすごく面白い！"
+	  }
+	],
+	"jp_dialogue": "どうしたの？",
+	"jp_name": "作者"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

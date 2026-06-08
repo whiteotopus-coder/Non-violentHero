@@ -1,0 +1,107 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Would you stop bothering me?",
+	"man_dialogue": "沒什麽事的話別來煩我好嗎...",
+	"man_sim_dialogue": "没事的话别来烦我行吗...",
+	"have_unclock_option": "true",
+	"options": [
+	  {
+		"eng_option": "Can you let that girl outside come in?",
+		"man_option": "可以讓外面那個女生進來嗎",
+		"man_sim_option": "可以让外面那个女生进来吗",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "That girl who’s been making a racket outside?",
+			"man_dialogue": "那個在外面尖叫的怪人？",
+			"man_sim_dialogue": "那个在外面尖叫的怪人？",
+			"jp_dialogue": "外で叫んでるあの変な人のこと？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "Absolutely not.",
+			"man_dialogue": "當然不可以。",
+			"man_sim_dialogue": "当然不行。",
+			"jp_dialogue": "もちろんダメよ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "She has already annoyed me countless times.",
+			"man_dialogue": "她來煩過我無數次了",
+			"man_sim_dialogue": "她来烦我无数遍了。",
+			"jp_dialogue": "あの人、何度も何度も私を困らせたの。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "To protect the peace of this church,",
+			"man_dialogue": "爲了保護教堂的安寧",
+			"man_sim_dialogue": "为了教堂的安宁",
+			"jp_dialogue": "教会の平穏のためにも、",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "I will never allow her inside.",
+			"man_dialogue": "我是不會允許她進來的。",
+			"man_sim_dialogue": "我是不会允许她进来的。",
+			"show_last_option_nun": "true",
+			"jp_dialogue": "中に入れるつもりはないわ。",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "外にいるあの女の子を中に入れてもらえませんか"
+	  },
+	  {
+		"eng_option": "The princess was captured by the Demon King.",
+		"man_option": "公主被魔王抓走了",
+		"man_sim_option": "公主被魔王抓走了",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "......",
+			"man_dialogue": "....",
+			"man_sim_dialogue": "....",
+			"jp_dialogue": "……",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "What?",
+			"man_dialogue": "什麽？",
+			"man_sim_dialogue": "什么？",
+			"done": "church_request",
+			"jp_dialogue": "何ですって？",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "姫が魔王にさらわれました"
+	  }
+	],
+	"jp_dialogue": "用がないなら話しかけないでくれる…",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

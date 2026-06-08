@@ -1,0 +1,18 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "zzz",
+	"man_dialogue": "zzz",
+	"man_sim_dialogue": "zzz",
+	"jp_dialogue": "zzz",
+	"jp_name": "作者",
+	"animateQMe": "me_cook1"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

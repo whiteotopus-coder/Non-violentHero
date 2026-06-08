@@ -1,0 +1,84 @@
+[
+  {
+	"eng_name": "Otaku",
+	"change_current_character": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "Bro!",
+	"man_dialogue": "兄弟啊！",
+	"man_sim_dialogue": "兄弟啊！",
+	"jp_dialogue": "兄弟よ！",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "Appreciate it, appreciate it!",
+	"man_dialogue": "真的很感謝你啊！",
+	"man_sim_dialogue": "感激不尽感激不尽！",
+	"jp_dialogue": "本当にありがとな、本当にありがとな！",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "As a token of my appreciation...",
+	"man_dialogue": "爲了答謝你！",
+	"man_sim_dialogue": "为了答谢你",
+	"jp_dialogue": "お礼として",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "I’m giving you… the Legendary Battle Suit!",
+	"man_dialogue": "傳說中的戰衣就送你啦！",
+	"man_sim_dialogue": "传说中的战衣就送给你啦！",
+	"jp_dialogue": "伝説の衣装をお前にやるぜ！",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "System",
+	"man_name": "系統",
+	"avatar": "setting",
+	"eng_dialogue": "You obtained the Legendary Battle Suit!",
+	"man_dialogue": "得到了傳說中的戰衣！",
+	"done": "task_2_get",
+	"man_sim_dialogue": "得到了传说中的战衣！",
+	"jp_dialogue": "伝説の衣装を手に入れた！",
+	"jp_name": "システム"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "No need to thank me~",
+	"man_dialogue": "不用太感謝我~",
+	"man_sim_dialogue": "不用太感谢我~",
+	"jp_dialogue": "そんなに感謝しなくていいって〜",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_happy",
+	"eng_dialogue": "I’ve got a spare anyway~",
+	"man_dialogue": "我其實還有一件啦~",
+	"man_sim_dialogue": "我其实还有一件啦~",
+	"jp_dialogue": "実はもう一着持ってるからな〜",
+	"jp_name": "オタク"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

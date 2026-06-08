@@ -1,0 +1,26 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "你還在磨蹭什麽？",
+	"eng_dialogue": "Why are you still standing around?",
+	"man_sim_dialogue": "你还磨蹭什么？",
+	"jp_dialogue": "何をぐずぐずしてるの？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "快去救公主！",
+	"man_sim_dialogue": "快去救人！",
+	"eng_dialogue": "Go save the princess. Move.",
+	"jp_dialogue": "早く助けに行って！",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

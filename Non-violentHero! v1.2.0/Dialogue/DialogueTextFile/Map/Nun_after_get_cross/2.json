@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"change_current_character": "nun",
+	"eng_dialogue": "So why did you take the cross?",
+	"man_dialogue": "所以你拿走十字架幹嘛？",
+	"man_sim_dialogue": "所以你拿走十字架干嘛？",
+	"jp_dialogue": "で、その十字架持っていって何するつもり？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "...Are you planning to hit someone with it?",
+	"man_dialogue": "...該不會是要拿去打人吧？",
+	"man_sim_dialogue": "...该不会是要拿去打人吧？",
+	"jp_dialogue": "…まさか、人を殴るために使うんじゃないでしょうね？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Didn’t you say you’re against violence?",
+	"man_dialogue": "你不是說不提倡暴力的嗎？",
+	"man_sim_dialogue": "你不是说不提倡暴力的吗？",
+	"jp_dialogue": "あんた、暴力はよくないって言ってなかった？",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

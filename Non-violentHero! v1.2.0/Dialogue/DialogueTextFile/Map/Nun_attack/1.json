@@ -1,0 +1,1524 @@
+[
+  {
+	"auto_save": "true",
+	"background_song": "no",
+	"change_current_character": "nun",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"animation": "nun_default",
+	"man_dialogue": "要讓我信任你...",
+	"eng_dialogue": "To earn my trust...",
+	"man_sim_dialogue": "要让我信任你...",
+	"jp_dialogue": "私に信じてほしいなら…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "你得先证明你的目的真的是为了救公主。",
+	"eng_dialogue": "you must prove that your only intention is to save the princess... and nothing more.",
+	"man_sim_dialogue": "你得先证明你的目的真的是为了救公主。",
+	"jp_dialogue": "まず、本当に姫を助けるために来たって証明してもらうわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "所以...",
+	"eng_dialogue": "So...",
+	"man_sim_dialogue": "所以...",
+	"jp_dialogue": "だから…",
+	"jp_name": "シスター"
+  },
+  {
+	"background_song": "battle",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "先來確認一下你對公主的愛吧。",
+	"eng_dialogue": "Let me test how deep your love for the princess truly runs.",
+	"man_sim_dialogue": "先确认一下你对公主的爱吧。",
+	"animation": "nun_knife",
+	"options": [
+	  {
+		"eng_option": "I don’t believe in violence.",
+		"man_option": "我不提倡暴力的",
+		"man_sim_option": "啊我不提倡暴力的",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_effect": "flash",
+			"man_sim_dialogue": "噢？不提倡暴力？",
+			"man_dialogue": "噢？不提倡暴力？",
+			"eng_dialogue": "Oh? You don't believe in violence?",
+			"jp_dialogue": "ほう？ 暴力を推奨しない？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "...真是优秀的坚持...与我的想法不谋而合。",
+			"man_dialogue": "...真是優秀的堅持...與我的想法不謀而合。",
+			"eng_dialogue": "...A noble conviction... one that aligns perfectly with mine.",
+			"jp_dialogue": "…立派な信念ね…私の考えとも一致しているわ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "如果世间没有暴力，公主将十分的安全...",
+			"animation": "nun_knife_back",
+			"man_dialogue": "如果世間沒有暴力，公主將十分安全...",
+			"eng_dialogue": "If the world were free from violence, the princess would be far safer...",
+			"jp_dialogue": "この世に暴力がなければ、姫はきっと安全だもの…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "calm",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "我很欣赏你。",
+			"man_dialogue": "我很欣賞你。",
+			"eng_dialogue": "I admire you.",
+			"animation": "nun_default",
+			"jp_dialogue": "あなたのこと、少し見直したわ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "那就换一种方法，来让你证明你对公主的爱。",
+			"man_dialogue": "那就換一種方法，來讓你證明你對公主的愛。",
+			"eng_dialogue": "Then we shall try another way to prove your love for the princess.",
+			"jp_dialogue": "じゃあ別の方法で、あなたに姫への想いを証明してもらうわ。",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "あ、僕は暴力を推奨しないので"
+	  },
+	  {
+		"eng_option": "Violence is not the answer.",
+		"man_option": "暴力是不好的",
+		"man_sim_option": "暴力是不好的",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_effect": "flash",
+			"man_sim_dialogue": "噢？暴力不好？",
+			"man_dialogue": "噢？暴力不好？",
+			"eng_dialogue": "Oh? Violence is not the answer?",
+			"jp_dialogue": "ほう？ 暴力はよくない？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "...说得真好...与我的想法不谋而合。",
+			"man_dialogue": "...說得真好...與我的想法不謀而合。",
+			"eng_dialogue": "...Well said... That resonates with me... deeply.",
+			"jp_dialogue": "…いいことを言うわね…私の考えとも一致しているわ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "如果世间没有暴力，公主将十分的安全...",
+			"animation": "nun_knife_back",
+			"man_dialogue": "如果世間沒有暴力，公主將十分安全...",
+			"eng_dialogue": "If the world were free from violence, the princess would be so much safer...",
+			"jp_dialogue": "この世に暴力がなければ、姫はきっと安全だもの…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "calm",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "我很欣赏你。",
+			"man_dialogue": "我很欣賞你。",
+			"eng_dialogue": "I admire you.",
+			"animation": "nun_default",
+			"jp_dialogue": "あなたのこと、少し見直したわ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "那就换一种方法，来证明你对公主的爱。",
+			"man_dialogue": "那就換一種方法，來證明你對公主的愛。",
+			"eng_dialogue": "Then we shall try another way to prove your love for the princess.",
+			"jp_dialogue": "じゃあ別の方法で、あなたに姫への想いを証明してもらうわ。",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "暴力はよくない"
+	  }
+	],
+	"jp_dialogue": "まずは姫への愛を確かめるわね。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "我就來看看你對公主究竟有多了解吧。",
+	"man_sim_dialogue": "我就看看你对公主究竟有多了解吧。",
+	"eng_dialogue": "Let’s see how well you truly know the princess.",
+	"jp_dialogue": "どれだけ姫のことを分かっているのか、見せてもらうわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "嗯....",
+	"man_sim_dialogue": "嗯...",
+	"eng_dialogue": "Hmm...",
+	"jp_dialogue": "そうね…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "你就先...",
+	"man_sim_dialogue": "你就先...",
+	"eng_dialogue": "Very well...begin with this.",
+	"man_sim_mention": "下一句是问答题...",
+	"man_mention": "下一句進入問答...",
+	"eng_mention": "Next question...",
+	"jp_dialogue": "まずは…",
+	"jp_name": "シスター",
+	"jp_mention": "次は質問…"
+  },
+  {
+	"background_song": "calm",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "回答我公主的名字是什麽吧。",
+	"man_sim_dialogue": "回答我公主的名字是什么吧。",
+	"eng_dialogue": "Answer me. What is the princess’s name?",
+	"animation": "nun_default",
+	"options": [
+	  {
+		"eng_option": "Seraphina Calista Isolde Bellamy Elowen Charlotte Wang",
+		"man_option": "瑟拉菲娜 卡莉絲妲 伊索德 貝拉米 伊洛雯 夏洛特 王",
+		"man_sim_option": "瑟拉菲娜 卡莉丝妲 伊索德 贝拉米 伊洛雯 夏洛特 王",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"play_false_animation": "true",
+			"animation": "nun_black",
+			"man_sim_dialogue": "错了！",
+			"man_dialogue": "錯了！",
+			"eng_dialogue": "Wrong!",
+			"jp_dialogue": "間違いよ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "battle",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "公主的名字是瑟拉菲娜 卡莉丝妲 伊索德 伊洛雯 贝拉米 夏洛特 王，",
+			"man_dialogue": "公主的名字是瑟拉菲娜 卡莉絲妲 伊索德 伊洛雯 貝拉米 夏洛特 王！",
+			"eng_dialogue": "Her true name is Seraphina Calista Isolde Elowen Bellamy Charlotte Wang.",
+			"jp_dialogue": "姫の名前はセラフィナ・カリスタ・イゾルデ・エロウェン・ベラミー・シャーロット・王であって、",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不是瑟拉菲娜 卡莉丝妲 伊索德 贝拉米 伊洛雯 夏洛特 王！",
+			"man_dialogue": "不是瑟拉菲娜 卡莉絲妲 伊索德 貝拉米 伊洛雯 夏洛特 王！",
+			"eng_dialogue": "Not Seraphina Calista Isolde Bellamy Elowen Charlotte Wang!",
+			"jp_dialogue": "セラフィナ・カリスタ・イゾルデ・ベラミー・エロウェン・シャーロット・王じゃないわ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "连这么简单的问题都会错！",
+			"man_dialogue": "連這麽簡單的問題都會錯！",
+			"eng_dialogue": "You couldn't even answer the most basic question!",
+			"jp_dialogue": "こんな簡単な問題すら間違えるなんて！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "可见你对公主一点都不上心！",
+			"man_dialogue": "可見你對公主一點都不上心！",
+			"eng_dialogue": "Clearly, you hold no true regard for the princess!",
+			"jp_dialogue": "それだけで、あなたが姫にまるで関心ないって分かるわ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不值得信任...",
+			"man_dialogue": "不值得信任...",
+			"eng_dialogue": "You are unworthy of trust...",
+			"false": "true",
+			"jp_dialogue": "信用に値しない…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "...再来吧。",
+			"animation": "nun_default",
+			"man_dialogue": "...再來吧。",
+			"eng_dialogue": "...Try again.",
+			"jp_dialogue": "…もう一度よ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不答对公主的名字...我不是罢休的。",
+			"man_dialogue": "不答對公主的名字，我是不會罷休的。",
+			"eng_dialogue": "I won’t rest until you speak her name correctly.",
+			"in_class_redo": "6",
+			"jp_dialogue": "姫の名前を正しく答えるまでは…通さないわ。",
+			"jp_name": "シスター",
+			"man_sim_mention": "下一句回到问题...",
+			"man_mention": "下一句回到問題...",
+			"eng_mention": "Back to the question...",
+			"jp_mention": "質問に戻る…"
+		  }
+		],
+		"jp_option": "セラフィナ・カリスタ・イゾルデ・ベラミー・エロウェン・シャーロット・王"
+	  },
+	  {
+		"eng_option": "Seraphina Isolde Calista Elowen Bellamy Charlotte Wang",
+		"man_option": "瑟拉菲娜 伊索德 卡莉絲妲 伊洛雯 貝拉米 夏洛特 王",
+		"man_sim_option": "瑟拉菲娜 伊索德 卡莉丝妲 伊洛雯 贝拉米 夏洛特 王",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"play_false_animation": "true",
+			"animation": "nun_black",
+			"man_sim_dialogue": "错了！",
+			"man_dialogue": "錯了！",
+			"eng_dialogue": "Incorrect!",
+			"jp_dialogue": "間違いよ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "battle",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "公主的名字是瑟拉菲娜 卡莉丝妲 伊索德 伊洛雯 贝拉米 夏洛特 王，",
+			"man_dialogue": "公主的名字是瑟拉菲娜 卡莉絲妲 伊索德 伊洛雯 貝拉米 夏洛特 王！",
+			"eng_dialogue": "The princess's full name is Seraphina Calista Isolde Elowen Bellamy Charlotte Wang.",
+			"jp_dialogue": "姫の名前はセラフィナ・カリスタ・イゾルデ・エロウェン・ベラミー・シャーロット・王であって、",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不是瑟拉菲娜 伊索德 卡莉丝妲 伊洛雯 贝拉米 夏洛特 王！",
+			"man_dialogue": "不是瑟拉菲娜 伊索德 卡莉絲妲 伊洛雯 貝拉米 夏洛特 王！",
+			"eng_dialogue": "Not Seraphina Isolde Calista Elowen Bellamy Charlotte Wang!",
+			"jp_dialogue": "セラフィナ・イゾルデ・カリスタ・エロウェン・ベラミー・シャーロット・王じゃないわ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "这么明显的差别都意识不到！",
+			"man_dialogue": "這麽明顯的差別你都意識不到！",
+			"eng_dialogue": "You can't even spot the most obvious flaw?",
+			"jp_dialogue": "こんなにはっきり違うのに気づかないなんて！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "可见你对公主一点都不上心！",
+			"man_dialogue": "可見你對公主一點都不上心！",
+			"eng_dialogue": "That shows just how little she means to you.",
+			"jp_dialogue": "それだけで、あなたが姫にまるで関心ないって分かるわ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不值得信任...",
+			"man_dialogue": "不值得信任...",
+			"eng_dialogue": "You are unworthy of trust...",
+			"false": "true",
+			"jp_dialogue": "信用に値しない…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "...再来吧。",
+			"animation": "nun_default",
+			"man_dialogue": "...再來吧。",
+			"eng_dialogue": "...Try again.",
+			"jp_dialogue": "…もう一度よ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不答对公主的名字...我不是罢休的。",
+			"man_dialogue": "不答對公主的名字，我是不會罷休的。",
+			"eng_dialogue": "I won’t rest until you speak her name correctly.",
+			"in_class_redo": "6",
+			"jp_dialogue": "姫の名前を正しく答えるまでは…通さないわ。",
+			"jp_name": "シスター",
+			"man_sim_mention": "下一句回到问题...",
+			"man_mention": "下一句回到問題...",
+			"eng_mention": "Back to the question...",
+			"jp_mention": "質問に戻る…"
+		  }
+		],
+		"jp_option": "セラフィナ・イゾルデ・カリスタ・エロウェン・ベラミー・シャーロット・王"
+	  },
+	  {
+		"eng_option": "Seraphina Charlotte Isolde Elowen Bellamy Calista Wang",
+		"man_option": "瑟拉菲娜 夏洛特 伊索德 伊洛雯 貝拉米 卡莉絲妲 王",
+		"man_sim_option": "瑟拉菲娜 夏洛特 伊索德 伊洛雯 贝拉米 卡莉丝妲 王",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"play_false_animation": "true",
+			"animation": "nun_black",
+			"man_sim_dialogue": "错了！",
+			"man_dialogue": "錯了！",
+			"eng_dialogue": "Incorrect!",
+			"jp_dialogue": "間違いよ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "battle",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "公主的名字是瑟拉菲娜 卡莉丝妲 伊索德 伊洛雯 贝拉米 夏洛特 王，",
+			"man_dialogue": "公主的名字是瑟拉菲娜 卡莉絲妲 伊索德 伊洛雯 貝拉米 夏洛特 王！",
+			"eng_dialogue": "The princess's full name is Seraphina Calista Isolde Elowen Bellamy Charlotte Wang.",
+			"jp_dialogue": "姫の名前はセラフィナ・カリスタ・イゾルデ・エロウェン・ベラミー・シャーロット・王であって、",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不是瑟拉菲娜 夏洛特 伊索德 伊洛雯 贝拉米 卡莉丝妲 王！",
+			"man_dialogue": "不是瑟拉菲娜 夏洛特 伊索德 伊洛雯 貝拉米 卡莉絲妲 王！",
+			"eng_dialogue": "Not Seraphina Charlotte Isolde Elowen Bellamy Calista Wang!",
+			"jp_dialogue": "セラフィナ・シャーロット・イゾルデ・エロウェン・ベラミー・カリスタ・王じゃないわ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "这么明显的差别都意识不到！",
+			"man_dialogue": "這麽明顯的差別你都意識不到！",
+			"eng_dialogue": "You can't even spot the most obvious flaw?",
+			"jp_dialogue": "こんなにはっきりした違いにも気づかないなんて！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "可见你对公主一点都不上心！",
+			"man_dialogue": "可見你對公主一點都不上心！",
+			"eng_dialogue": "That shows just how little she means to you.",
+			"jp_dialogue": "それだけで、あなたが姫にまるで関心ないって分かるわ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不值得信任...",
+			"man_dialogue": "不值得信任...",
+			"eng_dialogue": "You are unworthy of trust...",
+			"false": "true",
+			"jp_dialogue": "信用に値しない…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "...再来吧。",
+			"animation": "nun_default",
+			"man_dialogue": "...再來吧。",
+			"eng_dialogue": "...Try again.",
+			"jp_dialogue": "…もう一度よ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不答对公主的名字...我不是罢休的。",
+			"man_dialogue": "不答對公主的名字，我是不會罷休的。",
+			"eng_dialogue": "I won’t rest until you speak her name correctly.",
+			"in_class_redo": "6",
+			"jp_dialogue": "姫の名前を正しく答えるまでは…通さないわ。",
+			"jp_name": "シスター",
+			"man_sim_mention": "下一句回到问题...",
+			"man_mention": "下一句回到問題...",
+			"eng_mention": "Back to the question...",
+			"jp_mention": "質問に戻る…"
+		  }
+		],
+		"jp_option": "セラフィナ・シャーロット・イゾルデ・エロウェン・ベラミー・カリスタ・王"
+	  },
+	  {
+		"eng_option": "Seraphina Calista Isolde Elowen Bellamy Charlotte Wang",
+		"man_option": "瑟拉菲娜 卡莉絲妲 伊索德 伊洛雯 貝拉米 夏洛特 王",
+		"man_sim_option": "瑟拉菲娜 卡莉丝妲 伊索德 伊洛雯 贝拉米 夏洛特 王",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "哼。",
+			"man_dialogue": "哼。",
+			"eng_dialogue": "Hmph.",
+			"jp_dialogue": "ふん。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "答对了。",
+			"man_dialogue": "答對了。",
+			"eng_dialogue": "You got it right.",
+			"jp_dialogue": "正解よ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "...但是...你可别高兴得太早。",
+			"man_dialogue": "...但是...你可別高興得太早。",
+			"eng_dialogue": "...But don’t celebrate just yet.",
+			"jp_dialogue": "…でも…あまり喜ばないことね。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "这只是基本而已。",
+			"man_dialogue": "這只是基本而已。",
+			"eng_dialogue": "That was merely the beginning.",
+			"jp_dialogue": "これは基本中の基本にすぎないわ。",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "セラフィナ・カリスタ・イゾルデ・エロウェン・ベラミー・シャーロット・王"
+	  }
+	],
+	"jp_dialogue": "姫の名前を答えなさい。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "那接下來...你就回答我...",
+	"man_sim_dialogue": "那接下来...你就回答我...",
+	"eng_dialogue": "Now then...answer me this...",
+	"man_sim_mention": "下一句是问答题...",
+	"man_mention": "下一句進入問答...",
+	"eng_mention": "Next question...",
+	"jp_dialogue": "じゃあ次は…これに答えて。",
+	"jp_name": "シスター",
+	"jp_mention": "次は質問…"
+  },
+  {
+	"background_song": "calm",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_sim_dialogue": "公主的眼睛是什么颜色的吧。",
+	"man_dialogue": "公主的眼睛是什麽顔色的吧。",
+	"eng_dialogue": "What color are the princess's eyes?",
+	"animation": "nun_default",
+	"options": [
+	  {
+		"eng_option": "A beautiful color",
+		"man_option": "美麗的顔色",
+		"man_sim_option": "美色",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"play_false_animation": "true",
+			"animation": "nun_black",
+			"man_sim_dialogue": "这是什么回答！",
+			"man_dialogue": "這是什麽回答！",
+			"eng_dialogue": "What kind of answer is that!?",
+			"jp_dialogue": "何その答え！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "comedy",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "你...原来是变态跟踪狂！",
+			"man_dialogue": "不知道就隨便猜啊，美麗的顔色是什麽東西！",
+			"eng_dialogue": "If you don’t know, then just guess!",
+			"jp_dialogue": "あなた…まさかいやらしいこと考えてるんじゃないでしょうね…？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不值得信任...！",
+			"man_dialogue": "別想矇混過去！",
+			"eng_dialogue": "Don’t think you can talk your way out of this.",
+			"false": "true",
+			"jp_dialogue": "信用できない…！",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "きれいな色"
+	  },
+	  {
+		"eng_option": "Blue",
+		"man_option": "藍色",
+		"man_sim_option": "蓝色",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "是的。",
+			"man_dialogue": "是的。",
+			"eng_dialogue": "Yes.",
+			"jp_dialogue": "ええ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "虽然盯着别人眼睛看...这点很可疑...",
+			"man_dialogue": "雖然盯著別人的眼睛看...這點很可疑...",
+			"eng_dialogue": "Though staring into her eyes... is rather suspicious.",
+			"jp_dialogue": "人の目をじっと見ていたなんて…少し怪しくはあるけど…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "但是公主那美丽的眼眸...实在太吸引人了。",
+			"man_dialogue": "但是公主那美麗的眼眸...實在是太吸引人了。",
+			"eng_dialogue": "But I must admit, her eyes are mesmerizing.",
+			"jp_dialogue": "でも姫のあの美しい瞳は…あまりにも目を引くもの。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "所以...对于这点，我也很难责怪你。",
+			"man_dialogue": "所以...對於這點，我也很難責怪你。",
+			"eng_dialogue": "I can hardly blame you.",
+			"jp_dialogue": "だから…その点に関しては、私もあまり責められないわ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "很好。",
+			"man_dialogue": "很好。",
+			"eng_dialogue": "Very well.",
+			"jp_dialogue": "いいでしょう。",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "青"
+	  },
+	  {
+		"eng_option": "Transparent",
+		"man_option": "透明的",
+		"man_sim_option": "透明的",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"play_false_animation": "true",
+			"animation": "nun_shock",
+			"man_sim_dialogue": "蛤？",
+			"man_dialogue": "蛤？",
+			"eng_dialogue": "Huh?",
+			"jp_dialogue": "は？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "comedy",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "有人眼睛是透明的吗？",
+			"man_dialogue": "有人的眼睛是透明的嗎？",
+			"eng_dialogue": "Are there people with transparent eyes?",
+			"jp_dialogue": "透明な目の人間なんているわけないでしょ？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_black",
+			"man_sim_dialogue": "你比我想得还蠢。",
+			"man_dialogue": "你比我想得還要蠢呢。",
+			"eng_dialogue": "You’re even dumber than I thought.",
+			"jp_dialogue": "あなた、思ってた以上に頭が悪いのね。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "真是糟糕的人。",
+			"man_dialogue": "真是糟糕的人。",
+			"eng_dialogue": "What a hopeless person.",
+			"false": "true",
+			"jp_dialogue": "本当にどうしようもない人。",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "透明"
+	  },
+	  {
+		"eng_option": "Colorful",
+		"man_option": "五顔六色",
+		"man_sim_option": "五颜六色",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"play_false_animation": "true",
+			"animation": "nun_shock",
+			"man_sim_dialogue": "五颜六色？？",
+			"man_dialogue": "五顔六色？？",
+			"eng_dialogue": "Colorful??",
+			"jp_dialogue": "カラフル？？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "comedy",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"play_punch_sound": "true",
+			"play_false_animation": "true",
+			"ani_effect": "flash",
+			"man_sim_dialogue": "你当公主的眼睛是霓虹灯吗！",
+			"man_dialogue": "你當公主的眼睛是霓虹燈嗎！",
+			"eng_dialogue": "What do you think? Her eyes are neon lights or something!?",
+			"jp_dialogue": "姫の目がネオンみたいだって言いたいの！？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "错得很离谱！",
+			"man_dialogue": "錯得很離譜！",
+			"eng_dialogue": "That’s completely wrong!",
+			"false": "true",
+			"jp_dialogue": "外れにもほどがあるわ！",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "カラフル"
+	  }
+	],
+	"jp_dialogue": "姫の目は何色？",
+	"jp_name": "シスター"
+  },
+  {
+	"background_song": "no",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"animation": "nun_default",
+	"man_sim_dialogue": "那接下来。",
+	"man_dialogue": "...那接下來...",
+	"eng_dialogue": "Next...",
+	"man_sim_mention": "下一句是问答题...",
+	"man_mention": "下一句進入問答...",
+	"eng_mention": "Next question...",
+	"jp_dialogue": "じゃあ次。",
+	"jp_name": "シスター",
+	"jp_mention": "次は質問…"
+  },
+  {
+	"background_song": "calm",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_sim_dialogue": "你说说公主最喜欢什么颜色吧。",
+	"man_dialogue": "你說說公主最喜歡什麽顏色吧。",
+	"eng_dialogue": "What is the princess's favorite color?",
+	"animation": "nun_default",
+	"options": [
+	  {
+		"eng_option": "Black",
+		"man_option": "黑色",
+		"man_sim_option": "黑色",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "当然了。",
+			"man_dialogue": "當然了。",
+			"eng_dialogue": "Of course.",
+			"jp_dialogue": "そうよ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "因为这是我的代表色",
+			"man_dialogue": "因爲黑色是我的代表色",
+			"eng_dialogue": "Because it's my signature color.",
+			"jp_dialogue": "だってこれは私のイメージカラーだもの。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "看来你也没我想的那么蠢嘛...",
+			"man_dialogue": "看來你也沒有我想的那麽蠢嘛...",
+			"eng_dialogue": "Huh. Maybe you’re not as dumb as you look....",
+			"jp_dialogue": "思っていたほど愚かじゃないのね…",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "黒"
+	  },
+	  {
+		"eng_option": "Blue",
+		"man_option": "藍色",
+		"man_sim_option": "蓝色",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "错了。",
+			"man_dialogue": "錯了。",
+			"eng_dialogue": "Wrong.",
+			"jp_dialogue": "間違いよ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_black",
+			"man_sim_dialogue": "你只是在乱猜吧？",
+			"man_dialogue": "你只是在亂猜吧？",
+			"eng_dialogue": "Are you just guessing?",
+			"jp_dialogue": "ただ適当に選んだだけでしょ？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "推理一下都不愿意",
+			"man_dialogue": "連推理一下都都不愿意",
+			"eng_dialogue": "You’re not even willing to think it through.",
+			"jp_dialogue": "少しも考えようとしないなんて。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "看来是个无能的人...",
+			"ani_effect": "flash",
+			"man_dialogue": "看來是個無能的人...",
+			"eng_dialogue": "I suppose competence is not your strong suit...",
+			"false": "true",
+			"jp_dialogue": "無能にもほどがあるわ…",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "青"
+	  },
+	  {
+		"eng_option": "White",
+		"man_option": "白色",
+		"man_sim_option": "白色",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_black",
+			"man_sim_dialogue": "错了！",
+			"man_dialogue": "錯了！",
+			"eng_dialogue": "Wrong!",
+			"jp_dialogue": "間違い！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "很明显的，公主最喜欢的是我。",
+			"man_dialogue": "很明顯的，公主最喜歡我了。",
+			"eng_dialogue": "Obviously, the princess favors me above all others.",
+			"jp_dialogue": "どう考えても、姫が一番好きなのは私。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "所以喜欢的颜色肯定是...",
+			"man_dialogue": "所以喜歡的顔色肯定是...",
+			"eng_dialogue": "So her favorite color must be...",
+			"jp_dialogue": "だから好きな色だって当然、",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_effect": "flash",
+			"man_sim_dialogue": "我的代表色。",
+			"man_dialogue": "我的代表色。",
+			"eng_dialogue": "My signature color.",
+			"jp_dialogue": "私のイメージカラーのはずよ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_default",
+			"man_sim_dialogue": "虽然我身上也有一些白色的元素",
+			"man_dialogue": "雖然我的身上也有一點白色的元素",
+			"eng_dialogue": "Although I do have some white accents...",
+			"jp_dialogue": "確かに私の服には白い要素も少しあるけど",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "但是黑的占比大一点。",
+			"man_dialogue": "但是黑色的占比還是多一點...",
+			"eng_dialogue": "Black still takes up more.",
+			"jp_dialogue": "割合でいえば黒のほうが多いの。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "一点推理能力都没有。",
+			"ani_effect": "flash",
+			"animation": "nun_shock",
+			"man_dialogue": "一點推理能力都沒有。",
+			"eng_dialogue": "No reasoning skills whatsoever.",
+			"jp_dialogue": "推理力ゼロね。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "你真的有能力救公主吗？",
+			"ani_effect": "flash",
+			"man_dialogue": "你真的有能力救公主嗎？",
+			"eng_dialogue": "Are you really capable of saving the princess?",
+			"false": "true",
+			"jp_dialogue": "本当に姫を助けられるの？",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "白"
+	  },
+	  {
+		"eng_option": "Green",
+		"man_option": "綠色",
+		"man_sim_option": "绿色",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_black",
+			"man_sim_dialogue": "你只是在乱猜吧？",
+			"man_dialogue": "你只是在亂猜吧？",
+			"eng_dialogue": "Are you just guessing?",
+			"jp_dialogue": "ただ適当に選んだだけでしょ？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "推理一下都不愿意",
+			"man_dialogue": "連推理一下都都不愿意",
+			"eng_dialogue": "You’re not even willing to think it through.",
+			"jp_dialogue": "少しも考えようとしないなんて。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "看来是个无能的人...",
+			"ani_effect": "flash",
+			"man_dialogue": "看來是個無能的人...",
+			"eng_dialogue": "I suppose competence is not your strong suit...",
+			"false": "true",
+			"jp_dialogue": "無能にもほどがあるわ…",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "緑"
+	  }
+	],
+	"jp_dialogue": "姫が一番好きな色は何か、答えてみなさい。",
+	"jp_name": "シスター"
+  },
+  {
+	"background_song": "no",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"animation": "nun_default",
+	"man_sim_dialogue": "接下来。",
+	"man_dialogue": "接下來。",
+	"eng_dialogue": "Next.",
+	"jp_dialogue": "次。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_sim_dialogue": "最简单的一题。",
+	"man_dialogue": "最簡單的一題。",
+	"eng_dialogue": "The easiest one.",
+	"man_sim_mention": "下一句是问答题...",
+	"man_mention": "下一句進入問答...",
+	"eng_mention": "Next question...",
+	"jp_dialogue": "一番簡単な問題よ。",
+	"jp_name": "シスター",
+	"jp_mention": "次は質問…"
+  },
+  {
+	"background_song": "calm",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_sim_dialogue": "公主有多少根头发？",
+	"man_dialogue": "公主有幾根頭髮？",
+	"eng_dialogue": "How many hairs does the princess have?",
+	"animation": "nun_default",
+	"options": [
+	  {
+		"eng_option": "I don't know",
+		"man_option": "我不知道",
+		"man_sim_option": "我不知道",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "很好。",
+			"man_dialogue": "很好。",
+			"eng_dialogue": "Very well.",
+			"jp_dialogue": "いいわ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "很诚实。",
+			"man_dialogue": "很誠實。",
+			"eng_dialogue": "Honest, at least.",
+			"jp_dialogue": "正直ね。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "我每次还来不及算完",
+			"man_dialogue": "我每次還來不及算完",
+			"eng_dialogue": "I never manage to finish counting in time,",
+			"jp_dialogue": "私も毎回、数え終わる前に",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "公主就离开了。",
+			"man_dialogue": "公主就離開了。",
+			"eng_dialogue": "before the princess leaves again.",
+			"jp_dialogue": "姫がどこかへ行ってしまうの。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "连我都不知道的事情。",
+			"man_dialogue": "連我都不知道的事情。",
+			"eng_dialogue": "Even I don’t know.",
+			"jp_dialogue": "私ですら知らないことを、",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "你又怎么可能知道呢。",
+			"man_dialogue": "你怎麽可能會知道呢。",
+			"eng_dialogue": "How could you possibly know?",
+			"jp_dialogue": "あなたが知ってるはずないものね。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "这样看来",
+			"man_dialogue": "這樣看來",
+			"eng_dialogue": "All things considered...",
+			"jp_dialogue": "そう考えると",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "你也蛮实诚的。",
+			"man_dialogue": "你也蠻誠實的。",
+			"eng_dialogue": "You’re...surprisingly sincere.",
+			"jp_dialogue": "あなた、けっこう誠実なのかも。",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "わからない"
+	  },
+	  {
+		"eng_option": "100000",
+		"man_option": "100000",
+		"man_sim_option": "100000",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_default",
+			"man_sim_dialogue": "这个数量怎么这么具体...",
+			"man_dialogue": "這個數量也太具體了吧...",
+			"eng_dialogue": "That's...oddly specific.",
+			"jp_dialogue": "その数字、やけに具体的ね…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "comedy",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_think",
+			"man_sim_dialogue": "难道你偷偷数过？",
+			"man_dialogue": "難道你偷偷數過？",
+			"eng_dialogue": "...did you secretly count them?",
+			"jp_dialogue": "まさかこっそり数えたの？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_shock",
+			"play_punch_sound": "true",
+			"ani_effect": "flash",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "你也太闲了吧！",
+			"man_dialogue": "你也太閑了吧！",
+			"eng_dialogue": "Don’t you have anything better to do?!",
+			"jp_dialogue": "暇すぎるでしょ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "我都没有数完过呢！可恶！",
+			"man_dialogue": "我都沒有數完過呢！可惡！",
+			"eng_dialogue": "I've never even finished counting them myself! Ugh!",
+			"jp_dialogue": "私ですらまだ数えきれてないのに…納得いかないわ…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_think",
+			"man_sim_dialogue": "不，不对，不可能.",
+			"man_dialogue": "不對不對，不可能。",
+			"eng_dialogue": "No, no. That can’t be right.",
+			"jp_dialogue": "い、いや、違う、そんなはずない…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_shock",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "公主不可能和你这家伙一起玩!",
+			"man_dialogue": "公主不可能和你這種人一起玩!",
+			"eng_dialogue": "The princess would never associate with someone like you!",
+			"jp_dialogue": "姫があなたなんかと一緒に遊ぶわけない！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "所以你一定是乱猜的。",
+			"man_dialogue": "所以你一定是亂猜的。",
+			"eng_dialogue": "So you're just making things up.",
+			"jp_dialogue": "だから絶対、適当に言っただけよ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_effect": "flash",
+			"man_sim_dialogue": "你一定是乱猜的！",
+			"man_dialogue": "你一定亂猜的！",
+			"eng_dialogue": "You're definitely bluffing!",
+			"false": "true",
+			"jp_dialogue": "そうに決まってる！",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "100000"
+	  },
+	  {
+		"eng_option": "100",
+		"man_option": "100",
+		"man_sim_option": "100",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_default",
+			"man_sim_dialogue": "100?",
+			"man_dialogue": "100？",
+			"eng_dialogue": "100？",
+			"jp_dialogue": "100？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "comedy",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_think",
+			"ani_chatbox": "chatbox_shake",
+			"man_sim_dialogue": "这种不上不下的数量是怎么回事？",
+			"man_dialogue": "這種不上不下的數量是怎麽回事？",
+			"eng_dialogue": "What's with this awkward number?",
+			"jp_dialogue": "中途半端すぎる数ね、それ…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_shock",
+			"man_sim_dialogue": "这要去植发了吧？",
+			"man_dialogue": "100要去植髮了吧？",
+			"eng_dialogue": "It might be time for a hair transplant!",
+			"jp_dialogue": "植毛が必要なレベルじゃない。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"ani_effect": "flash",
+			"play_false_animation": "true",
+			"man_sim_dialogue": "公主的头发可是很茂密的！",
+			"man_dialogue": "公主的頭髮可是很茂密的！",
+			"eng_dialogue": "The princess has gorgeous, thick hair!",
+			"jp_dialogue": "姫の髪はとても豊かなんだから！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不准你乱说！",
+			"man_dialogue": "不准你亂說！",
+			"eng_dialogue": "Don't say nonsense!",
+			"false": "true",
+			"jp_dialogue": "変なこと言わないで！",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "100"
+	  },
+	  {
+		"eng_option": "0",
+		"man_option": "0",
+		"man_sim_option": "0",
+		"response": [
+		  {
+			"background_song": "no",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_shock",
+			"man_sim_dialogue": "零？",
+			"man_dialogue": "零？",
+			"eng_dialogue": "Zero?",
+			"jp_dialogue": "ゼロ？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"background_song": "comedy",
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "那不就是光头吗！",
+			"man_dialogue": "那不是光頭嗎！",
+			"eng_dialogue": "Isn't that just a bald head!?",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "それじゃハゲじゃない！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "难道你说公主其实偷偷在戴假发吗！",
+			"man_dialogue": "難道你是在說公主一直偷偷戴假髮嗎！",
+			"eng_dialogue": "Are you saying the princess has secretly been wearing a wig all along!?",
+			"jp_dialogue": "まさか姫が実はカツラをかぶってるって言いたいの！？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "不可能！",
+			"man_dialogue": "不可能！",
+			"eng_dialogue": "Impossible!",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "ありえない！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"man_sim_dialogue": "她爸爸的光头传男不传女！",
+			"man_dialogue": "她爸爸的光頭傳男不傳女！",
+			"eng_dialogue": "Baldness is passed down to sons, not daughters!",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "王様のハゲは男にしか遺伝しないのよ！",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_think",
+			"man_sim_dialogue": "不过国王为什么有胡子但是没有头发呢...",
+			"man_dialogue": "不過國王爲什麽有鬍子但是沒有頭發呢...",
+			"eng_dialogue": "But why does the king have a beard but no hair...?",
+			"jp_dialogue": "でも王様って、なんでヒゲはあるのに頭髪はないのかしら…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_shock",
+			"man_sim_dialogue": "啊...离题了",
+			"man_dialogue": "啊...離題了",
+			"eng_dialogue": "Ah... got off track.",
+			"jp_dialogue": "あ…話が逸れたわね。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"animation": "nun_shock",
+			"man_sim_dialogue": "你...真是个讨厌的人...",
+			"man_dialogue": "你...真的很討厭...",
+			"eng_dialogue": "You... are really annoying...",
+			"false": "true",
+			"jp_dialogue": "あなた…本当に感じの悪い人…",
+			"jp_name": "シスター"
+		  }
+		],
+		"jp_option": "0"
+	  }
+	],
+	"jp_dialogue": "姫の髪の毛は何本？",
+	"jp_name": "シスター"
+  },
+  {
+	"background_song": "no",
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"animation": "nun_default",
+	"man_dialogue": "...",
+	"man_sim_dialogue": "...",
+	"eng_dialogue": "...",
+	"jp_dialogue": "…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "我也想不到還可以問什麽了。",
+	"man_sim_dialogue": "我也想不到还能问什么了。",
+	"eng_dialogue": "I can't think of anything else to ask.",
+	"jp_dialogue": "もう何を聞けばいいのか思いつかないわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "好吧...",
+	"man_sim_dialogue": "好吧...",
+	"eng_dialogue": "Alright...",
+	"jp_dialogue": "いいでしょう…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "就姑且相信你吧。",
+	"man_sim_dialogue": "就姑且相信你吧。",
+	"eng_dialogue": "I'll trust you for now.",
+	"jp_dialogue": "ひとまず、あなたを信じることにする。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "你要那個擋路的人離開吧？",
+	"man_sim_dialogue": "你要那个挡路的人离开吧？",
+	"eng_dialogue": "You want that person blocking the way to leave, right?",
+	"jp_dialogue": "あの道をふさいでる人、どかしたいんでしょ？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "唉...就叫她進來吧。",
+	"man_sim_dialogue": "唉...就让她进来吧。",
+	"eng_dialogue": "....Just let her in.",
+	"done": "church_done",
+	"jp_dialogue": "はぁ…あの人を中に入れてあげるわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"back_pos": "game_over_church",
+	"change": "res://SceneTransTscn/church.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Come on, eat!",
+	"man_dialogue": "來！吃吧！",
+	"man_sim_dialogue": "来，吃吧！",
+	"avatar": "mummy",
+	"change_current_character": "mummy",
+	"jp_dialogue": "ほら、食べなさい！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"eng_dialogue": "Don’t be shy, Auntie won’t bite~",
+	"man_dialogue": "不用跟阿姨客氣，阿姨不會咬人的啦，哈哈哈~",
+	"man_sim_dialogue": "不用跟阿姨客气，阿姨不会咬你的啦~",
+	"avatar": "mummy",
+	"jp_dialogue": "遠慮しなくていいのよ、おばちゃん噛んだりしないから〜",
+	"jp_name": "オタクの母"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"feed_you": "true",
+	"close": "true"
+  }
+]

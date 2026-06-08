@@ -1,0 +1,133 @@
+[
+  {
+	"background_song": "no",
+	"eng_name": "mummy",
+	"change_current_character": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "哼！",
+	"eng_dialogue": "Hmph!",
+	"man_sim_dialogue": "哼！",
+	"animation": "mummy",
+	"jp_dialogue": "ふん！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "看來其他人對你的評價也不差嘛！",
+	"eng_dialogue": "Seems like other people don’t think you’re that bad either!",
+	"man_sim_dialogue": "看来其他人对你评价也不差嘛！",
+	"animation": "mummy",
+	"jp_dialogue": "でも他の人からの評判も、そこまで悪くないみたいね！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "畢竟你的朋友都這樣講了！",
+	"eng_dialogue": "That’s what all your friends say, anyway!",
+	"man_sim_dialogue": "毕竟你的朋友都这样说了！",
+	"animation": "mummy",
+	"jp_dialogue": "だってあんたの友達もそう言ってるし！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "唉！",
+	"eng_dialogue": "Sigh...",
+	"man_sim_dialogue": "唉！",
+	"animation": "mummy",
+	"jp_dialogue": "はぁ！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "看你也不是完全沒救...",
+	"eng_dialogue": "Seems like you’re not completely hopeless after all...",
+	"man_sim_dialogue": "看你也不是完全没救...",
+	"jp_dialogue": "まあ、完全に終わってるわけでもなさそうね…",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "那我就再給你一點時間！",
+	"eng_dialogue": "Fine. I’ll give you a little more time!",
+	"man_sim_dialogue": "那我就再给你一点时间！",
+	"jp_dialogue": "じゃあ、もう少しだけ時間をあげる！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"ani_chatbox": "chatbox_shake",
+	"man_dialogue": "你給我打理好自己！",
+	"eng_dialogue": "Clean yourself up already!",
+	"man_sim_dialogue": "你给我打理好自己！",
+	"jp_dialogue": "ちゃんと身だしなみを整えて！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"ani_chatbox": "chatbox_shake",
+	"man_dialogue": "然後去找工作！",
+	"eng_dialogue": "And go get a job already!",
+	"man_sim_dialogue": "然後去找工作！",
+	"jp_dialogue": "それで仕事を探しなさい！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Otaku",
+	"change_current_character": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku",
+	"man_dialogue": "是的媽咪！！！",
+	"eng_dialogue": "Yes, Mummy!",
+	"man_sim_dialogue": "是的妈咪！！！",
+	"jp_dialogue": "はい、ママ！！！",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "mummy",
+	"change_current_character": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"ani_chatbox": "chatbox_shake",
+	"man_dialogue": "知道了就好！",
+	"eng_dialogue": "Good. At least you get it now.",
+	"man_sim_dialogue": "知道了就好！",
+	"jp_dialogue": "わかればいいのよ！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "我先下去了。",
+	"eng_dialogue": "I’ll head downstairs first.",
+	"done": "setposition",
+	"man_sim_dialogue": "我先下去了。",
+	"jp_dialogue": "私は先に下に行くから。",
+	"jp_name": "オタクの母"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"mom_win": "false",
+	"done": "stage2_done",
+	"change": "res://SceneTransTscn/stage_2_room.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]

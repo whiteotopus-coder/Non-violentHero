@@ -1,0 +1,161 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "The princess was captured by the Demon King?",
+	"man_dialogue": "公主被魔王抓走了？",
+	"man_sim_dialogue": "公主被魔王抓走了？",
+	"jp_dialogue": "姫が魔王にさらわれたの？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "...",
+	"man_dialogue": "...",
+	"man_sim_dialogue": "...",
+	"jp_dialogue": "……",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Something this important happened... and I didn’t even know...",
+	"man_dialogue": "這麽重要的事情我居然不知道...",
+	"ani_chatbox": "chatbox_shake",
+	"man_sim_dialogue": "这么重要的事情我居然不知道...",
+	"jp_dialogue": "そんな大事なこと、私が知らなかったなんて…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "No wonder I haven't been able to find her these past few days...",
+	"man_dialogue": "難怪這幾天我都找不到她...",
+	"man_sim_dialogue": "难怪这几天我都找不到她...",
+	"jp_dialogue": "だからここ数日、姫を見かけなかったのね…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "...",
+	"man_dialogue": "...",
+	"man_sim_dialogue": "...",
+	"jp_dialogue": "……",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "And now that I think about it... you suddenly showed up today.",
+	"man_dialogue": "話說...你今天突然出現...",
+	"man_sim_dialogue": "你这家伙...今天突然出现...",
+	"jp_dialogue": "あなた…今日急に現れて…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "That makes you rather suspicious too...",
+	"man_dialogue": "你也很可疑啊..",
+	"man_sim_dialogue": "你也很可疑啊。",
+	"options": [
+	  {
+		"eng_option": "That girl is blocking the path to rescue the princess.",
+		"man_option": "那個女生擋住救公主的路綫了",
+		"man_sim_option": "那个女生挡住救公主的路线了",
+		"response": [
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "If it’s truly for the princess...",
+			"man_dialogue": "如果是爲了公主的話...",
+			"man_sim_dialogue": "如果是为了公主的话...",
+			"jp_dialogue": "姫のためだと言うなら…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "Then I suppose there’s no other choice...",
+			"man_dialogue": "那就沒辦法了...",
+			"man_sim_dialogue": "那就没办法了...",
+			"jp_dialogue": "仕方ないわね…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "...But still...",
+			"man_dialogue": "...但是..",
+			"man_sim_dialogue": "...但是..",
+			"jp_dialogue": "…でも…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "How can I be sure that you’re trustworthy?",
+			"man_dialogue": "我怎麽知道你值不值得信任。",
+			"man_sim_dialogue": "我怎么知道你是否值得信任。",
+			"jp_dialogue": "どうしてあなたを信じていいって分かるの？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "Do you truly have what it takes to save her...?",
+			"man_dialogue": "你真的有拯救她的能力嗎？",
+			"man_sim_dialogue": "你真的有拯救她的能力吗？",
+			"jp_dialogue": "本当に姫を救える力があるの？",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "....",
+			"man_dialogue": "....",
+			"man_sim_dialogue": "....",
+			"jp_dialogue": "…",
+			"jp_name": "シスター"
+		  },
+		  {
+			"eng_name": "Nun",
+			"man_name": "修女",
+			"man_sim_name": "修女",
+			"eng_dialogue": "I’ll have to test you in my own way.",
+			"man_dialogue": "我要用我的方法驗證你值不值得信任。",
+			"man_sim_dialogue": "我要用我的方式来验证这一点。",
+			"jp_dialogue": "私のやり方で、それを確かめるわ。",
+			"jp_name": "シスター"
+		  },
+		  {
+			"change": "res://Scene/Church/attackchurch.tscn",
+			"sceneTransition": "dissolve"
+		  }
+		],
+		"jp_option": "あの女の子が姫を助ける道をふさいでいるんです"
+	  }
+	],
+	"jp_dialogue": "やっぱり怪しすぎるわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

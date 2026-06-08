@@ -1,0 +1,367 @@
+[
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"change_current_character": "otaku",
+	"eng_dialogue": "....",
+	"man_dialogue": "....",
+	"avatar": "otaku",
+	"man_sim_dialogue": "....",
+	"jp_dialogue": "……",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"man_dialogue": "你是誰啊？",
+	"man_sim_dialogue": "你是谁啊？",
+	"eng_dialogue": "Who are you?",
+	"avatar": "otaku",
+	"have_unclock_option": "true",
+	"options": [
+	  {
+		"eng_option": "Of course, I'm your best friend!",
+		"man_option": "當然是你的好朋友啊！",
+		"man_sim_option": "当然是你的好朋友啊！",
+		"response": [
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "啊？",
+			"man_dialogue": "啊？",
+			"eng_dialogue": "Huh?",
+			"avatar": "otaku",
+			"jp_dialogue": "は？",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我什么时候有你这样的朋友？",
+			"man_dialogue": "我什麽時候有你這樣的朋友？",
+			"eng_dialogue": "Since when did I have a friend like you?",
+			"avatar": "otaku",
+			"jp_dialogue": "俺にお前みたいな友達がいた覚えはないんだが？",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "少来装熟了！",
+			"man_dialogue": "少來裝熟了！",
+			"eng_dialogue": "Quit acting like we’re close!",
+			"avatar": "otaku",
+			"jp_dialogue": "馴れ馴れしくするなよ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我可不记得我认识你种小角色！",
+			"man_dialogue": "我可不記得我認識你這樣的小嘍囉！",
+			"eng_dialogue": "I don’t remember ever meeting some low-tier side character like you!",
+			"avatar": "otaku",
+			"jp_dialogue": "お前みたいな雑魚、知り合いだった記憶もないな！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我的朋友都是阿撒兹勒•血宴•地狱魔君...",
+			"man_dialogue": "我的朋友都是阿撒兹勒•血宴•地獄魔君...",
+			"eng_dialogue": "My friends are beings like Azazel, Blood Feast, Lord of the Underworld...",
+			"avatar": "otaku",
+			"jp_dialogue": "俺の友達はな、アザゼル・血宴・地獄魔君…",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "或者法尔兹•费恩•维克托二世...",
+			"man_dialogue": "或者法爾兹•費恩•維克托二世...",
+			"eng_dialogue": "Or Farlz•Fain•Victor II...",
+			"avatar": "otaku",
+			"jp_dialogue": "あるいはファルツ・フェイン・ヴィクター二世…",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "这种等级的。",
+			"man_dialogue": "這種等級的。",
+			"eng_dialogue": "You know... that level.",
+			"avatar": "otaku",
+			"jp_dialogue": "それくらいの大物ばっかなんだよ！",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "もちろん君の親友だよ！"
+	  },
+	  {
+		"eng_option": "Do you have donuts?",
+		"man_option": "你有甜甜圈嗎？",
+		"man_sim_option": "你有甜甜圈吗？",
+		"response": [
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "甜甜圈？",
+			"man_dialogue": "甜甜圈？",
+			"eng_dialogue": "Donuts?",
+			"avatar": "otaku",
+			"jp_dialogue": "ドーナツ？",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "噢好想吃...",
+			"man_dialogue": "噢好想吃...",
+			"eng_dialogue": "Oh, I kinda want some...",
+			"avatar": "otaku",
+			"jp_dialogue": "ああ、食べたい…",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我没有甜甜圈",
+			"man_dialogue": "我沒有甜甜圈",
+			"eng_dialogue": "I don't have any donuts.",
+			"avatar": "otaku",
+			"jp_dialogue": "……って、なんで急にドーナツなんだよ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "你要给我吗？",
+			"man_dialogue": "你要給我嗎？",
+			"eng_dialogue": "Are you offering me some?",
+			"avatar": "otaku",
+			"jp_dialogue": "お前くれるのか？",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我要巧克力口味的！",
+			"man_dialogue": "我要巧克力口味的！",
+			"eng_dialogue": "I want chocolate ones!",
+			"avatar": "otaku",
+			"jp_dialogue": "チョコ味がいい！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "不对！",
+			"man_dialogue": "不對！",
+			"eng_dialogue": "Wait, no!",
+			"avatar": "otaku_shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "って違う！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "你还没有报上你的姓名诶！",
+			"man_dialogue": "你還沒有報上你的姓名欸！",
+			"eng_dialogue": "You haven’t even told me your name yet!",
+			"avatar": "otaku",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "お前、まだ自分の名前も名乗ってないだろ！",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "ドーナツ持ってる？"
+	  },
+	  {
+		"eng_option": "Do you have the legendary battle suit?",
+		"man_option": "你有傳說中的戰衣嗎？",
+		"man_sim_option": "你有传说中的战衣吗？",
+		"response": [
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "啊？",
+			"man_dialogue": "啊？",
+			"eng_dialogue": "Huh?",
+			"avatar": "otaku",
+			"jp_dialogue": "は？",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我当然有！",
+			"man_dialogue": "我當然有！",
+			"eng_dialogue": "Of course, I do!",
+			"avatar": "otaku",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "もちろん持ってるが！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "你要我的超级传说级衣干什么！",
+			"man_dialogue": "你要我的超級傳說級戰衣幹什麽！",
+			"eng_dialogue": "What do you want with my ultra-legendary battle suit, huh?!",
+			"avatar": "otaku",
+			"show_last_option_otaku": "true",
+			"jp_dialogue": "俺の超伝説級衣装に何の用だよ！",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "伝説の衣装って持ってる？"
+	  },
+	  {
+		"eng_option": "Can you give me the legendary battle suit?",
+		"man_option": "可以給我傳說中的戰衣嗎？",
+		"man_sim_option": "可以给我传说中的战衣吗？",
+		"response": [
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "什么！",
+			"man_dialogue": "什麽！",
+			"eng_dialogue": "What?!",
+			"avatar": "otaku_shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "何だと！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "素未谋面的陌生人第一次见面！",
+			"man_dialogue": "素未謀面的陌生人第一次見面！",
+			"eng_dialogue": "A total stranger showing up out of nowhere...",
+			"avatar": "otaku_shock",
+			"jp_dialogue": "初対面でいきなりそんな、",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "就提出如此无礼的要求！",
+			"man_dialogue": "就提出如此無理的要求！",
+			"eng_dialogue": "And making such a shameless demand!",
+			"avatar": "otaku_shock",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "無礼なことを言うとは！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我就知道你是有利想图才会假扮我的友人来见我！",
+			"man_dialogue": "我就知道你是有利想圖才會假扮我的友人來見我！",
+			"eng_dialogue": "I knew it! You’re just pretending to be my friend to steal from me!",
+			"avatar": "otaku",
+			"jp_dialogue": "やっぱりお前、下心があって俺の友達のふりして会いに来たんだな！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "看你这身打扮，你是勇者吧！",
+			"man_dialogue": "看你這身打扮，你一定就是勇者！對吧？",
+			"eng_dialogue": "Judging by your outfit... you're a hero, aren’t you?!",
+			"avatar": "otaku",
+			"jp_dialogue": "その格好…お前、勇者だろ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "堂堂一位勇者，居然做这种事情！",
+			"man_dialogue": "堂堂一位勇者，居然做這种事情！",
+			"eng_dialogue": "A hero... stooping this low!",
+			"avatar": "otaku",
+			"jp_dialogue": "仮にも勇者が、そんな真似をするなんて！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "我是不会让你得逞的！",
+			"man_dialogue": "我是不會讓你得逞的！",
+			"eng_dialogue": "I won’t let you get away with it!",
+			"avatar": "otaku",
+			"jp_dialogue": "そんな思い通りにはさせないぞ！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"background_song": "battle",
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "看我用正义的力量阻止你！",
+			"man_dialogue": "看我用正義的力量阻止你！",
+			"eng_dialogue": "Prepare to face the wrath of JUSTICE!",
+			"avatar": "otaku",
+			"ani_chatbox": "chatbox_shake",
+			"jp_dialogue": "この俺が絶対に阻止してやる！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"man_sim_dialogue": "接招吧！！",
+			"man_dialogue": "接招吧！！",
+			"eng_dialogue": "Take this!",
+			"ani_chatbox": "chatbox_shake",
+			"avatar": "otaku",
+			"jp_dialogue": "かかってこい！！",
+			"jp_name": "オタク"
+		  },
+		  {
+			"eng_name": "Otaku",
+			"man_name": "肥宅",
+			"man_sim_name": "肥宅",
+			"change": "res://Scene/Stage2/attackstage2.tscn",
+			"sceneTransition": "dissolve",
+			"jp_name": "オタク"
+		  }
+		],
+		"jp_option": "伝説の衣装くれよ"
+	  }
+	],
+	"jp_dialogue": "お前、誰だ？",
+	"jp_name": "オタク"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

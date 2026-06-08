@@ -1,0 +1,36 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "...",
+	"man_dialogue": "...",
+	"man_sim_dialogue": "...",
+	"jp_dialogue": "…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "I think God needs earplugs.",
+	"man_dialogue": "我覺得上帝需要耳塞。",
+	"man_sim_dialogue": "我觉得上帝需要耳塞。",
+	"jp_dialogue": "神様には耳栓が必要だと思う。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "I... need them too...",
+	"man_dialogue": "我..也需要...",
+	"man_sim_dialogue": "我..也需要...",
+	"jp_dialogue": "私にも…必要ね…",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

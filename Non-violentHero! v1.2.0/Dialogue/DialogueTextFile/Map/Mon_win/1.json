@@ -1,0 +1,74 @@
+[
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"avatar": "mummy_angry",
+	"man_dialogue": "肥宅！！",
+	"eng_dialogue": "Otaku!",
+	"man_sim_dialogue": "肥宅！！",
+	"change_current_character": "mummy",
+	"jp_dialogue": "オタク！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"avatar": "mummy_angry",
+	"man_dialogue": "你現在立刻馬上給我滾出家門！！",
+	"eng_dialogue": "Get out of this house right now!",
+	"man_sim_dialogue": "你现在立刻马上给我滚出家门！！",
+	"jp_dialogue": "今すぐこの家から出ていきなさい！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"avatar": "otaku_shock",
+	"man_dialogue": "媽咪等一下！",
+	"eng_dialogue": "Mom, wait a second!",
+	"man_sim_dialogue": "妈咪等一下！",
+	"change_current_character": "otaku",
+	"jp_dialogue": "ママ待って！",
+	"jp_name": "オタク"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"avatar": "mummy_angry",
+	"man_dialogue": "好！",
+	"eng_dialogue": "Fine!",
+	"man_sim_dialogue": "好！",
+	"change_current_character": "mummy",
+	"jp_dialogue": "よし！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"avatar": "mummy_angry",
+	"man_dialogue": "給你時間打包行李滾出去！",
+	"eng_dialogue": "I’ll give you time. Pack your things and get out!",
+	"man_sim_dialogue": "给你时间打包行李滚出去！",
+	"jp_dialogue": "荷物をまとめて出ていく時間はあげるわ！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"avatar": "otaku_shock",
+	"man_dialogue": "我不是這個意思！！",
+	"eng_dialogue": "That’s not what I meant!",
+	"man_sim_dialogue": "我不是这个意思！！",
+	"change_current_character": "otaku",
+	"jp_dialogue": "そういう意味じゃないって！！",
+	"jp_name": "オタク"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

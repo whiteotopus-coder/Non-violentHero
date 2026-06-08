@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "因爲地圖很空",
+	"eng_dialogue": "The map is pretty empty.",
+	"man_sim_dialogue": "因为地图很空",
+	"change_current_character": "pink",
+	"jp_dialogue": "マップがすごくスカスカだから",
+	"jp_name": "作者"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "我在這裏陪你聊聊天哦。",
+	"eng_dialogue": "So I’m just here to keep you company.",
+	"man_sim_dialogue": "我在这里陪你聊天的。",
+	"jp_dialogue": "ここで君の話し相手をしてるよ。",
+	"jp_name": "作者"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"man_dialogue": "無所事事的樣子哦。",
+	"eng_dialogue": "There’s nothing else to do right now.",
+	"man_sim_dialogue": "看起来很闲对吧。",
+	"jp_dialogue": "暇なのバレた？",
+	"jp_name": "作者"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

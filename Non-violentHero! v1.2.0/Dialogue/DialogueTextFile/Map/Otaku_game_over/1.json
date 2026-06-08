@@ -1,0 +1,55 @@
+[
+  {
+	"eng_name": "mummy",
+	"change_current_character": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"animation": "mummy_angry",
+	"man_dialogue": "肥宅！！",
+	"ani_effect": "flash",
+	"eng_dialogue": "Otaku!",
+	"man_sim_dialogue": "肥宅！！",
+	"jp_dialogue": "オタク！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"animation": "mummy_angry",
+	"man_dialogue": "肥宅,你！！",
+	"ani_effect": "flash",
+	"eng_dialogue": "Otaku， YOU!",
+	"man_sim_dialogue": "肥宅,你！！",
+	"jp_dialogue": "オタク、あんた！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "現在立刻！馬上！給我滾出家門！！",
+	"ani_effect": "flash",
+	"eng_dialogue": "Get out of my house. NOW!",
+	"man_sim_dialogue": "现在立刻！马上！给我滾出家门！！",
+	"jp_dialogue": "今すぐ！この場で！家から出ていきなさい！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Otaku",
+	"change_current_character": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_shock",
+	"man_dialogue": "哦啊啊啊啊",
+	"eng_dialogue": "Aaaahhh!",
+	"man_sim_dialogue": "哦啊啊啊啊",
+	"jp_dialogue": "うわああああ",
+	"jp_name": "オタク"
+  },
+  {
+	"change": "res://SceneTransTscn/stage_2_room.tscn",
+	"sceneTransition": "dissolve",
+	"play_quit_animation": "true"
+  }
+]

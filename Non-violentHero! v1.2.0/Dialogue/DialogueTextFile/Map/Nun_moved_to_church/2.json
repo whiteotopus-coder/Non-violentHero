@@ -1,0 +1,36 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Go save the princess.",
+	"man_dialogue": "你快去救公主。",
+	"man_sim_dialogue": "你快去救公主",
+	"jp_dialogue": "早く姫を助けに行って。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Once you're done, I’ll send her away immediately.",
+	"man_dialogue": "救完了我馬上把她趕出去。",
+	"man_sim_dialogue": "救完了我马上把她赶出去。",
+	"jp_dialogue": "助け終わったら、私はすぐ人を追い出すから。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Hurry up.",
+	"man_dialogue": "快點。",
+	"man_sim_dialogue": "快点。",
+	"jp_dialogue": "早くして。",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

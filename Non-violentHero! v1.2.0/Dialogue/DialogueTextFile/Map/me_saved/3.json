@@ -1,0 +1,54 @@
+[
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "By the way...",
+	"man_dialogue": "話説回來...",
+	"man_sim_dialogue": "话说回来...",
+	"jp_dialogue": "そういえば……",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "How'd you even find me?",
+	"man_dialogue": "你是怎麽發現我的？",
+	"man_sim_dialogue": "你是怎么发现我的？",
+	"jp_dialogue": "どうやって私を見つけたんだ？",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "Don't tell me...",
+	"man_dialogue": "該不會是...",
+	"man_sim_dialogue": "该不会是...",
+	"jp_dialogue": "まさか……",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"eng_name": "Creator",
+	"man_name": "作者",
+	"man_sim_name": "作者",
+	"change_current_character": "pink",
+	"eng_dialogue": "you were drawn in by the smell of dried fish?",
+	"man_dialogue": "聞到魚乾的香味吧？",
+	"man_sim_dialogue": "闻到鱼干的香味吧？",
+	"jp_dialogue": "干物の匂いにつられて来たとか？",
+	"jp_name": "作者",
+	"animateQMe": "me_default"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

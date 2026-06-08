@@ -1,0 +1,91 @@
+[
+  {
+	"background_song": "no",
+	"eng_name": "mummy",
+	"change_current_character": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "哼！",
+	"eng_dialogue": "Hmph!",
+	"man_sim_dialogue": "哼！",
+	"animation": "mummy_angry",
+	"jp_dialogue": "ふん！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "你看看！！",
+	"eng_dialogue": "Just look at you!",
+	"man_sim_dialogue": "你看看！！",
+	"animation": "mummy_angry",
+	"jp_dialogue": "ほら見なさい！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "人家完全說不出你半句好話！",
+	"eng_dialogue": "Even your friend doesn’t have a single nice thing to say about you!",
+	"man_sim_dialogue": "人家完全说不出你半句好话！",
+	"animation": "mummy_angry",
+	"jp_dialogue": "この人、あんたのいいところ全然言えないじゃない！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "你看你做人多麽失敗！！",
+	"eng_dialogue": "Look at you! You’re a complete failure!",
+	"man_sim_dialogue": "你看你做人多么失败！！",
+	"animation": "mummy_angry",
+	"jp_dialogue": "どれだけ人として終わってるのよ！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "你馬上給我收拾行李滾出去！！",
+	"eng_dialogue": "Pack your bags and get out of my house!",
+	"man_sim_dialogue": "你马上给我收拾行李滚出去！！",
+	"animation": "mummy_angry",
+	"jp_dialogue": "今すぐ荷物まとめて出ていきなさい！！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "mummy",
+	"man_name": "肥宅媽咪",
+	"man_sim_name": "肥宅妈咪",
+	"man_dialogue": "現在！立刻！馬上！",
+	"eng_dialogue": "Now! Right now!",
+	"man_sim_dialogue": "现在！立刻！马上！",
+	"animation": "mummy_angry",
+	"jp_dialogue": "今！すぐ！この場で！",
+	"jp_name": "オタクの母"
+  },
+  {
+	"eng_name": "Otaku",
+	"change_current_character": "otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"avatar": "otaku_shock",
+	"man_dialogue": "啊啊啊啊啊啊啊啊啊啊啊！！！",
+	"eng_dialogue": "Aaaaahhhhhh!!",
+	"man_sim_dialogue": "啊啊啊啊啊啊啊啊啊啊啊！！！",
+	"animation": "mummy_angry",
+	"jp_dialogue": "あああああああああああああ！！！",
+	"jp_name": "オタク"
+  },
+  {
+	"close": "true",
+	"sceneTransition": "dissolve",
+	"change": "res://SceneTransTscn/ending/show_ending.tscn",
+	"get_out_otaku": "false",
+	"mom_win": "false",
+	"play_quit_animation": "true"
+  }
+]

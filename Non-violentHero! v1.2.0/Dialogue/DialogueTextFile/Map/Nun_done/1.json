@@ -1,0 +1,66 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "好吧。",
+	"man_sim_dialogue": "好吧。",
+	"eng_dialogue": "Alright.",
+	"jp_dialogue": "いいわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "雖然還是很多地方存疑...",
+	"man_sim_dialogue": "虽然还是很多地方存疑...",
+	"eng_dialogue": "I still have many doubts,",
+	"jp_dialogue": "まだいろいろ疑わしいところはあるけど…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "但我也只能相信你了。",
+	"man_sim_dialogue": "但我也只能相信你了。",
+	"eng_dialogue": "but I have no choice but to trust you.",
+	"jp_dialogue": "今はあなたを信じるしかなさそうね。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "那好，我讓她進來。",
+	"man_sim_dialogue": "好，我让她进来。",
+	"eng_dialogue": "Fine, I’ll let that girl in!",
+	"jp_dialogue": "わかった、あの人を中に入れるわ。",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "作爲交換",
+	"man_sim_dialogue": "作为交换",
+	"eng_dialogue": "In exchange...",
+	"jp_dialogue": "その代わり",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"man_dialogue": "你給我快去救公主！",
+	"man_sim_dialogue": "你给我马上去救公主！",
+	"eng_dialogue": "Hurry up and save the princess.",
+	"jp_dialogue": "あなたは今すぐ姫を助けに行きなさい！",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

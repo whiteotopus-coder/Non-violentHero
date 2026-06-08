@@ -1,0 +1,30 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"animateQMe": "me_sleep",
+	"eng_dialogue": "No matter what happens,",
+	"man_dialogue": "無論如何",
+	"man_sim_dialogue": "不管怎样",
+	"jp_dialogue": "とにかく",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "I’m entrusting my daughter to you.",
+	"man_dialogue": "我的女兒就拜托你了！",
+	"man_sim_dialogue": "我的女儿就拜托你了！",
+	"jp_dialogue": "私の娘のこと、頼んだぞ！",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

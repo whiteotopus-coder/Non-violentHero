@@ -1,0 +1,37 @@
+[
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"change_current_character": "nun",
+	"eng_dialogue": "...",
+	"man_dialogue": "...",
+	"man_sim_dialogue": "...",
+	"jp_dialogue": "…",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "Who are you?",
+	"man_dialogue": "你是誰？",
+	"man_sim_dialogue": "谁啊你？",
+	"jp_dialogue": "誰？",
+	"jp_name": "シスター"
+  },
+  {
+	"eng_name": "Nun",
+	"man_name": "修女",
+	"man_sim_name": "修女",
+	"eng_dialogue": "I don’t remember seeing you around town.",
+	"man_dialogue": "我不記得我在邊看過你啊。",
+	"man_sim_dialogue": "我不记得小镇上有你这家伙。",
+	"jp_dialogue": "あんたみたいな人、この町で見た覚えないけど。",
+	"jp_name": "シスター"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]

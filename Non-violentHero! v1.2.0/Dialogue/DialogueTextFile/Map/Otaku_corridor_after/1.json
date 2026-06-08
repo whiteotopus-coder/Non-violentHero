@@ -1,0 +1,19 @@
+[
+  {
+	"eng_name": "Otaku",
+	"man_name": "肥宅",
+	"man_sim_name": "肥宅",
+	"change_current_character": "otaku",
+	"eng_dialogue": "Come in.",
+	"avatar": "otaku",
+	"man_dialogue": "進來吧。",
+	"man_sim_dialogue": "进来吧。",
+	"jp_dialogue": "入れよ。",
+	"jp_name": "オタク"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"change": "res://SceneTransTscn/stage_2_room.tscn",
+	"sceneTransition": "dissolve"
+  }
+]

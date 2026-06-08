@@ -1,0 +1,30 @@
+[
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"change_current_character": "king",
+	"avatar": "king",
+	"animateQMe": "me_sleep",
+	"eng_dialogue": "Every time I start talking,",
+	"man_dialogue": "我一開口這家夥就裝睡欸",
+	"man_sim_dialogue": "我一开口这家伙就装睡欸。",
+	"jp_dialogue": "私が話し始めると、こいつ寝たふりするんだよ。",
+	"jp_name": "王様"
+  },
+  {
+	"eng_name": "King",
+	"man_name": "國王",
+	"man_sim_name": "国王",
+	"avatar": "king",
+	"eng_dialogue": "this guy falls asleep.",
+	"man_dialogue": "真的是。",
+	"man_sim_dialogue": "真是的。",
+	"jp_dialogue": "まったく。",
+	"jp_name": "王様"
+  },
+  {
+	"startChat_for_non_attack": "false",
+	"close": "true"
+  }
+]
